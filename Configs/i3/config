@@ -170,7 +170,7 @@ bar {
 }
 
 exec_always feh --bg-fill ~/Pictures/Wallpapers/Retro80s.jpg
-exec_always compton --backend glx --blur-method kawase  --blur-background --blur-strength 5
+exec_always compton --backend glx --blur-method kawase  --blur-background --blur-strength 5 --config /home/dartegnian/.config/compton/config
 focus_follows_mouse no
 for_window [class=".*"] border pixel 0
 gaps inner 20
