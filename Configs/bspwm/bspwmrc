@@ -23,4 +23,11 @@ wal -i $HOME/Pictures/Wallpapers/Retro80s.jpg &
 $HOME/.config/polybar/dartegnians_polybar.sh &
 
 killall -q compton
-compton --config $HOME/.config/compton/config
+compton --config $HOME/.config/compton/config &
+
+# Nvidia
+nvidia-settings --load-config-only
+nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
+gwe --hide-window &
+sleep 5
+killall -q gwe
