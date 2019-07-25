@@ -3,8 +3,10 @@ This public static void of a GitHub repo stores all my [GNU](https://en.wikipedi
 
 I made this repo in response to my entire Arch partition (the best, folks) suddenly and magically dying on me while I was using the `cp` command to copy a 1MB JPEG to a [postmarketOS](https://postmarketos.org/) [N900](https://wiki.postmarketos.org/wiki/Nokia_N900) installation.
 
-## What's inside
+## Powered by
+<img src="https://www.archlinux.org/static/logos/archlinux-logo-dark-1200dpi.b42bd35d5916.png"/>
 
+## What's inside
 
 ### Alacritty
 GPU-accelerated terminal (why?). Speeds up `cmatrix` by 5 frames. Has weird `cava` glitches up the wazoo. I use `cool-retro-term` anyway.
