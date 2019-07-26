@@ -4,7 +4,9 @@ This public static void of a GitHub repo stores all my [GNU](https://en.wikipedi
 I made this repo in response to my entire Arch partition ([the best](https://en.wikipedia.org/wiki/Gentoo_Linux), folks) suddenly and [magically](https://en.wikipedia.org/wiki/Criss_Angel_Mindfreak) dying on me while I was using the `cp` command to copy a 1MB JPEG to a [postmarketOS](https://postmarketos.org/) [N900](https://wiki.postmarketos.org/wiki/Nokia_N900) installation.
 
 ## Powered by
-<img src="https://www.archlinux.org/static/logos/archlinux-logo-dark-1200dpi.b42bd35d5916.png"/>
+<a href="https://wiki.gentoo.org/wiki/Main_Page">
+  <img src="https://www.archlinux.org/static/logos/archlinux-logo-dark-1200dpi.b42bd35d5916.png"/>
+</a>
 
 ## What's inside
 
