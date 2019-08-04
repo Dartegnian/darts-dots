@@ -18,10 +18,10 @@ GPU-accelerated terminal (why?). Speeds up `cmatrix` by 5 frames. Has weird `cav
 
 
 ### Cava
-Who said equalizers are a thing of the past? Just because you want *simplicity* doesn't mean you have to throw away the good ol' equalizer! Slap this *not-that-much-modified-from-the-default* config file to `~/.config/cava` and give your terminal some bling bling.
+Who said equalizers are a thing of the past? Just because you want *simplicity* doesn't mean you have to throw away the good ol' equalizer! Slap this *not-that-much-modified-from-the-default* config file to `~/.config/cava` and give your terminal some musical bling bling.
 
 ### Ckb-next
-[Corsair iCUE](https://www.techopedia.com/definition/4237/bloatware) for Linux. I use it because I'm a GAMER™ and I game on **MICROSOFT WINDOWS 10**. I don't use this anymore, too many background processes.
+[Corsair iCUE](https://www.techopedia.com/definition/4237/bloatware) for Linux. I use it because I'm a [GAMER™](https://en.wiktionary.org/wiki/basement-dweller) and I game on **MICROSOFT WINDOWS 10**. I don't use this anymore, too many background processes.
 
 ### i3
 Don't care. Moved to `bspwm` anyway.
