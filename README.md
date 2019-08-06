@@ -11,17 +11,17 @@ I made this repo in response to my entire Arch partition ([the best](https://en.
 ## What's inside
 
 ### Alacritty
-GPU-accelerated terminal (why?). Speeds up `cmatrix` by 5 frames. Has weird `cava` glitches up the [wazoo](https://en.wikipedia.org/wiki/Wahoo). I use `cool-retro-term` anyway.
+[GPU](https://en.wikipedia.org/wiki/Nvidia)-accelerated terminal (why?). Speeds up `cmatrix` by 5 frames. Has weird `cava` glitches up the [wazoo](https://en.wikipedia.org/wiki/Wahoo). I use `cool-retro-term` anyway.
 
 ### Bspwm
 [Binary Space Partitioning Window Manager](https://simple.wikipedia.org/wiki/Logarithm). Better than `i3`. Makes you do [binary tree](https://www.geeksforgeeks.org/binary-tree-data-structure/) calculations before you can resize your windows and organize your workspace.
 
 
 ### Cava
-Who said equalizers are a thing of the past? Just because you want *simplicity* doesn't mean you have to throw away the good ol' equalizer! Slap this *not-that-much-modified-from-the-default* config file to `~/.config/cava` and give your terminal some musical bling bling.
+Who said equalizers are a thing of the past? Just because you want *simplicity* doesn't mean you have to throw away the good ol' equalizer! Slap this *not-that-much-modified-from-the-default* config file to `~/.config/cava` and give your terminal some [musical bling bling](https://www.techopedia.com/definition/4237/bloatware).
 
 ### Ckb-next
-[Corsair iCUE](https://www.techopedia.com/definition/4237/bloatware) for Linux. I use it because I'm a [GAMER™](https://en.wiktionary.org/wiki/basement-dweller) and I game on **MICROSOFT WINDOWS 10**. I don't use this anymore, too many background processes.
+[Corsair iCUE](https://www.techopedia.com/definition/4237/bloatware) for GNU/Linux. I use it because I'm a [GAMER™](https://en.wiktionary.org/wiki/basement-dweller) and I game on **MICROSOFT WINDOWS 10**. I don't use this anymore, too many background processes.
 
 ### i3
 Don't care. Moved to `bspwm` anyway.
@@ -36,7 +36,7 @@ The [magnetoplasmadynamic thruster](https://en.wikipedia.org/wiki/Magnetoplasmad
 [Tiling WM](https://meteatamel.wordpress.com/2014/12/25/unnecessary-complexity-why-does-it-happen/) + `polybar` + `cava`/[some other terminal plaything](https://www.techopedia.com/definition/4237/bloatware) = at least **100** upvotes on [r/unixporn](https://www.reddit.com/r/unixporn/).
 
 ### Tmux
-Tmux is a, erm, terminal multiplexor thing. It [plexes your terminal emulator](https://en.m.wikipedia.org/wiki/Plex_(software)) multiple times? I don't know. Point is: it's **AWESOME** and I feel bad if I were to use a terminal without it.
+Tmux is a, erm, [terminal multiplexor](https://en.wikipedia.org/wiki/Multiplexing) thing. It [plexes your terminal emulator](https://en.m.wikipedia.org/wiki/Plex_(software)) multiple times? I don't know. Point is: it's **AWESOME** and I feel bad if I were to use a terminal without it.
 
 ### Zsh
 [Z shell](https://en.wikipedia.org/wiki/Z_shell) is best shell. And the config file makes it even better. So it's like best shell<sup>2</sup>. I reckon that if I add another config here, my Zsh terminal will be the best (shell<sup>2</sup>)<sup>2</sup>
