@@ -26,14 +26,17 @@ Who said equalizers are a thing of the past? Just because you want *simplicity* 
 ### i3
 Don't care. Moved to `bspwm` anyway.
 
-### Sxhkd
-Sx... hotkey [daemon](https://en.wikipedia.org/wiki/Demon)? I dunno. Custom keybindings for use with `bspwm`.
-
 ### MPD
 The [magnetoplasmadynamic thruster](https://en.wikipedia.org/wiki/Magnetoplasmadynamic_thruster). Doesn't want to work anyway. Config files to be stored as a "just in case."
 
+### Nginx
+The [Engine X](https://en.wikipedia.org/wiki/X_engine) [7-stage "reverse proxy"](https://knowyourmeme.com/memes/good-luck-im-behind-7-proxies). An integral part of my [LEMP Stack](https://lemp.io/) installation. [Harder, better, faster, stronger](https://en.wikipedia.org/wiki/Harder,_Better,_Faster,_Stronger) than your typical [LAMP Stack](https://en.wikipedia.org/wiki/Lampshade) and consumes less RAM.
+
 ### Polybar
 [Tiling WM](https://meteatamel.wordpress.com/2014/12/25/unnecessary-complexity-why-does-it-happen/) + `polybar` + `cava`/[some other terminal plaything](https://www.techopedia.com/definition/4237/bloatware) = at least **100** upvotes on [r/unixporn](https://www.reddit.com/r/unixporn/).
+
+### Sxhkd
+Sx... hotkey [daemon](https://en.wikipedia.org/wiki/Demon)? I dunno. Custom keybindings for use with `bspwm`.
 
 ### Tmux
 Tmux is a, erm, [terminal multiplexor](https://en.wikipedia.org/wiki/Multiplexing) thing. It [plexes your terminal emulator](https://en.m.wikipedia.org/wiki/Plex_(software)) multiple times? I don't know. Point is: it's **AWESOME** and I feel bad if I were to use a terminal without it.
