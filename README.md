@@ -16,12 +16,14 @@ I made this repo in response to my entire Arch partition ([the best](https://en.
 ### Bspwm
 [Binary Space Partitioning Window Manager](https://simple.wikipedia.org/wiki/Logarithm). Better than `i3`. Makes you do [binary tree](https://www.geeksforgeeks.org/binary-tree-data-structure/) calculations before you can resize your windows and organize your workspace.
 
-
 ### Cava
 Who said equalizers are a thing of the past? Just because you want *simplicity* doesn't mean you have to throw away the good ol' equalizer! Slap this *not-that-much-modified-from-the-default* config file to `~/.config/cava` and give your terminal some [musical bling bling](https://www.techopedia.com/definition/4237/bloatware).
 
 ### Ckb-next
 [Corsair iCUE](https://www.techopedia.com/definition/4237/bloatware) for GNU/Linux. I use it because I'm a [GAMER™](https://en.wiktionary.org/wiki/basement-dweller) and I game on **MICROSOFT WINDOWS 10**. I don't use this anymore, too many background processes.
+
+### Cool Retro Term
+The best terminal emulator for Linux. Period. Hands down. Easily. Much wow.
 
 ### i3
 Don't care. Moved to `bspwm` anyway.
