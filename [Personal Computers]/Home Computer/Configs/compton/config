@@ -34,6 +34,7 @@ shadow-exclude = [
     "name = 'polybar bar'",
     "name = 'maim'",
     "name *= 'compton'",
+    "class_g = 'Rofi'",
     "class_g = 'polybar bar'",
     "class_g = 'Kupfer'",
     "class_g = 'Synapse'",
@@ -57,7 +58,7 @@ frame-opacity = 0.5;
 inactive-opacity-override = false;
 blur-background = true;
 blur-background-frame = true;
-alpha-step = 0.06;
+alpha-step = 0.6;
 
 blur-background-fixed = true;
 blur-background-exclude = [
@@ -68,7 +69,6 @@ blur-background-exclude = [
 opacity-rule = [
     "80:class_g = 'code-oss'",
     "99:class_g = 'Opera'",
-    "99:class_g = 'firefox'",
     "90:class_g = 'Org.gnome.Nautilus'",
     "90:class_g = 'Gnome-disks'",
     "90:class_g = 'Lollypop'",
@@ -145,6 +145,9 @@ sw-opti = true;
 # Known to cause flickering when redirecting/unredirecting windows.
 # paint-on-overlay may make the flickering less obvious.
 unredir-if-possible = true;
+unredir-if-possible-exclude = [
+    "name = 'rofi'"
+];
 
 # Specify a list of conditions of windows that should always be considered focused.
 focus-exclude = [ ];
