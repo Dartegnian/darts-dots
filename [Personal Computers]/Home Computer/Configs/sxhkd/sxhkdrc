@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	cool-retro-term
+	DRI_PRIME=1 cool-retro-term
 
 # program launcher
 super + @space
@@ -123,3 +123,12 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + alt + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+alt + {_,shift + }{1-9,0}
+    bspc {desktop -f, window -d} $(bspc query -M -m)/{a,b,c}
+
+alt + Tab
+	rofi -show window
+
+alt + w
+        bspc monitor -f next
