@@ -25,6 +25,9 @@ Who said equalizers are a thing of the past? Just because you want *simplicity* 
 ### Cool Retro Term
 The best terminal emulator for Linux. Period. Hands down. Easily. Much wow.
 
+### Devilspie
+The pie of the devil. Used this quite a bit when I was using KDE (the K Desktop Environment) but have switched to `bspwm` and have been living a much simpler life away from the devil's pie since then.
+
 ### i3
 Don't care. Moved to `bspwm` anyway.
 
