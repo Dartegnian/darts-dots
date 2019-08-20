@@ -132,3 +132,15 @@ alt + Tab
 
 alt + w
         bspc monitor -f next
+
+super + Print
+	spectacle
+
+super + shift + s
+	spectacle -r
+
+super + e
+	dolphin
+
+ctrl + shift + Escape
+	gnome-system-monitor
