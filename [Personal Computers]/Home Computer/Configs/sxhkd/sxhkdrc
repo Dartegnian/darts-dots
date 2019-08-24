@@ -133,6 +133,9 @@ alt + Tab
 alt + w
         bspc monitor -f next
 
+super + a
+	alacritty
+
 super + Print
 	spectacle
 
