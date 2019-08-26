@@ -6,6 +6,9 @@
 super + Return
 	DRI_PRIME=1 cool-retro-term
 
+super + a
+	DRI_PRIME=1 alacritty
+
 # program launcher
 super + @space
 	rofi -show run
@@ -130,5 +133,16 @@ alt + {_,shift + }{1-9,0}
 alt + Tab
 	rofi -show window
 
+super + d
+	rofi -show drun
+
 alt + w
         bspc monitor -f next
+
+#
+# custom
+#
+
+# screenshot
+super + Print
+	spectacle
