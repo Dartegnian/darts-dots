@@ -139,10 +139,17 @@ super + d
 alt + w
         bspc monitor -f next
 
-#
-# custom
-#
+super + a
+	alacritty
 
-# screenshot
 super + Print
 	spectacle
+
+super + shift + s
+	spectacle -r
+
+super + e
+	dolphin
+
+ctrl + shift + Escape
+	gnome-system-monitor
