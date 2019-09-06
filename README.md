@@ -1,5 +1,5 @@
 # Dart's Dots
-This public static void of a GitHub repo stores all my [GNU](https://en.wikipedia.org/wiki/Richard_Stallman)/[Linux](https://en.wikipedia.org/wiki/Linus_Sebastian) configuration files. This repo comes in very handy if ever my [Arch Linux](https://en.wikipedia.org/wiki/Arch_Linux) distro ([the best distro](https://en.wikipedia.org/wiki/Gentoo_Linux), folks, the best) decides that [it doesn't want to exist](https://archlinux.fr/yaourt-en) or when it wants to [wet the OS partition](https://en.wikipedia.org/wiki/Nocturnal_enuresis) and I have to go [reinstall it again](https://www.wikihow.com/Clean-Up-After-Bedwetting).
+This public static void of a GitHub repo stores all my [GNU](https://en.wikipedia.org/wiki/Richard_Stallman)/[Linux](https://en.wikipedia.org/wiki/Linus_Sebastian) configuration files. This repo comes in very handy if ever my [Arch Linux](https://en.wikipedia.org/wiki/Arch_Linux) distro ([the best distro](https://en.wikipedia.org/wiki/Gentoo_Linux), folks, [the best](https://en.wikipedia.org/wiki/Gentoo_Linux)) decides that [it doesn't want to exist](https://archlinux.fr/yaourt-en) or when it wants to [wet the OS partition](https://en.wikipedia.org/wiki/Nocturnal_enuresis) and I have to go [reinstall it again](https://www.wikihow.com/Clean-Up-After-Bedwetting).
 
 I made this repo in response to my entire Arch partition ([the best](https://en.wikipedia.org/wiki/Gentoo_Linux), folks) suddenly and [magically](https://en.wikipedia.org/wiki/Criss_Angel_Mindfreak) dying on me while I was using the `cp` command to copy a 1MB JPEG to a [postmarketOS](https://postmarketos.org/) [N900](https://wiki.postmarketos.org/wiki/Nokia_N900) installation.
 
@@ -23,16 +23,16 @@ Who said equalizers are a thing of the past? Just because you want *simplicity* 
 [Corsair iCUE](https://www.techopedia.com/definition/4237/bloatware) for GNU/Linux. I use it because I'm a [GAMER™](https://en.wiktionary.org/wiki/basement-dweller) and I game on **MICROSOFT WINDOWS 10**. I don't use this anymore, too many background processes.
 
 ### Cool Retro Term
-The best terminal emulator for Linux. Period. Hands down. Easily. Much wow.
+The best [POS terminal](https://www.techopedia.com/definition/26649/point-of-sale-terminal-pos-terminal) emulator for Linux. Period. Hands down. Easily. [Much wow.](https://www.urbandictionary.com/define.php?term=dead%20meme)
 
 ### Devilspie
-The pie of the devil. Used this quite a bit when I was using KDE (the K Desktop Environment) but have switched to `bspwm` and have been living a much simpler life away from the devil's pie since then.
+The pie of the [devil](https://en.wikipedia.org/wiki/Daemon_(computing)). Used this quite a bit when I was using KDE (the K Desktop Environment) but have switched to `bspwm` and have been living a much simpler life away from the [devil's pie](https://en.wikipedia.org/wiki/Hedonism) since then.
 
 ### i3
-Don't care. Moved to `bspwm` anyway.
+[I don't care](https://www.youtube.com/watch?v=zdZya6yATn0). Moved to `bspwm` anyway.
 
 ### MPD
-The [magnetoplasmadynamic thruster](https://en.wikipedia.org/wiki/Magnetoplasmadynamic_thruster). Doesn't want to work anyway. Config files to be stored as a "just in case."
+The [magnetoplasmadynamic thruster](https://en.wikipedia.org/wiki/Magnetoplasmadynamic_thruster). [Doesn't want to work anyway](https://www.merriam-webster.com/dictionary/trash). Config files to be stored as a "just in case."
 
 ### Nginx
 The [Engine X](https://en.wikipedia.org/wiki/X_engine) [7-stage "reverse proxy"](https://knowyourmeme.com/memes/good-luck-im-behind-7-proxies). An integral part of my [LEMP Stack](https://lemp.io/) installation. [Harder, better, faster, stronger](https://en.wikipedia.org/wiki/Harder,_Better,_Faster,_Stronger) than your typical [LAMP Stack](https://en.wikipedia.org/wiki/Lampshade) and consumes less RAM.
