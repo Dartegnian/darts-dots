@@ -98,6 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias outtatime="watch -t -n1 'date +%T|figlet -f ANSI\ Shadow.flf'"
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
