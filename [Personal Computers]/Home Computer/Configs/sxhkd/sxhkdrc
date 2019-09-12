@@ -151,5 +151,8 @@ super + shift + s
 super + e
 	dolphin
 
+super + shift + m
+	plasmawindowed org.kde.plasma.mediacontroller
+
 ctrl + shift + Escape
 	gnome-system-monitor
