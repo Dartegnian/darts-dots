@@ -17,7 +17,7 @@ background = #00000000
 background-transparent = #7504060e
 foreground = #ccffffff
 foreground-icon = #ccffffff
-workspace-active = #75757575
+workspace-active = #aa000000
 
 [settings]
 screenchange-reload = true
