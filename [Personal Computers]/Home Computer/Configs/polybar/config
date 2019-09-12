@@ -120,7 +120,7 @@ font-7 = Noto Serif:bold:size=9;2
 
 modules-left = bspwm 
 modules-center = download cpu mem date fs pulseaudio upload
-modules-right = code terminal git firefox chrome tinder youtube twitter netflix powermenu
+modules-right = audio code terminal git firefox chrome tinder youtube twitter netflix powermenu
 
 
 ;===================================================================
@@ -386,6 +386,16 @@ menu-0-2-exec = bspc quit
 ;===================================================================
 ;                       Program Shortcuts
 ;===================================================================
+
+[module/audio]
+type = custom/text
+
+content = "   "
+content-foreground = ${colors.foreground-icon}
+
+click-left = lollypop &
+click-middle = pavucontrol &
+click-right = cpod &
 
 [module/code]
 type = custom/text
