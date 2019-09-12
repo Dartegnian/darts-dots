@@ -1,24 +1,24 @@
 /**
  * ROFI Color theme
  * User: dartegnian
-	rofi.fullscreen:true
-	rofi.theme: ~/.config/rofi/theme
-	rofi.show-icons: true
-	rofi.font: Noto Sans 15
+	 rofi.theme:							~/.config/rofi/theme
+	 rofi.font: 							Noto Sans 15
+   rofi.fullscreen:					true
+	 rofi.show-icons: 				true
  */
 
 * {
-		accent: #FFFFFF;
-    foreground:         		@accent;
-    background:         		rgba(0, 0, 0, 0.70);
-    transparent:				rgba(0, 0, 0, 0);
+		accent:											 #FFFFFF;
+    foreground:									 @accent;
+    background:									 rgba(0, 0, 0, 0.70);
+    transparent:								 rgba(0, 0, 0, 0);
 
-    normal-background: 			@transparent;
-    normal-foreground: 			@foreground;
-    urgent-background: 			@transparent;
-    urgent-foreground:			@foreground;
-    active-background: 			@transparent;
-    active-foreground:			@foreground;
+    normal-background:				   @transparent;
+    normal-foreground:				   @foreground;
+    urgent-background:				   @transparent;
+    urgent-foreground:				   @foreground;
+    active-background:				   @transparent;
+    active-foreground:				   @foreground;
 
     selected-normal-background:  @foreground;
     selected-normal-foreground:  @background;
@@ -50,7 +50,7 @@
     padding: 							30%;
 }
 #message {
-    border:       				2px 0px 0px ;
+    border:       				2px 0px 0px;
     border-color: 				@separatorcolor;
     padding: 							10 1% 10;
 }
@@ -59,7 +59,7 @@
 }
 #listview {
     fixed-height: 				0;
-    border:       				2px 0px 0px ;
+    border:       				2px 0px 0px;
     border-color: 				@separatorcolor;
     spacing:      				10px;
     padding: 							10 1% 10;
@@ -107,13 +107,13 @@
 }
 
 #scrollbar {
-    width:        				4px ;
+    width:        				4px;
     border:       				0;
-    handle-width: 				8px ;
+    handle-width: 				8px;
     padding:      				0;
 }
 #sidebar {
-    border:       				2px 0px 0px ;
+    border:       				2px 0px 0px;
     border-color: 				@separatorcolor;
 }
 #button.selected {
