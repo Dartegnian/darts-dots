@@ -47,4 +47,4 @@ Sx... hotkey [daemon](https://en.wikipedia.org/wiki/Demon)? I dunno. Custom keyb
 Tmux is a, erm, [terminal multiplexor](https://en.wikipedia.org/wiki/Multiplexing) thing. It [plexes your terminal emulator](https://en.m.wikipedia.org/wiki/Plex_(software)) multiple times? I don't know. Point is: it's **AWESOME** and I feel bad if I were to use a terminal without it.
 
 ### Zsh
-[Z shell](https://en.wikipedia.org/wiki/Z_shell) is best shell. And the config file makes it even better. So it's like best shell<sup>2</sup>. I reckon that if I add another config here, my Zsh terminal will be the best (shell<sup>2</sup>)<sup>2</sup>
+[Z shell](https://en.wikipedia.org/wiki/Z_shell) is best shell. And the config file makes it even better. So it's like best shell<sup>2</sup>. I reckon that if I add another config here, my Zsh terminal will be the (best shell<sup>2</sup>)<sup>2</sup>
