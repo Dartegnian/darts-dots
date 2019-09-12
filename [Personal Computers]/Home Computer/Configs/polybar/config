@@ -121,7 +121,7 @@ font-7 = Noto Serif:bold:size=9;2
 ;modules-right = torrent eth cpu mem fs pulseaudio date code terminal git firefox chrome tinder youtube twitter netflix powermenu
 
 modules-left = bspwm 
-modules-center = torrent eth cpu mem date fs pulseaudio
+modules-center = download cpu mem date fs pulseaudio upload
 modules-right = code terminal git firefox chrome tinder youtube twitter netflix powermenu
 
 
@@ -271,19 +271,7 @@ label-unmounted-padding =
 ;                        Torrent + Internet
 ;===================================================================
 
-[module/torrent]
-type = custom/text
-
-content = "    "
-content-background = 
-content-foreground = ${colors.foreground-icon}
-content-padding = 
-
-click-left = qbittorrent &
-click-middle = 
-click-right = 
-
-[module/eth]
+[module/download]
 type = internal/network
 interface = enp27s0
 interval = 1
@@ -293,20 +281,21 @@ format-connected-prefix-foreground = ${colors.foreground-icon}
 format-connected = <label-connected>
 format-disconnected = <label-disconnected>
 
-; All labels support the following tokens:
-;   %ifname%    [wireless+wired]
-;   %local_ip%  [wireless+wired]
-;   %local_ip6% [wireless+wired]
-;   %essid%     [wireless]
-;   %signal%    [wireless]
-;   %upspeed%   [wireless+wired]
-;   %downspeed% [wireless+wired]
-;   %linkspeed% [wired]
-
-; Default: %ifname% %local_ip%
-;label-connected = " %downspeed%   %upspeed%  "
 label-connected = " %downspeed% "
 label-disconnected = " Down"
+
+[module/upload]
+type = internal/network
+interface = enp27s0
+interval = 1
+
+format-connected-prefix =
+format-connected-prefix-foreground = ${colors.foreground-icon}
+format-connected = <label-connected>
+format-disconnected = <label-disconnected>
+
+label-connected = "   %upspeed%"
+label-disconnected = " Down"
 
 
 ;===================================================================
