@@ -1,17 +1,13 @@
 /**
  * ROFI Color theme
  * User: dartegnian
-	rofi.fullscreen:true
-	rofi.theme: ~/.config/rofi/theme
-	rofi.show-icons: true
-	rofi.font: Noto Sans 15
  */
 
 * {
-		accent: #FFFFFF;
+		accent: 								#ffffff;
     foreground:         		@accent;
-    background:         		rgba(0, 0, 0, 0.70);
-    transparent:				rgba(0, 0, 0, 0);
+    background:         		rgba(0, 0, 0, 1);
+    transparent:						rgba(0, 0, 0, 0);
 
     normal-background: 			@transparent;
     normal-foreground: 			@foreground;
@@ -112,6 +108,7 @@
     handle-width: 				8px ;
     padding:      				0;
 }
+
 #sidebar {
     border:       				2px 0px 0px ;
     border-color: 				@separatorcolor;
@@ -121,7 +118,7 @@
     text-color:       		@selected-normal-foreground;
 }
 #inputbar {
-    spacing:    					1;
+    spacing:    					3;
     text-color: 					@normal-foreground;
     padding:    					1px;
 }
