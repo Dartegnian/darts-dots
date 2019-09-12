@@ -1,139 +1,184 @@
-/**
- * ROFI Color theme
- * User: dartegnian
-	 rofi.theme:							~/.config/rofi/theme
-	 rofi.font: 							Noto Sans 15
-   rofi.fullscreen:					true
-	 rofi.show-icons: 				true
- */
+# Backend to use: "xrender" or "glx".
+# GLX backend is typically much faster but depends on a sane driver.
+backend = "glx";
+glx-no-stencil = true;
+glx-copy-from-front = false;
+glx-swap-method = "undefined";
 
-* {
-		accent:											 #FFFFFF;
-    foreground:									 @accent;
-    background:									 rgba(0, 0, 0, 0.70);
-    transparent:								 rgba(0, 0, 0, 0);
+#################################
+#
+# Shadows
+#
+#################################
 
-    normal-background:				   @transparent;
-    normal-foreground:				   @foreground;
-    urgent-background:				   @transparent;
-    urgent-foreground:				   @foreground;
-    active-background:				   @transparent;
-    active-foreground:				   @foreground;
+# Enabled client-side shadows on windows.
+shadow = true;
+# Don't draw shadows on DND windows.
+no-dnd-shadow = true;
+# Avoid drawing shadows on dock/panel windows.
+no-dock-shadow = true;
+# Zero the part of the shadow's mask behind the window. Fix some weirdness with ARGB windows.
+clear-shadow = true;
+# The blur radius for shadows. (default 12)
+shadow-radius = 4;
+# The left offset for shadows. (default -15)
+shadow-offset-x = 3;
+# The top offset for shadows. (default -15)
+shadow-offset-y = 3;
+# The translucency for shadows. (default .75)
+shadow-opacity = 0.6;
 
-    selected-normal-background:  @foreground;
-    selected-normal-foreground:  @background;
-    selected-urgent-background:  @foreground;
-    selected-urgent-foreground:  @background;
-    selected-active-background:  @foreground;
-    selected-active-foreground:  @background;
+# Glitches
+shadow-exclude = [
+    "! name~=''",
+    "name = 'polybar bar'",
+    "name = 'maim'",
+    "name *= 'compton'",
+    "class_g = 'Rofi'",
+    "class_g = 'polybar bar'",
+    "class_g = 'Kupfer'",
+    "class_g = 'Synapse'",
+    "class_g ?= 'Notify-osd'",
+    "class_g ?= 'Cairo-dock'",
+    "_GTK_FRAME_EXTENTS@:c"
+];
+# Avoid drawing shadow on all shaped windows (see also: --detect-rounded-corners)
+shadow-ignore-shaped = false;
 
-    alternate-normal-background: @transparent;
-    alternate-normal-foreground: @foreground;
-    alternate-active-background: @transparent;
-    alternate-active-foreground: @active-foreground;
-    alternate-urgent-background: @transparent;
-    alternate-urgent-foreground: @urgent-foreground;
+#################################
+#
+# Opacity
+#
+#################################
 
-    border-color:                @background;
-    separatorcolor:              @foreground;
-    background-color:            @transparent;
-    spacing:                     10;
-}
+menu-opacity = 1;
+inactive-opacity = 0.4;
+active-opacity = 1;
+frame-opacity = 0.5;
+inactive-opacity-override = false;
+blur-background = true;
+blur-background-frame = true;
+alpha-step = 0.6;
 
-#window {
-    background-color: 		@background;
-    border:   						0;
-    padding: 							0;
-}
-#mainbox {
-    border:   						0;
-    padding: 							30%;
-}
-#message {
-    border:       				2px 0px 0px;
-    border-color: 				@separatorcolor;
-    padding: 							10 1% 10;
-}
-#textbox {
-    text-color: 					@foreground;
-}
-#listview {
-    fixed-height: 				0;
-    border:       				2px 0px 0px;
-    border-color: 				@separatorcolor;
-    spacing:      				10px;
-    padding: 							10 1% 10;
-}
+blur-background-fixed = true;
+blur-background-exclude = [
+    "class_g = 'slop'",
+    "class_g = 'spectacle'",
+    "class_g = 'desktop'",
+];
+opacity-rule = [
+    "100:name *= 'rofi'",
+    "80:class_g = 'code-oss'",
+    "99:class_g = 'Opera'",
+    "90:class_g = 'Org.gnome.Nautilus'",
+    "90:class_g = 'Gnome-disks'",
+    "90:class_g = 'Lollypop'",
+    "90:class_g = 'Org.gnome.gedit'",
+];
 
-#element {
-    border:  							0;
-    padding: 							10 10 10;
-}
-#element.normal.normal {
-    background-color: 		@normal-background;
-    text-color:       		@normal-foreground;
-}
-#element.normal.urgent {
-    background-color: 		@urgent-background;
-    text-color:       		@urgent-foreground;
-}
-#element.normal.active {
-    background-color: 		@active-background;
-    text-color:       		@active-foreground;
-}
-#element.selected.normal {
-    background-color: 		@selected-normal-background;
-    text-color:       		@selected-normal-foreground;
-}
-#element.selected.urgent {
-    background-color: 		@selected-urgent-background;
-    text-color:       		@selected-urgent-foreground;
-}
-#element.selected.active {
-    background-color: 		@selected-active-background;
-    text-color:       		@selected-active-foreground;
-}
-#element.alternate.normal {
-    background-color: 		@alternate-normal-background;
-    text-color:       		@alternate-normal-foreground;
-}
-#element.alternate.urgent {
-    background-color: 		@alternate-urgent-background;
-    text-color:       		@alternate-urgent-foreground;
-}
-#element.alternate.active {
-    background-color: 		@alternate-active-background;
-    text-color:       		@alternate-active-foreground;
-}
+#################################
+#
+# Fading
+#
+#################################
 
-#scrollbar {
-    width:        				4px;
-    border:       				0;
-    handle-width: 				8px;
-    padding:      				0;
-}
-#sidebar {
-    border:       				2px 0px 0px;
-    border-color: 				@separatorcolor;
-}
-#button.selected {
-    background-color: 		@selected-normal-background;
-    text-color:       		@selected-normal-foreground;
-}
-#inputbar {
-    spacing:    					1;
-    text-color: 					@normal-foreground;
-    padding:    					1px;
-}
-#case-indicator {
-    spacing:    					0;
-    text-color: 					@normal-foreground;
-}
-#entry {
-    spacing:    					0;
-    text-color: 					@normal-foreground;
-}
-#prompt, button{
-    spacing:    					0;
-    text-color: 					@normal-foreground;
-}
+# Fade windows during opacity changes.
+fading = true;
+# The time between steps in a fade in milliseconds. (default 10).
+fade-delta = 8;
+# Opacity change between steps while fading in. (default 0.028).
+fade-in-step = 0.03;
+# Opacity change between steps while fading out. (default 0.03).
+fade-out-step = 0.03;
+# Fade windows in/out when opening/closing
+# no-fading-openclose = true;
+
+# Specify a list of conditions of windows that should not be faded.
+fade-exclude = [ ];
+
+#################################
+#
+# Other
+#
+#################################
+
+# Try to detect WM windows and mark them as active.
+mark-wmwin-focused = true;
+# Mark all non-WM but override-redirect windows active (e.g. menus).
+mark-ovredir-focused = false;
+# Use EWMH _NET_WM_ACTIVE_WINDOW to determine which window is focused instead of using FocusIn/Out events.
+# Usually more reliable but depends on a EWMH-compliant WM.
+use-ewmh-active-win = true;
+# Detect rounded corners and treat them as rectangular when --shadow-ignore-shaped is on.
+detect-rounded-corners = true;
+
+# Detect _NET_WM_OPACITY on client windows, useful for window managers not passing _NET_WM_OPACITY of client windows to frame windows.
+# This prevents opacity being ignored for some apps.
+# For example without this enabled my xfce4-notifyd is 100% opacity no matter what.
+detect-client-opacity = true;
+
+# Specify refresh rate of the screen.
+# If not specified or 0, compton will try detecting this with X RandR extension.
+refresh-rate = 60;
+
+# Set VSync method. VSync methods currently available:
+# none: No VSync
+# drm: VSync with DRM_IOCTL_WAIT_VBLANK. May only work on some drivers.
+# opengl: Try to VSync with SGI_video_sync OpenGL extension. Only work on some drivers.
+# opengl-oml: Try to VSync with OML_sync_control OpenGL extension. Only work on some drivers.
+# opengl-swc: Try to VSync with SGI_swap_control OpenGL extension. Only work on some drivers. Works only with GLX backend. Known to be most effective on many drivers. Does not actually control paint timing, only buffer swap is affected, so it doesn’t have the effect of --sw-opti unlike other methods. Experimental.
+# opengl-mswc: Try to VSync with MESA_swap_control OpenGL extension. Basically the same as opengl-swc above, except the extension we use.
+# (Note some VSync methods may not be enabled at compile time.)
+vsync = "opengl-swc";
+
+# Enable DBE painting mode, intended to use with VSync to (hopefully) eliminate tearing.
+# Reported to have no effect, though.
+dbe = false;
+# Painting on X Composite overlay window. Recommended.
+paint-on-overlay = true;
+
+# Limit compton to repaint at most once every 1 / refresh_rate second to boost performance.
+# This should not be used with --vsync drm/opengl/opengl-oml as they essentially does --sw-opti's job already,
+# unless you wish to specify a lower refresh rate than the actual value.
+sw-opti = true;
+
+# Unredirect all windows if a full-screen opaque window is detected, to maximize performance for full-screen windows, like games.
+# Known to cause flickering when redirecting/unredirecting windows.
+# paint-on-overlay may make the flickering less obvious.
+unredir-if-possible = true;
+unredir-if-possible-exclude = [
+    "name = 'rofi'"
+];
+
+# Specify a list of conditions of windows that should always be considered focused.
+focus-exclude = [ ];
+
+blur-method = "kawase";
+blur-strength = 9;
+
+# Use WM_TRANSIENT_FOR to group windows, and consider windows in the same group focused at the same time.
+detect-transient = true;
+# Use WM_CLIENT_LEADER to group windows, and consider windows in the same group focused at the same time.
+# WM_TRANSIENT_FOR has higher priority if --detect-transient is enabled, too.
+detect-client-leader = true;
+
+#################################
+#
+# Window type settings
+#
+#################################
+
+wintypes:
+{
+    tooltip =
+    {
+        # fade: Fade the particular type of windows.
+        fade = true;
+        # shadow: Give those windows shadow
+        shadow = false;
+        # opacity: Default opacity for the type of windows.
+        opacity = 0.85;
+        # focus: Whether to always consider windows of this type focused.
+        focus = true;
+    };
+};
