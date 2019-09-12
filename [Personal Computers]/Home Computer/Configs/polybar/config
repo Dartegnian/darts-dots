@@ -11,6 +11,15 @@
 ;
 ;========================================================================
 
+;========================================================================
+;
+; Dependencies
+;
+; otf-font-awesome-5-free
+; ttf-font-awesome
+; ttf-material-icons-git
+;
+;========================================================================
 
 [colors]
 background = #00000000
@@ -61,21 +70,10 @@ wm-restack = bspwm
 cursor-click = pointer
 cursor-scroll = pointer
 enable-ipc = true
-;double-click-left = polybar-msg cmd restart &
-click-left = jgmenu_run >/dev/null 2>&1 &
-click-middle = xfce4-taskmanager &
-click-right = ~/winfuncs.sh select &
-; also
-; winfuncs.sh select
-; winfuncs.sh tile
-; winfuncs.sh tiletwo
-; winfuncs.sh tiletwol
-; winfuncs.sh tiletwor
-; winfuncs.sh tilethree
-; winfuncs.sh tilethreev
-; winfuncs.sh stacktwo
-; winfuncs.sh cascade
-; winfuncs.sh showdesktop
+
+click-left = cool-retro-term -e nvim &
+click-middle = cool-retro-term -e yay -Syu --noconfirm &
+click-right = cool-retro-term -e gotop &
 
 scroll-up =
 scroll-down =
