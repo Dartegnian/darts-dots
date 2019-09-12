@@ -117,9 +117,12 @@ font-7 = Noto Serif:bold:size=9;2
 ;                              Modules
 ;===================================================================
 
+;modules-center = xwindow
+;modules-right = torrent eth cpu mem fs pulseaudio date code terminal git firefox chrome tinder youtube twitter netflix powermenu
+
 modules-left = bspwm 
-modules-center = xwindow
-modules-right = torrent eth cpu mem fs pulseaudio date powermenu
+modules-center = torrent eth cpu mem date fs pulseaudio
+modules-right = code terminal git firefox chrome tinder youtube twitter netflix powermenu
 
 
 ;===================================================================
@@ -228,7 +231,8 @@ format-prefix-foreground = ${colors.foreground-icon}
 format-foreground = ${colors.foreground}
 format-background = 
 format-padding = 
-label = %gb_used% | %gb_total%
+;label = %gb_used% | %gb_total%
+label = %gb_used%
 
 
 ;===================================================================
@@ -252,7 +256,8 @@ mount-0 = /
 ;   %used%
 ; Default: %mountpoint% %percentage_free%%
 ; 
-label-mounted = "%{F#eeffffff}    %{F-}%used% | %total%  "
+;label-mounted = "%{F#eeffffff}    %{F-}%used% | %total%  "
+label-mounted = "%{F#eeffffff}   %{F-}%used%  "
 label-mounted-foreground = ${colors.foreground}
 label-mounted-background = 
 label-mounted-padding = 
@@ -299,8 +304,9 @@ format-disconnected = <label-disconnected>
 ;   %linkspeed% [wired]
 
 ; Default: %ifname% %local_ip%
-label-connected = " %downspeed%   %upspeed%  "
-label-disconnected = "Off-grid"
+;label-connected = " %downspeed%   %upspeed%  "
+label-connected = " %downspeed% "
+label-disconnected = " Down"
 
 
 ;===================================================================
@@ -313,8 +319,8 @@ interval = 1
 
 label-foreground = #ffffff
 label = %date%
-date = "  %I:%M %p  "
-date-alt = "   %A, %d %B, %Y     %I:%M %p  "
+date = "    %I:%M %p"
+date-alt = "    %A, %d %B, %Y     %I:%M %p"
 
 
 ;===================================================================
@@ -351,20 +357,21 @@ format-muted = <label-muted>
 
 ; Available tokens:
 ;   %percentage% (default)
-label-volume = "%percentage%%  "
+label-volume = "%percentage%%"
 label-volume-foreground = ${colors.foreground}
 
 ;
 ;  
 ; Available tokens:
 ;   %percentage% (default)
-label-muted = " 0%  "
+label-muted = " 0%"
 label-muted-foreground = 
 
 ; Only applies if <ramp-volume> is used
 ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
+
 
 ;===================================================================
 ;                            Power Menu
@@ -378,16 +385,92 @@ expand-right = false
 format-padding = 0
 format-spacing = 2
 label-open = " "
-label-close = "  "
-label-separator = |
+label-close = "|     "
 
 
-menu-0-0 = "|    "
+menu-0-0 = "   "
 menu-0-0-exec = poweroff
-menu-0-1 = 
+menu-0-1 = "   "
 menu-0-1-exec = reboot
-menu-0-2 = 
+menu-0-2 = "  "
 menu-0-2-exec = bspc quit
+
+
+;===================================================================
+;                       Program Shortcuts
+;===================================================================
+
+[module/code]
+type = custom/text
+
+content = " "
+content-foreground = ${colors.foreground-icon}
+
+click-left = code &
+
+[module/terminal]
+type = custom/text
+
+content = "   "
+content-foreground = ${colors.foreground-icon}
+
+click-left = cool-retro-term &
+
+[module/git]
+type = custom/text
+
+content = "    |"
+content-foreground = ${colors.foreground-icon}
+
+click-left = gitkraken &
+
+[module/firefox]
+type = custom/text
+
+content = "  "
+content-foreground = ${colors.foreground-icon}
+
+click-left = firefox &
+
+[module/chrome]
+type = custom/text
+
+content = "   "
+content-foreground = ${colors.foreground-icon}
+
+click-left = google-chrome-stable &
+
+[module/tinder]
+type = custom/text
+
+content = "   "
+content-foreground = ${colors.foreground-icon}
+
+click-left = google-chrome-stable --app-id=hejiihbkifllpgdfndalmghiodgkefan &
+
+[module/youtube]
+type = custom/text
+
+content = "   "
+content-foreground = ${colors.foreground-icon}
+
+click-left = opera "https://www.youtube.com" &
+
+[module/twitter]
+type = custom/text
+
+content = "   "
+content-foreground = ${colors.foreground-icon}
+
+click-left = google-chrome-stable --app-id=jgeocpdicgmkeemopbanhokmhcgcflmi &
+
+[module/netflix]
+type = custom/text
+
+content = "     |  "
+content-foreground = ${colors.foreground-icon}
+
+click-left = opera "https://www.netflix.com/browse" &
 
 ;=========================================================================
 
