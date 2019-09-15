@@ -521,9 +521,3 @@ content-foreground = ${colors.foreground-icon}
 click-left = bspc node -c &
 click-right = bspc node -k &
 
-
-;=========================================================================
-
-; vim:ft=dosini
-
-
