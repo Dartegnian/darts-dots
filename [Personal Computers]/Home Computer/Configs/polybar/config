@@ -120,7 +120,7 @@ font-7 = Noto Serif:bold:size=9;2
 
 modules-left = bspwm 
 modules-center = download cpu mem date fs pulseaudio upload
-modules-right = minimize maximize close code terminal git firefox chrome tinder youtube twitter audio powermenu
+modules-right = code terminal git firefox chrome tinder youtube twitter audio minimize maximize close powermenu
 
 
 ;===================================================================
@@ -407,7 +407,7 @@ click-left = bspc desktop -l next &
 [module/close]
 type = custom/text
 
-content = " "
+content = " | "
 content-foreground = ${colors.foreground-icon}
 
 click-left = bspc node -c &
@@ -416,7 +416,7 @@ click-right = bspc node -k &
 [module/code]
 type = custom/text
 
-content = "|   "
+content = " "
 content-foreground = ${colors.foreground-icon}
 
 click-left = code &
@@ -491,7 +491,7 @@ click-right = google-chrome-stable "https://twitter.com/home" &
 [module/audio]
 type = custom/text
 
-content = "    |  "
+content = "    | "
 content-foreground = ${colors.foreground-icon}
 
 click-left = lollypop &
