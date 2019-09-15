@@ -120,7 +120,7 @@ font-7 = Noto Serif:bold:size=9;2
 
 modules-left = bspwm 
 modules-center = download cpu mem date fs pulseaudio upload
-modules-right = audio code terminal git firefox chrome tinder youtube twitter netflix powermenu
+modules-right = minimize maximize close code terminal git firefox chrome tinder youtube twitter audio powermenu
 
 
 ;===================================================================
@@ -387,20 +387,36 @@ menu-0-2-exec = bspc quit
 ;                       Program Shortcuts
 ;===================================================================
 
-[module/audio]
+[module/minimize]
 type = custom/text
 
-content = "   "
+content = " "
 content-foreground = ${colors.foreground-icon}
 
-click-left = lollypop &
-click-middle = pavucontrol &
-click-right = cpod &
+click-left = bspc node -z bottom 0 -200 &
+click-right = bspc node -z top 0 -200 &
+
+[module/maximize]
+type = custom/text
+
+content = " "
+content-foreground = ${colors.foreground-icon}
+
+click-left = bspc desktop -l next &
+
+[module/close]
+type = custom/text
+
+content = " "
+content-foreground = ${colors.foreground-icon}
+
+click-left = bspc node -c &
+click-right = bspc node -k &
 
 [module/code]
 type = custom/text
 
-content = " "
+content = "|   "
 content-foreground = ${colors.foreground-icon}
 
 click-left = code &
@@ -450,6 +466,7 @@ content = "   "
 content-foreground = ${colors.foreground-icon}
 
 click-left = google-chrome-stable --app-id=hejiihbkifllpgdfndalmghiodgkefan &
+click-middle = opera "https://www.netflix.com/browse" &
 click-right = google-chrome-stable "https://www.messenger.com" &
 
 [module/youtube]
@@ -459,6 +476,7 @@ content = "   "
 content-foreground = ${colors.foreground-icon}
 
 click-left = opera "https://www.youtube.com" &
+click-middle = opera "https://www.youtube.com/playlist?list=PLMBv7J0cbV5z2MnH5OY0FfdOhQc2DW3WV" &
 click-right = opera "https://www.youtube.com/feed/subscriptions" &
 
 [module/twitter]
@@ -470,13 +488,15 @@ content-foreground = ${colors.foreground-icon}
 click-left = google-chrome-stable --app-id=jgeocpdicgmkeemopbanhokmhcgcflmi &
 click-right = google-chrome-stable "https://twitter.com/home" &
 
-[module/netflix]
+[module/audio]
 type = custom/text
 
-content = "     |  "
+content = "    |  "
 content-foreground = ${colors.foreground-icon}
 
-click-left = opera "https://www.netflix.com/browse" &
+click-left = lollypop &
+click-middle = pavucontrol &
+click-right = cpod &
 
 ;=========================================================================
 
