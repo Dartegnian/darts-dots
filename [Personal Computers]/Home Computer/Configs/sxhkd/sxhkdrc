@@ -4,10 +4,10 @@
 
 # terminal emulator
 super + Return
-	DRI_PRIME=1 cool-retro-term
+	cool-retro-term
 
 super + a
-	DRI_PRIME=1 alacritty
+	alacritty
 
 # program launcher
 super + @space
