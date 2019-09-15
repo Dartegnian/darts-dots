@@ -71,7 +71,7 @@ cursor-click = pointer
 cursor-scroll = pointer
 enable-ipc = true
 
-click-left = cool-retro-term -e nvim &
+click-left = gedit &
 click-middle = cool-retro-term -e yay -Syu --noconfirm &
 click-right = cool-retro-term -e gotop &
 
@@ -399,7 +399,7 @@ click-right = bspc node -z top 0 -200 &
 [module/maximize]
 type = custom/text
 
-content = " "
+content = "   "
 content-foreground = ${colors.foreground-icon}
 
 click-left = bspc desktop -l next &
@@ -420,6 +420,7 @@ content = " "
 content-foreground = ${colors.foreground-icon}
 
 click-left = code &
+click-right = cool-retro-term -e nvim &
 
 [module/terminal]
 type = custom/text
@@ -486,6 +487,7 @@ content = "   "
 content-foreground = ${colors.foreground-icon}
 
 click-left = google-chrome-stable --app-id=jgeocpdicgmkeemopbanhokmhcgcflmi &
+click-middle = firefox "https://twitter.com/home" &
 click-right = google-chrome-stable "https://twitter.com/home" &
 
 [module/audio]
