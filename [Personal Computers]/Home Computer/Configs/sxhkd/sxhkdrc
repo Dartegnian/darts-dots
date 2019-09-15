@@ -139,6 +139,10 @@ super + d
 alt + w
         bspc monitor -f next
 
+#
+# misc. program shortcuts
+#
+
 super + a
 	alacritty
 
@@ -156,3 +160,7 @@ super + shift + m
 
 ctrl + shift + Escape
 	gnome-system-monitor
+	
+ctrl + shift + e
+	cool-retro-term -e htop
+
