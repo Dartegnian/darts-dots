@@ -120,7 +120,7 @@ font-7 = Noto Serif:bold:size=9;2
 
 modules-left = bspwm 
 modules-center = download cpu mem date fs pulseaudio upload
-modules-right = code terminal git firefox chrome tinder youtube twitter audio minimize maximize close powermenu
+modules-right = code terminal git firefox chrome edge youtube twitter audio minimize maximize close powermenu
 
 
 ;===================================================================
@@ -386,33 +386,25 @@ menu-0-2-exec = bspc quit
 ;===================================================================
 ;                       Program Shortcuts
 ;===================================================================
+; Functions
+; Icon - Left | Middle | Right //OR// Left | Right
+;
+; Code - Open VSCode | Start NeoVim in Cool Retro Term
+; Terminal - Cool Retro Term | Urxvt | Alacritty
+; Git - Open Git client | Pull/Update Oh My Zsh
+;
+; Firefox - Open Firefox | Open Firefox (Developer Edition)
+; Chrome - Open Google Chrome | Open Google Chrome Beta | Open Google Chrome Dev
+; Edge - Open Tinder PWA | Browse Netflix | View Facebook Messenger (web)
+; YouTube - Browse Youtube | Open "Hot Muzik" playlist | Check YouTube subscriptions
+; Audio - Open Lollypop | Control PulseAudio volume | Start CPod
+; 
+; Minimize - Shrink current window from the bottom | Shrink current window from the top
+; Maximize - Toggle monocle layout on Bspwm
+; Close - Close window | Kill window's main process
 
-[module/minimize]
-type = custom/text
 
-content = " "
-content-foreground = ${colors.foreground-icon}
-
-click-left = bspc node -z bottom 0 -200 &
-click-right = bspc node -z top 0 -200 &
-
-[module/maximize]
-type = custom/text
-
-content = "   "
-content-foreground = ${colors.foreground-icon}
-
-click-left = bspc desktop -l next &
-
-[module/close]
-type = custom/text
-
-content = " | "
-content-foreground = ${colors.foreground-icon}
-
-click-left = bspc node -c &
-click-right = bspc node -k &
-
+; //object[] devTools
 [module/code]
 type = custom/text
 
@@ -441,6 +433,8 @@ content-foreground = ${colors.foreground-icon}
 click-left = gitkraken &
 click-right = cd ~/.oh-my-zsh && git pull &
 
+
+; Standard icons
 [module/firefox]
 type = custom/text
 
@@ -460,7 +454,7 @@ click-left = google-chrome-stable &
 click-middle = google-chrome-unstable &
 click-right = google-chrome-beta &
 
-[module/tinder]
+[module/edge]
 type = custom/text
 
 content = "   "
@@ -499,6 +493,34 @@ content-foreground = ${colors.foreground-icon}
 click-left = lollypop &
 click-middle = pavucontrol &
 click-right = cpod &
+
+
+[module/minimize]
+type = custom/text
+
+content = " "
+content-foreground = ${colors.foreground-icon}
+
+click-left = bspc node -z bottom 0 -200 &
+click-right = bspc node -z top 0 -200 &
+
+[module/maximize]
+type = custom/text
+
+content = "   "
+content-foreground = ${colors.foreground-icon}
+
+click-left = bspc desktop -l next &
+
+[module/close]
+type = custom/text
+
+content = " | "
+content-foreground = ${colors.foreground-icon}
+
+click-left = bspc node -c &
+click-right = bspc node -k &
+
 
 ;=========================================================================
 
