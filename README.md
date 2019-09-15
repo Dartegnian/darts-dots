@@ -1,5 +1,5 @@
 # Dart's Dots
-This public static void of a GitHub repo stores all my [GNU](https://en.wikipedia.org/wiki/Richard_Stallman)/[Linux](https://en.wikipedia.org/wiki/Linus_Sebastian) configuration files. This repo comes in very handy if ever my [Arch Linux](https://en.wikipedia.org/wiki/Arch_Linux) distro ([the best distro](https://en.wikipedia.org/wiki/Gentoo_Linux), folks, [the best](https://en.wikipedia.org/wiki/Gentoo_Linux)) decides that [it doesn't want to exist](https://archlinux.fr/yaourt-en) or when it wants to [wet the OS partition](https://en.wikipedia.org/wiki/Nocturnal_enuresis) and I have to go [reinstall it again](https://www.wikihow.com/Clean-Up-After-Bedwetting).
+This public static void of a GitHub repo stores all my [GNU](https://en.wikipedia.org/wiki/Richard_Stallman)/[Linux](https://en.wikipedia.org/wiki/Linus_Sebastian) "dotfiles"/configuration files. This repo comes in very handy if ever my [Arch Linux](https://en.wikipedia.org/wiki/Arch_Linux) distro ([the best distro](https://en.wikipedia.org/wiki/Gentoo_Linux), folks, [the best](https://en.wikipedia.org/wiki/Gentoo_Linux)) decides that [it doesn't want to exist](https://archlinux.fr/yaourt-en) or when it wants to [wet the OS partition](https://en.wikipedia.org/wiki/Nocturnal_enuresis) and I have to go [reinstall it again](https://www.wikihow.com/Clean-Up-After-Bedwetting).
 
 I made this repo in response to my entire Arch partition ([the best](https://en.wikipedia.org/wiki/Gentoo_Linux), folks) suddenly and [magically](https://en.wikipedia.org/wiki/Criss_Angel_Mindfreak) dying on me while I was using the `cp` command to copy a 1MB JPEG to a [postmarketOS](https://postmarketos.org/) [N900](https://wiki.postmarketos.org/wiki/Nokia_N900) installation.
 
@@ -11,13 +11,13 @@ I made this repo in response to my entire Arch partition ([the best](https://en.
 ## What's inside
 
 ### Alacritty
-[GPU](https://en.wikipedia.org/wiki/Nvidia)-accelerated terminal (why?). Speeds up `cmatrix` by 5 frames. Has weird `cava` glitches up the [wazoo](https://en.wikipedia.org/wiki/Wahoo). I use `cool-retro-term` anyway.
+[GPU](https://en.wikipedia.org/wiki/Nvidia)-accelerated terminal (why?). Speeds up `cmatrix` by a whopping 5 frames, enough frames to get that Hackerman™ feel. Still, it has weird `cava` glitches up the [wazoo](https://en.wikipedia.org/wiki/Wahoo). I don't care since I use `cool-retro-term` anyway.
 
 ### Bspwm
 [Binary Space Partitioning Window Manager](https://simple.wikipedia.org/wiki/Logarithm). Better than `i3`. Makes you do [binary tree](https://www.geeksforgeeks.org/binary-tree-data-structure/) calculations before you can resize your windows and organize your workspace.
 
 ### Cava
-Who said equalizers are a thing of the past? Just because you want *simplicity* doesn't mean you have to throw away the good ol' equalizer! Slap this *not-that-much-modified-from-the-default* config file to `~/.config/cava` and give your terminal some [musical bling bling](https://www.techopedia.com/definition/4237/bloatware).
+Who said equalizers are a thing of the past? Just because you want *simplicity* doesn't mean you have to throw away the good ol' visualizer! Slap this *not-that-much-modified-from-the-default* config file to `~/.config/cava` and give your terminal some [musical bling bling](https://www.techopedia.com/definition/4237/bloatware).
 
 ### Ckb-next
 [Corsair iCUE](https://www.techopedia.com/definition/4237/bloatware) for GNU/Linux. I use it because I'm a [GAMER™](https://en.wiktionary.org/wiki/basement-dweller) and I game on **MICROSOFT WINDOWS 10**. I don't use this anymore, too many background processes.
@@ -26,7 +26,7 @@ Who said equalizers are a thing of the past? Just because you want *simplicity* 
 The best [POS terminal](https://www.techopedia.com/definition/26649/point-of-sale-terminal-pos-terminal) emulator for Linux. Period. Hands down. Easily. [Much wow.](https://www.urbandictionary.com/define.php?term=dead%20meme)
 
 ### Devilspie
-The pie of the [devil](https://en.wikipedia.org/wiki/Daemon_(computing)). Used this quite a bit when I was using KDE (the K Desktop Environment) but have switched to `bspwm` and have been living a much simpler life away from the [devil's pie](https://en.wikipedia.org/wiki/Hedonism) since then.
+The pie of the [devil](https://en.wikipedia.org/wiki/Daemon_(computing)). Used this quite a bit when I was using KDE (the K Desktop Environment) but since then I've made the switch to `bspwm` and I've been living a much simpler life away from the [devil's pie](https://en.wikipedia.org/wiki/Hedonism).
 
 ### i3
 [I don't care](https://www.youtube.com/watch?v=zdZya6yATn0). Moved to `bspwm` anyway.
@@ -41,7 +41,7 @@ The [Engine X](https://en.wikipedia.org/wiki/X_engine) [7-stage "reverse proxy"]
 [Tiling WM](https://meteatamel.wordpress.com/2014/12/25/unnecessary-complexity-why-does-it-happen/) + `polybar` + `cava`/[some other terminal plaything](https://www.techopedia.com/definition/4237/bloatware) = at least **100** upvotes on [r/unixporn](https://www.reddit.com/r/unixporn/).
 
 ### Sxhkd
-Sx... hotkey [daemon](https://en.wikipedia.org/wiki/Demon)? I dunno. Custom keybindings for use with `bspwm`.
+Sx... hotkey [daemon](https://en.wikipedia.org/wiki/Demon)? I dunno, too lazy to look it up. Custom keybindings for use with the magical `bspwm` **tiling** window manager.
 
 ### Tmux
 Tmux is a, erm, [terminal multiplexor](https://en.wikipedia.org/wiki/Multiplexing) thing. It [plexes your terminal emulator](https://en.m.wikipedia.org/wiki/Plex_(software)) multiple times? I don't know. Point is: it's **AWESOME** and I feel bad if I were to use a terminal without it.
