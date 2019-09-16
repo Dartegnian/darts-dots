@@ -116,7 +116,7 @@ font-7 = Noto Serif:bold:size=9;2
 ;===================================================================
 
 ;modules-center = xwindow
-;modules-right = torrent eth cpu mem fs pulseaudio date code terminal git firefox chrome tinder youtube twitter netflix powermenu
+;modules-right = upload download cpu mem fs pulseaudio date code terminal git firefox chrome tinder youtube twitter netflix powermenu
 
 modules-left = bspwm 
 modules-center = download cpu mem date fs pulseaudio upload
@@ -266,7 +266,7 @@ label-unmounted-padding =
 
 
 ;===================================================================
-;                        Torrent + Internet
+;                         Upload + Download
 ;===================================================================
 
 [module/download]
