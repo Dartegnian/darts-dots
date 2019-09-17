@@ -24,8 +24,8 @@
 [colors]
 background = #00000000
 background-transparent = #7504060e
-foreground = #ccffffff
-foreground-icon = #ccffffff
+foreground = #ccFFFFFF
+foreground-icon = #ccFFFFFF
 workspace-active = #aa000000
 
 [settings]
@@ -240,7 +240,7 @@ label = %gb_used%
 
 [module/fs]
 type = internal/fs
-interval = 300
+interval = 600
 
 mount-0 = /
 
@@ -255,8 +255,8 @@ mount-0 = /
 ;   %used%
 ; Default: %mountpoint% %percentage_free%%
 ; 
-;label-mounted = "%{F#eeffffff}    %{F-}%used% | %total%  "
-label-mounted = "%{F#eeffffff}   %{F-}%used%  "
+;label-mounted = "%{F#eeFFFFFF}    %{F-}%used% | %total%  "
+label-mounted = "%{F#eeFFFFFF}   %{F-}%used%  "
 label-mounted-foreground = ${colors.foreground}
 label-mounted-background = 
 label-mounted-padding = 
@@ -275,26 +275,28 @@ type = internal/network
 interface = enp27s0
 interval = 1
 
-format-connected-prefix =
+format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-icon}
 format-connected = <label-connected>
 format-disconnected = <label-disconnected>
+format-disconnected-prefix = " "
 
-label-connected = " %downspeed% "
-label-disconnected = " Down"
+label-connected = "%downspeed% "
+label-disconnected = "Down"
 
 [module/upload]
 type = internal/network
 interface = enp27s0
 interval = 1
 
-format-connected-prefix =
+format-connected-prefix = "   "
 format-connected-prefix-foreground = ${colors.foreground-icon}
 format-connected = <label-connected>
 format-disconnected = <label-disconnected>
+format-disconnected-prefix = "   "
 
-label-connected = "   %upspeed%"
-label-disconnected = " Down"
+label-connected = "%upspeed%"
+label-disconnected = "Down"
 
 
 ;===================================================================
@@ -305,7 +307,7 @@ label-disconnected = " Down"
 type = internal/date
 interval = 1
 
-label-foreground = #ffffff
+label-foreground = #FFFFFF
 label = %date%
 date = "    %I:%M %p"
 date-alt = "    %A, %d %B, %Y     %I:%M %p"
@@ -516,7 +518,7 @@ click-left = bspc desktop -l next &
 [module/close]
 type = custom/text
 
-content = " | "
+content = "  | "
 content-foreground = ${colors.foreground-icon}
 
 click-left = bspc node -c &
