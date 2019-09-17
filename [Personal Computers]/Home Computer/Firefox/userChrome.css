@@ -33,3 +33,15 @@ toolbarbutton#alltabs-button {
   visibility: visible !important;
 }
 
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+.bookmarks-toolbar-items>.scrollbox-innerbox
+{
+  -moz-box-pack: center!important;
+}
+
+#personal-bookmarks #PlacesToolbarItems
+{
+  -moz-box-pack: center;
+}
+
