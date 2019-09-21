@@ -505,7 +505,7 @@ content = " "
 content-foreground = ${colors.foreground-icon}
 
 click-left = bspc node -z bottom 0 -200 &
-click-right = bspc node -z top 0 -200 &
+click-right = bspc node -z top 0 200 &
 
 [module/maximize]
 type = custom/text
