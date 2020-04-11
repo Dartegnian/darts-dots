@@ -434,6 +434,7 @@ content = "    |"
 content-foreground = ${colors.foreground-icon}
 
 click-left = gitkraken &
+click-middle = npm update -g &
 click-right = cd ~/.oh-my-zsh && git pull &
 
 
@@ -441,7 +442,7 @@ click-right = cd ~/.oh-my-zsh && git pull &
 [module/firefox]
 type = custom/text
 
-content = "  "
+content = " 龜 "
 content-foreground = ${colors.foreground-icon}
 
 click-left = firefox &
@@ -453,19 +454,18 @@ type = custom/text
 content = "   "
 content-foreground = ${colors.foreground-icon}
 
-click-left = google-chrome-stable &
+click-left = firefox -url https://google.com &
 click-middle = google-chrome-unstable &
 click-right = google-chrome-beta &
 
 [module/edge]
 type = custom/text
 
-content = "   "
+content = "   "
 content-foreground = ${colors.foreground-icon}
 
-click-left = google-chrome-stable --app-id=hejiihbkifllpgdfndalmghiodgkefan &
+click-left = torbrowser-launcher &
 click-middle = opera "https://www.netflix.com/browse" &
-click-right = google-chrome-stable "https://www.messenger.com" &
 
 [module/youtube]
 type = custom/text
