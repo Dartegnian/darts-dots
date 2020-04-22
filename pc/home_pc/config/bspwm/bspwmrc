@@ -1,6 +1,7 @@
 #! /bin/sh
 
-wal -i $HOME/Pictures/Wallpapers/tokyolovestory.png &
+#wal -i $HOME/Pictures/Wallpapers/tokyolovestory.png &
+feh --bg-fill $HOME/Pictures/Wallpapers/darktokyo.jpg &
 sxhkd &
 
 # Bspwm
@@ -13,7 +14,7 @@ bspc config window_gap           20
 bspc config split_ratio          0.5
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
-bspc config top_padding          28
+bspc config top_padding 	 28
 
 bspc rule -a Lollypop desktop='^6'
 bspc rule -a plasmawindowed desktop-'^6'
@@ -31,13 +32,14 @@ compton --config $HOME/.config/compton/config &
 $HOME/.config/polybar/polybar.sh &
 
 # Nvidia
-nvidia-settings --load-config-only
-nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
-gwe --hide-window &
-sleep 3
-killall -q gwe
+#nvidia-settings --load-config-only
+#nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
+#gwe --hide-window &
+#sleep 5
+#killall -q gwe
 
 # Misc. applications
 #plasmawindowed org.kde.plasma.mediacontroller &
-killall -q ckb-next
 ckb-next &
+xdo close -n ckb-next
+
