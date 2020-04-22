@@ -41,5 +41,9 @@ $HOME/.config/polybar/polybar.sh &
 # Misc. applications
 #plasmawindowed org.kde.plasma.mediacontroller &
 ckb-next &
-xdo close -n ckb-next
+sleep 2
+xdo close -n ckb-next &
 
+cool-retro-term -e ~/.config/bspwm/tmux.sh &
+cool-retro-term -e gotop &
+cool-retro-term -e cava &
