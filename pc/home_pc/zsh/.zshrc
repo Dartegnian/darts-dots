@@ -106,6 +106,7 @@ alias ver="{ uname -n; uname -o; uname -r; printf '\n\n' } | tr '\n' ' ' && echo
 alias dir="ls -la"
 alias n="nano"
 alias v="nvim"
+alias backup="./SYGtech/git_gtech/darts-dots/backup.sh"
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
