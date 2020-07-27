@@ -56,8 +56,8 @@ bars = 200
 # For alsa 'source' will be the capture device.
 # For fifo 'source' will be the path to fifo-file.
 # For shmem 'source' will be /squeezelite-AA:BB:CC:DD:EE:FF where 'AA:BB:CC:DD:EE:FF' will be squeezelite's MAC address
-; method = pulse
-; source = auto
+method = pulse
+source = auto
 
 ; method = alsa
 ; source = hw:Loopback,1
@@ -108,7 +108,7 @@ bars = 200
 # Or defined by hex code '#xxxxxx' (hex code must be within ''). User defined colors requires a
 # terminal that can change color definitions such as Gnome-terminal or rxvt.
 ; background = black
-foreground = cyan
+foreground = white
 
 # Gradient mode, only hex defined colors are supported, background must also be defined in hex
 # or remain commented out. 1 = on, 0 = off. Warning: for certain terminal emulators cava will
