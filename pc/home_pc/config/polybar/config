@@ -310,7 +310,7 @@ interval = 1
 label-foreground = #FFFFFF
 label = %date%
 date = "    %I:%M %p"
-date-alt = "    %A, %d %B, %Y     %I:%M %p"
+date-alt = "    %A, %d %B, %Y     %I:%M:%S %p"
 
 
 ;===================================================================
@@ -378,11 +378,11 @@ label-open = " "
 label-close = "|     "
 
 
-menu-0-0 = "   "
+menu-0-0 = "  "
 menu-0-0-exec = poweroff
-menu-0-1 = "   "
+menu-0-1 = "  "
 menu-0-1-exec = reboot
-menu-0-2 = "  "
+menu-0-2 = " "
 menu-0-2-exec = bspc quit
 
 
@@ -442,7 +442,7 @@ click-right = cd ~/.oh-my-zsh && git pull &
 [module/firefox]
 type = custom/text
 
-content = " 龜 "
+content = "  "
 content-foreground = ${colors.foreground-icon}
 
 click-left = firefox &
@@ -465,7 +465,6 @@ content = "   "
 content-foreground = ${colors.foreground-icon}
 
 click-left = torbrowser-launcher &
-click-middle = opera "https://www.netflix.com/browse" &
 
 [module/youtube]
 type = custom/text
@@ -483,9 +482,7 @@ type = custom/text
 content = "   "
 content-foreground = ${colors.foreground-icon}
 
-click-left = google-chrome-stable --app-id=jgeocpdicgmkeemopbanhokmhcgcflmi &
-click-middle = firefox "https://twitter.com/home" &
-click-right = google-chrome-stable "https://twitter.com/home" &
+click-left = firefox "https://twitter.com/home" &
 
 [module/audio]
 type = custom/text
