@@ -136,6 +136,9 @@ alt + Tab
 super + d
 	rofi -show drun
 
+super + semicolon
+	rofi -show emoji -modi emoji
+
 alt + w
         bspc monitor -f next
 
@@ -163,4 +166,13 @@ ctrl + shift + Escape
 	
 ctrl + shift + e
 	cool-retro-term -e htop
+
+XF86AudioMute
+        amixer sset 'Master' toggle
+
+XF86AudioLowerVolume
+        amixer sset 'Master' 5%-
+
+XF86AudioRaiseVolume
+        amixer sset 'Master' 5%+
 
