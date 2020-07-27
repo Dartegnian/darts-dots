@@ -1,7 +1,9 @@
 #! /bin/sh
 
+nitrogen --restore &
+
 #wal -i $HOME/Pictures/Wallpapers/tokyolovestory.png &
-feh --bg-fill $HOME/Pictures/Wallpapers/darktokyo.jpg &
+#feh --bg-fill $HOME/Pictures/Wallpapers/darktokyo.jpg &
 sxhkd &
 
 # Bspwm
@@ -32,8 +34,8 @@ compton --config $HOME/.config/compton/config &
 $HOME/.config/polybar/polybar.sh &
 
 # Nvidia
-#nvidia-settings --load-config-only
-#nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
+nvidia-settings --load-config-only
+nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 #gwe --hide-window &
 #sleep 5
 #killall -q gwe
@@ -41,9 +43,14 @@ $HOME/.config/polybar/polybar.sh &
 # Misc. applications
 #plasmawindowed org.kde.plasma.mediacontroller &
 ckb-next &
+#openrgb &
 sleep 2
 xdo close -n ckb-next &
+#xdo close -n openrgb &
 
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
+sleep 2
 cool-retro-term -e gotop &
-cool-retro-term -e cava &
+alacritty -e cava &
+
+dunst -conf ~/.config/dunst/dunstrc &
