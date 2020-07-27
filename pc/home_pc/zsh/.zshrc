@@ -104,6 +104,8 @@ alias yeet="yay -Syu --noconfirm"
 alias c="clear"
 alias ver="{ uname -n; uname -o; uname -r; printf '\n\n' } | tr '\n' ' ' && echo ''"
 alias dir="ls -la"
+alias n="nano"
+alias v="nvim"
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -122,3 +124,7 @@ compinit
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Android
+export ANDROID_SDK_ROOT='/opt/android-sdk'
+export PUB_CACHE=$HOME/.pub-cache
