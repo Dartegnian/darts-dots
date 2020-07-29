@@ -89,7 +89,6 @@ ckb-next-git
 clang
 clucene
 cmake
-cmatrix
 code
 colord
 compiler-rt
@@ -99,7 +98,6 @@ confuse
 convertlit
 cool-retro-term
 coreutils
-cowsay
 cpod-git
 cracklib
 crypto++
@@ -154,7 +152,6 @@ extra-cmake-modules
 faac
 faad2
 fakeroot
-feh
 ffmpeg
 ffmpegthumbs
 fftw
@@ -221,12 +218,10 @@ glxinfo
 gmp
 gn
 gnome-autoar
-gnome-calculator
 gnome-common
 gnome-desktop
 gnome-disk-utility
 gnome-font-viewer
-gnome-keyring
 gnome-mime-data
 gnome-online-accounts
 gnome-perl
@@ -302,7 +297,6 @@ hwids
 hwloc
 hyphen
 i3-wm
-i3status
 iana-etc
 icu
 id3lib
@@ -330,7 +324,6 @@ jbig2dec
 jdk-openjdk
 jemalloc
 jfsutils
-joyutils
 jq
 jre-openjdk
 jre-openjdk-headless
@@ -955,8 +948,6 @@ mkinitcpio-busybox
 mobile-broadband-provider-info
 modemmanager
 modemmanager-qt
-mongodb-bin
-mongodb-compass
 mono
 mozilla-common
 mpc
@@ -1116,7 +1107,6 @@ phonon-qt5
 phonon-qt5-gstreamer
 php
 php-fpm
-phpmyadmin
 pinentry
 pipewire
 pixman
@@ -1300,7 +1290,6 @@ ruby-irb
 ruby-reline
 rubygems
 run-parts
-rxvt-unicode
 rxvt-unicode-terminfo
 s-nail
 sbc
@@ -1356,7 +1345,6 @@ steam
 steam-native-runtime
 sudo
 suitesparse
-sway
 swaybg
 swig
 sxhkd
@@ -1452,6 +1440,7 @@ xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
 xcb-util-xrm
+xclip
 xdg-dbus-proxy
 xdg-desktop-portal
 xdg-desktop-portal-kde
