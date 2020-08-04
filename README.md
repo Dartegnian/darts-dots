@@ -43,6 +43,9 @@ The [Engine X](https://en.wikipedia.org/wiki/X_engine) [7-stage "reverse proxy"]
 ### Polybar
 `polybar` + [tiling WM](https://meteatamel.wordpress.com/2014/12/25/unnecessary-complexity-why-does-it-happen/) + `cava`/[some other terminal plaything](https://www.techopedia.com/definition/4237/bloatware) = at least **100** upvotes on [r/unixporn](https://www.reddit.com/r/unixporn/).
 
+### Rofi
+Ditch Microsoft Cortuna and Apple's iSeeri in favor of a manually-controlled program to help run commands, open applications, and [paste emojis](https://github.com/Mange/rofi-emoji). This thing does it all and is a pillar of a good `bpswm` setup.
+
 ### Sxhkd
 Sx... hotkey [daemon](https://en.wikipedia.org/wiki/Demon)? I dunno, too lazy to look it up. Custom keybindings for use with the magical `bspwm` **tiling** window manager.
 
