@@ -26,7 +26,7 @@ For use in printing whenever I "frick" (gotta use family-friendly terms here) up
 Who said equalizers are a thing of the past? Just because you want *simplicity* doesn't mean you have to throw away the good ol' visualizer! Slap this *not-that-much-modified-from-the-default* config file to `~/.config/cava` and give your terminal some [musical bling bling](https://www.techopedia.com/definition/4237/bloatware).
 
 ### Ckb-next
-[Corsair iCUE](https://www.techopedia.com/definition/4237/bloatware) for GNU/Linux. I use it because I'm a [GAMER™](https://en.wiktionary.org/wiki/basement-dweller) and I game on **MICROSOFT WINDOWS 10**. I don't use this anymore, too many background processes.
+[Corsair iCUE](https://www.techopedia.com/definition/4237/bloatware) for GNU/Linux. I use it because I'm a [GAMER™](https://en.wiktionary.org/wiki/basement-dweller) and I game on **MICROSOFT WINDOWS 10**. I use this to manage the lighting on my [wonderful, premium, *aesthetic* gaming peripherals](https://ludwig.guru/s/overpriced+hardware). But hey, at least it's FOSS and not iCUE!
 
 ### Cool Retro Term
 The best [POS terminal](https://www.techopedia.com/definition/26649/point-of-sale-terminal-pos-terminal) emulator for Linux. Period. Hands down. Easily. [Much wow.](https://www.urbandictionary.com/define.php?term=dead%20meme)
