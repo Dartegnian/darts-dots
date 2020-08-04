@@ -10,6 +10,9 @@ I made this repo in response to my entire Arch partition ([the best](https://en.
 
 ## What's inside
 
+### Backup script
+State-of-the-art, performant, Excel-spreadsheet-driven script to backup all my precious dotfiles without the need for me to manually transfer the configuration scripts to The Cloud™.
+
 ### Alacritty
 [GPU](https://en.wikipedia.org/wiki/Nvidia)-accelerated terminal (why?). Speeds up `cmatrix` by a whopping 5 frames, enough frames to get that Hackerman™ feel. Still, it has weird `cava` glitches up the [wazoo](https://en.wikipedia.org/wiki/Wahoo). I don't care since I use `cool-retro-term` anyway.
 
