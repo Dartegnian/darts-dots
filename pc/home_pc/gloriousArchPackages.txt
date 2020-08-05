@@ -1107,6 +1107,7 @@ phonon-qt5
 phonon-qt5-gstreamer
 php
 php-fpm
+phpmyadmin
 pinentry
 pipewire
 pixman

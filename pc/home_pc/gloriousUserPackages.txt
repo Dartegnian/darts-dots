@@ -185,6 +185,7 @@ pciutils
 perl
 php
 php-fpm
+phpmyadmin
 pkgconf
 plasma-browser-integration
 plasma-desktop
