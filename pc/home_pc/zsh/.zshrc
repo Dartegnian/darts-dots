@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias outatime="watch -t -n1 'date +%T|figlet -f ANSI\ Shadow.flf'"
 alias bruh="figlet 'BRUH MOMENT' -f ANSI\ Shadow.flf"
-alias yeet="yay -Syu --noconfirm"
+alias yeet="npm update -g && cd ~/.oh-my-zsh && git pull &&  yay -Syu --noconfirm"
 alias c="clear"
 alias ver="{ uname -n; uname -o; uname -r; printf '\n\n' } | tr '\n' ' ' && echo ''"
 alias dir="ls -la"
