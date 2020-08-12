@@ -491,8 +491,8 @@ content = "    | "
 content-foreground = ${colors.foreground-icon}
 
 click-left = lollypop &
-click-middle = pavucontrol &
-click-right = cpod &
+click-middle = cpod &
+click-right = pavucontrol &
 
 
 [module/minimize]
