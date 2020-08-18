@@ -6,3 +6,4 @@ lint-staged
 npm
 serve
 vtop
+vue
