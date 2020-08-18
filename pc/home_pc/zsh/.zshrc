@@ -108,6 +108,7 @@ alias n="nano"
 alias v="nvim"
 alias update="~/SYGtech/git_gtech/darts-dots/update.sh"
 alias backup="~/SYGtech/git_gtech/darts-dots/backup.sh"
+alias wg-restart="sudo wg-quick down wg0 && sudo wg-quick up wg0"
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
