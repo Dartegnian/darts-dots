@@ -43,6 +43,7 @@ audiofile
 audit
 autoconf
 autoconf-archive
+autogen
 automake
 avahi
 babl
@@ -51,6 +52,7 @@ baloo-widgets
 bar
 bash
 bc
+bdf-unifont
 binutils
 bison
 blas
@@ -134,6 +136,7 @@ e2fsprogs
 ebook-tools
 editorconfig-core-c
 efibootmgr
+efitools
 efivar
 egl-wayland
 eglexternalplatform
@@ -232,6 +235,7 @@ gnomecanvas-perl
 gnu-free-fonts
 gnupg
 gnutls
+go
 gobject-introspection
 gobject-introspection-runtime
 google-chrome-beta
@@ -262,6 +266,7 @@ gst-plugins-bad-libs
 gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
+gst-python
 gstreamer
 gtk-doc
 gtk-layer-shell
@@ -287,6 +292,7 @@ gwe
 gzip
 harfbuzz
 harfbuzz-icu
+help2man
 hicolor-icon-theme
 hidapi
 hspell
@@ -855,6 +861,7 @@ libxau
 libxaw
 libxcb
 libxcomposite
+libxcrypt
 libxcursor
 libxdamage
 libxdg-basedir

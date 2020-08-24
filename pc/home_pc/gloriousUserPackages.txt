@@ -44,6 +44,7 @@ dolphin
 drkonqi
 dunst
 e2fsprogs
+efitools
 etcher-bin
 exfat-utils
 fakeroot
@@ -71,6 +72,7 @@ glxinfo
 gnome-disk-utility
 gnome-font-viewer
 gnome-system-monitor
+go
 google-chrome-beta
 google-chrome-dev
 gotop
