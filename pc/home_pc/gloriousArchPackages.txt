@@ -1172,6 +1172,7 @@ python-dbus-common
 python-distlib
 python-distro
 python-docutils
+python-feedparser
 python-gobject
 python-gpgme
 python-html5lib
@@ -1189,6 +1190,7 @@ python-markupsafe
 python-matplotlib
 python-more-itertools
 python-msgpack
+python-mutagen
 python-numpy
 python-ordered-set
 python-packaging
@@ -1214,7 +1216,9 @@ python-requests
 python-resolvelib
 python-retrying
 python-rx
+python-senf
 python-setuptools
+python-sgmllib
 python-sip-pyqt5
 python-six
 python-snowballstemmer
@@ -1273,6 +1277,7 @@ qt5-webkit
 qt5-x11extras
 quazip
 quilt
+quodlibet
 rambox-bin
 ranger
 raptor
@@ -1461,6 +1466,7 @@ xf86-input-wacom
 xf86-video-amdgpu
 xf86-video-vesa
 xfsprogs
+xine-lib
 xkeyboard-config
 xmlsec
 xorg-bdftopcf
