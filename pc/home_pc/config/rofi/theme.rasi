@@ -64,7 +64,7 @@
 }
 
 #element-icon {
-	width: 10em;
+    size: 39px;
 }
 
 #element.normal.normal {
