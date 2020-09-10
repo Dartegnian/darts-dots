@@ -122,6 +122,7 @@ discount
 discover
 dislocker-git
 dkms
+dmidecode
 dmraid
 dnssec-anchors
 docbook-xml
@@ -155,6 +156,7 @@ extra-cmake-modules
 faac
 faad2
 fakeroot
+faudio
 ffmpeg
 ffmpegthumbs
 fftw
@@ -174,6 +176,7 @@ flutter
 fmt
 fontconfig
 fontviewer
+foobar2000
 frameworkintegration
 freeglut
 freetype2
@@ -439,6 +442,7 @@ ldns
 lensfun
 less
 lhasa
+lib32-acl
 lib32-alsa-lib
 lib32-alsa-plugins
 lib32-atk
@@ -450,6 +454,7 @@ lib32-dbus
 lib32-dbus-glib
 lib32-e2fsprogs
 lib32-expat
+lib32-faudio
 lib32-flac
 lib32-fontconfig
 lib32-freeglut
@@ -457,6 +462,7 @@ lib32-freetype2
 lib32-fribidi
 lib32-gcc-libs
 lib32-gdk-pixbuf2
+lib32-gettext
 lib32-giflib
 lib32-glew1.10
 lib32-glib2
@@ -470,6 +476,7 @@ lib32-icu
 lib32-imlib2
 lib32-keyutils
 lib32-krb5
+lib32-lcms2
 lib32-libappindicator-gtk2
 lib32-libasyncns
 lib32-libcaca
@@ -500,9 +507,11 @@ lib32-libldap
 lib32-libltdl
 lib32-libmikmod
 lib32-libmodplug
+lib32-libnl
 lib32-libnm-glib
 lib32-libnsl
 lib32-libogg
+lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
 lib32-libpng12
@@ -533,6 +542,7 @@ lib32-libx11
 lib32-libxau
 lib32-libxcb
 lib32-libxcomposite
+lib32-libxcrypt
 lib32-libxcursor
 lib32-libxdamage
 lib32-libxdmcp
@@ -799,6 +809,7 @@ libsasl
 libseccomp
 libsecret
 libshout
+libsidplayfp
 libsigc++
 libsm
 libsmbios
@@ -1303,6 +1314,7 @@ ruby-irb
 ruby-reline
 rubygems
 run-parts
+rust
 rxvt-unicode-terminfo
 s-nail
 sbc
@@ -1431,6 +1443,7 @@ webrtc-audio-processing
 wget
 which
 wildmidi
+wine
 wireguard-tools
 wireless_tools
 wlroots

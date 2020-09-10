@@ -40,6 +40,7 @@ diffutils
 discord
 discover
 dislocker-git
+dmidecode
 dolphin
 drkonqi
 dunst
@@ -58,6 +59,7 @@ firefox
 flex
 flutter
 fontviewer
+foobar2000
 fwupd
 gawk
 gcc
@@ -220,6 +222,7 @@ rofi
 rofi-dmenu
 rofi-emoji
 rsync
+rust
 s-nail
 sddm
 sddm-config-editor-git
