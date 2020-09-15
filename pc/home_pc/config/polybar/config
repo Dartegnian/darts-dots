@@ -355,7 +355,7 @@ label-volume-foreground = ${colors.foreground}
 ; Available tokens:
 ;   %percentage% (default)
 label-muted = " 0%"
-label-muted-foreground = 
+label-muted-foreground = ${colors.foreground}
 
 ; Only applies if <ramp-volume> is used
 ramp-volume-0 = 
