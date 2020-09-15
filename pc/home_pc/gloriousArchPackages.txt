@@ -845,7 +845,6 @@ libusb
 libusb-compat
 libusbmuxd
 libutempter
-libutil-linux
 libuv
 libva
 libva-mesa-driver
@@ -1425,6 +1424,7 @@ usbmuxd
 usbutils
 user-manager
 util-linux
+util-linux-libs
 v4l-utils
 vamp-plugin-sdk
 vi
