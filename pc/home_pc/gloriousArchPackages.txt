@@ -612,6 +612,7 @@ libasyncns
 libatasmart
 libatomic_ops
 libavc1394
+libavtp
 libblockdev
 libbluray
 libbonobo
@@ -733,6 +734,7 @@ libmatroska
 libmbim
 libmediainfo
 libmfx
+libmicrodns
 libmicrohttpd
 libmikmod
 libmm-glib
@@ -1369,6 +1371,7 @@ steam
 steam-native-runtime
 sudo
 suitesparse
+svt-hevc
 swaybg
 swig
 sxhkd
@@ -1566,4 +1569,5 @@ zoom
 zsh
 zstd
 zvbi
+zxing-cpp
 zziplib
