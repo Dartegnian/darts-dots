@@ -338,6 +338,7 @@ jre-openjdk
 jre-openjdk-headless
 js60
 js68
+js78
 json-c
 json-glib
 jsoncpp
@@ -843,6 +844,7 @@ libunique
 libunistring
 libunwind
 libupnp
+liburing
 libusb
 libusb-compat
 libusbmuxd
