@@ -8,6 +8,7 @@ adobe-source-han-sans-jp-fonts
 adobe-source-sans-pro-fonts
 adwaita-icon-theme
 alacritty
+alsa-card-profiles
 alsa-lib
 alsa-plugins
 alsa-topology-conf
@@ -287,6 +288,7 @@ gucharmap
 guile
 guile2.0
 gulp
+gumbo-parser
 gupnp
 gupnp-dlna
 gupnp-igd
@@ -630,6 +632,7 @@ libcddb
 libcdio
 libcdio-paranoia
 libcdr
+libcloudproviders
 libcmis
 libconfig
 libcroco
@@ -695,6 +698,7 @@ libgudev
 libgusb
 libgxps
 libhandy
+libhandy0
 libheif
 libibus
 libical
@@ -935,6 +939,7 @@ lua52-lpeg
 lua52-luajson
 lua52-socket
 luajit
+luit
 lv2
 lvm2
 lz4
@@ -1166,7 +1171,6 @@ psmisc
 pulseaudio
 pulseaudio-alsa
 purpose
-pygobject-devel
 pygtk
 python
 python-anytree
@@ -1405,6 +1409,8 @@ totem-pl-parser
 tpm2-tss
 tracker
 tracker-miners
+tracker3
+tracker3-miners
 transmission-cli
 transmission-gtk
 trash-cli
@@ -1497,7 +1503,6 @@ xorg-fonts-alias-100dpi
 xorg-fonts-alias-75dpi
 xorg-fonts-encodings
 xorg-iceauth
-xorg-luit
 xorg-mkfontscale
 xorg-server
 xorg-server-common
