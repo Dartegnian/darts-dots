@@ -18,7 +18,9 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config top_padding 	 28
 
+# music apps on desktop 6
 bspc rule -a Lollypop desktop='^6'
+bspc rule -a QuodLibet desktop='^6'
 bspc rule -a plasmawindowed desktop-'^6'
 bspc rule -a Pavucontrol desktop='^6'
 
@@ -51,6 +53,6 @@ xdo close -n ckb-next &
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
 sleep 1
 cool-retro-term -e gotop &
-alacritty -e cava &
+#alacritty -e cava &
 
 dunst -conf ~/.config/dunst/dunstrc &
