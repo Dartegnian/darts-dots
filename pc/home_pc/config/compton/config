@@ -73,6 +73,7 @@ opacity-rule = [
     "90:class_g = 'Org.gnome.Nautilus'",
     "90:class_g = 'Gnome-disks'",
     "90:class_g = 'Lollypop'",
+    "90:class_g = 'Quodlibet'",
     "90:class_g = 'Gedit'",
     "99:name = 'Picture in Picture'",
     "90:name = 'Messenger'",
