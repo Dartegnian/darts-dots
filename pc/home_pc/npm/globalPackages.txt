@@ -1,8 +1,5 @@
-@angular/cli
-@vue/cli
-@vue/cli-service-global
-create-react-app
-lint-staged
+asar
+gulp
+node-gyp
 npm
-serve
-vtop
+yarn
