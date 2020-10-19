@@ -80,7 +80,6 @@ cairo
 cairo-perl
 cairomm
 cantarell-fonts
-caprine
 cava
 cblas
 cdparanoia
@@ -144,6 +143,7 @@ egl-wayland
 eglexternalplatform
 electron
 electron7
+electron9
 elfutils
 emacs
 enca
@@ -164,7 +164,6 @@ fftw
 figlet
 file
 filesystem
-filezilla
 findutils
 firefox
 flac
@@ -177,7 +176,6 @@ flutter
 fmt
 fontconfig
 fontviewer
-foobar2000
 frameworkintegration
 freeglut
 freetype2
@@ -412,7 +410,6 @@ kpimtextedit
 kpty
 kquickcharts
 krb5
-krita
 krunner
 kscreen
 kscreenlocker
@@ -691,6 +688,7 @@ libgnomecanvas
 libgnomeui
 libgpg-error
 libgphoto2
+libgpod
 libgrss
 libgsf
 libgtop
@@ -798,6 +796,7 @@ libproxy
 libpsl
 libpulse
 libpwquality
+libqaccessibilityclient
 libqalculate
 libqdark-git
 libqmi
@@ -953,7 +952,6 @@ malcontent
 mallard-ducktype
 man-db
 man-pages
-mariadb
 mariadb-clients
 mariadb-libs
 mbedtls
@@ -961,7 +959,6 @@ mc
 md4c
 mdadm
 media-player-info
-megasync
 mesa
 mesa-vdpau
 meson
@@ -1167,6 +1164,7 @@ powerline-fonts-git
 ppp
 prison
 procps-ng
+protobuf
 psmisc
 pulseaudio
 pulseaudio-alsa
@@ -1321,7 +1319,6 @@ ruby-irb
 ruby-reline
 rubygems
 run-parts
-rust
 rxvt-unicode-terminfo
 s-nail
 sbc
@@ -1341,6 +1338,7 @@ seahorse
 sed
 semver
 serd
+sg3_utils
 shaderc
 shadow
 shared-mime-info
@@ -1368,13 +1366,13 @@ spectacle
 speex
 speexdsp
 spirv-tools
-spotify
 sqlite
 sratom
 srt
 startup-notification
 steam
 steam-native-runtime
+strawberry
 sudo
 suitesparse
 svt-hevc
@@ -1399,7 +1397,6 @@ tevent
 texinfo
 thin-provisioning-tools
 threadweaver
-tigervnc
 tk
 tldr
 tmux
@@ -1433,7 +1430,6 @@ unzip
 upower
 usbmuxd
 usbutils
-user-manager
 util-linux
 util-linux-libs
 v4l-utils
@@ -1446,7 +1442,6 @@ volume_key
 vulkan-icd-loader
 vulkan-radeon
 wavpack
-waybar
 wayland
 wayland-protocols
 webkit2gtk

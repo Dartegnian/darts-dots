@@ -22,7 +22,6 @@ breeze
 breeze-gtk
 bspwm
 bzip2
-caprine
 cava
 ckb-next-git
 code
@@ -53,13 +52,11 @@ ffmpegthumbs
 figlet
 file
 filesystem
-filezilla
 findutils
 firefox
 flex
 flutter
 fontviewer
-foobar2000
 fwupd
 gawk
 gcc
@@ -114,7 +111,6 @@ kinfocenter
 kleopatra
 kmenuedit
 knetattach
-krita
 kscreen
 kscreenlocker
 ksshaskpass
@@ -148,10 +144,8 @@ m4
 make
 man-db
 man-pages
-mariadb
 mc
 mdadm
-megasync
 mesa-vdpau
 milou
 mpc
@@ -223,7 +217,6 @@ rofi
 rofi-dmenu
 rofi-emoji
 rsync
-rust
 s-nail
 sddm
 sddm-config-editor-git
@@ -234,9 +227,9 @@ shadow
 simple-mtpfs-git
 simple-shutdown-dialog-git
 spectacle
-spotify
 steam
 steam-native-runtime
+strawberry
 sudo
 sxhkd
 sysfsutils
@@ -246,7 +239,6 @@ systemsettings
 tar
 teamviewer
 texinfo
-tigervnc
 tldr
 tmux
 tor
@@ -264,12 +256,10 @@ ttf-material-icons-git
 ttf-nanum
 ufw
 usbutils
-user-manager
 util-linux
 vi
 vlc
 vulkan-radeon
-waybar
 wget
 which
 wireguard-tools
