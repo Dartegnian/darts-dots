@@ -24,6 +24,7 @@ android-sdk-platform-tools
 android-studio
 aom
 appstream
+appstream-glib
 appstream-qt
 archlinux-appstream-data
 archlinux-keyring
@@ -228,6 +229,7 @@ gst-plugins-bad-libs
 gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
+gst-python
 gstreamer
 gtk-update-icon-cache
 gtk-youtube-viewer-git
@@ -620,6 +622,7 @@ libgtop
 libgudev
 libgusb
 libgxps
+libhandy
 libhandy0
 libheif
 libibus
@@ -837,6 +840,7 @@ llvm-libs
 lm_sensors
 lmdb
 logrotate
+lollypop
 lpsolve
 lsb-release
 lshw

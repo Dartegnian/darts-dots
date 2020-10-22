@@ -133,6 +133,7 @@ linux-firmware
 linux-zen
 linux-zen-headers
 logrotate
+lollypop
 lshw
 luit
 lvm2
