@@ -147,7 +147,6 @@ findutils
 firefox
 flac
 flashrom
-flex
 fltk
 fluidsynth
 flutter
@@ -878,7 +877,6 @@ modemmanager
 modemmanager-qt
 mono
 mpc
-mpd
 mpfr
 mpg123
 mplayer
@@ -891,7 +889,6 @@ mypaint-brushes1
 nano
 nautilus
 nautilus-sendto
-ncmpcpp-git
 ncurses
 ndctl
 neofetch
@@ -935,7 +932,6 @@ opera-ffmpeg-codecs
 opus
 opusfile
 orc
-os-prober
 osinfo-db
 otf-font-awesome-5-free
 oxygen

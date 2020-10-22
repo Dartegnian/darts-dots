@@ -51,7 +51,6 @@ file
 filesystem
 findutils
 firefox
-flex
 flutter
 fontviewer
 fwupd
@@ -146,13 +145,11 @@ mdadm
 mesa-vdpau
 milou
 mpc
-mpd
 mplayer
 mpv
 mupdf-gl
 nano
 nautilus
-ncmpcpp-git
 neofetch
 neovim
 netctl
@@ -169,7 +166,6 @@ opencl-nvidia
 openrgb-git
 opera
 opera-ffmpeg-codecs
-os-prober
 otf-font-awesome-5-free
 oxygen
 packagekit-qt5
