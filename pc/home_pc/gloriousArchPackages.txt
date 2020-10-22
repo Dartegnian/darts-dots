@@ -50,7 +50,6 @@ avahi
 babl
 baloo
 baloo-widgets
-bar
 bash
 bc
 bdf-unifont
@@ -113,7 +112,6 @@ dbus-glib
 dconf
 desktop-file-utils
 device-mapper
-devilspie
 dhcpcd
 diffstat
 diffutils
@@ -148,7 +146,6 @@ elfutils
 emacs
 enca
 enchant
-etcher-bin
 exempi
 exfat-utils
 exiv2
@@ -1294,7 +1291,6 @@ qt5-x11extras
 quazip
 quilt
 quodlibet
-rambox-bin
 ranger
 raptor
 rasqal
@@ -1347,7 +1343,6 @@ signon-plugin-oauth2
 signon-ui
 signond
 simple-mtpfs-git
-simple-shutdown-dialog-git
 slang
 smbclient
 smpeg
@@ -1372,7 +1367,6 @@ srt
 startup-notification
 steam
 steam-native-runtime
-strawberry
 sudo
 suitesparse
 svt-hevc
@@ -1408,8 +1402,6 @@ tracker
 tracker-miners
 tracker3
 tracker3-miners
-transmission-cli
-transmission-gtk
 trash-cli
 tslib
 ttf-arphic-uming

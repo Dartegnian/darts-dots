@@ -12,7 +12,6 @@ android-studio
 audio-recorder
 autoconf
 automake
-bar
 bash
 binutils
 bison
@@ -33,7 +32,6 @@ cpod-git
 cryptsetup
 dart
 device-mapper
-devilspie
 dhcpcd
 diffutils
 discord
@@ -45,7 +43,6 @@ drkonqi
 dunst
 e2fsprogs
 efitools
-etcher-bin
 exfat-utils
 fakeroot
 ffmpegthumbs
@@ -210,7 +207,6 @@ python-pylast
 python-wikipedia
 qbittorrent
 quodlibet
-rambox-bin
 ranger
 reiserfsprogs
 rofi
@@ -225,11 +221,9 @@ seahorse
 sed
 shadow
 simple-mtpfs-git
-simple-shutdown-dialog-git
 spectacle
 steam
 steam-native-runtime
-strawberry
 sudo
 sxhkd
 sysfsutils
@@ -243,8 +237,6 @@ tldr
 tmux
 tor
 torbrowser-launcher
-transmission-cli
-transmission-gtk
 trash-cli
 ttf-arphic-uming
 ttf-baekmuk
