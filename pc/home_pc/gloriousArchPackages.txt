@@ -603,7 +603,6 @@ libfreehand
 libftdi
 libgcrypt
 libgcrypt15
-libgdiplus
 libgexiv2
 libgit2
 libglvnd
@@ -617,7 +616,6 @@ libgudev
 libgusb
 libgxps
 libhandy
-libhandy0
 libheif
 libibus
 libical
@@ -870,7 +868,6 @@ mkinitcpio-busybox
 mobile-broadband-provider-info
 modemmanager
 modemmanager-qt
-mono
 mpc
 mpfr
 mpg123
