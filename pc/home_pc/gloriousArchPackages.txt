@@ -38,7 +38,6 @@ atkmm
 attica
 attr
 audio-recorder
-audiofile
 audit
 autoconf
 automake
@@ -76,7 +75,7 @@ cava
 cblas
 cdparanoia
 celt
-chromaprint
+chromaprint-fftw
 cifs-utils
 ckb-next-git
 clang
@@ -148,11 +147,11 @@ findutils
 firefox
 flac
 flashrom
+flite1-patched
 fltk
 fluidsynth
 flutter
 fontconfig
-fontviewer
 frameworkintegration
 freeglut
 freetype2
@@ -321,7 +320,6 @@ kdnssd
 kdoctools
 kdsoap
 kdsoap-ws-discovery-client
-keepass
 keepassxc
 kemoticons
 keyutils
@@ -542,7 +540,6 @@ libabw
 libaccounts-glib
 libaccounts-qt
 libaio
-libao
 libappindicator-gtk3
 libarchive
 libass
@@ -735,7 +732,6 @@ libsasl
 libseccomp
 libsecret
 libshout
-libsidplayfp
 libsigc++
 libsm
 libsmbios
@@ -766,7 +762,6 @@ libudev0-shim
 libunistring
 libunwind
 libupnp
-liburing
 libusb
 libusb-compat
 libusbmuxd
@@ -774,6 +769,7 @@ libutempter
 libuv
 libva
 libva-mesa-driver
+libva-vdpau-driver
 libvdpau
 libvisio
 libvisual
@@ -893,6 +889,7 @@ mypaint-brushes1
 nano
 nautilus
 nautilus-sendto
+ncdu
 ncurses
 ndctl
 neofetch
@@ -936,6 +933,7 @@ opera-ffmpeg-codecs
 opus
 opusfile
 orc
+os-prober
 osinfo-db
 otf-font-awesome-5-free
 oxygen
@@ -960,7 +958,6 @@ perl
 perl-cairo-gobject
 perl-class-inspector
 perl-clone
-perl-cpanel-json-xs
 perl-data-dump
 perl-encode-locale
 perl-error
@@ -1099,7 +1096,6 @@ python-xlib
 python2
 python2-appdirs
 python2-dbus
-python2-numpy
 python2-ordered-set
 python2-packaging
 python2-pyparsing
@@ -1167,7 +1163,6 @@ sdl2_ttf
 sdl_image
 sdl_mixer
 sdl_ttf
-seahorse
 sed
 semver
 serd
@@ -1233,6 +1228,7 @@ totem-pl-parser
 tpm2-tss
 tracker3
 tracker3-miners
+transmission-cli
 trash-cli
 tslib
 ttf-arphic-uming
@@ -1279,7 +1275,6 @@ wpebackend-fdo
 x264
 x265
 xarchiver
-xbitmaps
 xboxdrv
 xcb-proto
 xcb-util
@@ -1307,7 +1302,6 @@ xmlsec
 xorg-bdftopcf
 xorg-docs
 xorg-font-util
-xorg-font-utils
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-alias-100dpi
@@ -1318,7 +1312,6 @@ xorg-mkfontscale
 xorg-server
 xorg-server-common
 xorg-server-devel
-xorg-server-xdmx
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
@@ -1361,7 +1354,6 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xorgproto
-xterm
 xvidcore
 xwinwrap-git
 xxhash
@@ -1385,4 +1377,3 @@ zsh
 zstd
 zvbi
 zxing-cpp
-zziplib

@@ -52,7 +52,6 @@ filesystem
 findutils
 firefox
 flutter
-fontviewer
 fwupd
 gawk
 gcc
@@ -99,7 +98,6 @@ kde-cli-tools
 kde-gtk-config
 kdecoration
 kdegraphics-thumbnailers
-keepass
 keepassxc
 kgamma5
 khotkeys
@@ -151,6 +149,7 @@ mpv
 mupdf-gl
 nano
 nautilus
+ncdu
 neofetch
 neovim
 netctl
@@ -214,7 +213,6 @@ s-nail
 sddm
 sddm-config-editor-git
 sddm-kcm
-seahorse
 sed
 shadow
 simple-mtpfs-git
@@ -273,7 +271,6 @@ xorg-mkfontscale
 xorg-server
 xorg-server-common
 xorg-server-devel
-xorg-server-xdmx
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
@@ -313,7 +310,6 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
-xterm
 xwinwrap-git
 yarn
 yay
