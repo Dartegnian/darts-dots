@@ -115,17 +115,13 @@ kwayland-integration
 kwin
 kwrited
 less
-lib32-libva-mesa-driver
 lib32-mesa
-lib32-mesa-vdpau
 lib32-nvidia-utils
-lib32-vulkan-radeon
 libkscreen
 libksysguard
 libmad
 libreoffice-fresh
 libtool
-libva-mesa-driver
 licenses
 linux-firmware
 linux-zen
@@ -141,7 +137,6 @@ man-db
 man-pages
 mc
 mdadm
-mesa-vdpau
 milou
 mpc
 mplayer
@@ -246,7 +241,6 @@ usbutils
 util-linux
 vi
 vlc
-vulkan-radeon
 wget
 which
 wireguard-tools

@@ -470,7 +470,6 @@ lib32-libunistring
 lib32-libunwind
 lib32-libusb
 lib32-libva
-lib32-libva-mesa-driver
 lib32-libvdpau
 lib32-libvorbis
 lib32-libvpx1.3
@@ -502,7 +501,6 @@ lib32-llvm-libs
 lib32-lm_sensors
 lib32-lz4
 lib32-mesa
-lib32-mesa-vdpau
 lib32-mpg123
 lib32-ncurses
 lib32-nettle
@@ -531,7 +529,6 @@ lib32-systemd
 lib32-tdb
 lib32-util-linux
 lib32-vulkan-icd-loader
-lib32-vulkan-radeon
 lib32-wayland
 lib32-xz
 lib32-zlib
@@ -768,7 +765,6 @@ libusbmuxd
 libutempter
 libuv
 libva
-libva-mesa-driver
 libva-vdpau-driver
 libvdpau
 libvisio
@@ -865,7 +861,6 @@ md4c
 mdadm
 media-player-info
 mesa
-mesa-vdpau
 metis
 milou
 minizip
@@ -1259,7 +1254,6 @@ vlc
 vmaf
 volume_key
 vulkan-icd-loader
-vulkan-radeon
 wavpack
 wayland
 wayland-protocols
