@@ -81,6 +81,8 @@ opacity-rule = [
     "99:name *= 'Android Emulator'",
     "90:name = 'Volume Control'",
     "90:class_g = 'KeePassXC'",
+    "90:class_g = 'Nitrogen'",
+    "80:class_g = 'GitKraken'",
     "90:class_g = 'plasmawindowed'"
 ];
 
