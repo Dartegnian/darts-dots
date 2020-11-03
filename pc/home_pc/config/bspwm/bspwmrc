@@ -56,3 +56,4 @@ cool-retro-term -e gotop &
 #alacritty -e cava &
 
 dunst -conf ~/.config/dunst/dunstrc &
+mullvad-vpn &
