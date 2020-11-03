@@ -259,7 +259,6 @@ hunspell
 hwids
 hwloc
 hyphen
-i3-wm
 iana-etc
 icu
 ijs
@@ -876,6 +875,7 @@ mpv
 msgpack-c
 mtdev
 mujs
+mullvad-vpn-bin
 mupdf-gl
 mypaint-brushes1
 nano
@@ -1142,6 +1142,7 @@ ruby-irb
 ruby-reline
 rubygems
 run-parts
+rust
 s-nail
 sbc
 sddm

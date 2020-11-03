@@ -141,6 +141,7 @@ milou
 mpc
 mplayer
 mpv
+mullvad-vpn-bin
 mupdf-gl
 nano
 nautilus
