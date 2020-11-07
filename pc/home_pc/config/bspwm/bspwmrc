@@ -53,7 +53,7 @@ xdo close -n ckb-next &
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
 sleep 1
 cool-retro-term -e gotop &
-#alacritty -e cava &
+alacritty -e cava &
 
 dunst -conf ~/.config/dunst/dunstrc &
 mullvad-vpn &
