@@ -43,7 +43,6 @@ nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 #killall -q gwe
 
 # Misc. applications
-#plasmawindowed org.kde.plasma.mediacontroller &
 ckb-next &
 #openrgb &
 sleep 1
@@ -53,7 +52,9 @@ xdo close -n ckb-next &
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
 sleep 1
 cool-retro-term -e gotop &
+sleep 2
 alacritty -e cava &
+plasmawindowed org.kde.plasma.mediacontroller &
 
 dunst -conf ~/.config/dunst/dunstrc &
 mullvad-vpn &
