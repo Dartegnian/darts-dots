@@ -15,10 +15,12 @@ automake
 bash
 binutils
 bison
+bleachbit
 bluedevil
 brave-bin
 breeze
 breeze-gtk
+browsh-bin
 bspwm
 bzip2
 cava
@@ -28,6 +30,7 @@ composer
 compton-tryone-git
 cool-retro-term
 coreutils
+cowsay
 cpod-git
 cryptsetup
 dart
@@ -135,11 +138,9 @@ m4
 make
 man-db
 man-pages
-mc
 mdadm
 milou
 mpc
-mplayer
 mpv
 mullvad-vpn-bin
 mupdf-gl
@@ -244,6 +245,8 @@ vi
 vlc
 wget
 which
+wine
+winetricks
 wireguard-tools
 xarchiver
 xboxdrv

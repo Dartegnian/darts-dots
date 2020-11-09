@@ -49,6 +49,7 @@ bash
 binutils
 bison
 blas
+bleachbit
 bluedevil
 bluez
 bluez-libs
@@ -59,6 +60,7 @@ breeze
 breeze-gtk
 breeze-icons
 brotli
+browsh-bin
 bspwm
 btrfs-progs
 bubblewrap
@@ -67,6 +69,7 @@ c-ares
 ca-certificates
 ca-certificates-mozilla
 ca-certificates-utils
+cabextract
 cairo
 cairo-perl
 cairomm
@@ -89,6 +92,7 @@ confuse
 convertlit
 cool-retro-term
 coreutils
+cowsay
 cpod-git
 cracklib
 cryptsetup
@@ -137,6 +141,7 @@ expat
 faac
 faad2
 fakeroot
+faudio
 ffmpeg
 ffmpegthumbs
 fftw
@@ -385,6 +390,7 @@ ldns
 lensfun
 less
 lhasa
+lib32-acl
 lib32-alsa-lib
 lib32-alsa-plugins
 lib32-atk
@@ -396,6 +402,7 @@ lib32-dbus
 lib32-dbus-glib
 lib32-e2fsprogs
 lib32-expat
+lib32-faudio
 lib32-flac
 lib32-fontconfig
 lib32-freeglut
@@ -403,6 +410,7 @@ lib32-freetype2
 lib32-fribidi
 lib32-gcc-libs
 lib32-gdk-pixbuf2
+lib32-gettext
 lib32-giflib
 lib32-glew1.10
 lib32-glib2
@@ -416,6 +424,7 @@ lib32-icu
 lib32-imlib2
 lib32-keyutils
 lib32-krb5
+lib32-lcms2
 lib32-libappindicator-gtk2
 lib32-libasyncns
 lib32-libcaca
@@ -446,9 +455,11 @@ lib32-libldap
 lib32-libltdl
 lib32-libmikmod
 lib32-libmodplug
+lib32-libnl
 lib32-libnm-glib
 lib32-libnsl
 lib32-libogg
+lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
 lib32-libpng12
@@ -853,7 +864,6 @@ man-pages
 mariadb-clients
 mariadb-libs
 mbedtls
-mc
 md4c
 mdadm
 media-player-info
@@ -870,7 +880,6 @@ modemmanager-qt
 mpc
 mpfr
 mpg123
-mplayer
 mpv
 msgpack-c
 mtdev
@@ -1027,6 +1036,7 @@ pulseaudio-alsa
 purpose
 python
 python-appdirs
+python-argcomplete
 python-beaker
 python-beautifulsoup4
 python-cachecontrol
@@ -1260,6 +1270,8 @@ webrtc-audio-processing
 wget
 which
 wildmidi
+wine
+winetricks
 wireguard-tools
 woff2
 wpa_supplicant
