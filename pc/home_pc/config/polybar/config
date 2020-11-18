@@ -446,7 +446,7 @@ content = "  "
 content-foreground = ${colors.foreground-icon}
 
 click-left = firefox &
-click-right = firefox-developer-edition &
+click-right = firefox --private-window &
 
 [module/chrome]
 type = custom/text
@@ -454,9 +454,8 @@ type = custom/text
 content = "   "
 content-foreground = ${colors.foreground-icon}
 
-click-left = firefox -url https://google.com &
-click-middle = google-chrome-unstable &
-click-right = google-chrome-beta &
+click-left = google-chrome-beta &
+click-right = google-chrome-unstable &
 
 [module/edge]
 type = custom/text
@@ -473,8 +472,8 @@ content = "   "
 content-foreground = ${colors.foreground-icon}
 
 click-left = opera "https://www.youtube.com" &
-click-middle = opera "https://www.youtube.com/playlist?list=PLMBv7J0cbV5z2MnH5OY0FfdOhQc2DW3WV" &
-click-right = opera "https://www.youtube.com/feed/subscriptions" &
+click-middle = opera "https://www.youtube.com/feed/subscriptions" &
+click-right = opera "https://www.youtube.com/playlist?list=PLMBv7J0cbV5z2MnH5OY0FfdOhQc2DW3WV" &
 
 [module/twitter]
 type = custom/text
@@ -483,6 +482,7 @@ content = "   "
 content-foreground = ${colors.foreground-icon}
 
 click-left = firefox "https://twitter.com/home" &
+click-right = opera "https://twitter.com/home" &
 
 [module/audio]
 type = custom/text
@@ -490,7 +490,8 @@ type = custom/text
 content = "    | "
 content-foreground = ${colors.foreground-icon}
 
-click-left = WINEPREFIX=/home/dartegnian/.config/WinePrefix/.WineBee wine /home/dartegnian/.config/WinePrefix/.WineBee/drive_c/Program\ Files/MusicBee/MusicBee.exe &
+; click-left = WINEPREFIX=/home/dartegnian/.config/WinePrefix/.WineBee wine /home/dartegnian/.config/WinePrefix/.WineBee/drive_c/Program\ Files/MusicBee/MusicBee.exe &
+click-left = lollypop &
 click-middle = cpod &
 click-right = pavucontrol &
 
