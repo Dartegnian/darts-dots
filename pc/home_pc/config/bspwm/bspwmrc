@@ -1,10 +1,13 @@
 #! /bin/sh
 
+# Wallpaper
 nitrogen --restore &
 
+# Hotkeys + keyboard shortcuts
 sxhkd &
 
-# Bspwm
+# ==> START bspwm rules
+
 bspc monitor -d I II III IV V VI VII VIII IX X
 
 bspc config border_width         0
@@ -22,9 +25,11 @@ bspc rule -a QuodLibet desktop='^6'
 bspc rule -a plasmawindowed desktop-'^6'
 bspc rule -a Pavucontrol desktop='^6'
 
+# other apps on defined desktops
 bspc rule -a Opera desktop='^5'
-
 bspc rule -a Gwe desktop='^7' follow=off focus=off
+
+# ==> END bspwm rules
 
 # Compton
 killall -q compton
@@ -37,17 +42,21 @@ $HOME/.config/polybar/polybar.sh &
 nvidia-settings --load-config-only
 nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 
-# Misc. applications
+# Set RGB lights
 ckb-next &
-sleep 1
 xdo close -n ckb-next &
 
+# Startup programs on desktop 1
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
 sleep 1
 cool-retro-term -e gotop &
-sleep 2
+sleep 1
 alacritty -e cava &
 plasmawindowed org.kde.plasma.mediacontroller &
 
+# Notifications
 dunst -conf ~/.config/dunst/dunstrc &
+
+# VPN
 mullvad-vpn &
+
