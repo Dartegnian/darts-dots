@@ -274,6 +274,7 @@ iniparser
 intel-gmmlib
 intel-media-driver
 intel-media-sdk
+intltool
 iproute2
 iptables
 iputils
@@ -861,6 +862,7 @@ mailcap
 make
 man-db
 man-pages
+mariadb
 mariadb-clients
 mariadb-libs
 mbedtls

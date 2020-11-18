@@ -138,6 +138,7 @@ m4
 make
 man-db
 man-pages
+mariadb
 mdadm
 milou
 mpc
