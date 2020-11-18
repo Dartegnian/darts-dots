@@ -44,13 +44,14 @@ nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 
 # Set RGB lights
 ckb-next &
+sleep 0.5
 xdo close -n ckb-next &
 
 # Startup programs on desktop 1
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
-sleep 1
+sleep 0.3
 cool-retro-term -e gotop &
-sleep 1
+sleep 0.3
 alacritty -e cava &
 plasmawindowed org.kde.plasma.mediacontroller &
 
