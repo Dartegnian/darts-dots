@@ -2,8 +2,6 @@
 
 nitrogen --restore &
 
-#wal -i $HOME/Pictures/Wallpapers/tokyolovestory.png &
-#feh --bg-fill $HOME/Pictures/Wallpapers/darktokyo.jpg &
 sxhkd &
 
 # Bspwm
@@ -38,16 +36,11 @@ $HOME/.config/polybar/polybar.sh &
 # Nvidia
 nvidia-settings --load-config-only
 nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
-#gwe --hide-window &
-#sleep 5
-#killall -q gwe
 
 # Misc. applications
 ckb-next &
-#openrgb &
 sleep 1
 xdo close -n ckb-next &
-#xdo close -n openrgb &
 
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
 sleep 1
