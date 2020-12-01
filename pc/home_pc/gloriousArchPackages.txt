@@ -909,6 +909,7 @@ node-gyp
 nodejs
 nomacs
 noto-fonts
+noto-fonts-cjk
 npm
 npth
 nspr

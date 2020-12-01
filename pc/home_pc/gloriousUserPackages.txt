@@ -156,6 +156,7 @@ nginx-mainline
 nitrogen
 nomacs
 noto-fonts
+noto-fonts-cjk
 ntfs-3g
 ntp
 nvidia-dkms
