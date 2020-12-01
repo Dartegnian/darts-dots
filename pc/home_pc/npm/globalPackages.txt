@@ -1,6 +1,6 @@
 @angular/cli
-@vue/cli-service-global
 @vue/cli
+@vue/cli-service-global
 create-react-app
 lint-staged
 npm

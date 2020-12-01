@@ -143,7 +143,7 @@ mdadm
 milou
 mpc
 mpv
-mullvad-vpn-bin
+mullvad-vpn
 mupdf-gl
 nano
 nautilus

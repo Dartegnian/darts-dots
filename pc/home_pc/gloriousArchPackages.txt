@@ -522,6 +522,7 @@ lib32-openal
 lib32-openssl
 lib32-openssl-1.0
 lib32-p11-kit
+lib32-pam
 lib32-pango
 lib32-pcre
 lib32-pixman
@@ -886,7 +887,7 @@ mpv
 msgpack-c
 mtdev
 mujs
-mullvad-vpn-bin
+mullvad-vpn
 mupdf-gl
 mypaint-brushes1
 nano
@@ -1039,13 +1040,16 @@ purpose
 python
 python-appdirs
 python-argcomplete
+python-asn1crypto
 python-beaker
 python-beautifulsoup4
 python-cachecontrol
 python-cairo
+python-cffi
 python-chardet
 python-colorama
 python-contextlib2
+python-cryptography
 python-cycler
 python-dateutil
 python-dbus-common
@@ -1072,10 +1076,13 @@ python-peewee
 python-pep517
 python-pillow
 python-pip
+python-ply
 python-powerline
 python-progress
 python-py3nvml
+python-pycparser
 python-pylast
+python-pyopenssl
 python-pyparsing
 python-pyqt5
 python-pyqt5-sip
