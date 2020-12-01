@@ -1052,6 +1052,7 @@ python-contextlib2
 python-cryptography
 python-cycler
 python-dateutil
+python-dbus
 python-dbus-common
 python-distlib
 python-distro

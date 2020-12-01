@@ -196,6 +196,7 @@ powerline-fonts-git
 procps-ng
 psmisc
 pulseaudio
+python-dbus
 python-pip
 python-pylast
 python-wikipedia
