@@ -102,14 +102,14 @@ tray-scale = 1.0
 ;                               Fonts
 ;===================================================================
 
-font-0 = Noto Sans:size=9;2
+font-0 = Noto Sans CJK TC:size=9;2
 font-1 = FontAwesome:pixelsize=10;2
 font-2 = Font Awesome 5 Free Solid:pixelsize=10;2
 font-3 = Font Awesome 5 Free:pixelsize=10;2
 font-4 = Font Awesome 5 Brands:pixelsize=10;2
 font-5 = Material Icons:pixelsize=12;3
-font-6 = Noto Serif:size=9;2
-font-7 = Noto Serif:bold:size=9;2
+font-6 = Noto Sans CJK TC:size=9;2
+font-7 = Noto Sans CJK TC:bold:size=9;2
 
 
 ;===================================================================
