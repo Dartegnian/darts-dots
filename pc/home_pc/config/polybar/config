@@ -120,7 +120,7 @@ font-7 = Noto Serif:bold:size=9;2
 ;modules-right = upload download cpu mem fs pulseaudio date code terminal git firefox chrome tinder youtube twitter netflix powermenu
 
 modules-left = bspwm 
-modules-center = download cpu mem date fs pulseaudio upload
+modules-center = download cpu mem player-mpris-tail date pulseaudio upload
 modules-right = code terminal git firefox chrome edge youtube twitter audio minimize maximize close powermenu
 
 
@@ -309,8 +309,8 @@ interval = 1
 
 label-foreground = #FFFFFF
 label = %date%
-date = "    %I:%M %p"
-date-alt = "    %A, %d %B, %Y     %I:%M:%S %p"
+date = "   %I:%M %p "
+date-alt = "    %A, %d %B, %Y     %I:%M:%S %p "
 
 
 ;===================================================================
@@ -524,8 +524,7 @@ click-right = bspc node -k &
 
 [module/player-mpris-tail]
 type = custom/script
-exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py -f '{icon} {artist} - {title}'
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py -f '  |   {icon}  {artist} - {title}   | ' --icon-playing "" --icon-paused "" --icon-stopped "|    Music stopped  |"
 tail = true
-click-left = ~/polybar-scripts/player-mpris-tail.py previous &
-click-right = ~/polybar-scripts/player-mpris-tail.py next &
-click-middle = ~/polybar-scripts/player-mpris-tail.py play-pause &
+click-left = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py play-pause &
+click-right = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py stop &
