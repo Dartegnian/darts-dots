@@ -120,7 +120,7 @@ font-7 = Noto Serif:bold:size=9;2
 ;modules-right = upload download cpu mem fs pulseaudio date code terminal git firefox chrome tinder youtube twitter netflix powermenu
 
 modules-left = bspwm 
-modules-center = download cpu mem player-mpris-tail date pulseaudio upload
+modules-center = download cpu mem now-playing date pulseaudio upload
 modules-right = code terminal git firefox chrome edge youtube twitter audio minimize maximize close powermenu
 
 
@@ -522,7 +522,10 @@ content-foreground = ${colors.foreground-icon}
 click-left = bspc node -c &
 click-right = bspc node -k &
 
-[module/player-mpris-tail]
+;===================================================================
+;                             Now Playimg
+;===================================================================
+[module/now-playing]
 type = custom/script
 exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py -f '  |   {icon}  {artist} - {title}   | ' --icon-playing "" --icon-paused "" --icon-stopped "|    Music stopped  |"
 tail = true
