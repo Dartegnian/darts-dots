@@ -187,6 +187,7 @@ plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
 plasma5-applets-playbar2
+playerctl
 polkit-kde-agent
 polybar-git
 popcorntime-bin

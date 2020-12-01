@@ -1014,6 +1014,7 @@ plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
 plasma5-applets-playbar2
+playerctl
 polkit
 polkit-kde-agent
 polkit-qt5
