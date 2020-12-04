@@ -61,6 +61,7 @@ brave-bin
 breeze
 breeze-gtk
 breeze-icons
+brltty
 brotli
 browsh-bin
 bspwm
@@ -85,6 +86,7 @@ cifs-utils
 ckb-next-git
 clang
 clucene
+cmake
 code
 colord
 compiler-rt
@@ -150,6 +152,7 @@ fftw
 figlet
 file
 filesystem
+filezilla
 findutils
 firefox
 flac
@@ -238,6 +241,7 @@ gst-plugins-good
 gst-python
 gstreamer
 gtk-update-icon-cache
+gtk-vnc
 gtk-youtube-viewer-git
 gtk2
 gtk3
@@ -266,6 +270,7 @@ hunspell
 hwids
 hwloc
 hyphen
+i3-wm
 iana-etc
 icu
 ijs
@@ -362,6 +367,7 @@ kpimtextedit
 kpty
 kquickcharts
 krb5
+krdc
 krunner
 kscreen
 kscreenlocker
@@ -566,6 +572,7 @@ libbs2b
 libbsd
 libbytesize
 libcaca
+libcacard
 libcanberra
 libcanberra-pulse
 libcap
@@ -612,6 +619,7 @@ libexif
 libexttextcat
 libfdk-aac
 libffi
+libfilezilla
 libfontenc
 libfreehand
 libftdi
@@ -660,6 +668,7 @@ libkscreen
 libksysguard
 liblangtag
 libldap
+liblouis
 liblqr
 liblrdf
 libluv
@@ -742,12 +751,14 @@ libseccomp
 libsecret
 libshout
 libsigc++
+libslirp
 libsm
 libsmbios
 libsndfile
 libsodium
 libsoup
 libsoxr
+libspeechd
 libspiro
 libsrtp
 libssh
@@ -771,6 +782,7 @@ libudev0-shim
 libunistring
 libunwind
 libupnp
+liburing
 libusb
 libusb-compat
 libusbmuxd
@@ -781,6 +793,7 @@ libva-vdpau-driver
 libvdpau
 libvisio
 libvisual
+libvncserver
 libvoikko
 libvorbis
 libvpx
@@ -997,6 +1010,7 @@ perl-www-robotrules
 perl-x11-protocol
 perl-xml-parser
 perl-xml-twig
+phodav
 phonon-qt5
 phonon-qt5-gstreamer
 php
@@ -1045,6 +1059,7 @@ python
 python-appdirs
 python-argcomplete
 python-asn1crypto
+python-babel
 python-beaker
 python-beautifulsoup4
 python-cachecontrol
@@ -1060,12 +1075,15 @@ python-dbus
 python-dbus-common
 python-distlib
 python-distro
+python-docutils
 python-feedparser
 python-gobject
 python-gpgme
 python-html5lib
 python-idna
+python-imagesize
 python-injector
+python-jinja
 python-kiwisolver
 python-lockfile
 python-mako
@@ -1086,12 +1104,14 @@ python-powerline
 python-progress
 python-py3nvml
 python-pycparser
+python-pygments
 python-pylast
 python-pyopenssl
 python-pyparsing
 python-pyqt5
 python-pyqt5-sip
 python-pysocks
+python-pytz
 python-pyxdg
 python-requests
 python-resolvelib
@@ -1101,7 +1121,16 @@ python-senf
 python-setuptools
 python-sgmllib
 python-six
+python-snowballstemmer
 python-soupsieve
+python-sphinx
+python-sphinx-alabaster-theme
+python-sphinxcontrib-applehelp
+python-sphinxcontrib-devhelp
+python-sphinxcontrib-htmlhelp
+python-sphinxcontrib-jsmath
+python-sphinxcontrib-qthelp
+python-sphinxcontrib-serializinghtml
 python-termcolor
 python-toml
 python-typing_extensions
@@ -1141,6 +1170,7 @@ qt5-webchannel
 qt5-webengine
 qt5-webkit
 qt5-x11extras
+qtermwidget
 quazip
 quodlibet
 ranger
@@ -1153,6 +1183,7 @@ recode
 redland
 reiserfsprogs
 rest
+rhash
 ripgrep
 rofi
 rofi-dmenu
@@ -1169,6 +1200,7 @@ run-parts
 rust
 s-nail
 sbc
+scrub
 sddm
 sddm-config-editor-git
 sddm-kcm
@@ -1180,6 +1212,7 @@ sdl2_ttf
 sdl_image
 sdl_mixer
 sdl_ttf
+seabios
 sed
 semver
 serd
@@ -1207,6 +1240,9 @@ spandsp
 spectacle
 speex
 speexdsp
+spice
+spice-gtk
+spice-protocol
 spirv-tools
 sqlite
 sratom
@@ -1237,6 +1273,7 @@ texinfo
 thin-provisioning-tools
 threadweaver
 tk
+tlauncher
 tldr
 tmux
 tor
@@ -1265,16 +1302,21 @@ unibilium
 unzip
 upower
 usbmuxd
+usbredir
 usbutils
 util-linux
 util-linux-libs
 v4l-utils
 vamp-plugin-sdk
+vde2
 vi
 vid.stab
+virglrenderer
 vlc
 vmaf
 volume_key
+vte-common
+vte3
 vulkan-icd-loader
 wavpack
 wayland
@@ -1290,6 +1332,8 @@ wireguard-tools
 woff2
 wpa_supplicant
 wpebackend-fdo
+wxgtk-common
+wxgtk3
 x264
 x265
 xarchiver

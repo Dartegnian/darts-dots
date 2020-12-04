@@ -54,6 +54,7 @@ ffmpegthumbs
 figlet
 file
 filesystem
+filezilla
 findutils
 firefox
 flutter
@@ -231,6 +232,7 @@ systemsettings
 tar
 teamviewer
 texinfo
+tlauncher
 tldr
 tmux
 tor
