@@ -527,7 +527,7 @@ click-right = bspc node -k &
 ;===================================================================
 [module/now-playing]
 type = custom/script
-exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py -f '  |   {icon}  {artist} - {title}   | ' --icon-playing "" --icon-paused "" --icon-stopped "|    Music stopped  |"
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py -f '  |   {icon}  {artist} - {title}   | ' --icon-playing "" --icon-paused "" --icon-stopped "  |    Music stopped  | "
 tail = true
 click-left = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py play-pause &
 click-right = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py stop &
