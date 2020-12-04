@@ -111,6 +111,8 @@ alias backup="~/SYGtech/git_gtech/darts-dots/backup.sh"
 alias wg-restart="sudo wg-quick down wg0 && sudo wg-quick up wg0"
 alias polybar-start="$HOME/.config/polybar/polybar.sh &"
 alias pulseaudio-restart="pulseaudio -k && pulseaudio --start"
+alias kill-compton="killall -q compton"
+alias start-compton="compton --config $HOME/.config/compton/config &"
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
