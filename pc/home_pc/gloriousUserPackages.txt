@@ -13,6 +13,8 @@ audio-recorder
 autoconf
 automake
 bash
+betterdiscord
+betterdiscordctl-git
 binutils
 bison
 bleachbit

@@ -46,6 +46,8 @@ babl
 baloo
 baloo-widgets
 bash
+betterdiscord
+betterdiscordctl-git
 binutils
 bison
 blas
