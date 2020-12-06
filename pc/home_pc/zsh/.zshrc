@@ -100,7 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias outatime="watch -t -n1 'date +%T|figlet -f ANSI\ Shadow.flf'"
 alias bruh="figlet 'BRUH MOMENT' -f ANSI\ Shadow.flf"
-alias yeet="npm update -g && cd ~/.oh-my-zsh && git pull --ff-only &&  yay -Syu --noconfirm"
 alias c="clear"
 alias ver="{ uname -n; uname -o; uname -r; printf '\n\n' } | tr '\n' ' ' && echo ''"
 alias dir="ls -la"
@@ -108,11 +107,11 @@ alias n="nano"
 alias v="nvim"
 alias update="~/SYGtech/git_gtech/darts-dots/update.sh"
 alias backup="~/SYGtech/git_gtech/darts-dots/backup.sh"
-alias wg-restart="sudo wg-quick down wg0 && sudo wg-quick up wg0"
 alias polybar-start="$HOME/.config/polybar/polybar.sh &"
 alias pulseaudio-restart="pulseaudio -k && pulseaudio --start"
-alias kill-compton="killall -q compton"
-alias start-compton="compton --config $HOME/.config/compton/config &"
+alias k-c="killall -q compton"
+alias s-c="compton --config $HOME/.config/compton/config &"
+alias r-c="killall -q compton && compton --config $HOME/.config/compton/config &"
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
