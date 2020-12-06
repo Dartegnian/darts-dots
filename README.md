@@ -42,6 +42,12 @@ The pie of the [devil](https://en.wikipedia.org/wiki/Daemon_(computing)). Used t
 ### i3
 [I don't care](https://www.youtube.com/watch?v=zdZya6yATn0). Moved to `bspwm` anyway.
 
+### GRUB
+Config for the thing that makes my computer turn on. My [`rEFInd`](https://wiki.archlinux.org/index.php/rEFInd) installation died for this because I moved to a LUKS setup. Rest in peace my beautiful, sleek, boot menu.
+
+### Mkinitcpio/Mkinitpcio
+`mkinitcpio` or `mkinitpcio`? Idk, I always get those two mixed up and only one of them is correct. Lucky for you, the answer is the *latter*. Or is it? Idk tbh.
+
 ### MPD
 The [magnetoplasmadynamic thruster](https://en.wikipedia.org/wiki/Magnetoplasmadynamic_thruster). [Doesn't want to work anyway](https://www.merriam-webster.com/dictionary/trash). Config files to be stored as a "just in case."
 
