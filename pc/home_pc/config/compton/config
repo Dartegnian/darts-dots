@@ -21,7 +21,7 @@ no-dock-shadow = true;
 # Zero the part of the shadow's mask behind the window. Fix some weirdness with ARGB windows.
 clear-shadow = true;
 # The blur radius for shadows. (default 12)
-shadow-radius = 4;
+shadow-radius = 7;
 # The left offset for shadows. (default -15)
 shadow-offset-x = 3;
 # The top offset for shadows. (default -15)
@@ -84,7 +84,10 @@ opacity-rule = [
     "90:class_g = 'KeePassXC'",
     "90:class_g = 'Nitrogen'",
     "90:class_g = 'GitKraken'",
-    "90:class_g = 'plasmawindowed'"
+    "90:class_g = 'plasmawindowed'",
+    "90:class_g = 'Steam'",
+    "90:class_g = 'Lutris'",
+    "99:name *= 'Minecraft'"
 ];
 
 #################################
