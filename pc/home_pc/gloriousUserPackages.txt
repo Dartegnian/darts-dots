@@ -68,7 +68,6 @@ gimp
 git
 gitkraken
 glibc
-glxinfo
 gnome-disk-utility
 gnome-font-viewer
 gnome-system-monitor
@@ -136,6 +135,7 @@ logrotate
 lollypop
 lshw
 luit
+lutris
 lvm2
 m4
 make
@@ -160,12 +160,13 @@ nitrogen
 nomacs
 noto-fonts
 noto-fonts-cjk
+noto-fonts-emoji
 ntfs-3g
 ntp
 nvidia-dkms
 nvidia-settings
 opencl-nvidia
-openrgb-git
+openrgb
 opera
 opera-ffmpeg-codecs
 otf-font-awesome-5-free
@@ -246,6 +247,7 @@ ttf-font-awesome
 ttf-liberation
 ttf-material-icons-git
 ttf-nanum
+ttf-symbola
 ufw
 usbutils
 util-linux
