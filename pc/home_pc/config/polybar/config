@@ -397,13 +397,13 @@ menu-0-2-exec = bspc quit
 ; Git - Open Git client | Pull/Update Oh My Zsh
 ;
 ; Firefox - Open Firefox | Open Firefox (Developer Edition)
-; Chrome - Open Google Chrome | Open Google Chrome Beta | Open Google Chrome Dev
-; Edge - Open Tinder PWA | Browse Netflix | View Facebook Messenger (web)
+; Chrome - Open Google Chrome Beta | Open Google Chrome Dev
+; IE - Open Tor
 ; YouTube - Browse Youtube | Open "Hot Muzik" playlist | Check YouTube subscriptions
-; Audio - Open Lollypop | Control PulseAudio volume | Start CPod
+; Audio - Open Lollypop | Start CPod | Control PulseAudio volume
 ; 
 ; Minimize - Shrink current window from the bottom | Shrink current window from the top
-; Maximize - Toggle monocle layout on Bspwm
+; Maximize - Toggle floating and tiled window on Bspwm
 ; Close - Close window | Kill window's main process
 
 
