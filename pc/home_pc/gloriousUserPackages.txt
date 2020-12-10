@@ -177,6 +177,7 @@ pacutils
 patch
 pavucontrol
 pciutils
+peazip-gtk2-bin
 perl
 php
 php-fpm
@@ -218,6 +219,7 @@ s-nail
 sddm
 sddm-config-editor-git
 sddm-kcm
+seahorse
 sed
 shadow
 simple-mtpfs-git

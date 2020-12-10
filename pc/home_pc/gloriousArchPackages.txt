@@ -983,6 +983,7 @@ pavucontrol
 pciutils
 pcre
 pcre2
+peazip-gtk2-bin
 perl
 perl-cairo-gobject
 perl-class-inspector
@@ -1225,6 +1226,7 @@ sdl_image
 sdl_mixer
 sdl_ttf
 seabios
+seahorse
 sed
 semver
 serd
