@@ -508,10 +508,11 @@ click-right = bspc node -z top 0 200 &
 [module/maximize]
 type = custom/text
 
-content = "   "
+content = "   "
 content-foreground = ${colors.foreground-icon}
 
-click-left = bspc desktop -l next &
+click-left = bspc node -t tiled
+click-right = bspc node -t floating
 
 [module/close]
 type = custom/text
