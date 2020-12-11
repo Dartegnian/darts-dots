@@ -310,7 +310,7 @@ interval = 1
 label-foreground = #FFFFFF
 label = %date%
 date = "   %I:%M %p "
-date-alt = "    %A, %d %B, %Y     %I:%M:%S %p "
+date-alt = "   %A, %d %B, %Y     %I:%M:%S %p "
 
 
 ;===================================================================
@@ -507,7 +507,7 @@ click-left = bspc node -g sticky
 [module/maximize]
 type = custom/text
 
-content = "   "
+content = "    "
 content-foreground = ${colors.foreground-icon}
 
 click-left = bspc node -t tiled
@@ -516,7 +516,7 @@ click-right = bspc node -t floating
 [module/close]
 type = custom/text
 
-content = "  | "
+content = "   | "
 content-foreground = ${colors.foreground-icon}
 
 click-left = bspc node -c &
@@ -525,9 +525,10 @@ click-right = bspc node -k &
 ;===================================================================
 ;                             Now Playimg
 ;===================================================================
+
 [module/now-playing]
 type = custom/script
-exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py -f '  |   {icon}  {artist} - {title}   | ' --icon-playing "" --icon-paused "" --icon-stopped "  |    Music stopped  | "
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py -f '  |   {icon}  {artist} - {title}   | ' --icon-playing "" --icon-paused "" --icon-stopped "  |     Music stopped   | "
 tail = true
 click-left = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py play-pause &
 click-right = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py stop &

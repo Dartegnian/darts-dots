@@ -317,6 +317,7 @@ kcharselect
 kcm-wacomtablet
 kcmutils
 kcodecs
+kcolorpicker
 kcompletion
 kconfig
 kconfigwidgets
@@ -347,6 +348,7 @@ khotkeys
 ki18n
 kiconthemes
 kidletime
+kimageannotator
 kinfocenter
 kinit
 kio
