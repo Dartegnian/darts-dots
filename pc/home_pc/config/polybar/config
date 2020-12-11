@@ -121,7 +121,7 @@ font-7 = Noto Sans CJK TC:bold:size=9;2
 
 modules-left = bspwm 
 modules-center = download cpu mem now-playing date pulseaudio upload
-modules-right = code terminal git firefox chrome edge youtube twitter audio maximize close powermenu
+modules-right = code terminal git firefox chrome edge youtube twitter audio pin maximize close powermenu
 
 
 ;===================================================================
@@ -496,14 +496,13 @@ click-middle = cpod &
 click-right = pavucontrol &
 
 
-[module/minimize]
+[module/pin]
 type = custom/text
 
-content = " "
+content = "  "
 content-foreground = ${colors.foreground-icon}
 
-click-left = bspc node -z bottom 0 -200 &
-click-right = bspc node -z top 0 200 &
+click-left = bspc node -g sticky
 
 [module/maximize]
 type = custom/text
