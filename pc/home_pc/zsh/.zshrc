@@ -136,3 +136,6 @@ export NVM_DIR="$HOME/.nvm"
 # Android
 export ANDROID_SDK_ROOT='/opt/android-sdk'
 export PUB_CACHE=$HOME/.pub-cache
+
+~/SYGtech/git_gtech/-nix-shell-scripts/update_motd.sh > /etc/motd
+cat /etc/motd
