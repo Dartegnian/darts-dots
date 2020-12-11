@@ -12,12 +12,6 @@ I made this repo in response to my entire Arch partition ([the best](https://en.
 
 ## What's inside
 
-### Backup script
-State-of-the-art, performant, Excel-spreadsheet-driven script to backup all my precious dotfiles without the need for me to manually transfer the configuration scripts to The Cloud™.
-
-### Update script
-Thingamajig that updates your Linux and all the penguins inside. Written by me, for me, and probably only used by me. I'm trying my best in writing a shell script, okay? Hmph.
-
 ### Arch Linux Fricked-up Assessment Form
 For use in printing whenever I "frick" (gotta use family-friendly terms here) up my Arch Linux installation. I only fricked-up once (so far), thankfully.
 
