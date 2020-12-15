@@ -274,6 +274,7 @@ hunspell
 hwids
 hwloc
 hyphen
+i3-wm
 iana-etc
 icu
 ijs
@@ -980,6 +981,7 @@ pango
 pangomm
 paq8o
 parted
+paru-bin
 patch
 pavucontrol
 pciutils
@@ -1346,6 +1348,8 @@ wget
 which
 wildmidi
 wine
+wine-gecko
+wine-mono
 winetricks
 wireguard-tools
 woff2
@@ -1396,7 +1400,6 @@ xorg-server-devel
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
-xorg-server-xwayland
 xorg-sessreg
 xorg-setxkbmap
 xorg-smproxy
@@ -1431,6 +1434,7 @@ xorg-xrefresh
 xorg-xset
 xorg-xsetroot
 xorg-xvinfo
+xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
@@ -1442,7 +1446,6 @@ xz
 yajl
 yarn
 yasm
-yay
 youtube-dl
 yubico-c
 yubico-c-client
