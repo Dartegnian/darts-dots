@@ -29,6 +29,9 @@ bspc rule -a Pavucontrol desktop='^6'
 bspc rule -a Opera desktop='^5'
 bspc rule -a Gwe desktop='^7' follow=off focus=off
 
+# floating apps
+bspc rule -a ru-turikhay-tlauncher-bootstrap-Bootstrap state=floating
+
 # ==> END bspwm rules
 
 # Compton
