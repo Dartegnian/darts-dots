@@ -165,6 +165,7 @@ ntfs-3g
 ntp
 nvidia-dkms
 nvidia-settings
+obs-studio
 opencl-nvidia
 openrgb
 opera

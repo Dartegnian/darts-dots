@@ -121,7 +121,7 @@ font-7 = Noto Sans CJK TC:bold:size=9;2
 
 modules-left = bspwm 
 modules-center = download cpu mem now-playing date pulseaudio upload
-modules-right = code terminal git firefox chrome edge youtube twitter audio pin maximize close powermenu
+modules-right = code terminal git firefox chrome edge youtube twitter gaming audio pin maximize close powermenu
 
 
 ;===================================================================
@@ -483,6 +483,15 @@ content-foreground = ${colors.foreground-icon}
 
 click-left = firefox "https://twitter.com/home" &
 click-right = opera "https://twitter.com/home" &
+
+[module/gaming]
+type = custom/text
+
+content = "   "
+content-foreground = ${colors.foreground-icon}
+
+click-left = lutris &
+click-right = steam-native &
 
 [module/audio]
 type = custom/text

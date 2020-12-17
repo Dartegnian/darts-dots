@@ -674,6 +674,7 @@ libksba
 libkscreen
 libksysguard
 liblangtag
+libldac
 libldap
 liblouis
 liblqr
@@ -719,6 +720,7 @@ libodfgen
 libofa
 libogg
 libomxil-bellagio
+libopenaptx
 liborcus
 libosinfo
 libp11-kit
@@ -946,6 +948,7 @@ numactl
 nvidia-dkms
 nvidia-settings
 nvidia-utils
+obs-studio
 oniguruma
 openal
 opencl-nvidia
