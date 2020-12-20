@@ -13,6 +13,7 @@ audio-recorder
 autoconf
 automake
 bash
+bc
 betterdiscord
 betterdiscordctl-git
 binutils
@@ -116,7 +117,6 @@ ksshaskpass
 ksysguard
 kvantum-qt5
 kwallet-pam
-kwayland-integration
 kwin
 kwrited
 less
@@ -210,7 +210,7 @@ python-pip
 python-pylast
 python-wikipedia
 qbittorrent
-quodlibet
+qcma
 ranger
 reiserfsprogs
 rofi
@@ -238,11 +238,9 @@ tar
 teamviewer
 texinfo
 tlauncher
-tldr
 tmux
 tor
 torbrowser-launcher
-trash-cli
 ttf-arphic-uming
 ttf-baekmuk
 ttf-dejavu
@@ -269,8 +267,6 @@ xboxdrv
 xclip
 xdg-desktop-portal-kde
 xdman
-xdo
-xdotool
 xf86-video-amdgpu
 xf86-video-vesa
 xfsprogs
