@@ -267,6 +267,7 @@ xboxdrv
 xclip
 xdg-desktop-portal-kde
 xdman
+xdo
 xf86-video-amdgpu
 xf86-video-vesa
 xfsprogs
