@@ -33,11 +33,14 @@ The best [POS terminal](https://www.techopedia.com/definition/26649/point-of-sal
 ### Devilspie
 The pie of the [devil](https://en.wikipedia.org/wiki/Daemon_(computing)). Used this quite a bit when I was using KDE (the K Desktop Environment) but since then I've made the switch to `bspwm` and I've been living a much simpler life away from the [devil's pie](https://en.wikipedia.org/wiki/Hedonism).
 
-### i3
-[I don't care](https://www.youtube.com/watch?v=zdZya6yATn0). Moved to `bspwm` anyway.
+### Dunst
+Windows 10 Action Center > dunst, unfortunately.
 
 ### GRUB
 Config for the thing that makes my computer turn on. My [`rEFInd`](https://wiki.archlinux.org/index.php/rEFInd) installation died for this because I moved to a LUKS setup. Rest in peace my beautiful, sleek, boot menu.
+
+### i3
+[I don't care](https://www.youtube.com/watch?v=zdZya6yATn0). Moved to `bspwm` anyway.
 
 ### Mkinitcpio/Mkinitpcio
 `mkinitcpio` or `mkinitpcio`? Idk, I always get those two mixed up and only one of them is correct. Lucky for you, the answer is the *latter*. Or is it? Idk tbh.
