@@ -374,15 +374,15 @@ expand-right = false
 ;
 format-padding = 0
 format-spacing = 2
-label-open = " "
-label-close = "|     "
+label-open = "  |"
+label-close = "|      |"
 
 
-menu-0-0 = "  "
+menu-0-0 = " "
 menu-0-0-exec = poweroff
-menu-0-1 = "  "
+menu-0-1 = " "
 menu-0-1-exec = reboot
-menu-0-2 = " "
+menu-0-2 = ""
 menu-0-2-exec = bspc quit
 
 
@@ -464,6 +464,7 @@ content = "   "
 content-foreground = ${colors.foreground-icon}
 
 click-left = torbrowser-launcher &
+click-right = brave &
 
 [module/youtube]
 type = custom/text
