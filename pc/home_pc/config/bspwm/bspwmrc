@@ -53,12 +53,12 @@ xdo close -n ckb-next &
 
 # Startup programs on desktop 1
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
-sleep 0.4
+sleep 0.5
 cool-retro-term -e gotop &
-sleep 0.3
+sleep 0.5
 alacritty -e cava &
 plasmawindowed org.kde.plasma.mediacontroller &
-sleep 0.3
+sleep 0.5
 cool-retro-term -e tmux attach-ses -t Arch\ Linux-0 &
 sleep 1
 bspc node -d ^10
