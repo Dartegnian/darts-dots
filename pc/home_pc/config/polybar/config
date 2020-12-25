@@ -88,11 +88,11 @@ scroll-down =
 ;   center
 ;   right
 ;   none
-tray-position = none
+tray-position = right
 tray-detached = false
 tray-maxsize = 15
-tray-background = 
-tray-offset-x = -6
+tray-background = #7504060e
+tray-offset-x = 0
 tray-offset-y = 0
 tray-padding = 0
 tray-scale = 1.0
