@@ -7,6 +7,7 @@ adobe-source-code-pro-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-sans-pro-fonts
 adwaita-icon-theme
+afpfs-ng
 alacritty
 alsa-card-profiles
 alsa-lib
@@ -26,6 +27,8 @@ aom
 appstream
 appstream-glib
 appstream-qt
+apr
+apr-util
 archlinux-appstream-data
 archlinux-keyring
 argon2
@@ -142,6 +145,7 @@ electron9
 elfutils
 enca
 enchant
+etcher-bin
 exempi
 exfat-utils
 exiv2
@@ -169,6 +173,7 @@ fontconfig
 fontforge
 frameworkintegration
 freeglut
+freerdp
 freetype2
 fribidi
 fuse-common
@@ -624,6 +629,7 @@ libevdev
 libevent
 libexif
 libexttextcat
+libfbclient
 libfdk-aac
 libffi
 libfilezilla
@@ -640,6 +646,7 @@ libgpg-error
 libgphoto2
 libgrss
 libgsf
+libgssglue
 libgtop
 libgudev
 libgusb
@@ -683,6 +690,7 @@ libluv
 libmad
 libmatroska
 libmbim
+libmemcached
 libmfx
 libmicrodns
 libmicrohttpd
@@ -797,6 +805,7 @@ libusb
 libusb-compat
 libusbmuxd
 libutempter
+libutf8proc
 libuv
 libva
 libva-vdpau-driver
@@ -879,6 +888,7 @@ lua52-expat
 lua52-lpeg
 lua52-luajson
 lua52-socket
+lua53
 luajit
 luit
 lutris
@@ -908,6 +918,7 @@ mkinitcpio-busybox
 mobile-broadband-provider-info
 modemmanager
 modemmanager-qt
+mongo-c-driver
 mpc
 mpfr
 mpg123
@@ -991,6 +1002,7 @@ pavucontrol
 pciutils
 pcre
 pcre2
+pcsclite
 peazip-gtk2-bin
 perl
 perl-cairo-gobject
@@ -1061,6 +1073,7 @@ poppler-glib
 poppler-qt5
 popt
 portaudio
+postgresql-libs
 potrace
 powerdevil
 powerline
@@ -1214,6 +1227,7 @@ rtkit
 rtmpdump
 rubberband
 ruby
+ruby-bundler
 ruby-irb
 ruby-reline
 rubygems
@@ -1238,6 +1252,7 @@ seahorse
 sed
 semver
 serd
+serf
 shaderc
 shadow
 shared-mime-info
@@ -1272,6 +1287,7 @@ srt
 startup-notification
 steam
 steam-native-runtime
+subversion
 sudo
 suitesparse
 svt-hevc
@@ -1348,6 +1364,7 @@ webkit2gtk
 webrtc-audio-processing
 wget
 which
+whois
 wildmidi
 wine
 wine-gecko

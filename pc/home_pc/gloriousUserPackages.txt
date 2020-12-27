@@ -49,6 +49,7 @@ drkonqi
 dunst
 e2fsprogs
 efitools
+etcher-bin
 exfat-utils
 fakeroot
 ffmpegthumbs
@@ -257,6 +258,7 @@ vi
 vlc
 wget
 which
+whois
 wine
 wine-gecko
 wine-mono
