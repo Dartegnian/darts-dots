@@ -50,18 +50,19 @@ nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 ckb-next &
 sleep 0.5
 xdo close -n ckb-next &
+sleep 0.5
 
 # Startup programs on desktop 1
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
 sleep 0.5
+bspc node -d ^10
+sleep 1
+cool-retro-term -e tmux attach-session -t Singular-1 &
+sleep 1
 cool-retro-term -e gotop &
 sleep 0.5
 alacritty -e cava &
 plasmawindowed org.kde.plasma.mediacontroller &
-sleep 0.5
-cool-retro-term -e tmux attach-ses -t Arch\ Linux-0 &
-sleep 1
-bspc node -d ^10
 
 # Notifications
 dunst -conf ~/.config/dunst/dunstrc &
