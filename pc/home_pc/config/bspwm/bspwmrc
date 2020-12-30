@@ -36,7 +36,6 @@ bspc rule -a ru-turikhay-tlauncher-bootstrap-Bootstrap state=floating
 # ==> END bspwm rules
 
 # Compton
-killall -q compton
 compton --config $HOME/.config/compton/config &
 
 # Polybar
@@ -60,8 +59,9 @@ sleep 1
 cool-retro-term -e tmux attach-session -t Singular-1 &
 sleep 1
 cool-retro-term -e gotop &
+# sleep 1
+# alacritty -e cava &
 sleep 0.5
-alacritty -e cava &
 plasmawindowed org.kde.plasma.mediacontroller &
 
 # Notifications
