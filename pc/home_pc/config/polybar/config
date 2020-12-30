@@ -121,7 +121,7 @@ font-7 = Noto Sans CJK TC:bold:size=9;2
 
 modules-left = bspwm 
 modules-center = download cpu mem now-playing date pulseaudio upload
-modules-right = code terminal git firefox chrome edge youtube twitter gaming audio pin maximize close powermenu
+modules-right = code terminal git firefox chrome youtube gaming audio maximize close powermenu
 
 
 ;===================================================================
@@ -517,7 +517,7 @@ click-left = bspc node -g sticky
 [module/maximize]
 type = custom/text
 
-content = "    "
+content = "   "
 content-foreground = ${colors.foreground-icon}
 
 click-left = bspc node -t tiled
@@ -526,7 +526,7 @@ click-right = bspc node -t floating
 [module/close]
 type = custom/text
 
-content = "   | "
+content = "   "
 content-foreground = ${colors.foreground-icon}
 
 click-left = bspc node -c &
