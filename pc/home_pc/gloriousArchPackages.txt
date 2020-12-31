@@ -33,6 +33,7 @@ archlinux-appstream-data
 archlinux-keyring
 argon2
 aribb24
+asciidoc
 aspell
 at-spi2-atk
 at-spi2-core
@@ -999,6 +1000,7 @@ perl-http-daemon
 perl-http-date
 perl-http-message
 perl-http-negotiate
+perl-inc-latest
 perl-io-html
 perl-io-socket-ssl
 perl-json
@@ -1006,6 +1008,7 @@ perl-libwww
 perl-lwp-mediatypes
 perl-lwp-protocol-https
 perl-mailtools
+perl-module-build
 perl-net-dbus
 perl-net-http
 perl-net-ssleay
