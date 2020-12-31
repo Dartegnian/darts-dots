@@ -71,8 +71,7 @@ blur-background-exclude = [
     "class_g = 'desktop'",
 ];
 opacity-rule = [
-    "100:name *= 'rofi'",
-    "80:class_g = 'code-oss'",
+    "90:class_g = 'Rofi'",
     "99:class_g = 'Opera'",
     "90:class_g = 'Org.gnome.Nautilus'",
     "90:class_g = 'Gnome-disks'",
@@ -80,7 +79,6 @@ opacity-rule = [
     "90:class_g = 'Quodlibet'",
     "90:class_g = 'Gedit'",
     "99:name = 'Picture in Picture'",
-    "90:name = 'Messenger'",
     "95:class_g = 'firefox'",
     "99:name *= 'Android Emulator'",
     "90:name = 'Volume Control'",
@@ -89,8 +87,7 @@ opacity-rule = [
     "90:class_g = 'GitKraken'",
     "90:class_g = 'plasmawindowed'",
     "90:class_g = 'Steam'",
-    "90:class_g = 'Lutris'",
-    "99:name *= 'Minecraft'"
+    "90:class_g = 'Lutris'"
 ];
 
 #################################
@@ -108,7 +105,7 @@ fade-in-step = 0.03;
 # Opacity change between steps while fading out. (default 0.03).
 fade-out-step = 0.03;
 # Fade windows in/out when opening/closing
-# no-fading-openclose = true;
+no-fading-openclose = false;
 
 # Specify a list of conditions of windows that should not be faded.
 fade-exclude = [ ];
