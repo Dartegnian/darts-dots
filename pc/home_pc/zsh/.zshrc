@@ -115,9 +115,10 @@ alias k-c="killall -q compton"
 alias s-c="compton --config $HOME/.config/compton/config &"
 alias r-c="killall -q compton && compton --config $HOME/.config/compton/config &"
 alias s-d="systemctl --user enable discordrp-mpris.service --now"
+alias wget="wget --hsts-file="$XDG_CACHE_HOME/wget-hsts""
 
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
+HISTFILE="$XDG_DATA_HOME"/zsh/history
 HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd extendedglob
@@ -130,13 +131,14 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-export NVM_DIR="$HOME/.nvm"
+export NVM_DIR="$XDG_DATA_HOME/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Android
 export ANDROID_SDK_ROOT='/opt/android-sdk'
-export PUB_CACHE=$HOME/.pub-cache
+export PUB_CACHE="$XDG_DATA_HOME"/flutter/pub-cache
 
+# Unix-like MOTD
 ~/SYGtech/git_gtech/-nix-shell-scripts/update_motd.sh > /etc/motd
 cat /etc/motd
