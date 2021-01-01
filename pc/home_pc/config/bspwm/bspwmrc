@@ -42,7 +42,7 @@ compton --config $HOME/.config/compton/config &
 $HOME/.config/polybar/polybar.sh &
 
 # Nvidia
-nvidia-settings --load-config-only
+nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settings --load-config-only
 nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 
 # Set RGB lights
