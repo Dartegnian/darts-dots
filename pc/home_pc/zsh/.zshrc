@@ -114,6 +114,7 @@ alias pulseaudio-restart="pulseaudio -k && pulseaudio --start"
 alias k-c="killall -q compton"
 alias s-c="compton --config $HOME/.config/compton/config &"
 alias r-c="killall -q compton && compton --config $HOME/.config/compton/config &"
+alias s-d="systemctl --user enable discordrp-mpris.service --now"
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile

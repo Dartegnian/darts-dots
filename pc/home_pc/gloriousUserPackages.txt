@@ -42,6 +42,7 @@ device-mapper
 dhcpcd
 diffutils
 discord
+discordrp-mpris-git
 discover
 dislocker-git
 dmidecode
@@ -254,6 +255,8 @@ ttf-liberation
 ttf-material-icons-git
 ttf-nanum
 ttf-symbola
+ttf-twemoji
+ttf-twemoji-color
 ufw
 usbutils
 util-linux
