@@ -374,7 +374,7 @@ expand-right = false
 ;
 format-padding = 0
 format-spacing = 2
-label-open = "   | "
+label-open = "   |"
 label-close = "|      |"
 
 
