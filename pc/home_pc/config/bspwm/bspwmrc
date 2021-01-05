@@ -31,7 +31,8 @@ bspc rule -a GitKraken desktop='^7' follow=off focus=off
 bspc rule -a code-oss desktop='^9'
 
 # floating apps
-bspc rule -a ru-turikhay-tlauncher-bootstrap-Bootstrap state=floating
+bspc rule -a jetbrains-studio state=floating
+bspc rule -a minecraft-launcher state=floating
 
 # ==> END bspwm rules
 
@@ -58,15 +59,16 @@ bspc node -d ^10
 sleep 1
 cool-retro-term -e tmux attach-session -t Singular-1 &
 sleep 1
-cool-retro-term -e gotop &
+cool-retro-term -e bashtop &
 # sleep 1
 # alacritty -e cava &
 sleep 0.5
+cool-retro-term -e alsamixer -D hw:3 &
+sleep 1
 plasmawindowed org.kde.plasma.mediacontroller &
+sleep 0.5
+bspc node -z top 0 40
 
 # Notifications
 dunst -conf ~/.config/dunst/dunstrc &
-
-# VPN
-mullvad-vpn &
 
