@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/dartegnian/.oh-my-zsh"
+export ZSH="$XDG_DATA_HOME"/oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -146,3 +146,21 @@ export PUB_CACHE="$XDG_DATA_HOME"/flutter/pub-cache
 cat /etc/motd
 
 systemctl --user start discordrp-mpris.service
+source /usr/share/nvm/init-nvm.sh
+
+# XDG stuff for other programs
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export KDEHOME="$XDG_CONFIG_HOME"/kde
+export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
+export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
+export WINEPREFIX="$XDG_DATA_HOME"/WinePrefix/default
+export ANDROID_PREFS_ROOT="$XDG_CONFIG_HOME"/android
+export ANDROID_EMULATOR_HOME="$XDG_DATA_HOME"/android/emulator
+export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export GOPATH="$XDG_DATA_HOME"/go
+export WGETRC="$XDG_CONFIG_HOME/wgetrc"
+export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
+export LESSKEY="$XDG_CONFIG_HOME"/less/lesskey
+export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
+export HISTFILE="$XDG_DATA_HOME"/zsh/history
