@@ -114,8 +114,10 @@ alias pulseaudio-restart="pulseaudio -k && pulseaudio --start"
 alias k-c="killall -q compton"
 alias s-c="compton --config $HOME/.config/compton/config &"
 alias r-c="killall -q compton && compton --config $HOME/.config/compton/config &"
-alias s-d="systemctl --user enable discordrp-mpris.service --now"
+alias s-d="systemctl --user start discordrp-mpris.service"
+alias r-d="systemctl --user restart discordrp-mpris.service"
 alias wget="wget --hsts-file="$XDG_CACHE_HOME/wget-hsts""
+alias motd="~/SYGtech/git_gtech/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"
 
 # Lines configured by zsh-newuser-install
 HISTFILE="$XDG_DATA_HOME"/zsh/history
@@ -142,3 +144,5 @@ export PUB_CACHE="$XDG_DATA_HOME"/flutter/pub-cache
 # Unix-like MOTD
 ~/SYGtech/git_gtech/-nix-shell-scripts/update_motd.sh > /etc/motd
 cat /etc/motd
+
+systemctl --user start discordrp-mpris.service
