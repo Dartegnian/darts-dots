@@ -50,6 +50,7 @@ baloo
 baloo-widgets
 balz
 bash
+bashtop
 bc
 betterdiscord
 betterdiscordctl-git
@@ -169,6 +170,7 @@ frameworkintegration
 freeglut
 freetype2
 fribidi
+ftgl
 fuse-common
 fuse2
 fuse3
@@ -202,6 +204,7 @@ glib-perl
 glib2
 glibc
 glibmm
+glm
 glslang
 glu
 gmp
@@ -218,7 +221,6 @@ gobject-introspection
 gobject-introspection-runtime
 google-chrome-beta
 google-chrome-dev
-gotop
 gparted
 gpgme
 gpm
@@ -887,6 +889,7 @@ mesa
 mesa-demos
 metis
 milou
+minecraft
 minizip
 mjpegtools
 mkinitcpio
@@ -901,7 +904,6 @@ mpv
 msgpack-c
 mtdev
 mujs
-mullvad-vpn
 mupdf-gl
 mypaint-brushes1
 nano
@@ -935,6 +937,7 @@ numactl
 nvidia-dkms
 nvidia-settings
 nvidia-utils
+nvm
 obs-studio
 oniguruma
 openal
@@ -1054,6 +1057,7 @@ powerline-fonts-git
 ppp
 prison
 procps-ng
+projectm
 protobuf
 psmisc
 pulseaudio
@@ -1101,6 +1105,7 @@ python-pip
 python-ply
 python-powerline
 python-progress
+python-psutil
 python-py3nvml
 python-pycparser
 python-pylast
@@ -1126,13 +1131,7 @@ python-wikipedia
 python-xlib
 python-yaml
 python2
-python2-appdirs
 python2-dbus
-python2-ordered-set
-python2-packaging
-python2-pyparsing
-python2-setuptools
-python2-six
 qbittorrent
 qca
 qcma
@@ -1194,7 +1193,6 @@ sdl2_ttf
 sdl_image
 sdl_mixer
 sdl_ttf
-seahorse
 sed
 semver
 serd
@@ -1237,6 +1235,7 @@ svt-hevc
 sxhkd
 syntax-highlighting
 sysfsutils
+sysstat
 systemd
 systemd-libs
 systemd-sysvcompat
@@ -1254,7 +1253,6 @@ texinfo
 thin-provisioning-tools
 threadweaver
 tk
-tlauncher
 tmux
 tor
 torbrowser-launcher

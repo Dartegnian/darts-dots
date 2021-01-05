@@ -14,6 +14,7 @@ audio-recorder
 autoconf
 automake
 bash
+bashtop
 bc
 betterdiscord
 betterdiscordctl-git
@@ -78,7 +79,6 @@ gnome-system-monitor
 go
 google-chrome-beta
 google-chrome-dev
-gotop
 gparted
 grep
 grim
@@ -147,9 +147,9 @@ man-pages
 mariadb
 mdadm
 milou
+minecraft
 mpc
 mpv
-mullvad-vpn
 mupdf-gl
 nano
 nautilus
@@ -168,6 +168,7 @@ ntfs-3g
 ntp
 nvidia-dkms
 nvidia-settings
+nvm
 obs-studio
 opencl-nvidia
 openrgb
@@ -210,6 +211,7 @@ psmisc
 pulseaudio
 python-dbus
 python-pip
+python-psutil
 python-pylast
 python-wikipedia
 qbittorrent
@@ -224,7 +226,6 @@ s-nail
 sddm
 sddm-config-editor-git
 sddm-kcm
-seahorse
 sed
 shadow
 simple-mtpfs-git
@@ -234,13 +235,13 @@ steam-native-runtime
 sudo
 sxhkd
 sysfsutils
+sysstat
 systemd
 systemd-sysvcompat
 systemsettings
 tar
 teamviewer
 texinfo
-tlauncher
 tmux
 tor
 torbrowser-launcher
