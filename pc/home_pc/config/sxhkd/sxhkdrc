@@ -161,6 +161,9 @@ super + e
 super + shift + m
 	plasmawindowed org.kde.plasma.mediacontroller
 
+super + alt + m
+	/home/$USER/SYGtech/git_gtech/-nix-shell-scripts/toggle_mic.sh
+
 super + alt + c
 	alacritty -e cava & ; sleep 1 ; bspc node -t floating ; bspc node -g sticky ; bspc node -z top 0 350 ; bspc node -v 540 220
 
