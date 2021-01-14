@@ -73,8 +73,8 @@ cursor-scroll = pointer
 enable-ipc = true
 
 click-left = gedit &
-click-middle = cool-retro-term -e yay -Syu --noconfirm &
-click-right = cool-retro-term -e gotop &
+click-middle = cool-retro-term -e ~/SYGtech/goteki-git/-nix-shell-scripts/update.sh
+click-right = cool-retro-term -e bashtop &
 
 scroll-up =
 scroll-down =
