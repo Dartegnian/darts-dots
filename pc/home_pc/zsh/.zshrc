@@ -107,8 +107,8 @@ alias ver="{ uname -n; uname -o; uname -r; printf '\n\n' } | tr '\n' ' ' && echo
 alias dir="ls -la"
 alias n="nano"
 alias v="nvim"
-alias update="~/SYGtech/git_gtech/-nix-shell-scripts/update.sh"
-alias backup="~/SYGtech/git_gtech/-nix-shell-scripts/backup.sh"
+alias update="~/SYGtech/goteki-git/-nix-shell-scripts/update.sh"
+alias backup="~/SYGtech/goteki-git/-nix-shell-scripts/backup.sh"
 alias polybar-start="$HOME/.config/polybar/polybar.sh &"
 alias pulseaudio-restart="pulseaudio -k && pulseaudio --start"
 alias k-c="killall -q compton"
@@ -117,7 +117,7 @@ alias r-c="killall -q compton && compton --config $HOME/.config/compton/config &
 alias s-d="systemctl --user start discordrp-mpris.service"
 alias r-d="systemctl --user restart discordrp-mpris.service"
 alias wget="wget --hsts-file="$XDG_CACHE_HOME/wget-hsts""
-alias motd="~/SYGtech/git_gtech/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"
+alias motd="~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"
 
 # Lines configured by zsh-newuser-install
 HISTFILE="$XDG_DATA_HOME"/zsh/history
@@ -142,11 +142,14 @@ export ANDROID_SDK_ROOT='/opt/android-sdk'
 export PUB_CACHE="$XDG_DATA_HOME"/flutter/pub-cache
 
 # Unix-like MOTD
-~/SYGtech/git_gtech/-nix-shell-scripts/update_motd.sh > /etc/motd
+~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd
 cat /etc/motd
 
 systemctl --user start discordrp-mpris.service
 source /usr/share/nvm/init-nvm.sh
+
+export VISUAL=nvim;
+export EDITOR=nvim;
 
 # XDG stuff for other programs
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
