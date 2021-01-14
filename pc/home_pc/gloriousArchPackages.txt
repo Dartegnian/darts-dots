@@ -48,7 +48,6 @@ avahi
 babl
 baloo
 baloo-widgets
-balz
 bash
 bashtop
 bc
@@ -119,7 +118,7 @@ discord
 discordrp-mpris-git
 discount
 discover
-dislocker-git
+dislocker
 dkms
 dmidecode
 dmraid
@@ -359,7 +358,6 @@ kleopatra
 kmenuedit
 kmime
 kmod
-knetattach
 knewstuff
 knotifications
 knotifyconfig
@@ -427,7 +425,6 @@ lib32-glib2
 lib32-glibc
 lib32-glu
 lib32-gmp
-lib32-gmp4
 lib32-gnutls
 lib32-gtk2
 lib32-harfbuzz
@@ -889,7 +886,7 @@ mesa
 mesa-demos
 metis
 milou
-minecraft
+minecraft-launcher-beta
 minizip
 mjpegtools
 mkinitcpio
@@ -972,7 +969,6 @@ pam
 pambase
 pango
 pangomm
-paq8o
 parted
 paru-bin
 patch
@@ -980,7 +976,6 @@ pavucontrol
 pciutils
 pcre
 pcre2
-peazip-gtk2-bin
 perl
 perl-cairo-gobject
 perl-class-inspector
@@ -1105,7 +1100,6 @@ python-pip
 python-ply
 python-powerline
 python-progress
-python-psutil
 python-py3nvml
 python-pycparser
 python-pylast
@@ -1182,6 +1176,7 @@ rubygems
 run-parts
 s-nail
 sbc
+screenkey
 sddm
 sddm-config-editor-git
 sddm-kcm
@@ -1293,6 +1288,8 @@ v4l-utils
 vamp-plugin-sdk
 vi
 vid.stab
+vim
+vim-runtime
 vlc
 vmaf
 volume_key
@@ -1306,11 +1303,12 @@ wget
 which
 whois
 wildmidi
-wine
 wine-gecko
 wine-mono
+wine-tkg-staging-fsync-git
 winetricks
 wireguard-tools
+wmname
 woff2
 wpa_supplicant
 wpebackend-fdo
@@ -1413,7 +1411,6 @@ zita-alsa-pcmi
 zita-resampler
 zlib
 zoom
-zpaq
 zsh
 zstd
 zvbi

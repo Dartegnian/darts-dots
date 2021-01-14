@@ -45,7 +45,7 @@ diffutils
 discord
 discordrp-mpris-git
 discover
-dislocker-git
+dislocker
 dmidecode
 dolphin
 drkonqi
@@ -113,7 +113,6 @@ khotkeys
 kinfocenter
 kleopatra
 kmenuedit
-knetattach
 kscreen
 kscreenlocker
 ksshaskpass
@@ -147,7 +146,7 @@ man-pages
 mariadb
 mdadm
 milou
-minecraft
+minecraft-launcher-beta
 mpc
 mpv
 mupdf-gl
@@ -183,7 +182,6 @@ paru-bin
 patch
 pavucontrol
 pciutils
-peazip-gtk2-bin
 perl
 php
 php-fpm
@@ -211,7 +209,6 @@ psmisc
 pulseaudio
 python-dbus
 python-pip
-python-psutil
 python-pylast
 python-wikipedia
 qbittorrent
@@ -223,6 +220,7 @@ rofi-dmenu
 rofi-emoji
 rsync
 s-nail
+screenkey
 sddm
 sddm-config-editor-git
 sddm-kcm
@@ -262,15 +260,17 @@ ufw
 usbutils
 util-linux
 vi
+vim
 vlc
 wget
 which
 whois
-wine
 wine-gecko
 wine-mono
+wine-tkg-staging-fsync-git
 winetricks
 wireguard-tools
+wmname
 xarchiver
 xboxdrv
 xclip
