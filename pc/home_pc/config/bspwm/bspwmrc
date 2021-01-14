@@ -32,7 +32,6 @@ bspc rule -a code-oss desktop='^9'
 
 # floating apps
 bspc rule -a jetbrains-studio state=floating
-bspc rule -a minecraft-launcher state=floating
 
 # ==> END bspwm rules
 
@@ -72,3 +71,5 @@ bspc node -z top 0 40
 # Notifications
 dunst -conf ~/.config/dunst/dunstrc &
 
+# Fix for some Java programs
+wmname LG3D
