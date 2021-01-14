@@ -4,5 +4,6 @@
 create-react-app
 lint-staged
 npm
+sass
 serve
 vtop
