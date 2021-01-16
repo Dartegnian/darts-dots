@@ -17,7 +17,6 @@ alsa-ucm-conf
 alsa-utils
 amd-ucode
 amtk
-android-file-transfer
 android-platform
 android-sdk
 android-sdk-build-tools
@@ -54,7 +53,6 @@ bc
 betterdiscord
 betterdiscordctl-git
 binutils
-bison
 blas
 bleachbit
 bluedevil
@@ -67,7 +65,6 @@ breeze
 breeze-gtk
 breeze-icons
 brotli
-browsh-bin
 bspwm
 btrfs-progs
 bubblewrap
@@ -90,10 +87,10 @@ cifs-utils
 ckb-next-git
 clang
 clucene
+cmake
 code
 colord
 compiler-rt
-composer
 compton-tryone-git
 confuse
 convertlit
@@ -104,6 +101,7 @@ cpod-git
 cracklib
 cryptsetup
 curl
+cython2
 dart
 dav1d
 db
@@ -120,7 +118,6 @@ discount
 discover
 dislocker
 dkms
-dmidecode
 dmraid
 dnssec-anchors
 docbook-xml
@@ -266,12 +263,12 @@ harfbuzz-icu
 hicolor-icon-theme
 hidapi
 hspell
-htop
 http-parser
 hunspell
 hwids
 hwloc
 hyphen
+i3-wm
 iana-etc
 icu
 ijs
@@ -298,6 +295,8 @@ jemalloc
 jfsutils
 jre-openjdk
 jre-openjdk-headless
+jre8-openjdk
+jre8-openjdk-headless
 js78
 json-c
 json-glib
@@ -307,6 +306,7 @@ kactivities
 kactivities-stats
 kactivitymanagerd
 karchive
+katawa-shoujo-bin
 kauth
 kbd
 kbookmarks
@@ -610,6 +610,7 @@ libelf
 libepoxy
 libepubgen
 libetonyek
+libev
 libevdev
 libevent
 libexif
@@ -912,6 +913,7 @@ ndctl
 neofetch
 neon
 neovim
+net-tools
 netctl
 nettle
 networkmanager
@@ -929,7 +931,6 @@ npth
 nspr
 nss
 ntfs-3g
-ntp
 numactl
 nvidia-dkms
 nvidia-settings
@@ -1061,6 +1062,7 @@ purpose
 python
 python-appdirs
 python-asn1crypto
+python-babel
 python-beaker
 python-beautifulsoup4
 python-cachecontrol
@@ -1077,12 +1079,15 @@ python-dbus-common
 python-dbussy-git
 python-distlib
 python-distro
+python-docutils
 python-evdev
 python-gobject
 python-gpgme
 python-html5lib
 python-idna
+python-imagesize
 python-injector
+python-jinja
 python-kiwisolver
 python-lockfile
 python-mako
@@ -1102,6 +1107,7 @@ python-powerline
 python-progress
 python-py3nvml
 python-pycparser
+python-pygments
 python-pylast
 python-pyopenssl
 python-pyparsing
@@ -1109,6 +1115,7 @@ python-pyqt5
 python-pyqt5-sip
 python-pysocks
 python-pytoml
+python-pytz
 python-pyxdg
 python-requests
 python-resolvelib
@@ -1116,7 +1123,16 @@ python-retrying
 python-rx
 python-setuptools
 python-six
+python-snowballstemmer
 python-soupsieve
+python-sphinx
+python-sphinx-alabaster-theme
+python-sphinxcontrib-applehelp
+python-sphinxcontrib-devhelp
+python-sphinxcontrib-htmlhelp
+python-sphinxcontrib-jsmath
+python-sphinxcontrib-qthelp
+python-sphinxcontrib-serializinghtml
 python-toml
 python-typing_extensions
 python-urllib3
@@ -1126,6 +1142,7 @@ python-xlib
 python-yaml
 python2
 python2-dbus
+python2-pygame-sdl2
 qbittorrent
 qca
 qcma
@@ -1161,6 +1178,7 @@ readline
 redland
 reiserfsprogs
 rest
+rhash
 ripgrep
 rofi
 rofi-dmenu
@@ -1316,7 +1334,6 @@ wxgtk-common
 wxgtk3
 x264
 x265
-xarchiver
 xboxdrv
 xcb-proto
 xcb-util
@@ -1395,9 +1412,9 @@ xorg-xwininfo
 xorg-xwud
 xorgproto
 xvidcore
-xwinwrap-git
 xxhash
 xz
+yajl
 yarn
 youtube-dl
 yubico-c

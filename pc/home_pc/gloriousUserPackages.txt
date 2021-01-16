@@ -4,7 +4,6 @@ adobe-source-sans-pro-fonts
 alacritty
 alsa-utils
 amd-ucode
-android-file-transfer
 android-platform
 android-sdk
 android-sdk-build-tools
@@ -19,19 +18,16 @@ bc
 betterdiscord
 betterdiscordctl-git
 binutils
-bison
 bleachbit
 bluedevil
 brave-bin
 breeze
 breeze-gtk
-browsh-bin
 bspwm
 bzip2
 cava
 ckb-next-git
 code
-composer
 compton-tryone-git
 cool-retro-term
 coreutils
@@ -46,7 +42,6 @@ discord
 discordrp-mpris-git
 discover
 dislocker
-dmidecode
 dolphin
 drkonqi
 dunst
@@ -93,14 +88,15 @@ gtypist
 gucharmap
 gwe
 gzip
-htop
 inetutils
 iproute2
 iputils
 irqbalance
 java-environment-common
 jfsutils
+jre8-openjdk
 kactivitymanagerd
+katawa-shoujo-bin
 kcharselect
 kcm-wacomtablet
 kde-cli-tools
@@ -164,7 +160,6 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 ntfs-3g
-ntp
 nvidia-dkms
 nvidia-settings
 nvm
@@ -271,7 +266,6 @@ wine-tkg-staging-fsync-git
 winetricks
 wireguard-tools
 wmname
-xarchiver
 xboxdrv
 xclip
 xdg-desktop-portal-kde
@@ -330,7 +324,6 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
-xwinwrap-git
 yarn
 youtube-dl
 zenity
