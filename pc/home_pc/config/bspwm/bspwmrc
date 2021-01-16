@@ -32,6 +32,8 @@ bspc rule -a code-oss desktop='^9'
 
 # floating apps
 bspc rule -a jetbrains-studio state=floating
+bspc rule -a "Katawa Shoujo" state=floating
+bspc rule -a katawashoujo_actual_1.3 state=floating
 
 # ==> END bspwm rules
 
