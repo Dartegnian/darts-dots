@@ -87,7 +87,6 @@ cifs-utils
 ckb-next-git
 clang
 clucene
-cmake
 code
 colord
 compiler-rt
@@ -101,7 +100,6 @@ cpod-git
 cracklib
 cryptsetup
 curl
-cython2
 dart
 dav1d
 db
@@ -189,6 +187,7 @@ geoip
 geoip-database
 gettext
 ghostscript
+giblib
 giflib
 gimp
 git
@@ -217,7 +216,6 @@ gobject-introspection
 gobject-introspection-runtime
 google-chrome-beta
 google-chrome-dev
-gparted
 gpgme
 gpm
 gptfdisk
@@ -397,7 +395,6 @@ ldb
 ldns
 lensfun
 less
-lhasa
 lib32-acl
 lib32-alsa-lib
 lib32-alsa-plugins
@@ -517,7 +514,6 @@ lib32-libxtst
 lib32-libxxf86vm
 lib32-llvm-libs
 lib32-lm_sensors
-lib32-lz4
 lib32-mesa
 lib32-mpg123
 lib32-ncurses
@@ -650,6 +646,7 @@ libimagequant
 libimobiledevice
 libindicator-gtk2
 libindicator-gtk3
+libinih
 libinput
 libinstpatch
 libiptcdata
@@ -913,7 +910,6 @@ ndctl
 neofetch
 neon
 neovim
-net-tools
 netctl
 nettle
 networkmanager
@@ -1062,7 +1058,6 @@ purpose
 python
 python-appdirs
 python-asn1crypto
-python-babel
 python-beaker
 python-beautifulsoup4
 python-cachecontrol
@@ -1079,15 +1074,12 @@ python-dbus-common
 python-dbussy-git
 python-distlib
 python-distro
-python-docutils
 python-evdev
 python-gobject
 python-gpgme
 python-html5lib
 python-idna
-python-imagesize
 python-injector
-python-jinja
 python-kiwisolver
 python-lockfile
 python-mako
@@ -1107,7 +1099,6 @@ python-powerline
 python-progress
 python-py3nvml
 python-pycparser
-python-pygments
 python-pylast
 python-pyopenssl
 python-pyparsing
@@ -1115,7 +1106,6 @@ python-pyqt5
 python-pyqt5-sip
 python-pysocks
 python-pytoml
-python-pytz
 python-pyxdg
 python-requests
 python-resolvelib
@@ -1123,16 +1113,7 @@ python-retrying
 python-rx
 python-setuptools
 python-six
-python-snowballstemmer
 python-soupsieve
-python-sphinx
-python-sphinx-alabaster-theme
-python-sphinxcontrib-applehelp
-python-sphinxcontrib-devhelp
-python-sphinxcontrib-htmlhelp
-python-sphinxcontrib-jsmath
-python-sphinxcontrib-qthelp
-python-sphinxcontrib-serializinghtml
 python-toml
 python-typing_extensions
 python-urllib3
@@ -1142,7 +1123,6 @@ python-xlib
 python-yaml
 python2
 python2-dbus
-python2-pygame-sdl2
 qbittorrent
 qca
 qcma
@@ -1178,7 +1158,6 @@ readline
 redland
 reiserfsprogs
 rest
-rhash
 ripgrep
 rofi
 rofi-dmenu
@@ -1266,6 +1245,7 @@ texinfo
 thin-provisioning-tools
 threadweaver
 tk
+tlauncher
 tmux
 tor
 torbrowser-launcher
@@ -1291,13 +1271,11 @@ ttf-twemoji-color
 twolame
 tzdata
 uchardet
-ucl
 udisks2
 ufw
 unibilium
 unzip
 upower
-upx
 usbmuxd
 usbutils
 util-linux

@@ -74,7 +74,6 @@ gnome-system-monitor
 go
 google-chrome-beta
 google-chrome-dev
-gparted
 grep
 grim
 groff
@@ -235,6 +234,7 @@ systemsettings
 tar
 teamviewer
 texinfo
+tlauncher
 tmux
 tor
 torbrowser-launcher
