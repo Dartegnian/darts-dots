@@ -143,7 +143,7 @@ alt + w
         bspc monitor -f next
 
 #
-# misc. program shortcuts
+# misc. program and script shortcuts
 #
 
 super + a
@@ -173,6 +173,10 @@ ctrl + shift + Escape
 ctrl + shift + e
 	cool-retro-term -e htop
 
+#
+# media controls
+#
+
 XF86AudioMute
         amixer sset 'Master' toggle
 
@@ -183,13 +187,13 @@ XF86AudioRaiseVolume
         amixer sset 'Master' 5%+
 
 XF86AudioPlay
-	playerctl play-pause
+	playerctl play-pause &
 
 XF86AudioStop
-	playerctl stop
+	playerctl stop &
 
 XF86AudioPrev
-	playerctl previous
+	playerctl previous &
 
 XF86AudioNext
-	playerctl next
+	playerctl next &
