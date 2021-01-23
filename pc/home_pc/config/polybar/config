@@ -309,8 +309,8 @@ interval = 1
 
 label-foreground = #FFFFFF
 label = %date%
-date = "   %I:%M %p  "
-date-alt = "   %A, %d %B, %Y     %I:%M:%S %p  "
+date = "    %I:%M %p  "
+date-alt = "    %A, %d %B, %Y     %I:%M:%S %p  "
 
 
 ;===================================================================
@@ -538,7 +538,7 @@ click-right = bspc node -k &
 
 [module/now-playing]
 type = custom/script
-exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py --blacklist chromium -f '  |   {icon}  {artist} - {title}   | ' --icon-paused "" --icon-playing "" --icon-stopped "  |     Music stopped   | "
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py --blacklist chromium -f '  |   {icon}  {artist} - {title}   |' --icon-paused "" --icon-playing "" --icon-stopped "  |     Music stopped   |"
 tail = true
 click-left = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py play-pause &
 click-right = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py stop &
