@@ -76,3 +76,6 @@ dunst -conf ~/.config/dunst/dunstrc &
 
 # Fix for some Java programs
 wmname LG3D
+
+# Discord status
+systemctl --user start discordrp-mpris.service

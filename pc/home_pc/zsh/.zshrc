@@ -145,7 +145,6 @@ export PUB_CACHE="$XDG_DATA_HOME"/flutter/pub-cache
 ~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd
 cat /etc/motd
 
-systemctl --user start discordrp-mpris.service
 source /usr/share/nvm/init-nvm.sh
 
 export VISUAL=nvim;
