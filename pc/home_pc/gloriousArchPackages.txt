@@ -55,7 +55,6 @@ betterdiscordctl-git
 binutils
 blas
 bleachbit
-bluedevil
 bluez
 bluez-libs
 bluez-qt
@@ -82,6 +81,7 @@ cava
 cblas
 cdparanoia
 celt
+cfitsio
 chromaprint-fftw
 cifs-utils
 ckb-next-git
@@ -113,7 +113,6 @@ diffutils
 discord
 discordrp-mpris-git
 discount
-discover
 dislocker
 dkms
 dmraid
@@ -123,7 +122,6 @@ docbook-xsl
 dolphin
 dosfstools
 double-conversion
-drkonqi
 dunst
 e2fsprogs
 ebook-tools
@@ -146,6 +144,7 @@ faad2
 fakeroot
 faudio
 ffmpeg
+ffmpegthumbnailer
 ffmpegthumbs
 fftw
 figlet
@@ -168,7 +167,6 @@ ftgl
 fuse-common
 fuse2
 fuse3
-fwupd
 gawk
 gc
 gcab
@@ -177,8 +175,6 @@ gcc-libs
 gconf
 gcr
 gd
-gdb
-gdb-common
 gdbm
 gdk-pixbuf2
 gedit
@@ -187,7 +183,6 @@ geoip
 geoip-database
 gettext
 ghostscript
-giblib
 giflib
 gimp
 git
@@ -205,9 +200,8 @@ glu
 gmp
 gnome-autoar
 gnome-desktop
-gnome-disk-utility
 gnome-font-viewer
-gnome-system-monitor
+gnome-themes-extra
 gnu-free-fonts
 gnupg
 gnutls
@@ -225,7 +219,6 @@ grep
 grim
 groff
 grub
-grub-customizer
 gsettings-desktop-schemas
 gsfonts
 gsm
@@ -786,6 +779,7 @@ libuv
 libva
 libva-vdpau-driver
 libvdpau
+libvips
 libvisio
 libvisual
 libvitamtp
@@ -854,7 +848,6 @@ logrotate
 lollypop
 lpsolve
 lsb-release
-lshw
 lsof
 lua52
 lua52-bitop
@@ -892,7 +885,6 @@ mkinitcpio-busybox
 mobile-broadband-provider-info
 modemmanager
 modemmanager-qt
-mpc
 mpfr
 mpg123
 mpv
@@ -938,6 +930,8 @@ openal
 opencl-nvidia
 opencore-amr
 opencv
+opendoas
+opendoas-sudo
 openexr
 openjpeg2
 openmpi
@@ -953,8 +947,7 @@ opusfile
 orc
 os-prober
 osinfo-db
-otf-font-awesome-5-free
-oxygen
+otf-font-awesome
 p11-kit
 p7zip
 packagekit
@@ -1034,7 +1027,6 @@ polkit
 polkit-kde-agent
 polkit-qt5
 polybar-git
-popcorntime-bin
 poppler
 poppler-data
 poppler-glib
@@ -1058,6 +1050,7 @@ purpose
 python
 python-appdirs
 python-asn1crypto
+python-attrs
 python-beaker
 python-beautifulsoup4
 python-cachecontrol
@@ -1074,6 +1067,7 @@ python-dbus-common
 python-dbussy-git
 python-distlib
 python-distro
+python-docopt
 python-evdev
 python-gobject
 python-gpgme
@@ -1082,6 +1076,7 @@ python-idna
 python-injector
 python-kiwisolver
 python-lockfile
+python-lxml
 python-mako
 python-markdown
 python-markupsafe
@@ -1118,7 +1113,6 @@ python-toml
 python-typing_extensions
 python-urllib3
 python-webencodings
-python-wikipedia
 python-xlib
 python-yaml
 python2
@@ -1171,7 +1165,7 @@ ruby-irb
 ruby-reline
 rubygems
 run-parts
-s-nail
+s3fs-fuse
 sbc
 screenkey
 sddm
@@ -1208,7 +1202,6 @@ sonnet
 sord
 sound-theme-freedesktop
 soundtouch
-source-highlight
 spandsp
 spectacle
 speex
@@ -1221,7 +1214,6 @@ startup-notification
 steam
 steam-native-runtime
 subversion
-sudo
 suitesparse
 svt-hevc
 sxhkd
@@ -1245,7 +1237,6 @@ texinfo
 thin-provisioning-tools
 threadweaver
 tk
-tlauncher
 tmux
 tor
 torbrowser-launcher
@@ -1272,6 +1263,7 @@ twolame
 tzdata
 uchardet
 udisks2
+ueberzug
 ufw
 unibilium
 unzip
@@ -1282,10 +1274,7 @@ util-linux
 util-linux-libs
 v4l-utils
 vamp-plugin-sdk
-vi
 vid.stab
-vim
-vim-runtime
 vlc
 vmaf
 volume_key
@@ -1329,8 +1318,6 @@ xdman
 xdo
 xf86-input-libinput
 xf86-input-wacom
-xf86-video-amdgpu
-xf86-video-vesa
 xfsprogs
 xkeyboard-config
 xmlsec

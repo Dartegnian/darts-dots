@@ -19,7 +19,6 @@ betterdiscord
 betterdiscordctl-git
 binutils
 bleachbit
-bluedevil
 brave-bin
 breeze
 breeze-gtk
@@ -40,16 +39,15 @@ dhcpcd
 diffutils
 discord
 discordrp-mpris-git
-discover
 dislocker
 dolphin
-drkonqi
 dunst
 e2fsprogs
 efitools
 etcher-bin
 exfat-utils
 fakeroot
+ffmpegthumbnailer
 ffmpegthumbs
 figlet
 file
@@ -58,7 +56,6 @@ filezilla
 findutils
 firefox
 flutter
-fwupd
 gawk
 gcc
 gcc-libs
@@ -68,9 +65,7 @@ gimp
 git
 gitkraken
 glibc
-gnome-disk-utility
 gnome-font-viewer
-gnome-system-monitor
 go
 google-chrome-beta
 google-chrome-dev
@@ -78,7 +73,6 @@ grep
 grim
 groff
 grub
-grub-customizer
 gst-libav
 gst-plugins-bad
 gst-plugins-good
@@ -130,7 +124,6 @@ linux-zen
 linux-zen-headers
 logrotate
 lollypop
-lshw
 luit
 lutris
 lvm2
@@ -142,7 +135,6 @@ mariadb
 mdadm
 milou
 minecraft-launcher-beta
-mpc
 mpv
 mupdf-gl
 nano
@@ -164,11 +156,12 @@ nvidia-settings
 nvm
 obs-studio
 opencl-nvidia
+opendoas
+opendoas-sudo
 openrgb
 opera
 opera-ffmpeg-codecs
-otf-font-awesome-5-free
-oxygen
+otf-font-awesome
 packagekit-qt5
 pacman
 pacutils
@@ -194,7 +187,6 @@ plasma5-applets-playbar2
 playerctl
 polkit-kde-agent
 polybar-git
-popcorntime-bin
 powerdevil
 powerline
 powerline-fonts-git
@@ -204,7 +196,6 @@ pulseaudio
 python-dbus
 python-pip
 python-pylast
-python-wikipedia
 qbittorrent
 qcma
 ranger
@@ -213,7 +204,7 @@ rofi
 rofi-dmenu
 rofi-emoji
 rsync
-s-nail
+s3fs-fuse
 screenkey
 sddm
 sddm-config-editor-git
@@ -224,7 +215,6 @@ simple-mtpfs-git
 spectacle
 steam
 steam-native-runtime
-sudo
 sxhkd
 sysfsutils
 sysstat
@@ -234,7 +224,6 @@ systemsettings
 tar
 teamviewer
 texinfo
-tlauncher
 tmux
 tor
 torbrowser-launcher
@@ -251,11 +240,10 @@ ttf-nanum
 ttf-symbola
 ttf-twemoji
 ttf-twemoji-color
+ueberzug
 ufw
 usbutils
 util-linux
-vi
-vim
 vlc
 wget
 which
@@ -271,8 +259,6 @@ xclip
 xdg-desktop-portal-kde
 xdman
 xdo
-xf86-video-amdgpu
-xf86-video-vesa
 xfsprogs
 xorg-bdftopcf
 xorg-docs
