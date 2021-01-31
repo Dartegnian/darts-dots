@@ -27,8 +27,7 @@ bspc rule -a Pavucontrol desktop='^6'
 # other apps on defined desktops
 bspc rule -a Opera desktop='^5'
 bspc rule -a Gwe desktop='^7' follow=off focus=off
-bspc rule -a GitKraken desktop='^7' state=tiled
-bspc rule -a gitkraken state=tiled
+bspc rule -a GitKraken desktop='^7'
 bspc rule -a code-oss desktop='^9'
 
 # floating apps
