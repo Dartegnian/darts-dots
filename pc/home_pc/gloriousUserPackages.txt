@@ -242,6 +242,7 @@ ttf-twemoji
 ttf-twemoji-color
 ueberzug
 ufw
+unrar
 usbutils
 util-linux
 vlc

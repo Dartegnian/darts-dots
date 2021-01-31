@@ -28,7 +28,6 @@ appstream-glib
 appstream-qt
 apr
 apr-util
-archlinux-appstream-data
 archlinux-keyring
 argon2
 aribb24
@@ -81,7 +80,6 @@ cava
 cblas
 cdparanoia
 celt
-cfitsio
 chromaprint-fftw
 cifs-utils
 ckb-next-git
@@ -97,8 +95,9 @@ cool-retro-term
 coreutils
 cowsay
 cpod-git
-cracklib
 cryptsetup
+cups
+cups-filters
 curl
 dart
 dav1d
@@ -112,7 +111,6 @@ dhcpcd
 diffutils
 discord
 discordrp-mpris-git
-discount
 dislocker
 dkms
 dmraid
@@ -154,7 +152,6 @@ filezilla
 findutils
 firefox
 flac
-flashrom
 flite1-patched
 fluidsynth
 flutter
@@ -261,6 +258,7 @@ hwloc
 hyphen
 i3-wm
 iana-etc
+icoutils
 icu
 ijs
 imagemagick
@@ -621,7 +619,6 @@ libgpg-error
 libgphoto2
 libgrss
 libgsf
-libgtop
 libgudev
 libgusb
 libgxps
@@ -644,7 +641,6 @@ libinput
 libinstpatch
 libiptcdata
 libixion
-libjcat
 libjpeg-turbo
 libjpeg6-turbo
 libkate
@@ -658,6 +654,7 @@ libksysguard
 liblangtag
 libldac
 libldap
+liblouis
 liblqr
 liblrdf
 libluv
@@ -721,7 +718,6 @@ libpng12
 libproxy
 libpsl
 libpulse
-libpwquality
 libqaccessibilityclient
 libqalculate
 libqmi
@@ -742,7 +738,6 @@ libsecret
 libshout
 libsigc++
 libsm
-libsmbios
 libsndfile
 libsodium
 libsoup
@@ -779,7 +774,6 @@ libuv
 libva
 libva-vdpau-driver
 libvdpau
-libvips
 libvisio
 libvisual
 libvitamtp
@@ -816,7 +810,6 @@ libxkbcommon
 libxkbcommon-x11
 libxkbfile
 libxml2
-libxmlb
 libxmu
 libxnvctrl
 libxpm
@@ -1123,6 +1116,7 @@ qcma
 qgpgme
 qhull
 qmltermwidget
+qpdf
 qqc2-desktop-style
 qrencode
 qt5-base
@@ -1241,7 +1235,6 @@ tmux
 tor
 torbrowser-launcher
 totem-pl-parser
-tpm2-tss
 tracker3
 tracker3-miners
 transmission-cli
@@ -1266,6 +1259,8 @@ udisks2
 ueberzug
 ufw
 unibilium
+unixodbc
+unrar
 unzip
 upower
 usbmuxd
