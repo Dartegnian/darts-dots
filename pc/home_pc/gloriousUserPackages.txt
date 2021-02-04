@@ -44,7 +44,6 @@ dolphin
 dunst
 e2fsprogs
 efitools
-etcher-bin
 exfat-utils
 fakeroot
 ffmpegthumbnailer
@@ -65,7 +64,6 @@ gimp
 git
 gitkraken
 glibc
-gnome-font-viewer
 go
 google-chrome-beta
 google-chrome-dev
@@ -76,7 +74,6 @@ grub
 gst-libav
 gst-plugins-bad
 gst-plugins-good
-gtk-youtube-viewer-git
 gtypist
 gucharmap
 gwe
@@ -106,7 +103,6 @@ kscreen
 kscreenlocker
 ksshaskpass
 ksysguard
-kvantum-qt5
 kwallet-pam
 kwin
 kwrited
@@ -169,6 +165,7 @@ paru-bin
 patch
 pavucontrol
 pciutils
+peazip-gtk2-bin
 perl
 php
 php-fpm
@@ -207,8 +204,6 @@ rsync
 s3fs-fuse
 screenkey
 sddm
-sddm-config-editor-git
-sddm-kcm
 sed
 shadow
 simple-mtpfs-git
@@ -239,7 +234,6 @@ ttf-material-icons-git
 ttf-nanum
 ttf-symbola
 ttf-twemoji
-ttf-twemoji-color
 ueberzug
 ufw
 unrar

@@ -46,6 +46,7 @@ avahi
 babl
 baloo
 baloo-widgets
+balz
 bash
 bashtop
 bc
@@ -58,6 +59,7 @@ bluez
 bluez-libs
 bluez-qt
 boost-libs
+box2d
 brave-bin
 breeze
 breeze-gtk
@@ -73,7 +75,6 @@ ca-certificates-mozilla
 ca-certificates-utils
 cabextract
 cairo
-cairo-perl
 cairomm
 cantarell-fonts
 cava
@@ -132,7 +133,6 @@ eglexternalplatform
 electron9
 elfutils
 enchant
-etcher-bin
 exempi
 exfat-utils
 exiv2
@@ -187,7 +187,6 @@ gitkraken
 glew
 glew1.10
 glib-networking
-glib-perl
 glib2
 glibc
 glibmm
@@ -197,7 +196,6 @@ glu
 gmp
 gnome-autoar
 gnome-desktop
-gnome-font-viewer
 gnome-themes-extra
 gnu-free-fonts
 gnupg
@@ -230,7 +228,6 @@ gst-plugins-good
 gst-python
 gstreamer
 gtk-update-icon-cache
-gtk-youtube-viewer-git
 gtk2
 gtk3
 gtkmm
@@ -367,7 +364,6 @@ ktexteditor
 ktextwidgets
 kunitconversion
 kuserfeedback
-kvantum-qt5
 kwallet
 kwallet-pam
 kwayland
@@ -413,6 +409,7 @@ lib32-glib2
 lib32-glibc
 lib32-glu
 lib32-gmp
+lib32-gmp4
 lib32-gnutls
 lib32-gtk2
 lib32-harfbuzz
@@ -952,6 +949,7 @@ pam
 pambase
 pango
 pangomm
+paq8o
 parted
 paru-bin
 patch
@@ -959,17 +957,12 @@ pavucontrol
 pciutils
 pcre
 pcre2
+peazip-gtk2-bin
 perl
-perl-cairo-gobject
-perl-class-inspector
 perl-clone
-perl-data-dump
 perl-encode-locale
 perl-error
 perl-file-listing
-perl-file-sharedir
-perl-glib-object-introspection
-perl-gtk3
 perl-html-parser
 perl-html-tagset
 perl-http-cookies
@@ -979,7 +972,6 @@ perl-http-message
 perl-http-negotiate
 perl-io-html
 perl-io-socket-ssl
-perl-json
 perl-libwww
 perl-lwp-mediatypes
 perl-lwp-protocol-https
@@ -1163,8 +1155,6 @@ s3fs-fuse
 sbc
 screenkey
 sddm
-sddm-config-editor-git
-sddm-kcm
 sdl
 sdl2
 sdl2_image
@@ -1251,10 +1241,10 @@ ttf-material-icons-git
 ttf-nanum
 ttf-symbola
 ttf-twemoji
-ttf-twemoji-color
 twolame
 tzdata
 uchardet
+ucl
 udisks2
 ueberzug
 ufw
@@ -1263,6 +1253,7 @@ unixodbc
 unrar
 unzip
 upower
+upx
 usbmuxd
 usbutils
 util-linux
@@ -1296,6 +1287,7 @@ wxgtk-common
 wxgtk3
 x264
 x265
+xbitmaps
 xboxdrv
 xcb-proto
 xcb-util
@@ -1371,6 +1363,7 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xorgproto
+xterm
 xvidcore
 xxhash
 xz
@@ -1388,6 +1381,7 @@ zita-alsa-pcmi
 zita-resampler
 zlib
 zoom
+zpaq
 zsh
 zstd
 zvbi
