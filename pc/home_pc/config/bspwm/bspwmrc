@@ -39,6 +39,7 @@ bspc rule -a katawashoujo_actual_1.3 state=floating
 
 # Compton
 compton --config $HOME/.config/compton/config &
+# picom --experimental-backend &
 
 # Polybar
 $HOME/.config/polybar/polybar.sh &
