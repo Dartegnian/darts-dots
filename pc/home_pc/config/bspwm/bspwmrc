@@ -37,9 +37,8 @@ bspc rule -a katawashoujo_actual_1.3 state=floating
 
 # ==> END bspwm rules
 
-# Compton
-compton --config $HOME/.config/compton/config &
-# picom --experimental-backend &
+# Compositor
+picom --experimental-backends &
 
 # Polybar
 $HOME/.config/polybar/polybar.sh &
@@ -58,7 +57,7 @@ sleep 0.5
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
 sleep 0.5
 bspc node -d ^10
-sleep 1
+sleep 4
 cool-retro-term -e tmux attach-session -t Singular-1 &
 sleep 1
 cool-retro-term -e bashtop &
