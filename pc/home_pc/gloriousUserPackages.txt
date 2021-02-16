@@ -27,7 +27,6 @@ bzip2
 cava
 ckb-next-git
 code
-compton-tryone-git
 cool-retro-term
 coreutils
 cowsay
@@ -99,6 +98,7 @@ khotkeys
 kinfocenter
 kleopatra
 kmenuedit
+krita
 kscreen
 kscreenlocker
 ksshaskpass
@@ -165,11 +165,11 @@ paru-bin
 patch
 pavucontrol
 pciutils
-peazip-gtk2-bin
 perl
 php
 php-fpm
 phpmyadmin
+picom-ibhagwan-git
 pkgconf
 plasma-browser-integration
 plasma-desktop
@@ -240,6 +240,7 @@ unrar
 usbutils
 util-linux
 vlc
+w3m
 wget
 which
 whois
@@ -252,7 +253,6 @@ wmname
 xboxdrv
 xclip
 xdg-desktop-portal-kde
-xdman
 xdo
 xfsprogs
 xorg-bdftopcf

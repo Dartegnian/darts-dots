@@ -46,7 +46,6 @@ avahi
 babl
 baloo
 baloo-widgets
-balz
 bash
 bashtop
 bc
@@ -89,7 +88,6 @@ clucene
 code
 colord
 compiler-rt
-compton-tryone-git
 confuse
 convertlit
 cool-retro-term
@@ -130,7 +128,7 @@ efitools
 efivar
 egl-wayland
 eglexternalplatform
-electron9
+electron
 elfutils
 enchant
 exempi
@@ -216,6 +214,7 @@ groff
 grub
 gsettings-desktop-schemas
 gsfonts
+gsl
 gsm
 gspell
 gssdp
@@ -354,6 +353,7 @@ kpimtextedit
 kpty
 kquickcharts
 krb5
+krita
 krunner
 kscreen
 kscreenlocker
@@ -409,7 +409,6 @@ lib32-glib2
 lib32-glibc
 lib32-glu
 lib32-gmp
-lib32-gmp4
 lib32-gnutls
 lib32-gtk2
 lib32-harfbuzz
@@ -512,6 +511,7 @@ lib32-nvidia-utils
 lib32-openal
 lib32-openssl
 lib32-openssl-1.0
+lib32-opus
 lib32-p11-kit
 lib32-pam
 lib32-pango
@@ -949,7 +949,6 @@ pam
 pambase
 pango
 pangomm
-paq8o
 parted
 paru-bin
 patch
@@ -957,7 +956,6 @@ pavucontrol
 pciutils
 pcre
 pcre2
-peazip-gtk2-bin
 perl
 perl-clone
 perl-encode-locale
@@ -992,6 +990,7 @@ phonon-qt5-gstreamer
 php
 php-fpm
 phpmyadmin
+picom-ibhagwan-git
 pinentry
 pipewire
 pixman
@@ -1244,7 +1243,6 @@ ttf-twemoji
 twolame
 tzdata
 uchardet
-ucl
 udisks2
 ueberzug
 ufw
@@ -1253,7 +1251,6 @@ unixodbc
 unrar
 unzip
 upower
-upx
 usbmuxd
 usbutils
 util-linux
@@ -1265,6 +1262,7 @@ vlc
 vmaf
 volume_key
 vulkan-icd-loader
+w3m
 wavpack
 wayland
 wayland-protocols
@@ -1301,7 +1299,6 @@ xclip
 xdg-dbus-proxy
 xdg-desktop-portal-kde
 xdg-utils
-xdman
 xdo
 xf86-input-libinput
 xf86-input-wacom
@@ -1381,7 +1378,6 @@ zita-alsa-pcmi
 zita-resampler
 zlib
 zoom
-zpaq
 zsh
 zstd
 zvbi
