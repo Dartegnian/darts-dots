@@ -150,10 +150,10 @@ super + a
 	alacritty
 
 super + Print
-	spectacle -f
+	maim -m 1 -f png ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/$(date +%Y-%m-%d-%T)-arch-linux-screen.png
 
 super + shift + s
-	spectacle -r
+	maim -s -m 1 -f png ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/Fresh\ Cuts/$(date +%Y-%m-%d-%T)-arch-linux-crop.png
 
 super + e
 	dolphin
