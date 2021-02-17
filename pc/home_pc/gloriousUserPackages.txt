@@ -19,9 +19,11 @@ betterdiscordctl-git
 binutils
 bleachbit
 brave-bin
+breeze-icons
 bspwm
 bzip2
 cava
+chili-sddm-theme
 ckb-next-git
 code
 cool-retro-term
@@ -93,6 +95,7 @@ luit
 lutris
 lvm2
 m4
+maim
 make
 man-db
 man-pages

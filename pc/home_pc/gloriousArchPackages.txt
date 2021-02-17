@@ -49,6 +49,7 @@ bluez-libs
 boost-libs
 box2d
 brave-bin
+breeze-icons
 brotli
 bspwm
 btrfs-progs
@@ -66,6 +67,7 @@ cava
 cblas
 cdparanoia
 celt
+chili-sddm-theme
 chromaprint-fftw
 cifs-utils
 ckb-next-git
@@ -254,6 +256,7 @@ js78
 json-c
 json-glib
 jsoncpp
+jxrlib
 katawa-shoujo-bin
 kbd
 keepassxc
@@ -718,6 +721,7 @@ lz4
 lzo
 m4
 mailcap
+maim
 make
 man-db
 man-pages
@@ -990,6 +994,7 @@ shadow
 shared-mime-info
 simple-mtpfs-git
 slang
+slop
 smbclient
 smpeg
 snappy
