@@ -36,7 +36,6 @@ diffutils
 discord
 discordrp-mpris-git
 dislocker
-dolphin
 dunst
 e2fsprogs
 efitools
@@ -79,8 +78,6 @@ jfsutils
 jre8-openjdk
 katawa-shoujo-bin
 keepassxc
-kleopatra
-krita
 less
 lib32-mesa
 lib32-nvidia-utils
@@ -159,7 +156,6 @@ sddm
 sed
 shadow
 simple-mtpfs-git
-spectacle
 steam
 steam-native-runtime
 sxhkd
