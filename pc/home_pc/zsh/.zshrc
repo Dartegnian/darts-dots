@@ -118,6 +118,7 @@ alias s-d="systemctl --user start discordrp-mpris.service"
 alias r-d="systemctl --user restart discordrp-mpris.service"
 alias wget="wget --hsts-file='$XDG_CACHE_HOME/wget-hsts'"
 alias motd="~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"
+alias yay="doas powerpill"
 
 # Lines configured by zsh-newuser-install
 HISTFILE="$XDG_DATA_HOME"/zsh/history
