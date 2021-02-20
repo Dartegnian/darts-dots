@@ -56,7 +56,6 @@ gcc
 gcc-libs
 gedit
 gettext
-gimp
 git
 gitkraken
 glibc

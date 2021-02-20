@@ -156,7 +156,6 @@ geoip
 geoip-database
 gettext
 giflib
-gimp
 git
 gitkraken
 glew
