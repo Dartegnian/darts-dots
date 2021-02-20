@@ -123,7 +123,7 @@ font-7 = Noto Sans CJK TC:bold:size=9;2
 
 modules-left = bspwm 
 modules-center = download date now-playing time upload
-modules-right = code terminal firefox chrome youtube gaming audio close powermenu
+modules-right = code terminal firefox chrome youtube audio close powermenu
 
 
 ;===================================================================
