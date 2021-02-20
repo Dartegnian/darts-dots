@@ -116,7 +116,7 @@ alias s-p="picom --experimental-backends &"
 alias r-p="killall -q picom && picom --experimental-backends &"
 alias s-d="systemctl --user start discordrp-mpris.service"
 alias r-d="systemctl --user restart discordrp-mpris.service"
-alias wget="wget --hsts-file="$XDG_CACHE_HOME/wget-hsts""
+alias wget="wget --hsts-file='$XDG_CACHE_HOME/wget-hsts'"
 alias motd="~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"
 
 # Lines configured by zsh-newuser-install
