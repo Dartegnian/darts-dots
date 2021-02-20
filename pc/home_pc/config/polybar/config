@@ -436,7 +436,7 @@ click-right = cool-retro-term -e nvim &
 [module/terminal]
 type = custom/text
 
-content = "   "
+content = "     |  "
 content-foreground = ${colors.foreground-icon}
 
 click-left = cool-retro-term &
@@ -507,8 +507,8 @@ type = custom/text
 content = "   "
 content-foreground = ${colors.foreground-icon}
 
-click-left = lutris &
-click-right = steam-native &
+click-left = steam-native &
+click-right = lutris &
 
 [module/audio]
 type = custom/text
