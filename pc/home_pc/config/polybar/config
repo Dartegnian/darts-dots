@@ -79,6 +79,11 @@ click-right = cool-retro-term -e bashtop &
 scroll-up =
 scroll-down =
 
+
+;===================================================================
+;                           Tray
+;===================================================================
+
 ; Position of the system tray window
 ; If empty or undefined, tray support will be disabled
 ; NOTE: A center aligned tray will cover center aligned modules
@@ -91,7 +96,7 @@ scroll-down =
 tray-position = right
 tray-detached = false
 tray-maxsize = 15
-tray-background = #7504060e
+tray-background = ${colors.background-transparent}
 tray-offset-x = 0
 tray-offset-y = 0
 tray-padding = 0
@@ -270,7 +275,7 @@ label-unmounted-padding =
 [module/download]
 type = internal/network
 interface = enp27s0
-interval = 1
+interval = 30
 
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-icon}
@@ -279,12 +284,12 @@ format-disconnected = <label-disconnected>
 format-disconnected-prefix = " "
 
 label-connected = "%downspeed% "
-label-disconnected = "Down"
+label-disconnected = "Offline"
 
 [module/upload]
 type = internal/network
 interface = enp27s0
-interval = 1
+interval = 30
 
 format-connected-prefix = "   "
 format-connected-prefix-foreground = ${colors.foreground-icon}
@@ -293,7 +298,7 @@ format-disconnected = <label-disconnected>
 format-disconnected-prefix = "   "
 
 label-connected = "%upspeed%"
-label-disconnected = "Down"
+label-disconnected = "Offline"
 
 
 ;===================================================================
