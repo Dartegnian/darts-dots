@@ -45,7 +45,6 @@ blas
 bleachbit
 boost-libs
 box2d
-brave-bin
 breeze-icons
 bridge-utils
 brotli
@@ -253,7 +252,6 @@ json-c
 json-glib
 jsoncpp
 jxrlib
-katawa-shoujo-bin
 kbd
 keepassxc
 keyutils
@@ -760,8 +758,6 @@ openresolv
 openssh
 openssl
 openssl-1.0
-opera
-opera-ffmpeg-codecs
 opus
 opusfile
 orc
@@ -772,7 +768,6 @@ p11-kit
 p7zip
 pacman
 pacman-mirrorlist
-pacutils
 pahole
 pam
 pambase
@@ -814,8 +809,6 @@ perl-www-robotrules
 perl-x11-protocol
 perl-xml-parser
 perl-xml-twig
-phonon-qt5
-phonon-qt5-gstreamer
 php
 php-fpm
 phpmyadmin
@@ -904,15 +897,10 @@ qrencode
 qt5-base
 qt5-declarative
 qt5-graphicaleffects
-qt5-location
 qt5-quickcontrols
-qt5-sensors
 qt5-svg
 qt5-tools
-qt5-webchannel
-qt5-webkit
 qt5-x11extras
-qt5-xmlpatterns
 quazip
 ranger
 raptor
@@ -985,7 +973,6 @@ tar
 tbb
 tcl
 tdb
-teamviewer
 tepl
 texinfo
 thin-provisioning-tools

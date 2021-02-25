@@ -18,7 +18,6 @@ betterdiscord
 betterdiscordctl-git
 binutils
 bleachbit
-brave-bin
 breeze-icons
 bspwm
 bzip2
@@ -81,7 +80,6 @@ irqbalance
 java-environment-common
 jfsutils
 jre8-openjdk
-katawa-shoujo-bin
 keepassxc
 less
 lib32-mesa
@@ -124,11 +122,8 @@ obs-studio
 opencl-nvidia
 opendoas
 opendoas-sudo
-opera
-opera-ffmpeg-codecs
 otf-font-awesome
 pacman
-pacutils
 paru-bin
 patch
 pavucontrol
@@ -168,7 +163,6 @@ sysstat
 systemd
 systemd-sysvcompat
 tar
-teamviewer
 texinfo
 tmux
 tor
