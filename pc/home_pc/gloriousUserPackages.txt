@@ -180,8 +180,6 @@ util-linux
 w3m
 wget
 which
-wine-gecko
-wine-mono
 wine-tkg-staging-fsync-git
 winetricks
 wireguard-tools

@@ -967,8 +967,6 @@ webkit2gtk
 webrtc-audio-processing
 wget
 which
-wine-gecko
-wine-mono
 wine-tkg-staging-fsync-git
 winetricks
 wireguard-tools
