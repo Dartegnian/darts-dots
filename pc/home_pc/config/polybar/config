@@ -275,7 +275,7 @@ label-unmounted-padding =
 [module/download]
 type = internal/network
 interface = enp27s0
-interval = 30
+interval = 45
 
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-icon}
@@ -289,7 +289,7 @@ label-disconnected = "Offline"
 [module/upload]
 type = internal/network
 interface = enp27s0
-interval = 30
+interval = 45
 
 format-connected-prefix = "   "
 format-connected-prefix-foreground = ${colors.foreground-icon}
@@ -326,7 +326,7 @@ interval = 1
 label-foreground = #FFFFFF
 label = %date%
 date = "    %I:%M %p "
-date-alt = "    %T, %Z "
+date-alt = "    %T (%Z) "
 
 
 ;===================================================================
@@ -554,7 +554,7 @@ click-right = bspc node -k &
 
 [module/now-playing]
 type = custom/script
-exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py --blacklist chromium -f '  |   {icon}  {artist} - {title}   | ' --icon-paused "" --icon-playing "" --icon-stopped "  |     Stopped   | "
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py -f '  |   {icon}  {artist} - {title}   | ' --icon-paused "" --icon-playing "" --icon-stopped "  |     Stopped   | "
 tail = true
 click-left = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py play-pause &
 click-right = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py stop &
