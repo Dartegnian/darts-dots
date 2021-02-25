@@ -23,6 +23,8 @@ breeze-icons
 bspwm
 bzip2
 cava
+chaotic-keyring
+chaotic-mirrorlist
 chili-sddm-theme
 ckb-next-git
 code
