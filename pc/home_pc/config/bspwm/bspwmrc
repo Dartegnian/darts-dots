@@ -37,6 +37,9 @@ bspc rule -a katawashoujo_actual_1.3 state=floating
 
 # ==> END bspwm rules
 
+# DWM swallow
+$HOME/SYGtech/goteki-git/bspswallow/bspswallow &
+
 # Compositor
 picom --experimental-backends &
 
@@ -77,3 +80,6 @@ wmname LG3D
 
 # Discord status
 systemctl --user start discordrp-mpris.service
+
+# Gnome polkit
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
