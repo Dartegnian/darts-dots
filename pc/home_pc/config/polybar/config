@@ -275,7 +275,7 @@ label-unmounted-padding =
 [module/download]
 type = internal/network
 interface = enp27s0
-interval = 45
+interval = 5
 
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-icon}
@@ -289,7 +289,7 @@ label-disconnected = "Offline"
 [module/upload]
 type = internal/network
 interface = enp27s0
-interval = 45
+interval = 5
 
 format-connected-prefix = "   "
 format-connected-prefix-foreground = ${colors.foreground-icon}
@@ -488,9 +488,9 @@ type = custom/text
 content = "   "
 content-foreground = ${colors.foreground-icon}
 
-click-left = opera "https://www.youtube.com" &
-click-middle = opera "https://www.youtube.com/feed/subscriptions" &
-click-right = opera "https://www.youtube.com/playlist?list=PLMBv7J0cbV5z2MnH5OY0FfdOhQc2DW3WV" &
+click-left = firefox "https://www.youtube.com" &
+click-middle = firefox "https://www.youtube.com/feed/subscriptions" &
+click-right = firefox "https://www.youtube.com/playlist?list=PLMBv7J0cbV5z2MnH5OY0FfdOhQc2DW3WV" &
 
 [module/twitter]
 type = custom/text
