@@ -10,8 +10,6 @@ android-sdk-build-tools
 android-sdk-platform-tools
 android-studio
 audio-recorder
-autoconf
-automake
 bash
 bashtop
 betterdiscord
@@ -30,7 +28,6 @@ ckb-next-git
 code
 cool-retro-term
 coreutils
-cowsay
 cpod-git
 cryptsetup
 dart
@@ -68,10 +65,8 @@ grep
 groff
 grub
 gst-libav
-gst-plugins-bad
 gst-plugins-good
 gtypist
-gwe
 gzip
 inetutils
 iproute2
@@ -84,7 +79,6 @@ keepassxc
 less
 lib32-mesa
 lib32-nvidia-utils
-libmad
 libreoffice-fresh
 libtool
 licenses
@@ -143,7 +137,6 @@ psmisc
 pulseaudio
 python-dbus
 qbittorrent
-qcma
 ranger
 reiserfsprogs
 rofi
