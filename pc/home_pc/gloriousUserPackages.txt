@@ -25,6 +25,7 @@ bzip2
 cava
 chaotic-keyring
 chaotic-mirrorlist
+chaotic-nvidia-dkms-tkg
 chili-sddm-theme
 ckb-next-git
 code
@@ -40,6 +41,7 @@ diffutils
 discord
 discordrp-mpris-git
 dislocker
+docker
 dunst
 e2fsprogs
 efitools
@@ -89,10 +91,9 @@ libreoffice-fresh
 libtool
 licenses
 linux-firmware
-linux-zen
-linux-zen-headers
+linux-tkg-pds-zen
+linux-tkg-pds-zen-headers
 lollypop
-luit
 lutris
 lvm2
 m4
@@ -110,7 +111,6 @@ nautilus
 ncdu
 neofetch
 neovim
-networkmanager
 nginx-mainline
 nitrogen
 nomacs
@@ -118,7 +118,6 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 ntfs-3g
-nvidia-dkms
 nvidia-settings
 nvm
 obs-studio
@@ -140,13 +139,14 @@ php-fpm
 phpmyadmin
 picom-ibhagwan-git
 playerctl
+polkit-gnome
 polybar
 powerline-fonts-git
+powerpill
 procps-ng
 psmisc
 pulseaudio
 python-dbus
-python-pip
 qbittorrent
 qcma
 ranger
@@ -190,7 +190,6 @@ ufw
 unrar
 usbutils
 util-linux
-vlc
 w3m
 wget
 which
@@ -217,7 +216,6 @@ xorg-xrdb
 xorg-xset
 xorg-xsetroot
 xorg-xwininfo
-yarn
 youtube-dl
 zenity
 zip
