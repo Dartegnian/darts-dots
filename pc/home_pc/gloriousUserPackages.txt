@@ -40,6 +40,7 @@ dislocker
 docker
 dunst
 e2fsprogs
+easytag-git
 efitools
 exfat-utils
 fakeroot
@@ -85,7 +86,7 @@ licenses
 linux-firmware
 linux-tkg-pds-zen
 linux-tkg-pds-zen-headers
-lollypop
+lollypop-next-git
 lutris
 lvm2
 m4
@@ -103,6 +104,7 @@ nautilus
 ncdu
 neofetch
 neovim
+nerd-fonts-fira-code
 nginx-mainline
 nitrogen
 nomacs
@@ -126,7 +128,7 @@ perl
 php
 php-fpm
 phpmyadmin
-picom-ibhagwan-git
+picom-git
 playerctl
 polkit-gnome
 polybar

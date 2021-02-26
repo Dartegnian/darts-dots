@@ -100,6 +100,7 @@ dosfstools
 double-conversion
 dunst
 e2fsprogs
+easytag-git
 efibootmgr
 efitools
 efivar
@@ -208,6 +209,7 @@ hwloc
 hyphen
 iana-etc
 icu
+id3lib
 imlib2
 inetutils
 iniparser
@@ -640,7 +642,7 @@ linux-tkg-pds-zen-headers
 llvm
 llvm-libs
 lm_sensors
-lollypop
+lollypop-next-git
 lpsolve
 lsb-release
 lsof
@@ -689,6 +691,7 @@ ndctl
 neofetch
 neon
 neovim
+nerd-fonts-fira-code
 nettle
 nginx-mainline
 nitrogen
@@ -776,7 +779,7 @@ perl-xml-twig
 php
 php-fpm
 phpmyadmin
-picom-ibhagwan-git
+picom-git
 pinentry
 pixman
 playerctl
@@ -1013,6 +1016,8 @@ xorgproto
 xvidcore
 xxhash
 xz
+yelp
+yelp-xsl
 youtube-dl
 yubico-c
 yubico-c-client
