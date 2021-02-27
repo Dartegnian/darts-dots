@@ -853,7 +853,7 @@ qt5-svg
 qt5-tools
 qt5-x11extras
 quazip
-ranger
+ranger-git
 raptor
 rasqal
 rav1e
@@ -927,7 +927,6 @@ torbrowser-launcher
 totem-pl-parser
 tracker3
 tracker3-miners
-transmission-cli
 tslib
 ttf-arphic-uming
 ttf-baekmuk

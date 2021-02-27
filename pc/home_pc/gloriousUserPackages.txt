@@ -139,7 +139,7 @@ psmisc
 pulseaudio
 python-dbus
 qbittorrent
-ranger
+ranger-git
 reiserfsprogs
 rofi
 rofi-dmenu
