@@ -4,7 +4,7 @@
 nitrogen --restore &
 
 # Hotkeys + keyboard shortcuts
-sxhkd &
+preg sxhkd || sxhkd &
 
 # ==> START bspwm rules
 
@@ -38,13 +38,13 @@ bspc rule -a katawashoujo_actual_1.3 state=floating
 # ==> END bspwm rules
 
 # DWM swallow
-$HOME/SYGtech/goteki-git/bspswallow/bspswallow &
+pgrep bspswallow || $HOME/SYGtech/goteki-git/bspswallow/bspswallow &
 
 # Compositor
-picom --experimental-backends &
+pgrep picom || picom --experimental-backends &
 
 # Polybar
-$HOME/.config/polybar/polybar.sh &
+pgrep polybar || $HOME/.config/polybar/polybar.sh &
 
 # Nvidia
 nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settings --load-config-only
@@ -70,7 +70,7 @@ sleep 0.5
 bspc node -z top 0 40
 
 # Notifications
-dunst -conf ~/.config/dunst/dunstrc &
+pgrep dunst || dunst -conf ~/.config/dunst/dunstrc &
 
 # Fix for some Java programs
 wmname LG3D
@@ -79,4 +79,4 @@ wmname LG3D
 systemctl --user start discordrp-mpris.service
 
 # Gnome polkit
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+pgrep polkit-gnome || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
