@@ -69,6 +69,7 @@ gst-libav
 gst-plugins-good
 gtypist
 gzip
+i2c-tools
 inetutils
 iproute2
 iputils
@@ -118,6 +119,7 @@ obs-studio
 opencl-nvidia
 opendoas
 opendoas-sudo
+openrgb
 otf-font-awesome
 pacman
 paru-bin
@@ -141,6 +143,7 @@ pulseaudio
 python-dbus
 qbittorrent
 ranger-git
+read-edid
 reiserfsprogs
 rofi
 rofi-dmenu

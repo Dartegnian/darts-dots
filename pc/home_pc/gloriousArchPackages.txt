@@ -207,6 +207,7 @@ hunspell
 hwids
 hwloc
 hyphen
+i2c-tools
 iana-etc
 icu
 id3lib
@@ -722,6 +723,7 @@ openexr
 openjpeg2
 openmpi
 openresolv
+openrgb
 openssh
 openssl
 openssl-1.0
@@ -859,6 +861,7 @@ raptor
 rasqal
 rav1e
 re2
+read-edid
 readline
 redland
 reiserfsprogs
