@@ -175,7 +175,7 @@ graphene
 graphite
 grep
 groff
-grub
+grub-silent
 gsettings-desktop-schemas
 gsm
 gspell
@@ -796,6 +796,7 @@ postgresql-libs
 powerline-fonts-git
 powerpill
 procps-ng
+proton-ge-custom-bin
 psmisc
 pulseaudio
 pulseaudio-alsa
@@ -969,8 +970,10 @@ webkit2gtk
 webrtc-audio-processing
 wget
 which
+wine-gecko
+wine-mono
 wine-tkg-staging-fsync-git
-winetricks
+winetricks-git
 wireguard-tools
 wmname
 woff2

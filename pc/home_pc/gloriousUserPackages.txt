@@ -64,7 +64,7 @@ google-chrome-beta
 google-chrome-dev
 grep
 groff
-grub
+grub-silent
 gst-libav
 gst-plugins-good
 gtypist
@@ -135,6 +135,7 @@ polybar
 powerline-fonts-git
 powerpill
 procps-ng
+proton-ge-custom-bin
 psmisc
 pulseaudio
 python-dbus
@@ -182,8 +183,10 @@ util-linux
 w3m
 wget
 which
+wine-gecko
+wine-mono
 wine-tkg-staging-fsync-git
-winetricks
+winetricks-git
 wireguard-tools
 wmname
 xclip
