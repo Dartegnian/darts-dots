@@ -4,6 +4,7 @@ adobe-source-sans-pro-fonts
 alacritty
 alsa-utils
 amd-ucode
+android-file-transfer
 android-platform
 android-sdk
 android-sdk-build-tools
@@ -23,6 +24,8 @@ cava
 chaotic-keyring
 chaotic-mirrorlist
 chaotic-nvidia-dkms-tkg
+chaotic-nvidia-opencl-tkg
+chaotic-nvidia-settings-tkg
 chili-sddm-theme
 ckb-next-git
 code
@@ -79,8 +82,8 @@ jfsutils
 jre8-openjdk
 keepassxc
 less
+lib32-chaotic-nvidia-utils-tkg
 lib32-mesa
-lib32-nvidia-utils
 libreoffice-fresh
 libtool
 licenses
@@ -97,7 +100,7 @@ man-db
 man-pages
 mariadb
 mdadm
-minecraft-launcher-beta
+minecraft-launcher
 mpv
 mupdf-gl
 nano
@@ -113,10 +116,8 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 ntfs-3g
-nvidia-settings
 nvm
 obs-studio
-opencl-nvidia
 opendoas
 opendoas-sudo
 openrgb
@@ -153,7 +154,6 @@ s3fs-fuse
 sddm
 sed
 shadow
-simple-mtpfs-git
 steam
 steam-native-runtime
 sxhkd

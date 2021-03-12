@@ -13,6 +13,7 @@ alsa-ucm-conf
 alsa-utils
 amd-ucode
 amtk
+android-file-transfer
 android-platform
 android-sdk
 android-sdk-build-tools
@@ -65,6 +66,8 @@ celt
 chaotic-keyring
 chaotic-mirrorlist
 chaotic-nvidia-dkms-tkg
+chaotic-nvidia-opencl-tkg
+chaotic-nvidia-settings-tkg
 chaotic-nvidia-utils-tkg
 chili-sddm-theme
 ckb-next-git
@@ -123,7 +126,6 @@ filezilla
 findutils
 firefox
 flac
-flite1-patched
 fluidsynth
 flutter
 fontconfig
@@ -205,7 +207,6 @@ hspell
 http-parser
 hunspell
 hwids
-hwloc
 hyphen
 i2c-tools
 iana-etc
@@ -259,6 +260,7 @@ lib32-atk
 lib32-attr
 lib32-bzip2
 lib32-cairo
+lib32-chaotic-nvidia-utils-tkg
 lib32-curl
 lib32-dbus
 lib32-dbus-glib
@@ -377,7 +379,6 @@ lib32-ncurses
 lib32-nettle
 lib32-nspr
 lib32-nss
-lib32-nvidia-utils
 lib32-openal
 lib32-openssl
 lib32-openssl-1.0
@@ -416,6 +417,7 @@ libasyncns
 libatasmart
 libatomic_ops
 libavc1394
+libavif
 libavtp
 libblockdev
 libbluray
@@ -445,6 +447,7 @@ libdbusmenu-gtk2
 libdbusmenu-gtk3
 libdbusmenu-qt5
 libdc1394
+libde265
 libdrm
 libdv
 libdvdnav
@@ -478,6 +481,7 @@ libgudev
 libgusb
 libgxps
 libhandy
+libheif
 libibus
 libice
 libid3tag
@@ -508,7 +512,6 @@ libmodplug
 libmpc
 libmpdclient
 libmspub
-libmtp
 libmwaw
 libnautilus-extension
 libnet
@@ -601,6 +604,7 @@ libwpg
 libwps
 libwrap
 libx11
+libx86
 libxau
 libxaw
 libxcb
@@ -621,7 +625,6 @@ libxkbcommon-x11
 libxkbfile
 libxml2
 libxmu
-libxnvctrl
 libxpm
 libxrandr
 libxrender
@@ -633,6 +636,7 @@ libxtst
 libxv
 libxxf86vm
 libyaml
+libyuv
 libzip
 libzmf
 licenses
@@ -672,7 +676,7 @@ md4c
 mdadm
 mesa
 mesa-demos
-minecraft-launcher-beta
+minecraft-launcher
 minizip
 mkinitcpio
 mkinitcpio-busybox
@@ -709,12 +713,10 @@ nspr
 nss
 ntfs-3g
 numactl
-nvidia-settings
 nvm
 obs-studio
 oniguruma
 openal
-opencl-nvidia
 opencore-amr
 opencv
 opendoas
@@ -895,7 +897,6 @@ serf
 shaderc
 shadow
 shared-mime-info
-simple-mtpfs-git
 slop
 smpeg
 snappy
@@ -910,6 +911,7 @@ startup-notification
 steam
 steam-native-runtime
 subversion
+svt-av1
 sxhkd
 sysfsutils
 sysstat

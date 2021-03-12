@@ -32,8 +32,8 @@ bspc rule -a code-oss desktop='^9'
 
 # floating apps
 bspc rule -a jetbrains-studio state=floating
-bspc rule -a "Katawa Shoujo" state=floating
-bspc rule -a katawashoujo_actual_1.3 state=floating
+bspc rule -a "firefox":Toolkit state=floating sticky=on
+bspc rule -a pavucontrol state=floating
 
 # ==> END bspwm rules
 
@@ -51,22 +51,20 @@ nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settings --load-config-only
 nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 
 # Set RGB lights
-ckb-next &
-sleep 0.5
-xdo close -n ckb-next &
-sleep 0.5
+ckb-next --background &
+openrgb --startminimized &
 
 # Startup programs on desktop 1
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
 sleep 0.5
 bspc node -d ^10
-sleep 4
+sleep 5
 cool-retro-term -e tmux attach-session -t Singular-1 &
 sleep 1
 cool-retro-term -e bashtop &
 sleep 0.5
 cool-retro-term -e alsamixer -D hw:3 &
-sleep 0.5
+sleep 1.5
 bspc node -z top 0 40
 
 # Notifications
