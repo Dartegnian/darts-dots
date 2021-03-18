@@ -34,6 +34,7 @@ coreutils
 cpod-git
 cryptsetup
 dart
+dbus-python
 device-mapper
 dhcpcd
 diffutils
@@ -105,7 +106,6 @@ mpv
 mupdf-gl
 nano
 nautilus
-ncdu
 neofetch
 neovim
 nerd-fonts-fira-code
@@ -122,8 +122,7 @@ opendoas
 opendoas-sudo
 openrgb
 otf-font-awesome
-pacman
-paru-bin
+paru6alfa-git
 patch
 pavucontrol
 pciutils
@@ -132,6 +131,7 @@ php
 php-fpm
 phpmyadmin
 picom-git
+pkgconf
 playerctl
 polkit-gnome
 polybar
@@ -141,7 +141,6 @@ procps-ng
 proton-ge-custom-bin
 psmisc
 pulseaudio
-python-dbus
 qbittorrent
 ranger-git
 read-edid
@@ -164,8 +163,6 @@ systemd-sysvcompat
 tar
 texinfo
 tmux
-tor
-torbrowser-launcher
 ttf-arphic-uming
 ttf-baekmuk
 ttf-dejavu
@@ -177,7 +174,6 @@ ttf-liberation
 ttf-material-icons-git
 ttf-nanum
 ttf-symbola
-ttf-twemoji
 ueberzug
 ufw
 unrar

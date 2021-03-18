@@ -87,6 +87,7 @@ dav1d
 db
 dbus
 dbus-glib
+dbus-python
 dconf
 desktop-file-utils
 device-mapper
@@ -690,7 +691,6 @@ mupdf-gl
 nano
 nautilus
 nautilus-sendto
-ncdu
 ncurses
 ndctl
 neofetch
@@ -737,7 +737,7 @@ osinfo-db
 otf-font-awesome
 p11-kit
 p7zip
-pacman
+pacman-git
 pacman-mirrorlist
 pahole
 pam
@@ -745,7 +745,7 @@ pambase
 pango
 pangomm
 parted
-paru-bin
+paru6alfa-git
 patch
 pavucontrol
 pciutils
@@ -786,6 +786,7 @@ phpmyadmin
 picom-git
 pinentry
 pixman
+pkgconf
 playerctl
 pm2ml
 polkit
@@ -813,14 +814,11 @@ python-cairo
 python-cffi
 python-chardet
 python-cryptography
-python-dbus
-python-dbus-common
 python-dbussy-git
 python-distro
 python-docopt
 python-evdev
 python-gobject
-python-gpgme
 python-html5lib
 python-idna
 python-lxml
@@ -928,8 +926,6 @@ texinfo
 thin-provisioning-tools
 tk
 tmux
-tor
-torbrowser-launcher
 totem-pl-parser
 tracker3
 tracker3-miners
@@ -945,7 +941,6 @@ ttf-liberation
 ttf-material-icons-git
 ttf-nanum
 ttf-symbola
-ttf-twemoji
 twolame
 tzdata
 uchardet
@@ -1030,6 +1025,7 @@ yubico-c
 yubico-c-client
 yubikey-personalization
 zenity
+zimg
 zip
 zita-alsa-pcmi
 zita-resampler
