@@ -1,7 +1,8 @@
 # GRUB boot loader configuration
 
 GRUB_DEFAULT=0
-GRUB_TIMEOUT=5
+GRUB_TIMEOUT=0
+GRUB_RECORDFAIL_TIMEOUT=$GRUB_TIMEOUT
 GRUB_DISTRIBUTOR="Arch"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=3 vga=current rd.systemd.show_status=auto rd.udev.log_priority=3 cryptdevice=UUID=da5c3551-b2c5-46a9-9402-c5cae3db909c:root root=/dev/mapper/volumes-root nvidia-drm.modeset=1"
 GRUB_CMDLINE_LINUX=""
