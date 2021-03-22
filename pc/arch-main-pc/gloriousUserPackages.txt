@@ -11,6 +11,7 @@ android-sdk-build-tools
 android-sdk-platform-tools
 android-studio
 audio-recorder
+automake
 bash
 bashtop
 betterdiscord
@@ -49,10 +50,8 @@ efitools
 exfat-utils
 fakeroot
 ffmpegthumbnailer
-figlet
 file
 filesystem
-filezilla
 findutils
 firefox
 flutter
@@ -120,7 +119,7 @@ nvm
 obs-studio
 opendoas
 opendoas-sudo
-openrgb
+openrgb-git
 otf-font-awesome
 paru6alfa-git
 patch

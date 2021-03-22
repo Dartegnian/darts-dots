@@ -34,6 +34,7 @@ atkmm
 attr
 audio-recorder
 audit
+automake
 avahi
 bash
 bashtop
@@ -120,10 +121,8 @@ faudio
 ffmpeg
 ffmpegthumbnailer
 fftw
-figlet
 file
 filesystem
-filezilla
 findutils
 firefox
 flac
@@ -208,6 +207,7 @@ hspell
 http-parser
 hunspell
 hwids
+hwloc
 hyphen
 i2c-tools
 iana-etc
@@ -467,7 +467,6 @@ libexttextcat
 libfbclient
 libfdk-aac
 libffi
-libfilezilla
 libfontenc
 libfreehand
 libgcrypt
@@ -486,7 +485,6 @@ libheif
 libibus
 libice
 libid3tag
-libidn
 libidn11
 libidn2
 libiec61883
@@ -725,7 +723,7 @@ openexr
 openjpeg2
 openmpi
 openresolv
-openrgb
+openrgb-git
 openssh
 openssl
 openssl-1.0
@@ -978,8 +976,6 @@ wireguard-tools
 wmname
 woff2
 wpebackend-fdo
-wxgtk-common
-wxgtk3
 x264
 x265
 xcb-proto
