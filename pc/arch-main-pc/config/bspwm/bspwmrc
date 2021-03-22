@@ -51,7 +51,7 @@ nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 
 # Set RGB lights
 ckb-next --background &
-openrgb --startminimized &
+# openrgb --startminimized &
 
 # Startup programs on desktop 1
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
