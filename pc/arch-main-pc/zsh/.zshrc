@@ -96,10 +96,6 @@ export LC_CTYPE="en_US.UTF-8"
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias outatime="watch -t -n1 'date +%T|figlet -f ANSI\ Shadow.flf'"
 alias bruh="figlet 'BRUH MOMENT' -f ANSI\ Shadow.flf"
 alias c="clear"
@@ -135,22 +131,23 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# Node Version Manager
 export NVM_DIR="$XDG_DATA_HOME/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# Android
-export ANDROID_SDK_ROOT='/opt/android-sdk'
-export PUB_CACHE="$XDG_DATA_HOME"/flutter/pub-cache
+source /usr/share/nvm/init-nvm.sh
 
 # Unix-like MOTD
 ~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd
 cat /etc/motd
 
-source /usr/share/nvm/init-nvm.sh
-
+# Editors
 export VISUAL=nvim;
 export EDITOR=nvim;
+
+# Android SDK
+export ANDROID_SDK_ROOT='/opt/android-sdk'
+export PUB_CACHE="$XDG_DATA_HOME"/flutter/pub-cache
 
 # XDG stuff for other programs
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
