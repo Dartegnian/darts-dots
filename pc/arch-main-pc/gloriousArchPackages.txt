@@ -503,6 +503,7 @@ libksba
 liblangtag
 libldap
 libluv
+libmanette
 libmfx
 libmicrohttpd
 libmikmod
@@ -540,6 +541,7 @@ libplacebo
 libplist
 libpng
 libpng12
+libportal
 libproxy
 libpsl
 libpulse
@@ -862,6 +864,7 @@ re2
 read-edid
 readline
 redland
+reflector
 reiserfsprogs
 rest
 ripgrep

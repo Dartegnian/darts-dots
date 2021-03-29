@@ -115,7 +115,7 @@ alias r-d="systemctl --user restart discordrp-mpris.service"
 alias wget="wget --hsts-file='$XDG_CACHE_HOME/wget-hsts'"
 alias motd="~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"
 alias yay="doas powerpill"
-alias aft-mtp-mount="aft-mtp-mount -o allow_other"
+alias ref="doas reflector --latest 39 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
 
 # Lines configured by zsh-newuser-install
 HISTFILE="$XDG_DATA_HOME"/zsh/history

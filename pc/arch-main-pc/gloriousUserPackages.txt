@@ -143,6 +143,7 @@ pulseaudio
 qbittorrent
 ranger-git
 read-edid
+reflector
 reiserfsprogs
 rofi
 rofi-dmenu
