@@ -14,8 +14,6 @@ audio-recorder
 automake
 bash
 bashtop
-betterdiscord
-betterdiscordctl-git
 binutils
 bleachbit
 breeze-icons

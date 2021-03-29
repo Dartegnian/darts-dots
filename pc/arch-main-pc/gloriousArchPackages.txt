@@ -38,8 +38,6 @@ automake
 avahi
 bash
 bashtop
-betterdiscord
-betterdiscordctl-git
 binutils
 blas
 bleachbit
