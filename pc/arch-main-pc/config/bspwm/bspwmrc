@@ -61,10 +61,6 @@ sleep 5
 cool-retro-term -e tmux attach-session -t Singular-1 &
 sleep 1
 cool-retro-term -e bashtop &
-sleep 0.5
-cool-retro-term -e alsamixer -D hw:3 &
-sleep 1.5
-bspc node -z top 0 40
 
 # Notifications
 pgrep dunst || dunst -conf ~/.config/dunst/dunstrc &
