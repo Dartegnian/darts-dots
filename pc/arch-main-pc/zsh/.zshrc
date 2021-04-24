@@ -115,6 +115,17 @@ alias r-d="systemctl --user restart discordrp-mpris.service"
 alias wget="wget --hsts-file='$XDG_CACHE_HOME/wget-hsts'"
 alias motd="~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"
 alias yay="doas powerpill"
+alias mnt-mtp="doas simple-mtpfs -o allow_other,auto_unmount,big_writes,default_permissions,direct_io --device 1 /mnt/point1"
+alias umnt-mtp="doas umount -R /mnt/point1"
+alias mmmcow="fortune | cowsay"
+
+# Functions
+flac-to-mp3 () {
+for i in *.flac
+	do name=`echo "$i" | sed 's/.flac//g'`
+	ffmpeg  -i "$i" -ab 128k -map_metadata 0 -id3v2_version 3 "${name}.mp3"
+done
+}
 
 # Lines configured by zsh-newuser-install
 HISTFILE="$XDG_DATA_HOME"/zsh/history
