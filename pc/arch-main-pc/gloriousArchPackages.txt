@@ -63,8 +63,6 @@ cblas
 cdparanoia
 celt
 cfitsio
-chaotic-keyring
-chaotic-mirrorlist
 chili-sddm-theme
 ckb-next-git
 clang
@@ -755,7 +753,7 @@ pambase
 pango
 pangomm
 parted
-paru6alfa-git
+paru-git
 patch
 pavucontrol
 pciutils
@@ -883,6 +881,7 @@ ruby-irb
 ruby-reline
 rubygems
 runc
+rust
 sddm
 sdl
 sdl2
