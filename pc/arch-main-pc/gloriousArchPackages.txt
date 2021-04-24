@@ -25,7 +25,6 @@ apr
 apr-util
 archlinux-keyring
 argon2
-aria2
 aspell
 at-spi2-atk
 at-spi2-core
@@ -62,12 +61,9 @@ cava
 cblas
 cdparanoia
 celt
+cfitsio
 chaotic-keyring
 chaotic-mirrorlist
-chaotic-nvidia-dkms-tkg
-chaotic-nvidia-opencl-tkg
-chaotic-nvidia-settings-tkg
-chaotic-nvidia-utils-tkg
 chili-sddm-theme
 ckb-next-git
 clang
@@ -79,6 +75,7 @@ containerd
 cool-retro-term
 coreutils
 cpod-git
+cracklib
 cryptsetup
 curl
 dart
@@ -107,7 +104,9 @@ easytag-git
 efibootmgr
 efitools
 efivar
-electron
+egl-wayland
+eglexternalplatform
+electron11
 elfutils
 enchant
 exempi
@@ -196,6 +195,7 @@ guile
 gumbo-parser
 gupnp-dlna
 gvfs
+gvfs-mtp
 gzip
 harfbuzz
 harfbuzz-icu
@@ -209,8 +209,10 @@ hwloc
 hyphen
 i2c-tools
 iana-etc
+ibus
 icu
 id3lib
+imagemagick
 imlib2
 inetutils
 iniparser
@@ -259,7 +261,6 @@ lib32-atk
 lib32-attr
 lib32-bzip2
 lib32-cairo
-lib32-chaotic-nvidia-utils-tkg
 lib32-curl
 lib32-dbus
 lib32-dbus-glib
@@ -378,6 +379,7 @@ lib32-ncurses
 lib32-nettle
 lib32-nspr
 lib32-nss
+lib32-nvidia-utils
 lib32-openal
 lib32-openssl
 lib32-openssl-1.0
@@ -500,6 +502,7 @@ libjpeg6-turbo
 libksba
 liblangtag
 libldap
+liblqr
 libluv
 libmanette
 libmfx
@@ -510,6 +513,7 @@ libmodplug
 libmpc
 libmpdclient
 libmspub
+libmtp
 libmwaw
 libnautilus-extension
 libnet
@@ -534,7 +538,6 @@ libpcap
 libpciaccess
 libpeas
 libpipeline
-libpipewire02
 libplacebo
 libplist
 libpng
@@ -546,6 +549,7 @@ libpulse
 libquvi
 libquvi-scripts
 libqxp
+libraqm
 libraw
 libraw1394
 libreoffice-fresh
@@ -588,6 +592,7 @@ libuv
 libva
 libva-vdpau-driver
 libvdpau
+libvips
 libvisio
 libvisual
 libvoikko
@@ -624,6 +629,7 @@ libxkbcommon-x11
 libxkbfile
 libxml2
 libxmu
+libxnvctrl
 libxpm
 libxrandr
 libxrender
@@ -641,8 +647,8 @@ libzmf
 licenses
 linux-api-headers
 linux-firmware
-linux-tkg-pds-zen
-linux-tkg-pds-zen-headers
+linux-zen
+linux-zen-headers
 llvm
 llvm-libs
 lm_sensors
@@ -711,10 +717,13 @@ nspr
 nss
 ntfs-3g
 numactl
+nvidia-dkms
+nvidia-settings
+nvidia-utils
 nvm
 obs-studio
-oniguruma
 openal
+opencl-nvidia
 opencore-amr
 opencv
 opendoas
@@ -786,7 +795,6 @@ pinentry
 pixman
 pkgconf
 playerctl
-pm2ml
 polkit
 polkit-gnome
 polybar
@@ -797,13 +805,10 @@ popt
 portaudio
 postgresql-libs
 powerline-fonts-git
-powerpill
 procps-ng
 proton-ge-custom-bin
 psmisc
 pulseaudio
-pulseaudio-alsa
-pyalpm
 python
 python-appdirs
 python-attrs
@@ -831,7 +836,6 @@ python-pyqt5
 python-pyqt5-sip
 python-pysocks
 python-pytoml
-python-pyxdg
 python-requests
 python-setuptools
 python-six
@@ -840,9 +844,6 @@ python-urllib3
 python-webencodings
 python-xlib
 python-yaml
-python3-memoizedb
-python3-xcgf
-python3-xcpf
 qbittorrent
 qmltermwidget
 qrencode
@@ -861,6 +862,7 @@ rav1e
 re2
 read-edid
 readline
+recode
 redland
 reflector
 reiserfsprogs
@@ -878,7 +880,6 @@ ruby-irb
 ruby-reline
 rubygems
 runc
-s3fs-fuse
 sddm
 sdl
 sdl2
@@ -894,6 +895,7 @@ serf
 shaderc
 shadow
 shared-mime-info
+signal-desktop
 slop
 smpeg
 snappy
@@ -961,7 +963,6 @@ vid.stab
 vmaf
 volume_key
 vulkan-icd-loader
-w3m
 wavpack
 wayland
 wayland-protocols
