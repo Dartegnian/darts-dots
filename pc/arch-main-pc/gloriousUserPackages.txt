@@ -11,6 +11,7 @@ android-sdk-build-tools
 android-sdk-platform-tools
 android-studio
 audio-recorder
+autoconf
 automake
 bash
 bashtop
@@ -27,6 +28,7 @@ ckb-next-git
 code
 cool-retro-term
 coreutils
+cowsay
 cpod-git
 cryptsetup
 dart
@@ -50,6 +52,7 @@ filesystem
 findutils
 firefox
 flutter
+fortune-mod
 gawk
 gcc
 gcc-libs
@@ -66,6 +69,7 @@ grub-silent
 gst-libav
 gst-plugins-good
 gtypist
+gvfs-mtp
 gzip
 i2c-tools
 inetutils
@@ -134,7 +138,6 @@ playerctl
 polkit-gnome
 polybar
 powerline-fonts-git
-powerpill
 procps-ng
 proton-ge-custom-bin
 psmisc
@@ -178,7 +181,6 @@ ufw
 unrar
 usbutils
 util-linux
-w3m
 wget
 which
 wine-gecko

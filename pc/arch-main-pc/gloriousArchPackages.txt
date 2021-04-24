@@ -33,6 +33,7 @@ atkmm
 attr
 audio-recorder
 audit
+autoconf
 automake
 avahi
 bash
@@ -74,6 +75,7 @@ compiler-rt
 containerd
 cool-retro-term
 coreutils
+cowsay
 cpod-git
 cracklib
 cryptsetup
@@ -126,6 +128,7 @@ flac
 fluidsynth
 flutter
 fontconfig
+fortune-mod
 freeglut
 freetype2
 fribidi
