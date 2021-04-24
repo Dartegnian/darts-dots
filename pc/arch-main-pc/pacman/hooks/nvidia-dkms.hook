@@ -3,8 +3,8 @@ Operation=Install
 Operation=Upgrade
 Operation=Remove
 Type=Package
-Target=chaotic-nvidia-dkms-tkg
-Target=linux-tkg-pds-zen
+Target=nvidia-dkms
+Target=linux-zen
 # Change the linux part above and in the Exec line if a different kernel is used
 
 [Action]
