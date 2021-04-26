@@ -178,13 +178,13 @@ ctrl + shift + e
 #
 
 XF86AudioMute
-        amixer sset 'Master' toggle
+        amixer -D pulse set Master 1+ toggle
 
 XF86AudioLowerVolume
-        amixer sset 'Master' 5%-
+        amixer -D pulse set Master 1+ 5%-
 
 XF86AudioRaiseVolume
-        amixer sset 'Master' 5%+
+        amixer -D pulse set Master 1+ 5%+
 
 XF86AudioPlay
 	playerctl play-pause &
