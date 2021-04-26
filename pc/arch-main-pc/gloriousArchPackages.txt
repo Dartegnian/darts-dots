@@ -881,7 +881,6 @@ ruby-irb
 ruby-reline
 rubygems
 runc
-rust
 sddm
 sdl
 sdl2
