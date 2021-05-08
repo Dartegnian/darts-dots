@@ -214,6 +214,7 @@ ibus
 icu
 id3lib
 imagemagick
+imath
 imlib2
 inetutils
 iniparser
@@ -723,6 +724,7 @@ nvidia-settings
 nvidia-utils
 nvm
 obs-studio
+oniguruma
 openal
 opencl-nvidia
 opencore-amr
@@ -745,7 +747,7 @@ osinfo-db
 otf-font-awesome
 p11-kit
 p7zip
-pacman-git
+pacman
 pacman-mirrorlist
 pahole
 pam
@@ -808,6 +810,7 @@ postgresql-libs
 powerline-fonts-git
 procps-ng
 proton-ge-custom-bin
+protontricks-git
 psmisc
 pulseaudio
 python
@@ -842,6 +845,7 @@ python-setuptools
 python-six
 python-soupsieve
 python-urllib3
+python-vdf
 python-webencodings
 python-xlib
 python-yaml

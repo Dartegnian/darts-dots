@@ -122,6 +122,7 @@ opendoas
 opendoas-sudo
 openrgb-git
 otf-font-awesome
+pacman
 paru-git
 patch
 pavucontrol
@@ -138,6 +139,7 @@ polybar
 powerline-fonts-git
 procps-ng
 proton-ge-custom-bin
+protontricks-git
 psmisc
 pulseaudio
 qbittorrent
