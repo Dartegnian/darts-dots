@@ -25,10 +25,12 @@ bspc rule -a plasmawindowed desktop-'^6'
 bspc rule -a Pavucontrol desktop='^6' state=floating
 
 # other apps on defined desktops
-bspc rule -a Opera desktop='^5'
+bspc rule -a Opera desktop='^5' follow=off focus=off
 bspc rule -a Gwe desktop='^7' follow=off focus=off
-bspc rule -a GitKraken desktop='^7'
-bspc rule -a code-oss desktop='^9'
+bspc rule -a GitKraken desktop='^7' follow=off focus=off
+bspc rule -a code-oss desktop='^9' follow=off focus=off
+bspc rule -a discord desktop='^8' follow=off focus=off
+bspc rule -a Signal desktop='^8' follow=off focus=off
 
 # floating apps
 bspc rule -a jetbrains-studio state=floating
