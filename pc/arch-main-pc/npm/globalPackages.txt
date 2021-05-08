@@ -6,4 +6,3 @@ lint-staged
 npm
 sass
 serve
-vtop
