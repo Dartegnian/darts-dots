@@ -197,3 +197,25 @@ XF86AudioPrev
 
 XF86AudioNext
 	playerctl next &
+
+#
+# mouse
+#
+
+super + {Left,Down,Up,Right}
+	xdotool mousemove_relative {-- -8 0, 0 8, -- 0 -8, 8 0}
+
+super + shift + {Left,Down,Up,Right}
+	xdotool mousemove_relative {-- -48 0, 0 48, -- 0 -48, 48 0}
+
+super + alt + Return
+	xdotool click 1 --clearmodifiers --delay 100
+
+super + alt + BackSpace
+	xdotool click 3 --clearmodifiers --delay 100
+
+super + alt + Prior
+	xdotool click 4 --clearmodifiers
+
+super + alt + Next
+	xdotool click 5 --clearmodifiers
