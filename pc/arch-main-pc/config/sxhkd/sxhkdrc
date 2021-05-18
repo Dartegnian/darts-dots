@@ -150,13 +150,13 @@ super + a
 	alacritty
 
 super + Print
-	maim -m 1 -f png ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-screen.png
+	maim -m 1 -f png ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-screen.png && sleep 0.5 && xclip -selection clipboard -t image/png ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/$(ls -Art ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/ | tail -n 1)
 
 super + shift + s
-	maim -s -m 1 -f png ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/Fresh\ Cuts/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-crop.png
+	maim -s -m 1 -f png ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/Fresh\ Cuts/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-crop.png && sleep 0.5 && xclip -selection clipboard -t image/png -i ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/Fresh\ Cuts/$(ls -Art ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/Fresh\ Cuts/ | tail -n 1)
 
 super + e
-	dolphin
+	nautilus
 
 super + shift + m
 	plasmawindowed org.kde.plasma.mediacontroller
@@ -168,10 +168,10 @@ super + alt + c
 	alacritty -e cava & ; sleep 1 ; bspc node -t floating ; bspc node -g sticky ; bspc node -z top 0 350 ; bspc node -v 540 220
 
 ctrl + shift + Escape
-	gnome-system-monitor
+	cool-retro-term -e top
 	
 ctrl + shift + e
-	cool-retro-term -e htop
+	cool-retro-term -e bashtop
 
 #
 # media controls
