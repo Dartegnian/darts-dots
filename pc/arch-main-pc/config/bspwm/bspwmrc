@@ -48,7 +48,7 @@ pgrep picom || picom --experimental-backends &
 pgrep polybar || $HOME/.config/polybar/polybar.sh &
 
 # Nvidia
-nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settings --load-config-only
+nvidia-settings --config="~/.config/nvidia/settings" --load-config-only
 nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 
 # Set RGB lights
