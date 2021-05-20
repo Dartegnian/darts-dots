@@ -106,7 +106,7 @@ efitools
 efivar
 egl-wayland
 eglexternalplatform
-electron11
+electron
 elfutils
 enchant
 exempi
@@ -203,7 +203,6 @@ harfbuzz-icu
 hicolor-icon-theme
 hidapi
 hspell
-http-parser
 hunspell
 hwids
 hwloc
@@ -724,7 +723,6 @@ nvidia-settings
 nvidia-utils
 nvm
 obs-studio
-oniguruma
 openal
 opencl-nvidia
 opencore-amr
@@ -747,7 +745,7 @@ osinfo-db
 otf-font-awesome
 p11-kit
 p7zip
-pacman
+pacman-git
 pacman-mirrorlist
 pahole
 pam
@@ -997,6 +995,7 @@ xclip
 xdg-dbus-proxy
 xdg-utils
 xdo
+xdotool
 xf86-input-libinput
 xfsprogs
 xkeyboard-config

@@ -98,7 +98,7 @@ export LC_CTYPE="en_US.UTF-8"
 # For a full list of active aliases, run `alias`.
 alias outatime="watch -t -n1 'date +%T|figlet -f ANSI\ Shadow.flf'"
 alias bruh="figlet 'BRUH MOMENT' -f ANSI\ Shadow.flf"
-alias c="clear"
+alias c="clear && ~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"
 alias ver="{ uname -n; uname -o; uname -r; printf '\n\n' } | tr '\n' ' ' && echo ''"
 alias dir="ls -la"
 alias n="nano"

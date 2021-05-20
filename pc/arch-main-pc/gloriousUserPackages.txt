@@ -122,7 +122,7 @@ opendoas
 opendoas-sudo
 openrgb-git
 otf-font-awesome
-pacman
+pacman-git
 paru-git
 patch
 pavucontrol
@@ -191,6 +191,7 @@ wireguard-tools
 wmname
 xclip
 xdo
+xdotool
 xfsprogs
 xorg-fonts-encodings
 xorg-mkfontscale
