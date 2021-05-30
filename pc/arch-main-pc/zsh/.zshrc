@@ -175,3 +175,5 @@ export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
 export LESSKEY="$XDG_CONFIG_HOME"/less/lesskey
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 export HISTFILE="$XDG_DATA_HOME"/zsh/history
+
+PROMPT_EOL_MARK=''

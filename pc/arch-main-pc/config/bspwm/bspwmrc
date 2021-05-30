@@ -61,8 +61,8 @@ sleep 1
 bspc node -d ^10
 sleep 5
 cool-retro-term -e tmux attach-session -t Singular-1 &
-sleep 1
-cool-retro-term -e bashtop &
+#sleep 1
+#cool-retro-term -e bashtop &
 
 # Notifications
 pgrep dunst || dunst -conf ~/.config/dunst/dunstrc &
