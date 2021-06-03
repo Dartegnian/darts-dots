@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$XDG_DATA_HOME"/oh-my-zsh
@@ -141,6 +141,9 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+#compinit
+compinit -d $XDG_CACHE_HOME/zsh/zcompdump-linux-$ZSH_VERSION
+
 # Node Version Manager
 export NVM_DIR="$XDG_DATA_HOME/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -160,6 +163,8 @@ export ANDROID_SDK_ROOT='/opt/android-sdk'
 export PUB_CACHE="$XDG_DATA_HOME"/flutter/pub-cache
 
 # XDG stuff for other programs
+export SSB_HOME="$XDG_DATA_HOME"/zoom
+export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrcs
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export KDEHOME="$XDG_CONFIG_HOME"/kde
 export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
@@ -174,6 +179,3 @@ export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
 export LESSKEY="$XDG_CONFIG_HOME"/less/lesskey
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
-export HISTFILE="$XDG_DATA_HOME"/zsh/history
-
-PROMPT_EOL_MARK=''
