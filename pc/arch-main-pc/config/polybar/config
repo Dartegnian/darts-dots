@@ -313,7 +313,7 @@ interval = 60
 label-foreground = #FFFFFF
 label = %date%
 date = "    %b %e "
-date-alt = "    %A, %B %d, %Y "
+date-alt = "    %B %d, %Y (%A) "
 
 
 ;===================================================================

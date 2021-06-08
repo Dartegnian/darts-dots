@@ -118,6 +118,7 @@ alias yay="doas powerpill"
 alias mnt-mtp="doas simple-mtpfs -o allow_other,auto_unmount,big_writes,default_permissions,direct_io --device 1 /mnt/point1"
 alias umnt-mtp="doas umount -R /mnt/point1"
 alias mmmcow="fortune | cowsay"
+alias wget-server="wget -r -nH -nc --cut-dirs=1 --no-parent --reject='index.html*,robots.txt*' -e robots=off"
 
 # Functions
 flac-to-mp3 () {
