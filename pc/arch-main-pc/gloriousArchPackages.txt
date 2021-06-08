@@ -36,7 +36,6 @@ automake
 avahi
 base
 bash
-bashtop
 binutils
 blas
 bleachbit
@@ -46,7 +45,7 @@ box2d
 breeze-icons
 bridge-utils
 brotli
-bspwm
+bspwm-git
 btrfs-progs
 bubblewrap
 bzip2
@@ -64,13 +63,15 @@ cdparanoia
 cfitsio
 chili-sddm-theme
 ckb-next-git
+clang
 clucene
 code
-colord
+compiler-rt
 containerd
 cool-retro-term
 coreutils
 cowsay
+cpod-git
 cryptsetup
 curl
 dart
@@ -133,6 +134,7 @@ gc
 gcab
 gcc
 gcc-libs
+gconf
 gcr
 gd
 gdbm
@@ -169,6 +171,7 @@ grep
 groff
 grub-silent
 gsettings-desktop-schemas
+gsfonts
 gsm
 gspell
 gst-libav
@@ -413,7 +416,6 @@ libbluray
 libbytesize
 libcaca
 libcanberra
-libcanberra-pulse
 libcap
 libcap-ng
 libcddb
@@ -422,6 +424,7 @@ libcdio-paranoia
 libcdr
 libcloudproviders
 libcmis
+libcolord
 libconfig
 libcroco
 libcue
@@ -464,7 +467,6 @@ libgphoto2
 libgrss
 libgsf
 libgudev
-libgusb
 libgxps
 libhandy
 libheif
@@ -633,6 +635,7 @@ linux-api-headers
 linux-firmware
 linux-zen
 linux-zen-headers
+llvm
 llvm-libs
 lm_sensors
 lollypop-next-git
@@ -686,10 +689,13 @@ nerd-fonts-fira-code
 nettle
 nginx-mainline
 nitrogen
+node-gyp
+nodejs
 nomacs
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
+npm
 npth
 nspr
 nss
@@ -775,6 +781,7 @@ python-evdev
 python-gobject
 python-idna
 python-lxml
+python-more-itertools
 python-ordered-set
 python-packaging
 python-pillow
@@ -788,6 +795,7 @@ python-urllib3
 python-vdf
 python-xlib
 python-yaml
+python2
 qbittorrent
 qmltermwidget
 qrencode
@@ -835,6 +843,7 @@ sdl_image
 sdl_mixer
 sdl_ttf
 sed
+semver
 shaderc
 shadow
 shared-mime-info
@@ -852,9 +861,8 @@ startup-notification
 steam
 steam-native-runtime
 svt-av1
-sxhkd
+sxhkd-git
 sysfsutils
-sysstat
 systemd
 systemd-libs
 systemd-sysvcompat
