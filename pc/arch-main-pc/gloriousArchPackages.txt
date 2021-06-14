@@ -14,7 +14,6 @@ alsa-ucm-conf
 alsa-utils
 amd-ucode
 amtk
-android-file-transfer
 android-platform
 android-sdk
 android-sdk-build-tools
@@ -298,7 +297,6 @@ lib32-libgcrypt
 lib32-libgcrypt15
 lib32-libglvnd
 lib32-libgpg-error
-lib32-libgudev
 lib32-libice
 lib32-libid3tag
 lib32-libidn11
@@ -311,7 +309,7 @@ lib32-libltdl
 lib32-libmikmod
 lib32-libmodplug
 lib32-libnl
-lib32-libnm-glib
+lib32-libnm
 lib32-libnsl
 lib32-libogg
 lib32-libpcap
@@ -511,7 +509,6 @@ libnftnl
 libnghttp2
 libnl
 libnm
-libnm-glib
 libnotify
 libnsl
 libnumbertext
@@ -576,6 +573,7 @@ libunwind
 libusb
 libusbmuxd
 libutempter
+libutf8proc
 libuv
 libva
 libvdpau
@@ -684,13 +682,14 @@ ncurses
 ndctl
 neofetch
 neon
-neovim
+neovim-git
 nerd-fonts-fira-code
 nettle
 nginx-mainline
 nitrogen
 node-gyp
 nodejs
+nodejs-nopt
 nomacs
 noto-fonts
 noto-fonts-cjk
@@ -877,6 +876,7 @@ tmux
 totem-pl-parser
 tracker3
 tracker3-miners
+tree-sitter
 tslib
 ttf-arphic-uming
 ttf-baekmuk

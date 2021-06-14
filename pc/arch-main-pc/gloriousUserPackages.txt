@@ -4,7 +4,6 @@ adobe-source-sans-pro-fonts
 alacritty
 alsa-utils
 amd-ucode
-android-file-transfer
 android-platform
 android-sdk-build-tools
 android-studio
@@ -89,7 +88,7 @@ mupdf-gl
 nano
 nautilus
 neofetch
-neovim
+neovim-git
 nerd-fonts-fira-code
 nginx-mainline
 nitrogen
