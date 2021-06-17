@@ -145,6 +145,7 @@ gettext
 giflib
 git
 gitkraken
+glances
 glew
 glew1.10
 glib-networking
@@ -777,6 +778,7 @@ python-dbussy-git
 python-distro
 python-docopt
 python-evdev
+python-future
 python-gobject
 python-idna
 python-lxml
@@ -784,6 +786,7 @@ python-more-itertools
 python-ordered-set
 python-packaging
 python-pillow
+python-psutil
 python-pyparsing
 python-pytoml
 python-requests

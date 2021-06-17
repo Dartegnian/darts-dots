@@ -48,6 +48,7 @@ gedit
 gettext
 git
 gitkraken
+glances
 google-chrome-beta
 google-chrome-dev
 grep
