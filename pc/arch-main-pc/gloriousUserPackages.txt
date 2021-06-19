@@ -11,6 +11,7 @@ audio-recorder
 autoconf
 automake
 base
+betterdiscordctl-git
 binutils
 bleachbit
 breeze-icons
@@ -25,7 +26,7 @@ cpod-git
 dart
 dbus-python
 dhcpcd
-discord-canary
+discord
 discordrp-mpris-git
 dislocker
 docker
@@ -107,7 +108,6 @@ opencl-nvidia
 opendoas
 opendoas-sudo
 openresolv
-openrgb-git
 os-prober
 otf-font-awesome
 pacman-git
@@ -126,6 +126,8 @@ powerline-fonts-git
 proton-ge-custom-bin
 protontricks-git
 pulseaudio
+python-pywal
+pywal-discord-git
 qbittorrent
 r2modman
 ranger-git
