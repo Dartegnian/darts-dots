@@ -1,7 +1,7 @@
 adobe-base-14-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-sans-pro-fonts
-alacritty
+alacritty-ligatures-git
 alsa-utils
 amd-ucode
 android-platform
@@ -127,6 +127,7 @@ proton-ge-custom-bin
 protontricks-git
 pulseaudio
 python-pywal
+python-pywalfox
 pywal-discord-git
 qbittorrent
 r2modman

@@ -5,7 +5,7 @@ adobe-source-code-pro-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-sans-pro-fonts
 adwaita-icon-theme
-alacritty
+alacritty-ligatures-git
 alsa-card-profiles
 alsa-lib
 alsa-plugins
@@ -137,6 +137,8 @@ gcc-libs
 gconf
 gcr
 gd
+gdb
+gdb-common
 gdbm
 gdk-pixbuf2
 gedit
@@ -805,6 +807,7 @@ python-pyopenssl
 python-pyparsing
 python-pytoml
 python-pywal
+python-pywalfox
 python-requests
 python-resolvelib
 python-retrying
@@ -812,9 +815,6 @@ python-setuptools
 python-six
 python-soupsieve
 python-toml
-python-ufonormalizer
-python-unicodedata2
-python-unidecode
 python-urllib3
 python-vdf
 python-webencodings
@@ -878,6 +878,7 @@ slop
 smpeg
 snappy
 sound-theme-freedesktop
+source-highlight
 speex
 speexdsp
 spirv-tools
