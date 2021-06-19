@@ -22,13 +22,13 @@
 ;=====================================================================
 
 [colors]
-background = #00000000
-background-transparent = #7504060e
+background = ${xrdb:color0}
+background-transparent = ${file:/home/dartegnian/.cache/wal/colors-polybar-bg-1}
 foreground = #ccFFFFFF
 foreground-icon = #ccFFFFFF
-workspace-active-bg = ${xrdb:color0:#222}
-workspace-active-fg = ${xrdb:color4:#222}
-workspace-empty-fg = ${colors.workspace-active-bg}
+workspace-active-bg = ${file:/home/dartegnian/.cache/wal/colors-polybar-bg-2}
+workspace-active-fg = ${xrdb:color0:#fff}
+workspace-empty-fg = ${xrdb:color6:#111}
 
 [settings]
 screenchange-reload = true

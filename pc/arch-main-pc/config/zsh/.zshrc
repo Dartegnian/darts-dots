@@ -119,7 +119,6 @@ alias mnt-mtp="doas simple-mtpfs -o allow_other,auto_unmount,big_writes,default_
 alias umnt-mtp="doas umount -R /mnt/point1"
 alias mmmcow="fortune | cowsay"
 alias wget-server="wget -r -nH -nc --cut-dirs=1 --no-parent --reject='index.html*,robots.txt*' -e robots=off"
-alias gen-wal='wal -n -i "$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg | sed "s/file=//g")"'
 
 # Functions
 flac-to-mp3 () {
@@ -127,6 +126,18 @@ for i in *.flac
 	do name=`echo "$i" | sed 's/.flac//g'`
 	ffmpeg  -i "$i" -ab 128k -map_metadata 0 -id3v2_version 3 "${name}.mp3"
 done
+}
+
+get-wal-color () {
+	local color=$(awk -v line=$1 'NR==line{print $1}' ~/.cache/wal/colors | sed 's/#//g')
+	echo $color
+}
+
+gen-wal () {
+	wal -n -i "$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg | sed "s/file=//g")"
+	pywal-discord
+	echo "#90$(get-wal-color 1)" > ~/.cache/wal/colors-polybar-bg-1
+	echo "#90$(get-wal-color 7)" > ~/.cache/wal/colors-polybar-bg-2
 }
 
 # Lines configured by zsh-newuser-install
