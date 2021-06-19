@@ -26,7 +26,9 @@ background = #00000000
 background-transparent = #7504060e
 foreground = #ccFFFFFF
 foreground-icon = #ccFFFFFF
-workspace-active = #aa000000
+workspace-active-bg = ${xrdb:color0:#222}
+workspace-active-fg = ${xrdb:color4:#222}
+workspace-empty-fg = ${colors.workspace-active-bg}
 
 [settings]
 screenchange-reload = true
@@ -145,8 +147,8 @@ enable-scroll = true
 
 label-focused-font = 1
 label-focused = %index%
-label-focused-foreground = ${colors.foreground-icon}
-label-focused-background = ${colors.workspace-active}
+label-focused-foreground = ${colors.workspace-active-fg}
+label-focused-background = ${colors.workspace-active-bg}
 ; label-active-background = #2CA7F8
 label-focused-underline = 
 label-focused-padding = 4
@@ -168,7 +170,7 @@ label-urgent-padding = 4
 label-empty-font = 1
 label-empty = %index%
 ; label-empty =
-label-empty-foreground = #333333
+label-empty-foreground = ${colors.workspace-empty-fg}
 label-empty-background = 
 label-empty-underline = 
 label-empty-padding = 4
@@ -310,7 +312,7 @@ label-disconnected = "Offline"
 type = internal/date
 interval = 60
 
-label-foreground = #FFFFFF
+label-foreground = ${colors.foreground-icon}
 label = %date%
 date = "    %b %e "
 date-alt = "    %B %d, %Y (%A) "
@@ -324,7 +326,7 @@ date-alt = "    %B %d, %Y (%A) "
 type = internal/date
 interval = 1
 
-label-foreground = #FFFFFF
+label-foreground = ${colors.foreground-icon}
 label = %date%
 date = "    %I:%M %p "
 date-alt = "    %T (%Z) "

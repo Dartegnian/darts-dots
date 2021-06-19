@@ -119,6 +119,7 @@ alias mnt-mtp="doas simple-mtpfs -o allow_other,auto_unmount,big_writes,default_
 alias umnt-mtp="doas umount -R /mnt/point1"
 alias mmmcow="fortune | cowsay"
 alias wget-server="wget -r -nH -nc --cut-dirs=1 --no-parent --reject='index.html*,robots.txt*' -e robots=off"
+alias gen-wal='wal -n -i "$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg | sed "s/file=//g")"'
 
 # Functions
 flac-to-mp3 () {
@@ -180,3 +181,16 @@ export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
 export LESSKEY="$XDG_CONFIG_HOME"/less/lesskey
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
+export BUNDLE_USER_CONFIG="$XDG_CONFIG_HOME"/bundle BUNDLE_USER_CACHE="$XDG_CACHE_HOME"/bundle BUNDLE_USER_PLUGIN="$XDG_DATA_HOME"/bundle
+
+# Import colorscheme from 'wal' asynchronously
+# &   # Run the process in the background.
+# ( ) # Hide shell job control messages.
+# Not supported in the "fish" shell.
+(cat ~/.cache/wal/sequences &)
+
+# Alternative (blocks terminal for 0-3ms)
+cat ~/.cache/wal/sequences
+
+# To add support for TTYs this line can be optionally added.
+source ~/.cache/wal/colors-tty.sh

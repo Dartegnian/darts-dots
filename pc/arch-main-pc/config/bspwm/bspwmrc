@@ -2,6 +2,8 @@
 
 # Wallpaper
 nitrogen --restore &
+wall=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg | sed 's/file=//g')
+wal -n -i "$wall"
 
 # Hotkeys + keyboard shortcuts
 preg sxhkd || sxhkd &
