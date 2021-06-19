@@ -1,3 +1,8 @@
+# You may need to manually set your language environment
+export LANG=en_US.UTF-8
+export LC_MESSAGES="C"
+export LC_CTYPE="en_US.UTF-8"
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/.local/bin:$HOME/.local/share/gem/ruby/3.0.0/bin:/usr/local/bin:$PATH
 
@@ -8,7 +13,6 @@ export ZSH="$XDG_DATA_HOME"/oh-my-zsh
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="robbyrussell"
 ZSH_THEME="bullet-train"
 
 # Set list of themes to pick from when loading at random
@@ -77,11 +81,6 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
-# You may need to manually set your language environment
-export LANG=en_US.UTF-8
-export LC_MESSAGES="C"
-export LC_CTYPE="en_US.UTF-8"
-
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
@@ -113,7 +112,7 @@ compinit -d $XDG_CACHE_HOME/zsh/zcompdump-linux-$ZSH_VERSION
 ~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd
 cat /etc/motd
 
-# ZSH sources folder
+# Zsh sources folder
 for file in $XDG_CONFIG_HOME/zsh/sources/*; do
 	source $file;
 done
