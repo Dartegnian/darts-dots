@@ -1,5 +1,5 @@
-![Screenshot of my current desktop setup with pywal](screenshot1.jpg?raw=true "Arch Linux desktop")
-![Screenshot of my current desktop setup with pywal](screenshot2.jpg?raw=true "Arch Linux desktop")
+![Screenshot of my current desktop setup with pywal](screenshot1.png?raw=true "Arch Linux desktop")
+![Screenshot of my current desktop setup with pywal](screenshot2.png?raw=true "Arch Linux desktop")
 
 # Dart's Dots
 This public static void of a GitHub repo stores all my [GNU](https://en.wikipedia.org/wiki/Richard_Stallman)/[Linux](https://en.wikipedia.org/wiki/Linus_Sebastian) "dotfiles"/configuration files. This repo comes in very handy if ever my [Arch Linux](https://en.wikipedia.org/wiki/Arch_Linux) distro ([the best distro](https://en.wikipedia.org/wiki/Gentoo_Linux), folks, [the best](https://en.wikipedia.org/wiki/Gentoo_Linux)) decides that [it doesn't want to exist](https://archlinux.fr/yaourt-en) or when it wants to [wet the OS partition](https://en.wikipedia.org/wiki/Nocturnal_enuresis) and I have to go [reinstall it again](https://www.wikihow.com/Clean-Up-After-Bedwetting).
