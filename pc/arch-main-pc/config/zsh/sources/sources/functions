@@ -1,0 +1,19 @@
+flac-to-mp3 () {
+for i in *.flac
+	do name=`echo "$i" | sed 's/.flac//g'`
+	ffmpeg  -i "$i" -ab 128k -map_metadata 0 -id3v2_version 3 "${name}.mp3"
+done
+}
+
+get-wal-color () {
+	local color=$(awk -v line=$1 'NR==line{print $1}' ~/.cache/wal/colors | sed 's/#//g')
+	echo $color
+}
+
+gen-wal () {
+	local transparency="80"
+	wal -n -i "$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg | sed "s/file=//g")"
+	pywal-discord
+	echo "#$transparency$(get-wal-color 1)" > ~/.cache/wal/colors-polybar-bg-1
+	echo "#$transparency$(get-wal-color 7)" > ~/.cache/wal/colors-polybar-bg-2
+}

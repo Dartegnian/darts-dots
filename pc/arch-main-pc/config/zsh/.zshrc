@@ -92,54 +92,6 @@ export LC_CTYPE="en_US.UTF-8"
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-alias outatime="watch -t -n1 'date +%T|figlet -f ANSI\ Shadow.flf'"
-alias bruh="figlet 'BRUH MOMENT' -f ANSI\ Shadow.flf"
-alias c="clear && ~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"
-alias ver="{ uname -n; uname -o; uname -r; printf '\n\n' } | tr '\n' ' ' && echo ''"
-alias dir="ls -la"
-alias n="nano"
-alias v="nvim"
-alias update="~/SYGtech/goteki-git/-nix-shell-scripts/update.sh"
-alias backup="~/SYGtech/goteki-git/-nix-shell-scripts/backup.sh"
-alias polybar-start="$HOME/.config/polybar/polybar.sh &"
-alias pulseaudio-restart="pulseaudio -k && pulseaudio --start"
-alias k-p="killall -q picom"
-alias s-p="picom --experimental-backends &"
-alias r-p="killall -q picom && picom --experimental-backends &"
-alias s-d="systemctl --user start discordrp-mpris.service"
-alias r-d="systemctl --user restart discordrp-mpris.service"
-alias wget="wget --hsts-file='$XDG_CACHE_HOME/wget-hsts'"
-alias motd="~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"
-alias yay="doas powerpill"
-alias mnt-mtp="doas simple-mtpfs -o allow_other,auto_unmount,big_writes,default_permissions,direct_io --device 1 /mnt/point1"
-alias umnt-mtp="doas umount -R /mnt/point1"
-alias mmmcow="fortune | cowsay"
-alias wget-server="wget -r -nH -nc --cut-dirs=1 --no-parent --reject='index.html*,robots.txt*' -e robots=off"
-
-# Functions
-flac-to-mp3 () {
-for i in *.flac
-	do name=`echo "$i" | sed 's/.flac//g'`
-	ffmpeg  -i "$i" -ab 128k -map_metadata 0 -id3v2_version 3 "${name}.mp3"
-done
-}
-
-get-wal-color () {
-	local color=$(awk -v line=$1 'NR==line{print $1}' ~/.cache/wal/colors | sed 's/#//g')
-	echo $color
-}
-
-gen-wal () {
-	wal -n -i "$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg | sed "s/file=//g")"
-	pywal-discord
-	echo "#90$(get-wal-color 1)" > ~/.cache/wal/colors-polybar-bg-1
-	echo "#90$(get-wal-color 7)" > ~/.cache/wal/colors-polybar-bg-2
-}
-
 # Lines configured by zsh-newuser-install
 HISTFILE="$XDG_DATA_HOME"/zsh/history
 HISTSIZE=1000
@@ -157,51 +109,11 @@ compinit
 #compinit
 compinit -d $XDG_CACHE_HOME/zsh/zcompdump-linux-$ZSH_VERSION
 
-# Node Version Manager
-export NVM_DIR="$XDG_DATA_HOME/nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-source /usr/share/nvm/init-nvm.sh
-
 # Unix-like MOTD
 ~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd
 cat /etc/motd
 
-# Editors
-export VISUAL=nvim;
-export EDITOR=nvim;
-
-# Android SDK
-export ANDROID_SDK_ROOT='/opt/android-sdk'
-export PUB_CACHE="$XDG_DATA_HOME"/flutter/pub-cache
-
-# XDG stuff for other programs
-export SSB_HOME="$XDG_DATA_HOME"/zoom
-export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrcs
-export CARGO_HOME="$XDG_DATA_HOME"/cargo
-export KDEHOME="$XDG_CONFIG_HOME"/kde
-export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
-export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
-export WINEPREFIX="$XDG_DATA_HOME"/WinePrefix/default
-export ANDROID_PREFS_ROOT="$XDG_CONFIG_HOME"/android
-export ANDROID_EMULATOR_HOME="$XDG_DATA_HOME"/android/emulator
-export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
-export GNUPGHOME="$XDG_DATA_HOME"/gnupg
-export GOPATH="$XDG_DATA_HOME"/go
-export WGETRC="$XDG_CONFIG_HOME/wgetrc"
-export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
-export LESSKEY="$XDG_CONFIG_HOME"/less/lesskey
-export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
-export BUNDLE_USER_CONFIG="$XDG_CONFIG_HOME"/bundle BUNDLE_USER_CACHE="$XDG_CACHE_HOME"/bundle BUNDLE_USER_PLUGIN="$XDG_DATA_HOME"/bundle
-
-# Import colorscheme from 'wal' asynchronously
-# &   # Run the process in the background.
-# ( ) # Hide shell job control messages.
-# Not supported in the "fish" shell.
-(cat ~/.cache/wal/sequences &)
-
-# Alternative (blocks terminal for 0-3ms)
-cat ~/.cache/wal/sequences
-
-# To add support for TTYs this line can be optionally added.
-source ~/.cache/wal/colors-tty.sh
+# ZSH sources folder
+for file in $XDG_CONFIG_HOME/zsh/sources/*; do
+	source $file;
+done
