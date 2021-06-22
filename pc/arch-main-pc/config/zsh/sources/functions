@@ -5,7 +5,7 @@ conv-flacmp3() {
 }
 
 gen-wal() {
-	local transparency="80"
+	local transparency="90"
 	local colors=$(head -n 7 ~/.cache/wal/colors)
 	local primary=$(head -n 1 <<<"$colors")
 	local secondary=$(tail -n 1 <<<"$colors")
