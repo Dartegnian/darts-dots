@@ -21,7 +21,6 @@ chili-sddm-theme
 ckb-next-git
 code
 cool-retro-term
-cowsay
 cpod-git
 dart
 dbus-python
@@ -42,7 +41,6 @@ findutils
 firefox
 flex
 flutter
-fortune-mod
 gawk
 gcc
 gedit
@@ -60,7 +58,6 @@ gst-libav
 gst-plugins-good
 gvfs-mtp
 gzip
-i2c-tools
 inetutils
 irqbalance
 java-environment-common
@@ -75,7 +72,6 @@ linux-firmware
 linux-zen
 linux-zen-headers
 lollypop-next-git
-lutris
 lvm2
 m4
 maim
@@ -132,7 +128,6 @@ pywal-discord-git
 qbittorrent
 r2modman
 ranger-git
-read-edid
 reflector
 reiserfsprogs
 rofi

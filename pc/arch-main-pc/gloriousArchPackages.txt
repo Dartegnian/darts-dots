@@ -70,7 +70,6 @@ compiler-rt
 containerd
 cool-retro-term
 coreutils
-cowsay
 cpod-git
 cryptsetup
 curl
@@ -122,7 +121,6 @@ flac
 flex
 flutter
 fontconfig
-fortune-mod
 freeglut
 freetype2
 fribidi
@@ -137,8 +135,6 @@ gcc-libs
 gconf
 gcr
 gd
-gdb
-gdb-common
 gdbm
 gdk-pixbuf2
 gedit
@@ -204,7 +200,6 @@ hunspell
 hwids
 hwloc
 hyphen
-i2c-tools
 iana-etc
 ibus
 icu
@@ -651,7 +646,6 @@ lua52-lpeg
 lua52-luajson
 lua52-socket
 luajit
-lutris
 lvm2
 lz4
 lzo
@@ -668,7 +662,6 @@ mbedtls
 md4c
 mdadm
 mesa
-mesa-demos
 minecraft-launcher
 minizip
 mkinitcpio
@@ -730,7 +723,6 @@ os-prober
 osinfo-db
 otf-font-awesome
 p11-kit
-p7zip
 pacman-git
 pacman-mirrorlist
 pahole
@@ -786,12 +778,10 @@ python-dbussy-git
 python-distlib
 python-distro
 python-docopt
-python-evdev
 python-future
 python-gobject
 python-html5lib
 python-idna
-python-lxml
 python-more-itertools
 python-msgpack
 python-ordered-set
@@ -819,7 +809,6 @@ python-urllib3
 python-vdf
 python-webencodings
 python-xlib
-python-yaml
 python2
 pywal-discord-git
 qbittorrent
@@ -839,9 +828,7 @@ raptor
 rasqal
 rav1e
 re2
-read-edid
 readline
-recode
 redland
 reflector
 reiserfsprogs
@@ -878,7 +865,6 @@ slop
 smpeg
 snappy
 sound-theme-freedesktop
-source-highlight
 speex
 speexdsp
 spirv-tools
