@@ -105,7 +105,7 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-#compinit
+# Set compinit to cache instead of homedir
 compinit -d $XDG_CACHE_HOME/zsh/zcompdump-linux-$ZSH_VERSION
 
 # Unix-like MOTD
