@@ -2,6 +2,8 @@
 @vue/cli-service-global
 @vue/cli
 create-react-app
+eslint
+fast-cli
 lint-staged
 npm
 sass
