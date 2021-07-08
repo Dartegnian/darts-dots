@@ -3,7 +3,7 @@
 # Wallpaper and Pywal
 nitrogen --restore &
 wal -R
-. "${HOME}/.cache/wal/colors.sh"
+source "${HOME}/.cache/wal/colors.sh"
 
 # Hotkeys + keyboard shortcuts
 preg sxhkd || sxhkd &
@@ -29,11 +29,14 @@ bspc rule -a Pavucontrol desktop='^6' state=floating
 
 # other apps on defined desktops
 bspc rule -a Opera desktop='^5' follow=off focus=off
+bspc rule -a Nitrogen desktop='^5' follow=off focus=off
 bspc rule -a Gwe desktop='^7' follow=off focus=off
 bspc rule -a GitKraken desktop='^7' follow=off focus=off
-bspc rule -a code-oss desktop='^9' follow=off focus=off
 bspc rule -a discord desktop='^8' follow=off focus=off
 bspc rule -a Signal desktop='^8' follow=off focus=off
+bspc rule -a code-oss desktop='^9' follow=off focus=off
+bspc rule -a VSCodium desktop='^9' follow=off focus=off
+bspc rule -a Google-chrome-beta desktop='^2' follow=off focus=off
 
 # floating apps
 bspc rule -a jetbrains-studio state=floating
@@ -56,7 +59,7 @@ nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 
 # Set RGB lights
 ckb-next --background &
-# openrgb --startminimized &
+openrgb --startminimized -p Blue.orp  &
 
 # Startup programs on desktop 1
 cool-retro-term -e ~/.config/bspwm/tmux.sh &
