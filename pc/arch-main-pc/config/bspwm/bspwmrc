@@ -79,5 +79,9 @@ wmname LG3D
 # Discord status
 systemctl --user start discordrp-mpris.service
 
+# MPD
+pgrep mpd || mpd --no-daemon
+pgrep -af mpDris2 || mpDris2
+
 # Gnome polkit
 pgrep polkit-gnome || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &

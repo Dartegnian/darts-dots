@@ -158,6 +158,9 @@ super + shift + s
 super + e
 	nautilus
 
+super + r
+	alacritty -e ranger
+
 super + shift + m
 	plasmawindowed org.kde.plasma.mediacontroller
 
