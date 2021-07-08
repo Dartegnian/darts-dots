@@ -9,7 +9,7 @@ alias dir="ls -la"
 alias update="~/SYGtech/goteki-git/-nix-shell-scripts/update.sh"
 alias backup="~/SYGtech/goteki-git/-nix-shell-scripts/backup.sh"
 alias start-polybar="$HOME/.config/polybar/polybar.sh &"
-alias restart-pulseaudio-="pulseaudio -k && pulseaudio --start"
+alias restart-pulseaudio="pulseaudio -k && pulseaudio --start"
 alias wget="wget --hsts-file='$XDG_CACHE_HOME/wget-hsts'"
 alias motd="~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"
 alias yay="doas powerpill"
@@ -17,6 +17,8 @@ alias mnt-mtp="doas simple-mtpfs -o allow_other,auto_unmount,big_writes,default_
 alias umnt-mtp="doas umount -R /mnt/point1"
 alias mmmcow="fortune | cowsay"
 alias download-server="wget -r -nH -nc --cut-dirs=1 --no-parent --reject='index.html*,robots.txt*' -e robots=off"
+alias install-grub="doas grub-mkconfig -o /boot/grub/grub.cfg && doas grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB"
+alias rec-audio="ffmpeg -f pulse -i default ~/Desktop/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-recording.wav"
 
 # Shorthands
 alias c="clear && ~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"

@@ -5,14 +5,22 @@ conv-flacmp3() {
 }
 
 gen-wal() {
+	local wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg)
+	wal -n -i "${wallpaper/file=/}"
+
 	local transparency="90"
 	local colors=$(head -n 7 ~/.cache/wal/colors)
 	local primary=$(head -n 1 <<<"$colors")
 	local secondary=$(tail -n 1 <<<"$colors")
-	local wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg)
 
-	wal -n -i "${wallpaper/file=/}"
 	pywal-discord
 	echo "#$transparency${primary/\#/}" >~/.cache/wal/colors-polybar-bg-1
 	echo "#$transparency${secondary/\#/}" >~/.cache/wal/colors-polybar-bg-2
+}
+
+set-lock() {
+	local sddm_directory="/usr/share/sddm/themes/chili/"
+	local wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg)
+	local file_type="${wallpaper: -4}"
+	cp "${wallpaper/file=/}" "${sddm_directory}/background${file_type}"
 }
