@@ -80,7 +80,7 @@ wmname LG3D
 systemctl --user start discordrp-mpris.service
 
 # MPD
-pgrep mpd || mpd --no-daemon
+pgrep mpd || systemctl start --user mpd
 pgrep -af mpDris2 || mpDris2
 
 # Gnome polkit
