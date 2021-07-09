@@ -161,10 +161,10 @@ super + e
 super + r
 	alacritty -e ranger
 
-super + shift + m
-	plasmawindowed org.kde.plasma.mediacontroller
-
 super + alt + m
+	alacritty --class ncmpcpp -e ncmpcpp &
+
+super + shift + m
 	~/SYGtech/goteki-git/-nix-shell-scripts/toggle_mic.sh
 
 super + alt + c
@@ -174,7 +174,7 @@ ctrl + shift + Escape
 	cool-retro-term -e top
 	
 ctrl + shift + e
-	cool-retro-term -e bashtop
+	cool-retro-term -e htop
 
 #
 # media controls
