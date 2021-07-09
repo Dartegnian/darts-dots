@@ -162,7 +162,7 @@ super + r
 	alacritty -e ranger
 
 super + alt + m
-	alacritty --class ncmpcpp -e ncmpcpp &
+	alacritty --class ncmpcpp -e zsh -ic ncmpcpp &
 
 super + shift + m
 	~/SYGtech/goteki-git/-nix-shell-scripts/toggle_mic.sh

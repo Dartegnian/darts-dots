@@ -521,7 +521,7 @@ content-foreground = ${colors.foreground-icon}
 
 ; click-left = WINEPREFIX=/home/dartegnian/.config/WinePrefix/.WineBee wine /home/dartegnian/.config/WinePrefix/.WineBee/drive_c/Program\ Files/MusicBee/MusicBee.exe &
 click-left = lollypop &
-click-middle = alacritty --class ncmpcpp -e ncmpcpp &
+click-middle = alacritty --class ncmpcpp -e zsh -ic ncmpcpp &
 click-right = pavucontrol &
 
 
