@@ -6,7 +6,7 @@ conv-flacmp3() {
 
 gen-wal() {
 	local wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg)
-	wal -n -i "${wallpaper/file=/}"
+	wal -tn -i "${wallpaper/file=/}"
 
 	local transparency="90"
 	local colors=$(head -n 7 ~/.cache/wal/colors)
@@ -19,8 +19,10 @@ gen-wal() {
 }
 
 set-lock() {
-	local sddm_directory="/usr/share/sddm/themes/chili/"
+	local sddm_directory="/usr/share/sddm/themes/chili"
 	local wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg)
 	local file_type="${wallpaper: -4}"
+	local sddm_content=$(sed "s/\..../${file_type}/" "$sddm_directory/theme.conf.user")
+	echo $sddm_content > "$sddm_directory/theme.conf.user"
 	cp "${wallpaper/file=/}" "${sddm_directory}/background${file_type}"
 }
