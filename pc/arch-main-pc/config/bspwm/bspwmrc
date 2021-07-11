@@ -59,17 +59,16 @@ nvidia-settings --config="~/.config/nvidia/settings" --load-config-only
 nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 
 # Set RGB lights
-ckb-next --background &
-openrgb --startminimized -p Blue.orp  &
+pgrep ckb-next || ckb-next --background &
+pgrep openrgb || openrgb --startminimized -p Blue.orp  &
 
-# Startup programs on desktop 1
-cool-retro-term -e ~/.config/bspwm/tmux.sh &
-sleep 1
-bspc node -d ^10
-sleep 5
-cool-retro-term -e tmux attach-session -t Singular-1 &
-#sleep 1
-#cool-retro-term -e bashtop &
+# Run tmux restore script on first login
+if [[ -z $(pgrep tmux) ]]; then
+	cool-retro-term -e ~/.config/bspwm/tmux-startup.sh &
+	sh ~/.config/bspwm/tmux-terminals.sh &
+else
+	sh ~/.config/bspwm/tmux-terminals.sh &
+fi
 
 # Notifications
 pgrep dunst || dunst -conf ~/.config/dunst/dunstrc &
@@ -78,7 +77,7 @@ pgrep dunst || dunst -conf ~/.config/dunst/dunstrc &
 wmname LG3D
 
 # Discord status
-systemctl --user start discordrp-mpris.service
+pgrep discordrp-mpris || systemctl --user start discordrp-mpris.service
 
 # MPD
 pgrep mpd || systemctl start --user mpd
