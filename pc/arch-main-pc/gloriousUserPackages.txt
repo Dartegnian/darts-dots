@@ -16,6 +16,7 @@ binutils
 bleachbit
 breeze-icons
 bspwm-git
+calcurse
 cava
 chili-sddm-theme
 ckb-next-git

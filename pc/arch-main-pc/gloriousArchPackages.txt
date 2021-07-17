@@ -62,6 +62,7 @@ ca-certificates-utils
 cabextract
 cairo
 cairomm
+calcurse
 cantarell-fonts
 cava
 cblas
