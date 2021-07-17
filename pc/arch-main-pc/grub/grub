@@ -4,7 +4,7 @@ GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
 GRUB_RECORDFAIL_TIMEOUT=$GRUB_TIMEOUT
 GRUB_DISTRIBUTOR="Arch"
-GRUB_CMDLINE_LINUX_DEFAULT="splash vt.global_cursor_default=0 sysrq_always_enabled=1 amd_iommu=on iommu=pt iommu=1 rd.driver.pre=vfio-pc video=efifb:off nvidia-drm.modeset=1 acpi_enforce_resources=lax"
+GRUB_CMDLINE_LINUX_DEFAULT="splash vt.global_cursor_default=0 sysrq_always_enabled=1 amd_iommu=on iommu=pt iommu=1 rd.driver.pre=vfio-pc nvidia-drm.modeset=1 acpi_enforce_resources=lax"
 GRUB_CMDLINE_LINUX="cryptdevice=UUID=96a6629e-d903-4ce8-a012-f740a96599db:cryptlvm root=/dev/volumes/root cryptkey=rootfs:/root/.kf/kf"
 
 # Preload both GPT and MBR modules so that they are not missed
@@ -59,4 +59,4 @@ GRUB_DISABLE_RECOVERY=true
 #GRUB_DISABLE_SUBMENU=y
 
 # Check other OSes because I'm not only using Arch, GRUB
-GRUB_DISABLE_OS_PROBER=false
+GRUB_DISABLE_OS_PROBER=true
