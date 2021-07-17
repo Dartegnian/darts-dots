@@ -3,22 +3,22 @@
  * User: dartegnian
  */
 
+@import "~/.cache/wal/colors-rofi-dark"
+
 * {
 	accent: #FFFFFF;
 	foreground: @accent;
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.2);
 	transparent: rgba(0, 0, 0, 0);
 	normal-background: @transparent;
 	normal-foreground: @foreground;
 	urgent-background: @transparent;
 	urgent-foreground: @foreground;
-	active-background: @transparent;
 	active-foreground: @foreground;
 	selected-normal-background: @foreground;
 	selected-normal-foreground: @background;
 	selected-urgent-background: @foreground;
 	selected-urgent-foreground: @background;
-	selected-active-background: @foreground;
 	selected-active-foreground: @background;
 	alternate-normal-background: @transparent;
 	alternate-normal-foreground: @foreground;
@@ -53,9 +53,17 @@
 	text-color: @foreground;
 }
 
+#textbox-prompt-colon {
+    expand: false;
+    str: "";
+    margin: 0px;
+    text-color: @normal-foreground;
+}
+
 #listview {
 	spacing: 10px;
 	padding: 10 1% 10;
+    border: 0px;
 }
 
 #element {
@@ -83,8 +91,8 @@
 }
 
 #element.selected.normal {
-	background-color: @selected-normal-background;
-	text-color: @selected-normal-foreground;
+	background-color: @active-background;
+	text-color: @selected-active-background;
 }
 
 #element.selected.urgent {
