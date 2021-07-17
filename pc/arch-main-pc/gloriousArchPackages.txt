@@ -21,6 +21,8 @@ android-sdk-platform-tools
 android-studio
 aom
 appstream-glib
+apr
+apr-util
 archlinux-keyring
 argon2
 aria2
@@ -37,6 +39,7 @@ automake
 avahi
 base
 bash
+bash-completion
 betterdiscordctl-git
 binutils
 blas
@@ -63,6 +66,7 @@ cantarell-fonts
 cava
 cblas
 cdparanoia
+ceph-libs
 cfitsio
 chili-sddm-theme
 chromaprint
@@ -128,6 +132,7 @@ firefox
 flac
 flex
 fluidsynth
+fmt
 fontconfig
 freeglut
 freetype2
@@ -728,8 +733,11 @@ nvidia-dkms
 nvidia-settings
 nvidia-utils
 nvm
+oath-toolkit
 obs-studio
 oniguruma
+open-iscsi
+open-isns
 openal
 openbsd-netcat
 opencl-nvidia
@@ -767,9 +775,27 @@ pciutils
 pcre
 pcre2
 perl
+perl-clone
+perl-encode-locale
 perl-error
+perl-file-listing
+perl-html-parser
+perl-html-tagset
+perl-http-cookies
+perl-http-daemon
+perl-http-date
+perl-http-message
+perl-http-negotiate
+perl-io-html
+perl-libwww
+perl-lwp-mediatypes
 perl-mailtools
+perl-net-http
+perl-parse-yapp
 perl-timedate
+perl-try-tiny
+perl-uri
+perl-www-robotrules
 phodav
 php
 php-fpm
@@ -877,6 +903,7 @@ ruby-irb
 ruby-reline
 rubygems
 runc
+samba
 sbc
 sddm
 sdl
@@ -890,6 +917,7 @@ sdl_ttf
 seabios
 sed
 semver
+serf
 shaderc
 shadow
 shared-mime-info
@@ -909,6 +937,7 @@ srt
 startup-notification
 steam
 steam-native-runtime
+subversion
 svt-av1
 sxhkd-git
 sysfsutils
@@ -949,6 +978,8 @@ udisks2
 ueberzug
 ufw
 uget
+uget-integrator
+uget-integrator-firefox
 unibilium
 unrar
 unzip

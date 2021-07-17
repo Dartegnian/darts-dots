@@ -145,6 +145,7 @@ rofi
 rofi-dmenu
 rofi-emoji
 rsync
+samba
 sddm
 sed
 signal-desktop
@@ -169,6 +170,7 @@ ttf-symbola
 ueberzug
 ufw
 uget
+uget-integrator-firefox
 unrar
 usbutils
 virt-manager
