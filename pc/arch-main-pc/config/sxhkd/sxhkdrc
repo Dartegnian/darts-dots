@@ -159,7 +159,7 @@ super + e
 	nautilus
 
 super + r
-	alacritty -e ranger
+	alacritty --class ranger -e zsh -ic ranger &
 
 super + alt + m
 	alacritty --class ncmpcpp -e zsh -ic ncmpcpp &
