@@ -2,19 +2,17 @@
 
 # Wallpaper and Pywal
 nitrogen --restore &
-wal -R
+zsh -ic gen-wal &
 source "${HOME}/.cache/wal/colors.sh"
 
 # Hotkeys + keyboard shortcuts
 preg sxhkd || sxhkd &
 
 # ==> START bspwm rules
-
 bspc monitor -d I II III IV V VI VII VIII IX X
 
 bspc config border_width         0
 bspc config window_gap           20
-
 bspc config split_ratio          0.5
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
@@ -42,7 +40,6 @@ bspc rule -a Google-chrome-beta desktop='^2' follow=off focus=off
 # floating apps
 bspc rule -a jetbrains-studio state=floating
 bspc rule -a "firefox":Toolkit state=floating sticky=on
-
 # ==> END bspwm rules
 
 # DWM swallow
