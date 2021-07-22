@@ -13,6 +13,9 @@ gen-wal() {
 	local primary=$(head -n 1 <<<"$colors")
 	local secondary=$(tail -n 1 <<<"$colors")
 
+	local rofi_config=$(sed "s/active-background\: #....../active-background\: ${primary}${transparency}/; s/selected-active-background\: #....../selected-active-background\: ${secondary}/" ~/.cache/wal/colors-rofi-dark.rasi)
+	echo $rofi_config > ~/.cache/wal/colors-rofi-dark.rasi
+
 	pywal-discord
 	echo "#$transparency${primary/\#/}" >~/.cache/wal/colors-polybar-bg-1
 	echo "#$transparency${secondary/\#/}" >~/.cache/wal/colors-polybar-bg-2
