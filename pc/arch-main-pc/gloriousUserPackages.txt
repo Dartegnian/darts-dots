@@ -71,7 +71,7 @@ lib32-mesa
 lib32-nvidia-utils
 libreoffice-fresh
 libtool
-libvirt
+libvirt-git
 linux-firmware
 linux-zen
 linux-zen-headers
@@ -87,7 +87,7 @@ mdadm
 minecraft-launcher
 mpc
 mpd
-mpdris2-py3-git
+mpdris2
 mpv
 mupdf-gl
 nano
@@ -108,6 +108,7 @@ nvidia-dkms
 nvidia-settings
 nvidia-utils
 nvm
+nvtop
 obs-studio
 openbsd-netcat
 opencl-nvidia
@@ -117,6 +118,7 @@ openresolv
 openrgb-git
 os-prober
 otf-font-awesome
+p7zip
 pacman-git
 paru-git
 patch
@@ -138,7 +140,6 @@ python-pywalfox
 pywal-discord-git
 qbittorrent
 qemu
-r2modman
 ranger-git
 reflector
 reiserfsprogs
@@ -180,7 +181,7 @@ wget
 which
 wine-gecko
 wine-mono
-wine-tkg-staging-fsync-git
+wine-staging
 winetricks-git
 wireguard-tools
 wmname
