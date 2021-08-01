@@ -24,6 +24,7 @@ bspc rule -a Lollypop desktop='^6'
 bspc rule -a QuodLibet desktop='^6'
 bspc rule -a plasmawindowed desktop-'^6'
 bspc rule -a "Alacritty":ncmpcpp desktop='^6'
+bspc rule -a "Alacritty":miniplayer desktop='^6'
 bspc rule -a Pavucontrol desktop='^6' state=floating
 
 # other apps on defined desktops
@@ -40,6 +41,9 @@ bspc rule -a Google-chrome-beta desktop='^2' follow=off focus=off
 # floating apps
 bspc rule -a jetbrains-studio state=floating
 bspc rule -a "firefox":Toolkit state=floating sticky=on
+
+# tiled apps
+bspc rule -a Zathura state=tiled
 # ==> END bspwm rules
 
 # DWM swallow
@@ -73,9 +77,6 @@ pgrep dunst || dunst -conf ~/.config/dunst/dunstrc &
 
 # Fix for some Java programs
 wmname LG3D
-
-# Discord status
-pgrep discordrp-mpris || systemctl --user start discordrp-mpris.service
 
 # MPD
 pgrep mpd || systemctl start --user mpd

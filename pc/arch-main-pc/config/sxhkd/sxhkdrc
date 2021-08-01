@@ -161,8 +161,11 @@ super + e
 super + r
 	alacritty --class ranger -e zsh -ic ranger &
 
-super + alt + m
+super + alt + n
 	alacritty --class ncmpcpp -e zsh -ic ncmpcpp &
+
+super + alt + m
+	alacritty --class miniplayer -e zsh -ic miniplayer &
 
 super + shift + m
 	~/SYGtech/goteki-git/-nix-shell-scripts/toggle_mic.sh
