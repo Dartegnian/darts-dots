@@ -26,16 +26,13 @@ dart
 dbus-python
 dhcpcd
 discord
-discordrp-mpris-git
 dislocker
-dmidecode
 dnsmasq
 docker
 dunst
 easytag-git
 edk2-ovmf
 efibootmgr
-efitools
 exfat-utils
 fakeroot
 ffmpegthumbnailer
@@ -76,6 +73,7 @@ linux-firmware
 linux-zen
 linux-zen-headers
 lollypop-next-git
+lutris
 lvm2
 m4
 maim
@@ -85,11 +83,11 @@ man-pages
 mariadb
 mdadm
 minecraft-launcher
+miniplayer-git
 mpc
 mpd
 mpdris2
 mpv
-mupdf-gl
 nano
 nautilus
 ncmpcpp-git
@@ -204,6 +202,8 @@ xorg-xset
 xorg-xsetroot
 xorg-xwininfo
 youtube-dl
+zathura
+zathura-pdf-mupdf
 zenity
 zip
 zoom
