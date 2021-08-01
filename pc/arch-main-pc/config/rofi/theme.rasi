@@ -12,7 +12,6 @@
 	transparent: rgba(0, 0, 0, 0);
 	normal-background: @transparent;
 	normal-foreground: @foreground;
-	urgent-background: @transparent;
 	urgent-foreground: @foreground;
 	active-foreground: @foreground;
 	selected-normal-background: @foreground;
@@ -90,6 +89,7 @@
 	text-color: @active-foreground;
 }
 
+// Highlighted item
 #element.selected.normal {
 	background-color: @selected-active-background;
 	text-color: @accent;

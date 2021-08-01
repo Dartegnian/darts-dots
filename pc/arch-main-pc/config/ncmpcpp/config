@@ -91,7 +91,7 @@ visualizer_in_stereo = yes
 ## visualization and audio.
 ##
 #
-visualizer_sync_interval = 30
+#visualizer_sync_interval = 30
 #
 ##
 ## Note: To enable spectrum frequency visualization you need to compile ncmpcpp
@@ -447,7 +447,7 @@ media_library_primary_tag = genre
 ##
 ## Note: You can define startup screen by choosing screen from the list above.
 ##
-#startup_screen = playlist
+startup_screen = media_library
 #
 ##
 ## Note: You can define startup slave screen by choosing screen from the list
@@ -487,7 +487,7 @@ media_library_primary_tag = genre
 #
 #display_volume_level = yes
 #
-#display_bitrate = no
+display_bitrate = yes
 #
 #display_remaining_time = no
 #
