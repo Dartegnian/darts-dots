@@ -9,9 +9,21 @@ super + Return
 super + a
 	alacritty
 
-# program launcher
+# command launcher
 super + @space
 	rofi -show run
+
+# program switcher
+alt + Tab
+	rofi -show window
+
+# program launcher
+super + d
+	rofi -show drun -modi drun
+
+# emoji selection
+super + semicolon
+	rofi -show emoji -modi emoji
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -129,15 +141,6 @@ super + alt + {Left,Down,Up,Right}
 
 alt + {_,shift + }{1-9,0}
     bspc {desktop -f, window -d} $(bspc query -M -m)/{a,b,c}
-
-alt + Tab
-	rofi -show window
-
-super + d
-	rofi -show drun
-
-super + semicolon
-	rofi -show emoji -modi emoji
 
 alt + w
         bspc monitor -f next
