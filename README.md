@@ -49,7 +49,7 @@ Config for the thing that makes my computer turn on. My [`rEFInd`](https://wiki.
 `mkinitcpio` or `mkinitpcio`? Idk, I always get those two mixed up and only one of them is correct. Lucky for you, the answer is the *latter*. Or is it? Idk tbh.
 
 ### MPD
-The [magnetoplasmadynamic thruster](https://en.wikipedia.org/wiki/Magnetoplasmadynamic_thruster). [Doesn't want to work anyway](https://www.merriam-webster.com/dictionary/trash). Config files to be stored as a "just in case."
+The [magnetoplasmadynamic thruster](https://en.wikipedia.org/wiki/Magnetoplasmadynamic_thruster). Pretty neat but lacks an "album art only" view tbh.
 
 ### Nginx
 The [Engine X](https://en.wikipedia.org/wiki/X_engine) [7-stage "reverse proxy"](https://knowyourmeme.com/memes/good-luck-im-behind-7-proxies). An integral part of my [LEMP Stack](https://lemp.io/) installation. [Harder, better, faster, stronger](https://en.wikipedia.org/wiki/Harder,_Better,_Faster,_Stronger) than your typical [LAMP Stack](https://en.wikipedia.org/wiki/Lampshade) and consumes less RAM.
