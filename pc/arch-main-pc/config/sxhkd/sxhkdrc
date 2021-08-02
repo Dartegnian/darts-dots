@@ -156,7 +156,7 @@ super + Print
 	maim -m 10 -f png ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-screen.png && sleep 0.5 && xclip -selection clipboard -t image/png ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/$(ls -Art ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/ | tail -n 1)
 
 super + shift + s
-	maim -s -m 10 -f png ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/Fresh\ Cuts/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-crop.png && sleep 0.5 && xclip -selection clipboard -t image/png -i ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/Fresh\ Cuts/$(ls -Art ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/Fresh\ Cuts/ | tail -n 1)
+	maim -s -m 10 -f png /tmp/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-crop.png && sleep 0.5 && xclip -selection clipboard -t image/png -i /tmp/$(ls -Art /tmp/ | tail -n 1)
 
 super + e
 	nautilus
