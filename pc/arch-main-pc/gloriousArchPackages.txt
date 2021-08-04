@@ -14,11 +14,6 @@ alsa-ucm-conf
 alsa-utils
 amd-ucode
 amtk
-android-platform
-android-sdk
-android-sdk-build-tools
-android-sdk-platform-tools
-android-studio
 aom
 appstream-glib
 apr
@@ -84,7 +79,6 @@ coreutils
 cpod-git
 cryptsetup
 curl
-dart
 dav1d
 db
 dbus
@@ -236,7 +230,6 @@ jasper
 java-environment-common
 java-runtime-common
 jbig2dec
-jdk-openjdk
 jemalloc
 jfsutils
 jre-openjdk

@@ -4,9 +4,6 @@ adobe-source-sans-fonts
 alacritty-ligatures-git
 alsa-utils
 amd-ucode
-android-platform
-android-sdk-build-tools
-android-studio
 audio-recorder
 autoconf
 automake
@@ -22,7 +19,6 @@ chili-sddm-theme
 ckb-next-git
 cool-retro-term
 cpod-git
-dart
 dbus-python
 dhcpcd
 discord
