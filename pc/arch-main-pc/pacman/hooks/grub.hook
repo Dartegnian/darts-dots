@@ -3,11 +3,10 @@ Operation = Install
 Operation = Upgrade
 Operation = Remove
 Type=Package
-Target=nvidia-dkms-performance
 Target=linux-zen
 
 [Action]
-Description = Updating GRUB Config and install into EFI directory on kernel
+Description = Updating GRUB config and installing into EFI directory after kernel update
 Depends = grub
 When = PostTransaction
 Exec = /bin/sh -c "grub-mkconfig -o /boot/grub/grub.cfg && grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB"

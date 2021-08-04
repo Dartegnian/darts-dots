@@ -164,7 +164,6 @@ gnome-autoar
 gnome-desktop
 gnupg
 gnutls
-go
 gobject-introspection-runtime
 google-chrome-beta
 google-chrome-dev
