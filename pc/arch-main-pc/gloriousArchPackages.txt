@@ -694,7 +694,6 @@ minecraft-launcher
 miniplayer-git
 mkinitcpio
 mkinitcpio-busybox
-mpc
 mpd
 mpdris2
 mpfr
@@ -708,7 +707,6 @@ nautilus
 ncmpcpp-git
 ncurses
 ndctl
-neofetch
 neon
 neovim-git
 nerd-fonts-fira-code
@@ -759,7 +757,6 @@ openssl-1.0
 opus
 opusfile
 orc
-os-prober
 osinfo-db
 otf-font-awesome
 p11-kit

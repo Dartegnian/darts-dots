@@ -81,14 +81,12 @@ mariadb
 mdadm
 minecraft-launcher
 miniplayer-git
-mpc
 mpd
 mpdris2
 mpv
 nano
 nautilus
 ncmpcpp-git
-neofetch
 neovim-git
 nerd-fonts-fira-code
 nginx-mainline
@@ -110,7 +108,6 @@ opendoas
 opendoas-sudo
 openresolv
 openrgb-git
-os-prober
 otf-font-awesome
 p7zip
 pacman-git
