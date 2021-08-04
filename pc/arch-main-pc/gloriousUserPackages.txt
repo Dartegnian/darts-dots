@@ -1,6 +1,4 @@
 adobe-base-14-fonts
-adobe-source-han-sans-jp-fonts
-adobe-source-sans-fonts
 alacritty-ligatures-git
 alsa-utils
 amd-ucode
@@ -122,7 +120,6 @@ pkgconf
 playerctl
 polkit-gnome
 polybar
-powerline-fonts-git
 proton-ge-custom-bin
 protontricks-git
 pulseaudio
@@ -150,8 +147,6 @@ sysfsutils
 texinfo
 texlive-core
 tmux
-ttf-arphic-uming
-ttf-baekmuk
 ttf-dejavu
 ttf-droid
 ttf-fira-code
@@ -159,8 +154,6 @@ ttf-font-awesome
 ttf-inconsolata-g
 ttf-liberation
 ttf-material-icons-git
-ttf-nanum
-ttf-symbola
 ueberzug
 ufw
 uget

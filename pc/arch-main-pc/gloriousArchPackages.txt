@@ -2,8 +2,6 @@ aalib
 acl
 adobe-base-14-fonts
 adobe-source-code-pro-fonts
-adobe-source-han-sans-jp-fonts
-adobe-source-sans-fonts
 adwaita-icon-theme
 alacritty-ligatures-git
 alsa-card-profiles
@@ -798,7 +796,6 @@ poppler-glib
 popt
 portaudio
 potrace
-powerline-fonts-git
 procps-ng
 proton-ge-custom-bin
 protontricks-git
@@ -957,8 +954,6 @@ tracker3
 tracker3-miners
 tree-sitter
 tslib
-ttf-arphic-uming
-ttf-baekmuk
 ttf-dejavu
 ttf-droid
 ttf-fira-code
@@ -966,8 +961,6 @@ ttf-font-awesome
 ttf-inconsolata-g
 ttf-liberation
 ttf-material-icons-git
-ttf-nanum
-ttf-symbola
 twolame
 tzdata
 uchardet
