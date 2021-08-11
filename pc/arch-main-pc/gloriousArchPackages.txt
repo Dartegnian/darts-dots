@@ -507,6 +507,7 @@ liblqr
 libluv
 libmad
 libmanette
+libmd
 libmfx
 libmicrohttpd
 libmikmod
@@ -1060,5 +1061,6 @@ zita-resampler
 zlib
 zoom
 zsh
+zsh-fast-syntax-highlighting
 zstd
 zziplib

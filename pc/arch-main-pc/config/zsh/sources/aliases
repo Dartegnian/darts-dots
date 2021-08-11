@@ -13,6 +13,7 @@ alias pacreview="pacman -Qqe | nvim"
 alias pywal="(cat ~/.cache/wal/sequences &)"
 alias update="~/SYGtech/goteki-git/-nix-shell-scripts/update.sh"
 alias ver="{ uname -n; uname -o; uname -r; printf '\n\n' } | tr '\n' ' ' && echo ''"
+alias vi="nvim"
 alias wget="wget --hsts-file='$XDG_CACHE_HOME/wget-hsts'"
 alias yay="doas powerpill"
 

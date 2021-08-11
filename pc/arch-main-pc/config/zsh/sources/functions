@@ -5,8 +5,22 @@ conv-flacmp3() {
 }
 
 gen-wal() {
-	local wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg)
-	wal -tn -i "${wallpaper/file=/}"
+	local wallpaper=""
+
+	if [[ $1 ]]; then
+		wallpaper=$1
+		nitrogen --set-scaled --save $wallpaper
+	else
+		wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg)
+	fi
+
+	if [[ $2 ]]; then
+		wal -tnq -i "${wallpaper/file=/}"
+	else
+		wal -tn -i "${wallpaper/file=/}"
+	fi
+
+	killall -q dunst && (dunst -conf ~/.config/dunst/dunstrc > /dev/null 2>&1 &)
 
 	local transparency="90"
 	local colors=$(head -n 7 ~/.cache/wal/colors)
@@ -16,9 +30,9 @@ gen-wal() {
 	local rofi_config=$(sed "s/active-background\: #....../active-background\: ${primary}${transparency}/; s/selected-active-background\: #....../selected-active-background\: ${secondary}/" ~/.cache/wal/colors-rofi-dark.rasi)
 	echo $rofi_config > ~/.cache/wal/colors-rofi-dark.rasi
 
-	pywal-discord
 	echo "#$transparency${primary/\#/}" >~/.cache/wal/colors-polybar-bg-1
 	echo "#$transparency${secondary/\#/}" >~/.cache/wal/colors-polybar-bg-2
+	pywal-discord
 }
 
 set-lock() {
