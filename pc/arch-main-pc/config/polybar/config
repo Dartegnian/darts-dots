@@ -519,9 +519,8 @@ type = custom/text
 content = "     |   "
 content-foreground = ${colors.foreground-icon}
 
-; click-left = WINEPREFIX=/home/dartegnian/.config/WinePrefix/.WineBee wine /home/dartegnian/.config/WinePrefix/.WineBee/drive_c/Program\ Files/MusicBee/MusicBee.exe &
 click-left = lollypop &
-click-middle = alacritty --class ncmpcpp -e zsh -ic ncmpcpp &
+click-middle = alacritty --class ncmpcpp -e zsh -ic ncmpcpp & sleep 0.25 && alacritty --class miniplayer -e zsh -ic miniplayer
 click-right = pavucontrol &
 
 
