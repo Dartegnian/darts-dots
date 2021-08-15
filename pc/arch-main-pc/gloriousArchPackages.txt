@@ -787,7 +787,7 @@ pinentry
 pipewire
 pixman
 pkgconf
-playerctl
+playerctl-git
 polkit
 polkit-gnome
 polybar

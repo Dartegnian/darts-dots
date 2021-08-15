@@ -117,7 +117,7 @@ php-fpm
 phpmyadmin
 picom-git
 pkgconf
-playerctl
+playerctl-git
 polkit-gnome
 polybar
 proton-ge-custom-bin
