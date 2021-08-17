@@ -34,6 +34,8 @@ gen-wal() {
 	echo "#$transparency${secondary/\#/}" >~/.cache/wal/colors-polybar-bg-2
 	bspc config presel_feedback_color "$secondary"
 	pywal-discord
+	pywalfox update
+	(sh /opt/oomox/plugins/theme_oomox/change_color.sh -m all /opt/oomox/scripted_colors/xresources/xresources-reverse > /dev/null 2>&1 &)
 }
 
 set-lock() {
