@@ -25,6 +25,8 @@ alias install-grub="doas grub-mkconfig -o /boot/grub/grub.cfg && doas grub-insta
 alias mount-mtp="doas simple-mtpfs -o allow_other,auto_unmount,big_writes,default_permissions,direct_io --device 1 /mnt/point1"
 alias rec-audio="ffmpeg -f pulse -i default ~/Desktop/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-recording.wav"
 alias restart-pulseaudio="pulseaudio -k && pulseaudio --start"
+alias start-lemp="systemctl start nginx php-fpm mariadb"
+alias stop-lemp="systemctl stop nginx php-fpm mariadb"
 alias start-polybar="$HOME/.config/polybar/polybar.sh &"
 alias unmount-mtp="doas umount -R /mnt/point1"
 
