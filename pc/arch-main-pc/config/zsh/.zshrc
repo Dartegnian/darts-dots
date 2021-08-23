@@ -117,3 +117,5 @@ cat /etc/motd
 for file in $XDG_CONFIG_HOME/zsh/sources/*; do
 	source $file;
 done
+
+swatches

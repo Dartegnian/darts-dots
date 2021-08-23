@@ -46,3 +46,31 @@ set-lock() {
 	echo $sddm_content > "$sddm_directory/theme.conf.user"
 	cp "${wallpaper/file=/}" "${sddm_directory}/background${file_type}"
 }
+
+swatches() {
+	# Show the terminal colourscheme as blocks
+	# Inspired by u/dkeg
+	# Cheers! Addy
+	# Adapted to Zsh, from: https://github.com/elenapan/dotfiles/blob/master/bin/colorblocks
+
+	local f=3
+	local b=4
+
+	local d=$'\e[1m'
+	local t=$'\e[0m'
+	local v=$'\e[7m'
+
+	for j in f b; do
+		for i in {0..7}; do
+			printf -v "$j$i" %b "\e[${(P)j}${i}m"
+		done
+	done
+
+	cat <<-EOF
+
+		$f1██████$d██$t $f2██████$d██$t $f3██████$d██$t $f4██████$d██$t $f5██████$d██$t $f6██████$d██$t 
+		$f1██████$d██$t $f2██████$d██$t $f3██████$d██$t $f4██████$d██$t $f5██████$d██$t $f6██████$d██$t 
+		$f1██████$d██$t $f2██████$d██$t $f3██████$d██$t $f4██████$d██$t $f5██████$d██$t $f6██████$d██$t 
+		$ft██████$d$f7██$t $ft██████$d$f7██$t $ft██████$d$f7██$t $ft██████$d$f7██$t $ft██████$d$f7██$t $ft██████$d$f7██$t
+	EOF
+}
