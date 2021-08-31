@@ -3,7 +3,7 @@
  * User: dartegnian
  */
 
-@import "~/.cache/wal/colors-rofi-dark"
+@import "~/.cache/wal/colors-rofi-dark.rasi"
 
 * {
 	accent: #FFFFFF;
@@ -14,27 +14,28 @@
 	normal-foreground: @foreground;
 	urgent-foreground: @foreground;
 	active-foreground: @foreground;
-	selected-normal-background: @foreground;
 	selected-normal-foreground: @background;
 	selected-urgent-background: @foreground;
 	selected-urgent-foreground: @background;
-	selected-active-foreground: @background;
+	selected-active-foreground: @foreground;
 	alternate-normal-background: @transparent;
 	alternate-normal-foreground: @foreground;
-	alternate-active-background: @transparent;
+	alternate-active-background: @selected-normal-background;
 	alternate-active-foreground: @active-foreground;
 	alternate-urgent-background: @transparent;
 	alternate-urgent-foreground: @urgent-foreground;
 	border-color: @background;
-	separatorcolor: @foreground;
+	separatorcolor: @transparent;
 	background-color: @transparent;
 	spacing: 10;
 }
 
 #window {
+	fullscreen: true;
 	background-color: @active-background;
-	border: 0;
-	padding: 0;
+	border: 5px;
+	border-color: @selected-active-background;
+	padding: 0px;
 }
 
 #mainbox {
@@ -61,13 +62,19 @@
 
 #listview {
 	spacing: 10px;
-	padding: 10 1% 10;
+	padding: 10px 0% 10px;
     border: 0px;
+	border-color: @selected-normal-background;
 }
 
 #element {
-	border: 0;
-	padding: 10 10 10;
+	border: 0px;
+	border-color: @selected-normal-background;
+	padding: 10px 10px 10px;
+}
+
+#element-text {
+    text-color: inherit;
 }
 
 #element-icon {
@@ -85,13 +92,13 @@
 }
 
 #element.normal.active {
-	background-color: @active-background;
+	background-color: @selected-active-background;
 	text-color: @active-foreground;
 }
 
 // Highlighted item
 #element.selected.normal {
-	background-color: @selected-active-background;
+	background-color: @selected-normal-background;
 	text-color: @accent;
 }
 
@@ -138,6 +145,7 @@
 }
 
 #inputbar {
+    children:   [ prompt,entry,case-indicator ];
 	spacing: 20;
 	text-color: @normal-foreground;
 	padding: 1px;
