@@ -67,7 +67,7 @@ Tmux is a, erm, [terminal multiplexor](https://en.wikipedia.org/wiki/Multiplexin
 [Z shell](https://en.wikipedia.org/wiki/Z_shell) is best shell. And the config file makes it even better. So it's like best shell<sup>2</sup>. I reckon that if I add another config here, my Zsh terminal will be the (best shell<sup>2</sup>)<sup>2</sup>
 
 ### ...and other stuff
-Other software with more corny quips that would make this README more insufferable and cringey thana it already is.
+Other software with more corny quips that would make this README more insufferable and cringey than it already is.
 
 ## How do I install this? This rice looks cool
 
