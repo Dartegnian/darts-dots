@@ -34,11 +34,14 @@ avahi
 base
 bash
 bash-completion
+bc
 betterdiscordctl-git
 binutils
 blas
 bleachbit
+bluez
 bluez-libs
+bluez-utils
 boost-libs
 box2d
 breeze-icons
@@ -74,7 +77,6 @@ compiler-rt
 containerd
 cool-retro-term
 coreutils
-cpod-git
 cryptsetup
 curl
 dav1d
@@ -137,7 +139,6 @@ gc
 gcab
 gcc
 gcc-libs
-gconf
 gcr
 gd
 gdbm
@@ -162,6 +163,7 @@ glusterfs
 gmp
 gnome-autoar
 gnome-desktop
+gnome-themes-extra
 gnupg
 gnutls
 gobject-introspection-runtime
@@ -169,14 +171,17 @@ google-chrome-beta
 google-chrome-dev
 gpgme
 gpm
+gpodder
 gptfdisk
 graphene
+graphicsmagick
 graphite
 grep
 groff
 grub
 gsettings-desktop-schemas
 gsfonts
+gsl
 gsm
 gspell
 gst-libav
@@ -185,6 +190,9 @@ gst-plugins-base-libs
 gst-plugins-good
 gst-python
 gstreamer
+gtest
+gtk-engine-murrine
+gtk-engines
 gtk-update-icon-cache
 gtk-vnc
 gtk2
@@ -208,7 +216,6 @@ hwids
 hwloc
 hyphen
 iana-etc
-ibus
 icu
 id3lib
 imagemagick
@@ -216,6 +223,7 @@ imath
 imlib2
 inetutils
 iniparser
+inkscape
 iproute2
 iptables-nft
 iputils
@@ -231,6 +239,8 @@ jemalloc
 jfsutils
 jre-openjdk
 jre-openjdk-headless
+jre11-openjdk
+jre11-openjdk-headless
 jre8-openjdk
 jre8-openjdk-headless
 js78
@@ -250,11 +260,13 @@ lcms2
 ldb
 ldns
 less
+lib2geom
 lib32-acl
 lib32-alsa-lib
 lib32-alsa-plugins
 lib32-atk
 lib32-attr
+lib32-brotli
 lib32-bzip2
 lib32-cairo
 lib32-curl
@@ -419,6 +431,7 @@ libavc1394
 libavif
 libblockdev
 libbluray
+libbpf
 libbsd
 libbytesize
 libcaca
@@ -431,7 +444,6 @@ libcdio
 libcdio-paranoia
 libcdr
 libcloudproviders
-libcmis
 libcolord
 libconfig
 libcroco
@@ -481,6 +493,7 @@ libgxps
 libhandy
 libheif
 libibus
+libical
 libice
 libid3tag
 libidn11
@@ -562,6 +575,7 @@ librsvg
 librtmp0
 libsamplerate
 libsasl
+libsass
 libseccomp
 libsecret
 libshout
@@ -688,6 +702,7 @@ md4c
 mdadm
 mesa
 mesa-demos
+meson
 minecraft-launcher
 miniplayer-git
 mkinitcpio
@@ -712,6 +727,7 @@ netcf
 nettle
 nftables
 nginx-mainline
+ninja
 nitrogen
 node-gyp
 nodejs
@@ -752,6 +768,7 @@ openrgb-git
 openssh
 openssl
 openssl-1.0
+optipng
 opus
 opusfile
 orc
@@ -766,6 +783,7 @@ pam
 pambase
 pango
 pangomm
+parallel
 parted
 paru-git
 patch
@@ -796,11 +814,13 @@ poppler-glib
 popt
 portaudio
 potrace
+ppsspp
 procps-ng
 proton-ge-custom-bin
 protontricks-git
 psmisc
 pulseaudio
+pulseaudio-modules-bt
 python
 python-ansiwrap
 python-appdirs
@@ -831,6 +851,7 @@ python-markdown
 python-more-itertools
 python-mpd2
 python-msgpack
+python-mygpoclient
 python-ordered-set
 python-packaging
 python-pep517
@@ -838,10 +859,12 @@ python-pillow
 python-pip
 python-pixcat
 python-ply
+python-podcastparser
 python-progress
 python-pycparser
 python-pyopenssl
 python-pyparsing
+python-pystache
 python-pywal
 python-pywalfox
 python-requests
@@ -867,11 +890,13 @@ qrencode
 qt5-base
 qt5-declarative
 qt5-graphicaleffects
+qt5-multimedia
 qt5-quickcontrols
 qt5-svg
 qt5-tools
 qt5-x11extras
 quazip
+ragel
 ranger-git
 raptor
 rasqal
@@ -895,7 +920,9 @@ rubygems
 run-parts
 runc
 samba
+sassc
 sbc
+sc-im
 sddm
 sdl
 sdl2
@@ -947,6 +974,19 @@ tevent
 texinfo
 texlive-bin
 texlive-core
+themix-export-spotify-git
+themix-full-git
+themix-gui-git
+themix-icons-archdroid-git
+themix-icons-gnome-colors-git
+themix-icons-numix-git
+themix-icons-papirus-git
+themix-icons-suru-plus-aspromauros-git
+themix-icons-suru-plus-git
+themix-import-images-git
+themix-plugin-base16-git
+themix-theme-materia-git
+themix-theme-oomox-git
 thin-provisioning-tools
 tmux
 totem-pl-parser
@@ -1059,7 +1099,6 @@ zip
 zita-alsa-pcmi
 zita-resampler
 zlib
-zoom
 zsh
 zsh-fast-syntax-highlighting
 zstd

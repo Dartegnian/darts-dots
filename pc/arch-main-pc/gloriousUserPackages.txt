@@ -9,6 +9,8 @@ base
 betterdiscordctl-git
 binutils
 bleachbit
+bluez
+bluez-utils
 breeze-icons
 bspwm-git
 calcurse
@@ -16,7 +18,6 @@ cava
 chili-sddm-theme
 ckb-next-git
 cool-retro-term
-cpod-git
 dbus-python
 dhcpcd
 discord
@@ -42,6 +43,7 @@ git
 gitkraken
 google-chrome-beta
 google-chrome-dev
+gpodder
 grep
 groff
 grub
@@ -120,9 +122,11 @@ pkgconf
 playerctl-git
 polkit-gnome
 polybar
+ppsspp
 proton-ge-custom-bin
 protontricks-git
 pulseaudio
+pulseaudio-modules-bt
 python-pywal
 python-pywalfox
 pywal-discord-git
@@ -136,6 +140,7 @@ rofi-dmenu
 rofi-emoji
 rsync
 samba
+sc-im
 sddm
 sed
 signal-desktop
@@ -146,6 +151,7 @@ sxhkd-git
 sysfsutils
 texinfo
 texlive-core
+themix-full-git
 tmux
 ttf-dejavu
 ttf-droid
@@ -193,6 +199,5 @@ zathura
 zathura-pdf-mupdf
 zenity
 zip
-zoom
 zsh
 zsh-fast-syntax-highlighting
