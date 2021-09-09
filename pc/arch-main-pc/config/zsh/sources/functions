@@ -35,13 +35,20 @@ gen-wal() {
 	bspc config presel_feedback_color "$secondary"
 	pywal-discord
 	pywalfox update
-	(sh /opt/oomox/plugins/theme_oomox/change_color.sh -m all /opt/oomox/scripted_colors/xresources/xresources-reverse > /dev/null 2>&1 &)
+	oomox-cli -o oomox-xresources-reverse -m all /opt/oomox/scripted_colors/xresources/xresources-reverse > /dev/null
 }
 
 set-lock() {
+	local wallpaper=""
+
+	if [[ $1 ]]; then
+		wallpaper=$1
+	else
+		wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg)
+	fi
+
 	local sddm_directory="/usr/share/sddm/themes/chili"
-	local wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg)
-	local file_type="${wallpaper: -4}"
+	local file_type=$(grep -oP "\..*" <<<$wallpaper)
 	local sddm_content=$(sed "s/\..../${file_type}/" "$sddm_directory/theme.conf.user")
 	echo $sddm_content > "$sddm_directory/theme.conf.user"
 	cp "${wallpaper/file=/}" "${sddm_directory}/background${file_type}"
