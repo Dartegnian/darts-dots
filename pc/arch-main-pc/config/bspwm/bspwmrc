@@ -32,6 +32,7 @@ bspc rule -a Opera desktop='^5' follow=off focus=off
 bspc rule -a Nitrogen desktop='^5' follow=off focus=off
 bspc rule -a Gwe desktop='^7' follow=off focus=off
 bspc rule -a GitKraken desktop='^7' follow=off focus=off
+bspc rule -a WindowsVM desktop='^7' follow=off focus=off
 bspc rule -a discord desktop='^8' follow=off focus=off
 bspc rule -a Signal desktop='^8' follow=off focus=off
 bspc rule -a code-oss desktop='^9' follow=off focus=off
