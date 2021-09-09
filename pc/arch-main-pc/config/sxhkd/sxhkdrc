@@ -19,11 +19,11 @@ alt + Tab
 
 # program launcher
 super + d
-	rofi -show drun -modi drun
+	rofi -show drun
 
 # emoji selection
 super + semicolon
-	rofi -show emoji -modi emoji
+	rofi -show emoji
 
 # make sxhkd reload its configuration files:
 super + Escape
