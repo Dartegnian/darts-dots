@@ -6,7 +6,7 @@ zsh -ic gen-wal &
 source "${HOME}/.cache/wal/colors.sh"
 
 # Hotkeys + keyboard shortcuts
-preg sxhkd || sxhkd &
+pgrep -x sxhkd > /dev/null || sxhkd &
 
 # ==> START bspwm rules
 bspc monitor -d I II III IV V VI VII VIII IX X
@@ -48,13 +48,13 @@ bspc rule -a Zathura state=tiled
 # ==> END bspwm rules
 
 # DWM swallow
-pgrep bspswallow || $HOME/SYGtech/goteki-git/bspswallow/bspswallow &
+pgrep -x bspswallow > /dev/null || $HOME/SYGtech/goteki-git/bspswallow/bspswallow &
 
 # Compositor
-pgrep picom || picom --experimental-backends &
+pgrep -x picom > /dev/null || picom --experimental-backends &
 
 # Polybar
-pgrep polybar || $HOME/.config/polybar/polybar.sh &
+pgrep -x polybar > /dev/null || $HOME/.config/polybar/polybar.sh &
 
 # Nvidia
 nvidia-settings --config="~/.config/nvidia/settings" --load-config-only
@@ -62,10 +62,10 @@ nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 
 # Set RGB lights
 ckb-next --background &
-pgrep openrgb || openrgb --startminimized -p Blue.orp  &
+pgrep -x openrgb > /dev/null || openrgb --startminimized -p Blue.orp  &
 
 # Run tmux restore script on first login
-if [[ -z $(pgrep tmux) ]]; then
+if [[ $(pgrep tmux) ]]; then
 	sh ~/.config/bspwm/tmux-startup.sh &
 	sleep 1
 fi
@@ -74,15 +74,15 @@ if [[ $(pgrep tmux) ]]; then
 fi
 
 # Notifications
-pgrep dunst || dunst -conf ~/.config/dunst/dunstrc &
+pgrep -x dunst > /dev/null || dunst -conf ~/.config/dunst/dunstrc &
 
 # Fix for some Java programs
 wmname LG3D
 
 # MPD
-pgrep mpd || systemctl start --user mpd
-# pgrep playerctld || playerctld daemon &
-pgrep -af mpDris2 || mpDris2 &
+pgrep -x mpd > /dev/null || systemctl start --user mpd
+pgrep -x playerctld > /dev/null || playerctld daemon
+#pgrep -af mpDris2 || mpDris2 &
 
 # Gnome polkit
-pgrep polkit-gnome || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+pgrep -x polkit-gnome > /dev/null || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
