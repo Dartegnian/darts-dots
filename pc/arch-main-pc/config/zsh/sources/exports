@@ -3,7 +3,7 @@ export VISUAL=nvim;
 export EDITOR=nvim;
 
 # Android SDK
-export ANDROID_SDK_ROOT='/opt/android-sdk'
+export ANDROID_SDK_ROOT="/opt/android-sdk"
 export PUB_CACHE="$XDG_DATA_HOME"/flutter/pub-cache
 
 # XDG stuff for other programs
@@ -13,7 +13,7 @@ export BUNDLE_USER_CONFIG="$XDG_CONFIG_HOME"/bundle BUNDLE_USER_CACHE="$XDG_CACH
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export GOPATH="$XDG_DATA_HOME"/go
-export GPODDER_DOWNLOAD_DIR="~/Music/\[Podcasts\]"
+export GPODDER_DOWNLOAD_DIR="$HOME/Music/[Podcasts]"
 export GPODDER_HOME="$XDG_DATA_HOME/gPodder"
 export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
 export GTK_RC_FILES="$XDG_CONFIG_HOME"/gtk-1.0/gtkrc
