@@ -39,7 +39,9 @@ betterdiscordctl-git
 binutils
 blas
 bleachbit
+blueman
 bluez
+bluez-alsa-git
 bluez-libs
 bluez-utils
 boost-libs
@@ -66,7 +68,6 @@ cblas
 cdparanoia
 celt
 ceph-libs
-cfitsio
 chili-sddm-theme
 chromaprint
 cifs-utils
@@ -150,6 +151,7 @@ gettext
 giflib
 girara
 git
+git-lfs
 gitkraken
 glew
 glew1.10
@@ -374,6 +376,7 @@ lib32-libxmu
 lib32-libxrandr
 lib32-libxrender
 lib32-libxshmfence
+lib32-libxslt
 lib32-libxss
 lib32-libxt
 lib32-libxtst
@@ -387,6 +390,7 @@ lib32-nettle
 lib32-nspr
 lib32-nss
 lib32-nvidia-utils-performance
+lib32-ocl-icd
 lib32-openal
 lib32-opencl-nvidia-performance
 lib32-openssl
@@ -587,6 +591,7 @@ libsm
 libsndfile
 libsodium
 libsoup
+libsoup3
 libsoxr
 libspeechd
 libssh
@@ -617,7 +622,6 @@ libutf8proc
 libuv
 libva
 libvdpau
-libvips
 libvirt-git
 libvirt-glib
 libvirt-python
@@ -684,7 +688,6 @@ lsb-release
 lsof
 lua52
 luajit
-lutris
 lvm2
 lz4
 lzo
@@ -701,7 +704,6 @@ mbedtls
 md4c
 mdadm
 mesa
-mesa-demos
 meson
 minecraft-launcher
 miniplayer-git
@@ -750,11 +752,13 @@ nvm
 nvtop
 oath-toolkit
 obs-studio
+ocl-icd
 oniguruma
 open-iscsi
 open-isns
 openal
 openbsd-netcat
+opencl-headers
 opencl-nvidia-performance
 opencore-amr
 opencv
@@ -815,6 +819,7 @@ popt
 portaudio
 potrace
 ppsspp
+ppsspp-assets
 procps-ng
 proton-ge-custom-bin
 protontricks-git
@@ -840,13 +845,11 @@ python-distlib
 python-distro
 python-dnspython
 python-docopt
-python-evdev
 python-ffmpeg
 python-future
 python-gobject
 python-html5lib
 python-idna
-python-lxml
 python-markdown
 python-more-itertools
 python-mpd2
@@ -881,7 +884,6 @@ python-wcwidth
 python-webencodings
 python-xlib
 python-yaml
-python2
 pywal-discord-git
 qbittorrent
 qemu
@@ -923,6 +925,7 @@ samba
 sassc
 sbc
 sc-im
+scim
 sddm
 sdl
 sdl2
@@ -939,7 +942,6 @@ serf
 shaderc
 shadow
 shared-mime-info
-signal-desktop
 slop
 smbclient
 smpeg
@@ -1009,6 +1011,7 @@ ueberzug
 ufw
 uget
 uget-integrator
+uget-integrator-chrome
 uget-integrator-firefox
 unibilium
 unrar
@@ -1033,7 +1036,6 @@ vte3
 vulkan-icd-loader
 wavpack
 wayland
-wayland-protocols
 webkit2gtk
 webrtc-audio-processing
 wget

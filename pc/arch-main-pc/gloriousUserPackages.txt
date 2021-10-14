@@ -9,7 +9,9 @@ base
 betterdiscordctl-git
 binutils
 bleachbit
+blueman
 bluez
+bluez-alsa-git
 bluez-utils
 breeze-icons
 bspwm-git
@@ -18,7 +20,6 @@ cava
 chili-sddm-theme
 ckb-next-git
 cool-retro-term
-dbus-python
 dhcpcd
 discord
 dislocker
@@ -70,7 +71,6 @@ linux-firmware
 linux-zen
 linux-zen-headers
 lollypop-next-git
-lutris
 lvm2
 m4
 maim
@@ -141,9 +141,9 @@ rofi-emoji
 rsync
 samba
 sc-im
+scim
 sddm
 sed
-signal-desktop
 spice-gtk
 steam
 steam-native-runtime
@@ -163,6 +163,7 @@ ttf-material-icons-git
 ueberzug
 ufw
 uget
+uget-integrator-chrome
 uget-integrator-firefox
 unrar
 usbutils
