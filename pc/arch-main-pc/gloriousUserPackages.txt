@@ -17,6 +17,7 @@ breeze-icons
 bspwm-git
 calcurse
 cava
+ccache
 chili-sddm-theme
 ckb-next-git
 cool-retro-term
@@ -86,6 +87,7 @@ mpdris2
 mpv
 nano
 nautilus
+nautilus-open-any-terminal
 ncmpcpp-git
 neovim-git
 nerd-fonts-fira-code

@@ -65,6 +65,7 @@ calcurse
 cantarell-fonts
 cava
 cblas
+ccache
 cdparanoia
 celt
 ceph-libs
@@ -78,6 +79,7 @@ compiler-rt
 containerd
 cool-retro-term
 coreutils
+cpio
 cryptsetup
 curl
 dav1d
@@ -203,6 +205,7 @@ gtkmm
 gtkmm3
 gtksourceview4
 guile
+gulp
 gumbo-parser
 gupnp-dlna
 gvfs
@@ -212,6 +215,7 @@ harfbuzz
 harfbuzz-icu
 hicolor-icon-theme
 hidapi
+hiredis
 htop
 hunspell
 hwids
@@ -239,6 +243,7 @@ java-runtime-common
 jbig2dec
 jemalloc
 jfsutils
+jq
 jre-openjdk
 jre-openjdk-headless
 jre11-openjdk
@@ -437,6 +442,7 @@ libblockdev
 libbluray
 libbpf
 libbsd
+libburn
 libbytesize
 libcaca
 libcacard
@@ -512,6 +518,8 @@ libinput
 libinstpatch
 libiptcdata
 libiscsi
+libisoburn
+libisofs
 libixion
 libjpeg-turbo
 libjpeg6-turbo
@@ -552,6 +560,7 @@ libnumbertext
 libodfgen
 libogg
 libomxil-bellagio
+libopenmpt
 liborcus
 libosinfo
 libp11-kit
@@ -719,6 +728,7 @@ mtdev
 mujs
 nano
 nautilus
+nautilus-open-any-terminal
 ncmpcpp-git
 ncurses
 ndctl
@@ -855,6 +865,7 @@ python-more-itertools
 python-mpd2
 python-msgpack
 python-mygpoclient
+python-nautilus
 python-ordered-set
 python-packaging
 python-pep517
@@ -1089,6 +1100,7 @@ xvidcore
 xxhash
 xz
 yajl
+yarn
 youtube-dl
 yubico-c
 yubico-c-client
