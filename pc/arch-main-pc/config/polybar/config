@@ -74,9 +74,9 @@ cursor-click = pointer
 cursor-scroll = pointer
 enable-ipc = true
 
-click-left = gedit &
+click-left = alacritty --class nvim -e zsh -ic nvim
 click-middle = cool-retro-term -e ~/SYGtech/goteki-git/-nix-shell-scripts/update.sh
-click-right = cool-retro-term -e bashtop &
+click-right = alacritty --class ranger -e zsh -ic ranger
 
 scroll-up =
 scroll-down =
@@ -519,8 +519,8 @@ type = custom/text
 content = "     |   "
 content-foreground = ${colors.foreground-icon}
 
-click-left = lollypop &
-click-middle = alacritty --class ncmpcpp -e zsh -ic ncmpcpp & sleep 0.25 && alacritty --class miniplayer -e zsh -ic miniplayer
+click-left = alacritty --class ncmpcpp -e zsh -ic ncmpcpp & sleep 0.25 && alacritty --class miniplayer -e zsh -ic miniplayer
+click-middle = lollypop &
 click-right = pavucontrol &
 
 
