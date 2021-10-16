@@ -1,8 +1,10 @@
-[player]
+[art]
 music_directory = /mnt/hdd1/Music
+image_method    = ueberzug
+
+[player]
 font_width      = 11
 font_height     = 24
-image_method    = ueberzug
 volume_step     = 5
 auto_close      = false
 album_art_only  = false
