@@ -5,6 +5,5 @@ create-react-app
 eslint
 fast-cli
 lint-staged
-npm
 sass
 serve
