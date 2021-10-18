@@ -205,7 +205,6 @@ gtkmm
 gtkmm3
 gtksourceview4
 guile
-gulp
 gumbo-parser
 gupnp-dlna
 gvfs
@@ -243,7 +242,6 @@ java-runtime-common
 jbig2dec
 jemalloc
 jfsutils
-jq
 jre-openjdk
 jre-openjdk-headless
 jre11-openjdk
@@ -394,10 +392,10 @@ lib32-ncurses
 lib32-nettle
 lib32-nspr
 lib32-nss
-lib32-nvidia-utils-performance
+lib32-nvidia-utils
 lib32-ocl-icd
 lib32-openal
-lib32-opencl-nvidia-performance
+lib32-opencl-nvidia
 lib32-openssl
 lib32-openssl-1.0
 lib32-opus
@@ -668,6 +666,7 @@ libxkbcommon-x11
 libxkbfile
 libxml2
 libxmu
+libxnvctrl
 libxpm
 libxrandr
 libxrender
@@ -755,9 +754,10 @@ nss
 ntfs-3g
 ntp
 numactl
-nvidia-dkms-performance
-nvidia-settings-performance
-nvidia-utils-performance
+nvidia-dkms
+nvidia-settings
+nvidia-tweaks
+nvidia-utils
 nvm
 nvtop
 oath-toolkit
@@ -769,7 +769,7 @@ open-isns
 openal
 openbsd-netcat
 opencl-headers
-opencl-nvidia-performance
+opencl-nvidia
 opencore-amr
 opencv
 opendoas
@@ -1100,7 +1100,6 @@ xvidcore
 xxhash
 xz
 yajl
-yarn
 youtube-dl
 yubico-c
 yubico-c-client
