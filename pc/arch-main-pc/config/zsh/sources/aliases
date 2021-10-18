@@ -10,6 +10,7 @@ alias motd="~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd &
 alias ncmp="alacritty --class ncmpcpp -e zsh -ic ncmpcpp &"
 alias outatime="watch -t -n1 'date +%T|figlet -f ANSI\ Shadow.flf'"
 alias pacreview="pacman -Qqe | nvim"
+alias paclist="pacman -Qi | sed '/^Depends On/,/^Required By/{ s/^Required By.*$//; H; d }; /^Name/!d; /^Name/{ n;x;}'| sed '/^$/s//==================================================================================/'"
 alias pywal="(cat ~/.cache/wal/sequences &)"
 alias scim="(cat ~/.cache/wal/sequences &) && sc-im && (cat ~/.cache/wal/sequences &)"
 alias update="~/SYGtech/goteki-git/-nix-shell-scripts/update.sh"
