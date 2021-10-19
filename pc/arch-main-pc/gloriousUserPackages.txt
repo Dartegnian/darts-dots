@@ -15,7 +15,6 @@ bluez-alsa-git
 bluez-utils
 breeze-icons
 bspwm-git
-calcurse
 cava
 ccache
 chili-sddm-theme
@@ -43,6 +42,7 @@ gedit
 gettext
 git
 gitkraken
+gnome-keyring
 google-chrome-beta
 google-chrome-dev
 gpodder
@@ -52,6 +52,7 @@ grub
 gsfonts
 gst-libav
 gst-plugins-good
+gtypist
 gvfs-mtp
 gzip
 htop
@@ -129,6 +130,7 @@ polkit-gnome
 polybar
 ppsspp
 proton-ge-custom-bin
+protonmail-bridge-bin
 protontricks-git
 pulseaudio
 pulseaudio-modules-bt
@@ -148,6 +150,7 @@ samba
 sc-im
 scim
 sddm
+seahorse
 sed
 spice-gtk
 steam
@@ -157,6 +160,7 @@ sysfsutils
 texinfo
 texlive-core
 themix-full-git
+thunderbird
 tmux
 ttf-dejavu
 ttf-droid

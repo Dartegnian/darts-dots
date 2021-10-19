@@ -45,6 +45,7 @@ bluez-alsa-git
 bluez-libs
 bluez-utils
 boost-libs
+botan
 box2d
 breeze-icons
 bridge-utils
@@ -61,7 +62,6 @@ ca-certificates-utils
 cabextract
 cairo
 cairomm
-calcurse
 cantarell-fonts
 cava
 cblas
@@ -80,6 +80,7 @@ containerd
 cool-retro-term
 coreutils
 cpio
+cracklib
 cryptsetup
 curl
 dav1d
@@ -167,6 +168,7 @@ glusterfs
 gmp
 gnome-autoar
 gnome-desktop
+gnome-keyring
 gnome-themes-extra
 gnupg
 gnutls
@@ -204,6 +206,7 @@ gtk3
 gtkmm
 gtkmm3
 gtksourceview4
+gtypist
 guile
 gumbo-parser
 gupnp-dlna
@@ -576,6 +579,7 @@ libportal
 libproxy
 libpsl
 libpulse
+libpwquality
 libqxp
 libraqm
 libraw
@@ -832,6 +836,7 @@ ppsspp
 ppsspp-assets
 procps-ng
 proton-ge-custom-bin
+protonmail-bridge-bin
 protontricks-git
 psmisc
 pulseaudio
@@ -947,6 +952,7 @@ sdl_image
 sdl_mixer
 sdl_ttf
 seabios
+seahorse
 sed
 semver
 serf
@@ -1001,6 +1007,7 @@ themix-plugin-base16-git
 themix-theme-materia-git
 themix-theme-oomox-git
 thin-provisioning-tools
+thunderbird
 tmux
 totem-pl-parser
 tracker3
