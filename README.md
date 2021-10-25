@@ -75,6 +75,24 @@ Disclaimer: These dotfiles aren't really for anyone else but me. You may or may 
 
 That said, you can copy all folders in the `config` folder to `~/.config` and place everything else manually.
 
+## Any dependencies?
+
+Pretty much every user-installed package and its subsequent dependencies are found within the folder of the installation. You can install some of my user packages or none. There's a lot of dependencies for my main Arch install, including (but not limited to):
+
+* X11 (no Wayland yet)
+* SDDM
+* bspwm
+* sxhkd
+* Pywal
+* Zsh
+* Oomox/Themix
+* Nitrogen
+* Rofi
+* Dunst
+* Picom
+
+Those are the bare minimum requirements/the hard dependencies to start an X11 session with my desktop. Everything else in here are just extra tools I use in my day-to-day.
+
 ## Deprecated software
 I don't use these anymore. Don't use the configs for them.
 
