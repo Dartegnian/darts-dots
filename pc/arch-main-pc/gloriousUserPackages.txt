@@ -182,7 +182,7 @@ wget
 which
 wine-gecko
 wine-mono
-wine-staging
+wine-staging-git
 winetricks-git
 wireguard-tools
 wmname

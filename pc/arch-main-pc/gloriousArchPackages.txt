@@ -272,11 +272,14 @@ lib2geom
 lib32-acl
 lib32-alsa-lib
 lib32-alsa-plugins
+lib32-at-spi2-atk
+lib32-at-spi2-core
 lib32-atk
 lib32-attr
 lib32-brotli
 lib32-bzip2
 lib32-cairo
+lib32-colord
 lib32-curl
 lib32-dbus
 lib32-dbus-glib
@@ -293,15 +296,20 @@ lib32-gdk-pixbuf2
 lib32-gettext
 lib32-giflib
 lib32-glew1.10
+lib32-glib-networking
 lib32-glib2
 lib32-glibc
 lib32-glu
 lib32-gmp
 lib32-gnutls
+lib32-gst-plugins-base-libs
+lib32-gstreamer
 lib32-gtk2
+lib32-gtk3
 lib32-harfbuzz
 lib32-icu
 lib32-imlib2
+lib32-json-glib
 lib32-keyutils
 lib32-krb5
 lib32-lcms2
@@ -318,6 +326,7 @@ lib32-libdbusmenu-glib
 lib32-libdbusmenu-gtk2
 lib32-libdrm
 lib32-libelf
+lib32-libepoxy
 lib32-libffi
 lib32-libgcrypt
 lib32-libgcrypt15
@@ -342,11 +351,14 @@ lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
 lib32-libpng12
+lib32-libproxy
 lib32-libpsl
 lib32-libpulse
+lib32-librsvg
 lib32-librtmp0
 lib32-libsm
 lib32-libsndfile
+lib32-libsoup
 lib32-libssh2
 lib32-libtasn1
 lib32-libthai
@@ -377,6 +389,7 @@ lib32-libxfixes
 lib32-libxft
 lib32-libxi
 lib32-libxinerama
+lib32-libxkbcommon
 lib32-libxml2
 lib32-libxmu
 lib32-libxrandr
@@ -386,6 +399,7 @@ lib32-libxslt
 lib32-libxss
 lib32-libxt
 lib32-libxtst
+lib32-libxv
 lib32-libxxf86vm
 lib32-llvm-libs
 lib32-lm_sensors
@@ -402,6 +416,7 @@ lib32-opencl-nvidia
 lib32-openssl
 lib32-openssl-1.0
 lib32-opus
+lib32-orc
 lib32-p11-kit
 lib32-pam
 lib32-pango
@@ -409,6 +424,7 @@ lib32-pcre
 lib32-pipewire
 lib32-pixman
 lib32-readline
+lib32-rest
 lib32-sdl
 lib32-sdl2
 lib32-sdl2_image
@@ -422,6 +438,8 @@ lib32-sqlite
 lib32-systemd
 lib32-tdb
 lib32-util-linux
+lib32-v4l-utils
+lib32-vkd3d
 lib32-vulkan-icd-loader
 lib32-wayland
 lib32-xz
@@ -510,6 +528,7 @@ libid3tag
 libidn11
 libidn2
 libiec61883
+libieee1284
 libimagequant
 libimobiledevice
 libindicator-gtk2
@@ -738,6 +757,7 @@ ndctl
 neon
 neovim-git
 nerd-fonts-fira-code
+net-snmp
 netcf
 nettle
 nftables
@@ -938,6 +958,7 @@ rubygems
 run-parts
 runc
 samba
+sane
 sassc
 sbc
 sc-im
@@ -1046,6 +1067,7 @@ vid.stab
 virglrenderer
 virt-install
 virt-manager
+vkd3d
 vmaf
 volume_key
 vscodium-git
@@ -1061,7 +1083,7 @@ which
 wildmidi
 wine-gecko
 wine-mono
-wine-staging
+wine-staging-git
 winetricks-git
 wireguard-tools
 wmname
