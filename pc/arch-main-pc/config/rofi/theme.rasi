@@ -33,14 +33,14 @@
 #window {
 	fullscreen: true;
 	background-color: @active-background;
-	border: 5px;
+	border: 0px;
 	border-color: @selected-active-background;
 	padding: 0px;
 }
 
 #mainbox {
 	border: 0;
-	padding: 30%;
+	padding: 6%;
 }
 
 #message {
@@ -61,6 +61,7 @@
 }
 
 #listview {
+	columns: 6;
 	spacing: 10px;
 	padding: 10px 0% 10px;
     border: 0px;
@@ -68,9 +69,13 @@
 }
 
 #element {
+    orientation: vertical;
 	border: 0px;
 	border-color: @selected-normal-background;
 	padding: 10px 10px 10px;
+	width: 20px;
+	expand: false;
+	background-color: @selected-active-background;
 }
 
 #element-text {
@@ -78,11 +83,12 @@
 }
 
 #element-icon {
-    size: 39px;
+	horizontal-align: 0.5;
+    size: 49px;
 }
 
 #element.normal.normal {
-	background-color: @normal-background;
+	background-color: @selected-active-background;
 	text-color: @normal-foreground;
 }
 
@@ -113,17 +119,15 @@
 }
 
 #element.alternate.normal {
-	background-color: @alternate-normal-background;
+	background-color: @selected-active-background;
 	text-color: @alternate-normal-foreground;
 }
 
 #element.alternate.urgent {
-	background-color: @alternate-urgent-background;
 	text-color: @alternate-urgent-foreground;
 }
 
 #element.alternate.active {
-	background-color: @alternate-active-background;
 	text-color: @alternate-active-foreground;
 }
 
@@ -145,10 +149,11 @@
 }
 
 #inputbar {
-    children:   [ prompt,entry,case-indicator ];
+    children:   [ textbox-custom, entry, case-indicator, textbox-name, user-icon ];
 	spacing: 20;
 	text-color: @normal-foreground;
 	padding: 1px;
+	margin: 0 0 50px 0;
 }
 
 #case-indicator {
@@ -157,11 +162,34 @@
 }
 
 #entry {
-	spacing: 0;
+	font: "Noto Sans 24";
+	text-color: @normal-foreground;
+}
+
+#textbox-custom {
+    expand: true;
+	content: "Start";
+	font: "Noto Sans 27";
 	text-color: @normal-foreground;
 }
 
 #prompt, button {
 	spacing: 0;
 	text-color: @normal-foreground;
+}
+
+#textbox-name {
+    expand: false;
+	content: "Dartegnian";
+	padding: 0px;
+	border: 0px;
+	text-color: @normal-foreground;
+}
+
+#user-icon {
+	expand: false;
+	padding: 0px;
+	width: 50px;
+	border: 0px;
+	background-image: url("/usr/share/sddm/faces/dartegnian.face.icon", both);
 }
