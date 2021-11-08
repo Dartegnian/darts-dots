@@ -95,7 +95,6 @@ device-mapper
 dhcpcd
 diffutils
 discord
-dislocker
 dkms
 dmraid
 dnsmasq
@@ -776,7 +775,6 @@ npm
 npth
 nspr
 nss
-ntfs-3g
 ntp
 numactl
 nvidia-dkms
@@ -951,10 +949,6 @@ rpcbind
 rsync
 rtkit
 rubberband
-ruby
-ruby-irb
-ruby-reline
-rubygems
 run-parts
 runc
 samba

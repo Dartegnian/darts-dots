@@ -23,7 +23,6 @@ ckb-next-git
 cool-retro-term
 dhcpcd
 discord
-dislocker
 dnsmasq
 docker
 dunst
@@ -99,7 +98,6 @@ nomacs
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
-ntfs-3g
 ntp
 nvidia-dkms
 nvidia-settings
