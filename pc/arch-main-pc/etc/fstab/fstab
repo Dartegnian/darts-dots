@@ -1,0 +1,21 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/mapper/volumes-root
+UUID=82f80878-8e45-4353-85fd-bfa1c6035a05	/         	ext4      	rw,noatime	0 1
+
+# /dev/mapper/volumes-home
+UUID=db307d39-98c9-4b95-aef0-2b55af2a7d32	/home     	ext4      	rw,noatime	0 2
+
+# /dev/sdb2
+UUID=AF90-2483      				/boot/efi 	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/mapper/volumes-swap
+UUID=7709f751-f44f-4340-9df4-b7184db17efd	none      	swap      	defaults  	0 0
+
+# /mnt/hdd1
+/dev/mapper/triangulum 				/mnt/hdd1 	auto		rw,loop,nofail,noatime,user,exec,autodefrag,inode_cache,nossd 		0 0
+
+# /mnt/hdd2
+/dev/mapper/andromeda 				/mnt/hdd2 	auto		rw,loop,nofail,noatime,user,exec,autodefrag,inode_cache,nossd 		0 0
