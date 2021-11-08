@@ -17,6 +17,7 @@ breeze-icons
 bspwm-git
 cava
 ccache
+cdrtools
 chili-sddm-theme
 ckb-next-git
 cool-retro-term
@@ -45,7 +46,6 @@ gitkraken
 gnome-keyring
 google-chrome-beta
 google-chrome-dev
-gpodder
 grep
 groff
 grub
@@ -103,7 +103,6 @@ ntfs-3g
 ntp
 nvidia-dkms
 nvidia-settings
-nvidia-tweaks
 nvidia-utils
 nvm
 nvtop
@@ -114,6 +113,7 @@ opendoas
 opendoas-sudo
 openresolv
 openrgb-git
+openvpn
 otf-font-awesome
 p7zip
 pacman-git
@@ -182,8 +182,8 @@ wget
 which
 wine-gecko
 wine-mono
-wine-staging-git
-winetricks-git
+wine-staging
+winetricks
 wireguard-tools
 wmname
 xclip

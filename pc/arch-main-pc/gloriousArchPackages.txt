@@ -67,6 +67,7 @@ cava
 cblas
 ccache
 cdparanoia
+cdrtools
 celt
 ceph-libs
 chili-sddm-theme
@@ -177,7 +178,6 @@ google-chrome-beta
 google-chrome-dev
 gpgme
 gpm
-gpodder
 gptfdisk
 graphene
 graphicsmagick
@@ -675,6 +675,7 @@ libxcb
 libxcomposite
 libxcrypt
 libxcursor
+libxcvt
 libxdamage
 libxdg-basedir
 libxdmcp
@@ -780,7 +781,6 @@ ntp
 numactl
 nvidia-dkms
 nvidia-settings
-nvidia-tweaks
 nvidia-utils
 nvm
 nvtop
@@ -806,6 +806,7 @@ openrgb-git
 openssh
 openssl
 openssl-1.0
+openvpn
 optipng
 opus
 opusfile
@@ -842,6 +843,7 @@ picom-git
 pinentry
 pipewire
 pixman
+pkcs11-helper
 pkgconf
 playerctl-git
 polkit
@@ -889,7 +891,6 @@ python-markdown
 python-more-itertools
 python-mpd2
 python-msgpack
-python-mygpoclient
 python-nautilus
 python-ordered-set
 python-packaging
@@ -898,7 +899,6 @@ python-pillow
 python-pip
 python-pixcat
 python-ply
-python-podcastparser
 python-progress
 python-pycparser
 python-pyopenssl
@@ -1083,8 +1083,8 @@ which
 wildmidi
 wine-gecko
 wine-mono
-wine-staging-git
-winetricks-git
+wine-staging
+winetricks
 wireguard-tools
 wmname
 woff2
