@@ -87,8 +87,6 @@ mpd
 mpdris2
 mpv
 nano
-nautilus
-nautilus-open-any-terminal
 ncmpcpp-git
 neovim-git
 nerd-fonts-fira-code
@@ -145,8 +143,6 @@ rofi-dmenu
 rofi-emoji
 rsync
 samba
-sc-im
-scim
 sddm
 seahorse
 sed
@@ -158,6 +154,8 @@ sysfsutils
 texinfo
 texlive-core
 themix-full-git
+thunar-extended
+thunar-media-tags-plugin
 thunderbird
 tmux
 ttf-dejavu
@@ -167,6 +165,7 @@ ttf-font-awesome
 ttf-inconsolata-g
 ttf-liberation
 ttf-material-icons-git
+tumbler
 ueberzug
 ufw
 uget

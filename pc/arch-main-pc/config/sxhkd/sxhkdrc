@@ -159,7 +159,7 @@ super + shift + s
 	maim -s -m 10 -f png /tmp/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-crop.png && sleep 0.5 && xclip -selection clipboard -t image/png -i /tmp/$(ls -Art /tmp/ | tail -n 1)
 
 super + e
-	nautilus
+	thunar
 
 super + r
 	alacritty --class ranger -e zsh -ic ranger &
