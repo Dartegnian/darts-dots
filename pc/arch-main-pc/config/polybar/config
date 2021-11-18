@@ -433,8 +433,8 @@ type = custom/text
 content = " "
 content-foreground = ${colors.foreground-icon}
 
-click-left = code &
-click-right = cool-retro-term -e nvim &
+click-left = vscodium &
+click-right = alacritty -e nvim &
 
 [module/terminal]
 type = custom/text
@@ -442,9 +442,8 @@ type = custom/text
 content = "     |  "
 content-foreground = ${colors.foreground-icon}
 
-click-left = cool-retro-term &
-click-middle = urxvt-tabbed &
-click-right = alacritty &
+click-left = alacritty &
+click-right = cool-retro-term &
 
 [module/git]
 type = custom/text
@@ -453,9 +452,6 @@ content = "     |  "
 content-foreground = ${colors.foreground-icon}
 
 click-left = gitkraken &
-click-middle = npm update -g &
-click-right = cd ~/.oh-my-zsh && git pull &
-
 
 ; Standard icons
 [module/firefox]
