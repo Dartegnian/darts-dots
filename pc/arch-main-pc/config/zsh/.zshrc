@@ -1,3 +1,6 @@
+SHOW_COLOR_SWATCHES=1
+# source /etc/profile.d/plan9.sh
+
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 export LC_MESSAGES="C"
@@ -118,4 +121,7 @@ for file in $XDG_CONFIG_HOME/zsh/sources/*; do
 	source $file;
 done
 
-swatches
+if [[ $SHOW_COLOR_SWATCHES == 1 ]]; then
+	swatches
+fi
+
