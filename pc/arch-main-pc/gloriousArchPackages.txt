@@ -737,7 +737,6 @@ mpv
 msgpack-c
 mtdev
 mujs
-nano
 ncdu
 ncmpcpp-git
 ncurses
@@ -839,8 +838,6 @@ poppler-glib
 popt
 portaudio
 potrace
-ppsspp
-ppsspp-assets
 procps-ng
 protobuf
 proton-ge-custom-bin
@@ -934,10 +931,8 @@ rav1e
 readline
 redland
 reflector
-reiserfsprogs
 rest
 rofi
-rofi-dmenu
 rofi-emoji
 rsync
 rtkit

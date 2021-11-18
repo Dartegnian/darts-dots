@@ -87,7 +87,6 @@ miniplayer-git
 mpd
 mpdris2
 mpv
-nano
 ncdu
 ncmpcpp-git
 neovim-git
@@ -126,7 +125,6 @@ pkgconf
 playerctl-git
 polkit-gnome
 polybar
-ppsspp
 proton-ge-custom-bin
 protonmail-bridge-bin
 protontricks-git
@@ -139,9 +137,7 @@ qbittorrent
 qemu
 ranger-git
 reflector
-reiserfsprogs
 rofi
-rofi-dmenu
 rofi-emoji
 rsync
 samba
@@ -175,7 +171,6 @@ uget
 uget-integrator-chrome
 uget-integrator-firefox
 unrar
-usbutils
 v4l2loopback-dkms
 virt-manager
 vscodium-git
