@@ -27,7 +27,6 @@ attr
 audio-recorder
 audiofile
 audit
-augeas
 autoconf
 automake
 avahi
@@ -63,6 +62,7 @@ cabextract
 cairo
 cairomm
 cantarell-fonts
+catfish
 cava
 cblas
 ccache
@@ -70,6 +70,7 @@ cdparanoia
 cdrtools
 celt
 ceph-libs
+cfitsio
 chili-sddm-theme
 chromaprint
 cifs-utils
@@ -164,7 +165,6 @@ glibc
 glibmm
 glslang
 glu
-glusterfs
 gmp
 gnome-keyring
 gnome-themes-extra
@@ -228,7 +228,6 @@ imlib2
 inetutils
 iniparser
 inkscape
-intltool
 iproute2
 iptables-nft
 iputils
@@ -510,6 +509,7 @@ libglvnd
 libgme
 libgpg-error
 libgphoto2
+libgsf
 libgtop
 libgudev
 libhandy
@@ -528,7 +528,6 @@ libindicator-gtk3
 libinih
 libinput
 libinstpatch
-libiscsi
 libisoburn
 libisofs
 libixion
@@ -631,7 +630,6 @@ libudev0-shim
 libunistring
 libunwind
 libupnp
-liburcu
 liburing
 libusb
 libutempter
@@ -639,7 +637,8 @@ libutf8proc
 libuv
 libva
 libvdpau
-libvirt-git
+libvips
+libvirt
 libvirt-glib
 libvirt-python
 libvisio
@@ -739,6 +738,7 @@ msgpack-c
 mtdev
 mujs
 nano
+ncdu
 ncmpcpp-git
 ncurses
 ndctl
@@ -746,7 +746,6 @@ neon
 neovim-git
 nerd-fonts-fira-code
 net-snmp
-netcf
 nettle
 nftables
 nginx-mainline
@@ -817,28 +816,10 @@ pciutils
 pcre
 pcre2
 perl
-perl-clone
-perl-encode-locale
 perl-error
-perl-file-listing
-perl-html-parser
-perl-html-tagset
-perl-http-cookies
-perl-http-daemon
-perl-http-date
-perl-http-message
-perl-http-negotiate
-perl-io-html
-perl-libwww
-perl-lwp-mediatypes
 perl-mailtools
-perl-net-http
 perl-parse-yapp
 perl-timedate
-perl-try-tiny
-perl-uri
-perl-www-robotrules
-perl-xml-parser
 phodav
 php
 php-fpm
@@ -861,6 +842,7 @@ potrace
 ppsspp
 ppsspp-assets
 procps-ng
+protobuf
 proton-ge-custom-bin
 protonmail-bridge-bin
 protontricks-git
@@ -891,19 +873,24 @@ python-future
 python-gobject
 python-html5lib
 python-idna
+python-importlib-metadata
 python-markdown
 python-more-itertools
 python-mpd2
 python-msgpack
+python-mutagen
 python-ordered-set
 python-packaging
 python-pep517
+python-pexpect
 python-pillow
 python-pip
 python-pixcat
 python-ply
 python-progress
+python-ptyprocess
 python-pycparser
+python-pycryptodomex
 python-pyopenssl
 python-pyparsing
 python-pystache
@@ -921,8 +908,10 @@ python-urllib3
 python-vdf
 python-wcwidth
 python-webencodings
+python-websockets
 python-xlib
 python-yaml
+python-zipp
 pywal-discord-git
 qbittorrent
 qemu
@@ -950,7 +939,6 @@ rest
 rofi
 rofi-dmenu
 rofi-emoji
-rpcbind
 rsync
 rtkit
 rubberband
@@ -977,6 +965,7 @@ serf
 shaderc
 shadow
 shared-mime-info
+signal-desktop
 slop
 smbclient
 smpeg
@@ -1059,6 +1048,7 @@ usbutils
 util-linux
 util-linux-libs
 v4l-utils
+v4l2loopback-dkms
 vde2
 vid.stab
 virglrenderer
@@ -1127,7 +1117,7 @@ xvidcore
 xxhash
 xz
 yajl
-youtube-dl
+yt-dlp
 yubico-c
 yubico-c-client
 yubikey-personalization

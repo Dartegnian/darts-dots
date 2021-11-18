@@ -15,6 +15,7 @@ bluez-alsa-git
 bluez-utils
 breeze-icons
 bspwm-git
+catfish
 cava
 ccache
 cdrtools
@@ -68,7 +69,7 @@ lib32-nvidia-utils
 lib32-opencl-nvidia
 libreoffice-fresh
 libtool
-libvirt-git
+libvirt
 linux-firmware
 linux-zen
 linux-zen-headers
@@ -87,6 +88,7 @@ mpd
 mpdris2
 mpv
 nano
+ncdu
 ncmpcpp-git
 neovim-git
 nerd-fonts-fira-code
@@ -146,6 +148,7 @@ samba
 sddm
 seahorse
 sed
+signal-desktop
 spice-gtk
 steam
 steam-native-runtime
@@ -173,6 +176,7 @@ uget-integrator-chrome
 uget-integrator-firefox
 unrar
 usbutils
+v4l2loopback-dkms
 virt-manager
 vscodium-git
 wget
@@ -201,10 +205,9 @@ xorg-xrdb
 xorg-xset
 xorg-xsetroot
 xorg-xwininfo
-youtube-dl
+yt-dlp
 zathura
 zathura-pdf-mupdf
-zenity
 zip
 zsh
 zsh-fast-syntax-highlighting
