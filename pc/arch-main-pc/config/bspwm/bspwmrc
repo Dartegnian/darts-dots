@@ -85,5 +85,6 @@ pgrep -x mpd > /dev/null || systemctl start --user mpd
 pgrep -x playerctld > /dev/null || playerctld daemon
 pgrep -af mpDris2 > /dev/null || systemctl start --user mpDris2
 
-# Gnome polkit
+# Gnome
 pgrep -x polkit-gnome > /dev/null || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
