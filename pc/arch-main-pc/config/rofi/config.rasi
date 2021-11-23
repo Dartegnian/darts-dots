@@ -1,6 +1,4 @@
 configuration {
 	modi: "window,run,drun,emoji";
-	font: "Noto Sans 15";
-	show-icons: true;
-	theme: "theme";
+	theme: "./rofi-metro/start-screen";
 }

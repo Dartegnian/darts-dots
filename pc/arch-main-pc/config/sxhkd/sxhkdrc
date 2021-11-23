@@ -23,7 +23,7 @@ super + d
 
 # charms bar
 super + c
-	sh $XDG_CONFIG_HOME/rofi/metro/charms.sh
+	sh $XDG_CONFIG_HOME/rofi/rofi-metro/charms.sh
 
 # emoji selection
 super + semicolon
