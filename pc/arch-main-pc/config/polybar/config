@@ -24,8 +24,8 @@
 [colors]
 background = ${xrdb:color0}
 background-transparent = ${file:/home/dartegnian/.cache/wal/colors-polybar-bg-1}
-foreground = #ccFFFFFF
-foreground-icon = #ccFFFFFF
+foreground = #ffFFFFFF
+foreground-icon = #ffFFFFFF
 workspace-active-bg = ${file:/home/dartegnian/.cache/wal/colors-polybar-bg-2}
 workspace-active-fg = ${xrdb:color0:#fff}
 workspace-empty-fg = ${xrdb:color6:#111}

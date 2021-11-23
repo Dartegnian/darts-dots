@@ -10,3 +10,5 @@ pc/arch-main-pc/config/polybar/polybar-scripts/
 pc/arch-main-pc/config/ranger/commands.py
 
 pc/arch-main-pc/config/ranger/commands_full.py
+
+pc/arch-main-pc/config/rofi/rofi-metro
