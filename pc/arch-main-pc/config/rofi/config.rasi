@@ -1,4 +1,5 @@
 configuration {
 	modi: "window,run,drun,emoji";
-	theme: "./rofi-metro/start-screen";
+	show-icons: true;
 }
+@theme "./rofi-metro/start-screen"
