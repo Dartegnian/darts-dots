@@ -101,6 +101,7 @@ dmraid
 dnsmasq
 dnssec-anchors
 docker
+docker-compose
 dosfstools
 double-conversion
 dtc
@@ -547,6 +548,7 @@ libmfx
 libmicrohttpd
 libmikmod
 libmms
+libmng
 libmnl
 libmodplug
 libmpc
@@ -626,17 +628,21 @@ libtirpc
 libtommath
 libtool
 libtorrent-rasterbar
+libtpms
 libudev0-shim
 libunistring
 libunwind
 libupnp
+liburcu
 liburing
 libusb
 libutempter
 libutf8proc
 libuv
 libva
+libva-vdpau-driver-vp9-git
 libvdpau
+libvdpau-va-gl
 libvips
 libvirt
 libvirt-glib
@@ -750,14 +756,10 @@ nftables
 nginx-mainline
 ninja
 nitrogen
-node-gyp
-nodejs
-nodejs-nopt
 nomacs
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
-npm
 npth
 nspr
 nss
@@ -841,7 +843,7 @@ potrace
 procps-ng
 protobuf
 proton-ge-custom-bin
-protonmail-bridge-bin
+protonmail-bridge
 protontricks-git
 psmisc
 pulseaudio
@@ -858,6 +860,7 @@ python-cairo
 python-cffi
 python-chardet
 python-colorama
+python-colorthief
 python-contextlib2
 python-cryptography
 python-dataclasses
@@ -917,6 +920,7 @@ qrencode
 qt5-base
 qt5-declarative
 qt5-graphicaleffects
+qt5-imageformats
 qt5-multimedia
 qt5-quickcontrols
 qt5-svg
@@ -955,7 +959,6 @@ sdl_ttf
 seabios
 seahorse
 sed
-semver
 serf
 shaderc
 shadow
@@ -978,6 +981,7 @@ steam
 steam-native-runtime
 subversion
 svt-av1
+swtpm
 sxhkd-git
 sysfsutils
 systemd

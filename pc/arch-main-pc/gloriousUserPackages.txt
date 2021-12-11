@@ -26,6 +26,7 @@ dhcpcd
 discord
 dnsmasq
 docker
+docker-compose
 dunst
 easytag-git
 edk2-ovmf
@@ -69,6 +70,8 @@ lib32-nvidia-utils
 lib32-opencl-nvidia
 libreoffice-fresh
 libtool
+libva-vdpau-driver-vp9-git
+libvdpau-va-gl
 libvirt
 linux-firmware
 linux-zen
@@ -126,7 +129,7 @@ playerctl-git
 polkit-gnome
 polybar
 proton-ge-custom-bin
-protonmail-bridge-bin
+protonmail-bridge
 protontricks-git
 pulseaudio
 pulseaudio-modules-bt
@@ -135,6 +138,7 @@ python-pywalfox
 pywal-discord-git
 qbittorrent
 qemu
+qt5-imageformats
 ranger-git
 reflector
 rofi
@@ -148,6 +152,7 @@ signal-desktop
 spice-gtk
 steam
 steam-native-runtime
+swtpm
 sxhkd-git
 sysfsutils
 texinfo
