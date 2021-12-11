@@ -88,6 +88,9 @@ pgrep -af mpDris2 > /dev/null || systemctl start --user mpDris2
 pgrep -x polkit-gnome > /dev/null || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
 
+# Terminate
+killall -q openrgb
+
 # Show Windows 8 start screen on login
 #sleep 2
 #rofi -show drun

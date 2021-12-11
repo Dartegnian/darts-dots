@@ -287,7 +287,7 @@ format-disconnected = <label-disconnected>
 format-disconnected-prefix = " "
 
 label-connected = "%downspeed% "
-label-disconnected = "Offline"
+label-disconnected = "Offline "
 
 [module/upload]
 type = internal/network
@@ -301,7 +301,7 @@ format-disconnected = <label-disconnected>
 format-disconnected-prefix = "   "
 
 label-connected = "%upspeed%"
-label-disconnected = "Offline"
+label-disconnected = "Offline "
 
 
 ;===================================================================
