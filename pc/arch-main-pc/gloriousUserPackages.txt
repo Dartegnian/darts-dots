@@ -49,7 +49,7 @@ google-chrome-beta
 google-chrome-dev
 grep
 groff
-grub
+grub-silent
 gsfonts
 gst-libav
 gst-plugins-good
@@ -86,7 +86,6 @@ man-pages
 mariadb
 mdadm
 minecraft-launcher
-miniplayer-git
 mpd
 mpdris2
 mpv
@@ -134,7 +133,6 @@ protontricks-git
 pulseaudio
 pulseaudio-modules-bt
 python-pywal
-python-pywalfox
 pywal-discord-git
 qbittorrent
 qemu

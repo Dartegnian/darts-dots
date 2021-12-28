@@ -182,7 +182,7 @@ graphicsmagick
 graphite
 grep
 groff
-grub
+grub-silent
 gsettings-desktop-schemas
 gsfonts
 gsl
@@ -469,6 +469,7 @@ libcddb
 libcdio
 libcdio-paranoia
 libcdr
+libcgif
 libcloudproviders
 libcolord
 libconfig
@@ -700,6 +701,7 @@ libyuv
 libzip
 libzmf
 licenses
+lilv
 linux-api-headers
 linux-firmware
 linux-zen
@@ -714,6 +716,7 @@ lsb-release
 lsof
 lua52
 luajit
+lv2
 lvm2
 lz4
 lzo
@@ -732,7 +735,6 @@ mdadm
 mesa
 meson
 minecraft-launcher
-miniplayer-git
 mkinitcpio
 mkinitcpio-busybox
 mpd
@@ -849,27 +851,21 @@ psmisc
 pulseaudio
 pulseaudio-modules-bt
 python
-python-ansiwrap
 python-appdirs
 python-attrs
 python-beautifulsoup4
-python-blessed
 python-brotli
 python-cachecontrol
 python-cairo
 python-cffi
 python-chardet
 python-colorama
-python-colorthief
 python-contextlib2
 python-cryptography
-python-dataclasses
 python-distlib
 python-distro
 python-dnspython
 python-docopt
-python-ffmpeg
-python-future
 python-gobject
 python-html5lib
 python-idna
@@ -885,7 +881,6 @@ python-pep517
 python-pexpect
 python-pillow
 python-pip
-python-pixcat
 python-ply
 python-progress
 python-ptyprocess
@@ -895,7 +890,6 @@ python-pyopenssl
 python-pyparsing
 python-pystache
 python-pywal
-python-pywalfox
 python-requests
 python-resolvelib
 python-retrying
@@ -906,7 +900,6 @@ python-toml
 python-tomli
 python-urllib3
 python-vdf
-python-wcwidth
 python-webencodings
 python-websockets
 python-xlib
@@ -925,6 +918,7 @@ qt5-multimedia
 qt5-quickcontrols
 qt5-svg
 qt5-tools
+qt5-translations
 qt5-x11extras
 quazip
 ragel
@@ -959,6 +953,7 @@ sdl_ttf
 seabios
 seahorse
 sed
+serd
 serf
 shaderc
 shadow
@@ -968,6 +963,7 @@ slop
 smbclient
 smpeg
 snappy
+sord
 sound-theme-freedesktop
 speex
 speexdsp
@@ -975,6 +971,7 @@ spice
 spice-gtk
 spirv-tools
 sqlite
+sratom
 srt
 startup-notification
 steam
