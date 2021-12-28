@@ -113,7 +113,7 @@ compinit -d $XDG_CACHE_HOME/zsh/zcompdump-linux-$ZSH_VERSION
 
 # Unix-like MOTD
 clear
-~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd
+~/SYGtech/goteki-git/shell-scripts/update_motd.sh > /etc/motd
 cat /etc/motd
 
 # Zsh sources folder

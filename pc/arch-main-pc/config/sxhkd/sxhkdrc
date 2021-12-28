@@ -175,7 +175,7 @@ super + alt + m
 	alacritty --class miniplayer -e zsh -ic miniplayer &
 
 super + shift + m
-	~/SYGtech/goteki-git/-nix-shell-scripts/toggle_mic.sh
+	~/SYGtech/goteki-git/shell-scripts/toggle_mic.sh
 
 super + alt + c
 	alacritty -e cava & ; sleep 1 ; bspc node -t floating ; bspc node -g sticky ; bspc node -z top 0 350 ; bspc node -v 540 220
