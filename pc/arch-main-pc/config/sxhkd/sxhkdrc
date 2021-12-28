@@ -157,10 +157,10 @@ super + a
 	alacritty
 
 super + Print
-	maim -m 10 -f png ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-screen.png && sleep 0.5 && xclip -selection clipboard -t image/png ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/$(ls -Art ~/Pictures/Saved\ Folders/Screenshots/Arch\ Linux/ | tail -n 1)
+	sh /home/dartegnian/SYGtech/goteki-git/shell-scripts/screenshot-maim.sh screen
 
 super + shift + s
-	maim -s -m 10 -f png /tmp/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-crop.png && sleep 0.5 && xclip -selection clipboard -t image/png -i /tmp/$(ls -Art /tmp/ | tail -n 1)
+	sh /home/dartegnian/SYGtech/goteki-git/shell-scripts/screenshot-maim.sh area
 
 super + e
 	thunar
