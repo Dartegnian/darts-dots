@@ -62,7 +62,7 @@ nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 
 # Set RGB lights
 ckb-next --background &
-pgrep -x openrgb > /dev/null || openrgb --startminimized -p Blue.orp  &
+pgrep -x openrgb > /dev/null || openrgb --startminimized -p Blue.orp &
 
 # Run tmux restore script on first login
 if [[ -z $(pgrep tmux) ]]; then
@@ -89,6 +89,7 @@ pgrep -x polkit-gnome > /dev/null || /usr/lib/polkit-gnome/polkit-gnome-authenti
 gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
 
 # Terminate
+sleep 4
 killall -q openrgb
 
 # Show Windows 8 start screen on login
