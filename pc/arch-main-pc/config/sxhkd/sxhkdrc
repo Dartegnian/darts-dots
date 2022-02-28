@@ -181,10 +181,7 @@ super + alt + c
 	alacritty -e cava & ; sleep 1 ; bspc node -t floating ; bspc node -g sticky ; bspc node -z top 0 350 ; bspc node -v 540 220
 
 ctrl + shift + Escape
-	cool-retro-term -e top
-	
-ctrl + shift + e
-	cool-retro-term -e htop
+	alacritty --class htop -e zsh -ic htop
 
 #
 # media controls

@@ -34,7 +34,7 @@ alias start-polybar="$HOME/.config/polybar/polybar.sh &"
 alias unmount-mtp="doas umount -R /mnt/point1"
 
 # Shorthands
-alias c="clear && ~/SYGtech/goteki-git/shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd && swatches"
+alias c="clear && ~/SYGtech/goteki-git/shell-scripts/update_motd.sh > /etc/motd && (cat ~/.cache/wal/sequences &) && cat /etc/motd && swatches"
 alias e="(cat ~/.cache/wal/sequences &) && ranger && (cat ~/.cache/wal/sequences &)"
 alias n="nano"
 alias v="nvim"
