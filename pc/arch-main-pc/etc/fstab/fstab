@@ -8,8 +8,11 @@ UUID=96472b32-25eb-47b8-8d4f-5b9dda266e29	/         	ext4      	rw,noatime	0 1
 # /dev/mapper/nvme0volumes-home
 UUID=509b4323-4552-49ff-832b-e0692fb0430a	/home     	ext4      	rw,noatime	0 2
 
-# /boot/efi
-UUID=ADAE-5867      				/boot/efi 	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+# /dev/nvme0n1p3
+UUID=0d55ef66-2ac4-41d5-94e6-e6a9041adda1	/boot     	ext4      	rw,noatime	0 2
+
+# /dev/nvme0n1p1
+UUID=110A-AEFE      				/boot/efi 	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
 
 # /dev/mapper/nvme0volumes-swap
 UUID=9004804f-18bd-46be-8211-1da59127f882	none      	swap      	defaults  	0 0

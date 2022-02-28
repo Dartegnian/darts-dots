@@ -7,3 +7,4 @@ fast-cli
 lint-staged
 sass
 serve
+wipeclean
