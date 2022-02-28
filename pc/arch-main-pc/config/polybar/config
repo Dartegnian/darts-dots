@@ -111,9 +111,9 @@ tray-scale = 1.0
 
 font-0 = Noto Sans CJK TC:size=9;2
 font-1 = FontAwesome:pixelsize=10;2
-font-2 = Font Awesome 5 Free Solid:pixelsize=10;2
-font-3 = Font Awesome 5 Free:pixelsize=10;2
-font-4 = Font Awesome 5 Brands:pixelsize=10;2
+font-2 = Font Awesome 6 Free Solid:pixelsize=10;2
+font-3 = Font Awesome 6 Free:pixelsize=10;2
+font-4 = Font Awesome 6 Brands:pixelsize=10;2
 font-5 = Material Icons:pixelsize=12;3
 font-6 = Noto Sans CJK TC:size=9;2
 font-7 = Noto Sans CJK TC:bold:size=9;2
@@ -489,7 +489,7 @@ content-foreground = ${colors.foreground-icon}
 
 click-left = firefox "https://www.youtube.com" &
 click-middle = firefox "https://www.youtube.com/feed/subscriptions" &
-click-right = firefox "https://www.youtube.com/playlist?list=PLMBv7J0cbV5z2MnH5OY0FfdOhQc2DW3WV" &
+click-right = firefox "https://music.youtube.com" &
 
 [module/twitter]
 type = custom/text
