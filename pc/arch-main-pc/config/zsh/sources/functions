@@ -36,6 +36,9 @@ gen-wal() {
 	pywal-discord
 	pywalfox update
 	oomox-cli -o oomox-xresources-reverse -m all /opt/oomox/scripted_colors/xresources/xresources-reverse > /dev/null
+
+	# notify wallpaper imaget set
+	notify-send "Your wallpaper has been set!" $wallpaper -i $wallpaper
 }
 
 set-lock() {
@@ -52,6 +55,9 @@ set-lock() {
 	local sddm_content=$(sed "s/\..../${file_type}/" "$sddm_directory/theme.conf.user")
 	echo $sddm_content > "$sddm_directory/theme.conf.user"
 	cp "${wallpaper/file=/}" "${sddm_directory}/background${file_type}"
+
+	# notify lockscreen image set
+	notify-send "Your lock screen wallpaper has been set!" $wallpaper -i "${sddm_directory}/background${file_type}"
 }
 
 swatches() {
