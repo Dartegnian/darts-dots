@@ -61,5 +61,5 @@ GRUB_DISABLE_RECOVERY=true
 # Uncomment to disable submenus in boot menu
 #GRUB_DISABLE_SUBMENU=y
 
-# Check other OSes because I'm not only using Arch, GRUB
-GRUB_DISABLE_OS_PROBER=true
+# Fuck Windows.
+GRUB_DISABLE_OS_PROBER=false
