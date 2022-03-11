@@ -126,7 +126,7 @@ font-7 = Noto Sans CJK TC:bold:size=9;2
 
 modules-left = bspwm 
 modules-center = download date now-playing time upload
-modules-right = code terminal firefox chrome youtube audio close powermenu
+modules-right = code terminal firefox chrome youtube audio mic close powermenu
 
 
 ;===================================================================
@@ -529,6 +529,15 @@ click-left = alacritty --class ncmpcpp -e zsh -ic ncmpcpp & sleep 0.25 && alacri
 click-middle = lollypop &
 click-right = pavucontrol &
 
+
+[module/mic]
+type = custom/text
+
+content = "      |   "
+content-foreground = ${colors.foreground-icon}
+
+click-left = sh ~/SYGtech/goteki-git/shell-scripts/toggle_mic.sh
+click-right = sh ~/SYGtech/goteki-git/shell-scripts/toggle_mic.sh
 
 [module/pin]
 type = custom/text
