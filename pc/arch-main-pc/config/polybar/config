@@ -29,6 +29,7 @@ foreground-icon = #ffFFFFFF
 workspace-active-bg = ${file:/home/dartegnian/.cache/wal/colors-polybar-bg-2}
 workspace-active-fg = ${xrdb:color0:#fff}
 workspace-empty-fg = ${xrdb:color6:#111}
+tertiary-color = ${file:/home/dartegnian/.cache/wal/colors-polybar-bg-3}
 
 [settings]
 screenchange-reload = true
@@ -280,7 +281,11 @@ type = internal/network
 interface = enp5s0
 interval = 5
 
-format-connected-prefix = " "
+format-connected-background = ${colors.tertiary-color}
+format-disconnected-background = ${colors.tertiary-color}
+
+format-connected-prefix = "   "
+;format-connected-prefix-foreground = ${colors.tertiary-color}
 format-connected-prefix-foreground = ${colors.foreground-icon}
 format-connected = <label-connected>
 format-disconnected = <label-disconnected>
@@ -294,13 +299,16 @@ type = internal/network
 interface = enp5s0
 interval = 5
 
+format-connected-background = ${colors.tertiary-color}
+format-disconnected-background = ${colors.tertiary-color}
+
 format-connected-prefix = "   "
 format-connected-prefix-foreground = ${colors.foreground-icon}
 format-connected = <label-connected>
 format-disconnected = <label-disconnected>
 format-disconnected-prefix = "   "
 
-label-connected = "%upspeed%"
+label-connected = "%upspeed%  "
 label-disconnected = "Offline "
 
 
@@ -312,6 +320,7 @@ label-disconnected = "Offline "
 type = internal/date
 interval = 60
 
+format-background = ${colors.tertiary-color}
 label-foreground = ${colors.foreground-icon}
 label = %date%
 date = "    %b %e "
@@ -326,10 +335,11 @@ date-alt = "    %B %d, %Y (%A) "
 type = internal/date
 interval = 1
 
+format-background = ${colors.tertiary-color}
 label-foreground = ${colors.foreground-icon}
 label = %date%
-date = "    %I:%M %p "
-date-alt = "    %T (%Z) "
+date = "   %I:%M %p "
+date-alt = "   %T (%Z) "
 
 
 ;===================================================================
@@ -512,7 +522,7 @@ click-right = lutris &
 [module/audio]
 type = custom/text
 
-content = "     |   "
+content = "   "
 content-foreground = ${colors.foreground-icon}
 
 click-left = alacritty --class ncmpcpp -e zsh -ic ncmpcpp & sleep 0.25 && alacritty --class miniplayer -e zsh -ic miniplayer
@@ -552,7 +562,9 @@ click-right = bspc node -k &
 
 [module/now-playing]
 type = custom/script
-exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py -f '  |   {icon}  {artist} - {title}   | ' --icon-paused "" --icon-playing "" --icon-stopped "  |     Stopped   | "
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py -f '  |   {icon}  {artist} - {title}   |  ' --icon-paused "" --icon-playing "" --icon-stopped "  |     Stopped   |  "
 tail = true
+format-background = ${colors.tertiary-color}
+
 click-left = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py play-pause &
 click-right = ~/.config/polybar/polybar-scripts/polybar-scripts/player-mpris-tail/player-mpris-tail.py stop &
