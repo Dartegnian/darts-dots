@@ -43,6 +43,12 @@ gen-wal() {
 	notify-send "Your wallpaper has been set!" $wallpaper -i $wallpaper
 }
 
+re-wal() {
+	nitrogen --restore
+	zsh -ic gen-wal
+	source "${HOME}/.cache/wal/colors.sh"
+}
+
 set-lock() {
 	local wallpaper=""
 
