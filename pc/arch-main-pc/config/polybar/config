@@ -284,12 +284,12 @@ interval = 5
 format-connected-background = ${colors.tertiary-color}
 format-disconnected-background = ${colors.tertiary-color}
 
-format-connected-prefix = "   "
+format-connected-prefix = "    "
 ;format-connected-prefix-foreground = ${colors.tertiary-color}
 format-connected-prefix-foreground = ${colors.foreground-icon}
 format-connected = <label-connected>
 format-disconnected = <label-disconnected>
-format-disconnected-prefix = " "
+format-disconnected-prefix = "    "
 
 label-connected = "%downspeed% "
 label-disconnected = "Offline "
@@ -308,8 +308,8 @@ format-connected = <label-connected>
 format-disconnected = <label-disconnected>
 format-disconnected-prefix = "   "
 
-label-connected = "%upspeed%  "
-label-disconnected = "Offline "
+label-connected = "%upspeed%   "
+label-disconnected = "Offline   "
 
 
 ;===================================================================
