@@ -5,6 +5,7 @@ create-react-app
 eslint
 fast-cli
 lint-staged
+neovim
 sass
 serve
 wipeclean
