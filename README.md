@@ -95,7 +95,7 @@ Those are the bare minimum requirements/the hard dependencies to start an X11 se
 
 ## Hurr durr why don't you use Ganoo [Stow](https://www.gnu.org/software/stow/) and [Etckeeper](https://etckeeper.branchable.com/)?
 
-No.
+Working on it.
 
 ## Deprecated software
 I don't use these anymore. Don't use the configs for them.
