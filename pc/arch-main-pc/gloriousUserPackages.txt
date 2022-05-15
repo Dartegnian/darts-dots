@@ -39,6 +39,7 @@ file
 findutils
 firefox
 flex
+gamemode
 gawk
 gcc
 gedit
@@ -67,6 +68,8 @@ java-environment-common
 jfsutils
 jre8-openjdk
 keepassxc
+latencyflex-git
+latencyflex-wine-git
 latex-enumitem
 lib32-mesa
 lib32-nvidia-utils
@@ -139,7 +142,7 @@ pulseaudio-modules-bt
 python-pywal
 pywal-discord-git
 qbittorrent
-qemu
+qemu-desktop
 qt5-imageformats
 ranger-git
 reflector
