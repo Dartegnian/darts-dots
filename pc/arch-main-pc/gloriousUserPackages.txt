@@ -1,5 +1,5 @@
 adobe-base-14-fonts
-alacritty-ligatures-git
+alacritty-git
 alsa-utils
 amd-ucode
 audio-recorder
@@ -21,6 +21,7 @@ ccache
 cdrtools
 chili-sddm-theme
 ckb-next-git
+composer
 cool-retro-term
 dhcpcd
 discord
@@ -52,7 +53,9 @@ groff
 grub-silent
 gsfonts
 gst-libav
+gst-plugins-bad
 gst-plugins-good
+gst-plugins-ugly
 gtypist
 gvfs-mtp
 gzip
@@ -121,6 +124,7 @@ patch
 pavucontrol
 php
 php-fpm
+php-gd
 phpmyadmin
 picom-git
 pkgconf
@@ -150,6 +154,7 @@ signal-desktop
 spice-gtk
 steam
 steam-native-runtime
+stow
 swtpm
 sxhkd-git
 sysfsutils
