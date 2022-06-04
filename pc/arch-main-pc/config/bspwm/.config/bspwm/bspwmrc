@@ -16,7 +16,7 @@ configure_bspwm() {
 	bspc config split_ratio					0.5
 	bspc config borderless_monocle				true
 	bspc config gapless_monocle				true
-	bspc config top_padding					30
+	bspc config top_padding					46
 	bspc config presel_feedback_color			"$color6"
 
 	# music apps on desktop 6
