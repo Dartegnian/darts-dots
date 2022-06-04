@@ -156,6 +156,9 @@ alt + w
 super + a
 	alacritty
 
+Print
+	sh /home/dartegnian/SYGtech/goteki-git/shell-scripts/screenshot-maim.sh screen-temp
+
 super + Print
 	sh /home/dartegnian/SYGtech/goteki-git/shell-scripts/screenshot-maim.sh screen
 
