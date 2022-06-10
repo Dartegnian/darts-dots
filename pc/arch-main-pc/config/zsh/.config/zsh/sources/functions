@@ -26,7 +26,11 @@ gen-wal() {
 	local transparency="90"
 	local primary=$color0
 	local secondary=$color6
-	local tertiary=$color3
+	local tertiary=$color1
+	local quaternary=$color4
+	local quinary=$color3
+	local senary=$color5
+	local septenary=$color2
 
 	local rofi_config=$(sed "s/active-background\: #....../active-background\: ${primary}${transparency}/; s/selected-active-background\: #....../selected-active-background\: ${secondary}/" ~/.cache/wal/colors-rofi-dark.rasi)
 	echo $rofi_config > ~/.cache/wal/colors-rofi-dark.rasi
@@ -34,6 +38,11 @@ gen-wal() {
 	echo "#$transparency${primary/\#/}" >~/.cache/wal/colors-polybar-bg-1
 	echo "#$transparency${secondary/\#/}" >~/.cache/wal/colors-polybar-bg-2
 	echo "#$transparency${tertiary/\#/}" >~/.cache/wal/colors-polybar-bg-3
+	echo "#$transparency${quaternary/\#/}" >~/.cache/wal/colors-polybar-bg-4
+	echo "#$transparency${quinary/\#/}" >~/.cache/wal/colors-polybar-bg-5
+	echo "#$transparency${senary/\#/}" >~/.cache/wal/colors-polybar-bg-6
+	echo "#$transparency${septenary/\#/}" >~/.cache/wal/colors-polybar-bg-7
+
 	bspc config presel_feedback_color "$secondary"
 	pywal-discord
 	pywalfox update

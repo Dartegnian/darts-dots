@@ -21,7 +21,8 @@ alias windows8="doas virsh start Windows8.0"
 alias wget="wget --hsts-file='$XDG_CACHE_HOME/wget-hsts'"
 alias yay="doas powerpill"
 
-# Commands
+# Commands VERB-PRODUCT
+alias backup-restic="doas sh ~/SYGtech/goteki-git/shell-scripts/restic_backup.sh"
 alias download-server="wget -r -nH -nc --cut-dirs=1 --no-parent --reject='index.html*,robots.txt*' -e robots=off"
 alias install-grub="doas grub-mkconfig -o /boot/grub/grub.cfg && doas grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB"
 alias mount-mtp="doas simple-mtpfs -o allow_other,auto_unmount,big_writes,default_permissions,direct_io --device 1 /mnt/pnt1"
@@ -38,7 +39,7 @@ alias c="clear && ~/SYGtech/goteki-git/shell-scripts/update_motd.sh > /etc/motd 
 alias e="(cat ~/.cache/wal/sequences &) && ranger && (cat ~/.cache/wal/sequences &)"
 alias m="sh ~/SYGtech/goteki-git/shell-scripts/toggle_mic.sh"
 alias n="nano"
-alias p="sh ~/SYGtech/goteki-git/shell-scripts/screenshot-maim.sh screen && echo 'zsh: command not found: p'"
+alias p="sh ~/SYGtech/goteki-git/shell-scripts/screenshot_maim.sh screen && echo 'zsh: command not found: p'"
 alias q="exit"
 alias v="nvim"
 alias k-p="killall -q picom"
