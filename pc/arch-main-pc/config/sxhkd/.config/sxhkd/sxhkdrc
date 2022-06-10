@@ -157,13 +157,13 @@ super + a
 	alacritty
 
 Print
-	sh ~/SYGtech/goteki-git/shell-scripts/maim-screenshot.sh screen-temp
+	sh ~/SYGtech/goteki-git/shell-scripts/screenshot_maim.sh screen-temp
 
 super + Print
-	sh ~/SYGtech/goteki-git/shell-scripts/maim-screenshot.sh screen
+	sh ~/SYGtech/goteki-git/shell-scripts/screenshot_maim.sh screen
 
 super + shift + s
-	sh ~/SYGtech/goteki-git/shell-scripts/maim-screenshot.sh area
+	sh ~/SYGtech/goteki-git/shell-scripts/screenshot_maim.sh area
 
 super + e
 	thunar
