@@ -27,7 +27,7 @@ mpd_host = 127.0.0.1
 #
 mpd_port = 17703
 #
-mpd_password = ""
+#mpd_password = ""
 
 mpd_connection_timeout = 5
 #
@@ -344,11 +344,11 @@ execute_on_song_change = sleep 1 && notify-send "$(playerctl metadata --player=m
 ##
 #playlist_display_mode = columns
 #
-#browser_display_mode = classic
+browser_display_mode = classic
 #
-#search_engine_display_mode = classic
+search_engine_display_mode = classic
 #
-#playlist_editor_display_mode = classic
+playlist_editor_display_mode = classic
 #
 #discard_colors_if_item_is_selected = yes
 #
@@ -376,7 +376,7 @@ autocenter_mode = no
 #
 ## Available values: classic, alternative.
 ##
-user_interface = alternative
+user_interface = classic
 #
 #data_fetching_delay = yes
 #
