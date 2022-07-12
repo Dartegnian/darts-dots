@@ -46,7 +46,7 @@ gen-wal() {
 	bspc config presel_feedback_color "$secondary"
 	pywal-discord
 	pywalfox update
-	oomox-cli -o oomox-xresources-reverse -m all /opt/oomox/scripted_colors/xresources/xresources-reverse > /dev/null
+	oomox-cli -o oomox-xresources -m all /opt/oomox/scripted_colors/xresources/xresources > /dev/null
 
 	# notify wallpaper imaget set
 	notify-send "Your wallpaper has been set!" $wallpaper -i $wallpaper
