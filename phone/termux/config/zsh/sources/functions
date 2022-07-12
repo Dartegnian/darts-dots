@@ -1,0 +1,91 @@
+conv-flacmp3() {
+	for i in *.flac; do
+		ffmpeg -i "$i" -ab 128k -map_metadata 0 -id3v2_version 3 "${i/.flac/}.mp3"
+	done
+}
+
+gen-wal() {
+	local wallpaper=""
+
+	if [[ $1 ]]; then
+		wallpaper=$1
+		nitrogen --set-zoom-fill --save $wallpaper
+	else
+		wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg)
+	fi
+
+	if [[ $2 ]]; then
+		wal -tnq -i "${wallpaper/file=/}"
+	else
+		wal -tn -i "${wallpaper/file=/}"
+	fi
+
+	killall -q dunst && (dunst -conf ~/.config/dunst/dunstrc > /dev/null 2>&1 &)
+
+	source "${HOME}/.cache/wal/colors.sh"
+	local transparency="90"
+	local primary=$color0
+	local secondary=$color6
+
+	local rofi_config=$(sed "s/active-background\: #....../active-background\: ${primary}${transparency}/; s/selected-active-background\: #....../selected-active-background\: ${secondary}/" ~/.cache/wal/colors-rofi-dark.rasi)
+	echo $rofi_config > ~/.cache/wal/colors-rofi-dark.rasi
+
+	echo "#$transparency${primary/\#/}" >~/.cache/wal/colors-polybar-bg-1
+	echo "#$transparency${secondary/\#/}" >~/.cache/wal/colors-polybar-bg-2
+	bspc config presel_feedback_color "$secondary"
+	pywal-discord
+	pywalfox update
+	oomox-cli -o oomox-xresources-reverse -m all /opt/oomox/scripted_colors/xresources/xresources-reverse > /dev/null
+}
+
+set-lock() {
+	local wallpaper=""
+
+	if [[ $1 ]]; then
+		wallpaper=$1
+	else
+		wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg)
+	fi
+
+	local sddm_directory="/usr/share/sddm/themes/chili"
+	local file_type=$(grep -oP "\..*" <<<$wallpaper)
+	local sddm_content=$(sed "s/\..../${file_type}/" "$sddm_directory/theme.conf.user")
+	echo $sddm_content > "$sddm_directory/theme.conf.user"
+	cp "${wallpaper/file=/}" "${sddm_directory}/background${file_type}"
+}
+
+mortality() {
+	sh ~/.config/zsh/mortality.sh
+}
+
+swatches() {
+	# Show the terminal colourscheme as blocks
+	# Inspired by u/dkeg
+	# Cheers! Addy
+	# Adapted to Zsh, from: https://github.com/elenapan/dotfiles/blob/master/bin/colorblocks
+
+	local f=3
+	local b=4
+
+	local d=$'\e[1m'
+	local t=$'\e[0m'
+	local v=$'\e[7m'
+
+	for j in f b; do
+		for i in {0..7}; do
+			printf -v "$j$i" %b "\e[${(P)j}${i}m"
+		done
+	done
+
+	cat <<-EOF
+
+		$f1██████$d██$t $f2██████$d██$t $f3██████$d██$t $f4██████$d██$t $f5██████$d██$t $f6██████$d██$t 
+		$f1██████$d██$t $f2██████$d██$t $f3██████$d██$t $f4██████$d██$t $f5██████$d██$t $f6██████$d██$t 
+		$f1██████$d██$t $f2██████$d██$t $f3██████$d██$t $f4██████$d██$t $f5██████$d██$t $f6██████$d██$t 
+		$ft██████$d$f7██$t $ft██████$d$f7██$t $ft██████$d$f7██$t $ft██████$d$f7██$t $ft██████$d$f7██$t $ft██████$d$f7██$t
+
+		
+	EOF
+	
+	mortality
+}

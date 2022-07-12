@@ -1,0 +1,275 @@
+: 1631941511:0;exit
+: 1631941511:0;zsh
+: 1631941511:0;nano .zshrc 
+: 1631941511:0;nano .zshrc
+: 1631941511:0;exit
+: 1631941511:0;cd .local
+: 1631941511:0;ls
+: 1631941511:0;nano .zshrc
+: 1631941511:0;pwd
+: 1631941511:0;cd ..
+: 1631941511:0;nano .zshrc
+: 1631941511:0;exit
+: 1631941396:0;cd ..
+: 1631941398:0;ls
+: 1631941419:0;cd usr/share/
+: 1631941429:0;nvm
+: 1631941451:0;nvim
+: 1631941457:0;ls
+: 1631941462:0;cd 
+: 1631941463:0;ls
+: 1631941477:0;nano .zshrc
+: 1631941508:0;rm ~/.config/zsh/sources/nvm
+: 1631941511:0;exit
+: 1631941515:0;ls
+: 1631941601:0;exit
+: 1632071121:0;mkdir corn
+: 1632071127:0;cd ..
+: 1632071128:0;ls
+: 1632071130:0;cd home
+: 1632071131:0;ls
+: 1632071137:0;cd storage/downloads
+: 1632071138:0;ls
+: 1632071140:0;mkdir corn
+: 1632071143:0;cd corn
+: 1632071159:0;npm i tiktok-scraper
+: 1632296618:0;e
+: 1632296757:0;cs storage/downloads
+: 1632296762:0;cd storage/downloads
+: 1632296766:0;curl http://156zy.suyunbo.tv/2019/02/17/dOTuffvk3jCKIfCg/playlist.m3u8
+: 1632296812:0;curl http://156zy.suyunbo.tv/2019/02/17/dOTuffvk3jCKIfCg/playlist.m3u8 -OJ
+: 1632296953:0;mpv
+: 1632297216:0;vlc
+: 1632297847:0;curl http://156zy.suyunbo.tv/2019/02/17/dOTuffvk3jCKIfCg/playlist.m3u8
+: 1632382768:0;ffmpeg
+: 1632382807:0;youtube-dl https://youtube.com/shorts/I1uGKLsMiDo\?feature\=share
+: 1632382815:0;ls
+: 1632382837:0;mv What\ the\ dog\ doing\ Vine-I1uGKLsMiDo.mp4 storage/downloads
+: 1632741195:0;exit
+: 1633135138:0;npm i -g tiktok-scraper
+: 1633135207:0;nvm
+: 1633135230:0;pkg upgrade
+: 1633136226:0;exit
+: 1633136233:0;npm i -g tiktok-scraper
+: 1633136287:0;npm update -g
+: 1633136344:0;clear
+: 1633136350:0;npm i -g npm
+: 1633136366:0;cd .npm
+: 1633136366:0;ls
+: 1633136369:0;cd ..
+: 1633136374:0;rm -rf .npm
+: 1633136378:0;npm i -g npm
+: 1633136386:0;node
+: 1633136400:0;exit
+: 1633243117:0;v 
+: 1633243131:0;nano soc.tz
+: 1633243137:0;nano soc.txt
+: 1633245012:0;exit
+: 1633884001:0;cd storage/downloads
+: 1633884009:0;nano twitch.txt
+: 1633884017:0;exit
+: 1634221583:0;ffmpeg
+: 1634221594:0;cd storage/downloads
+: 1634221618:0;ffmpeg -i peepo_win.mp4  -vcodec libx265 -crf 28 output.mp4
+: 1634221990:0;ffmpeg -i peepo_win.mp4  -vcodec libx264 -crf 28 output2.mp4
+: 1634514042:0;v oct18.tzt
+: 1634514695:0;e
+: 1634514711:0;exit
+: 1634578904:0;v a.txt
+: 1634578922:0;exit
+: 1634662505:0;cd storage/movies
+: 1634662506:0;ls
+: 1634662514:0;youtube-dl https://youtu.be/i_Wm_r7zStQ
+: 1634662529:0;ls
+: 1634662537:0;rm Shrek\ \(20th\ Anniversary\ Edition\)\ _\ Opening\ Scene\ in\ 4K\ Ultra\ HD-i_Wm_r7zStQ.f313.webm.part
+: 1635201390:0;node
+: 1635201423:0;pkg list
+: 1635201426:0;pkg
+: 1635201432:0;pmg list-all
+: 1635201439:0;pkg list-all
+: 1635201445:0;pkg list-installed
+: 1635201480:0;clear
+: 1635201484:0;node
+: 1635201527:0;cd /tmp
+: 1635201618:0;exit
+: 1636174173:0;exif
+: 1636174176:0;exit
+: 1637283436:0;jq
+: 1637283449:0;pkg install jq
+: 1637283476:0;jq
+: 1637283532:0;curl -o out.json http://www.example.com/index.html | jq
+: 1637283540:0;curl -o out.json http://www.example.com/index.html
+: 1637283542:0;ls
+: 1637283563:0;curl http://www.example.com/index.html | jq
+: 1637283581:0;echi out.json | jq
+: 1637283586:0;clear
+: 1637283592:0;swatches
+: 1637283600:0;echo out.json | jq
+: 1637283608:0;cat out.json
+: 1637283732:0;clear
+: 1637283734:0;swatches
+: 1637283736:0;c
+: 1637283744:0;exit
+: 1637283767:0;curl https://jsonplaceholder.typicode.com/todos/1 | jq
+: 1637283831:0;htop
+: 1637303456:0;ssh dartegnian@192.168.100.90
+: 1637303474:0;exit
+: 1637303478:0;ssh dartegnian@192.168.100.90
+: 1637303549:0;exit
+: 1637303552:0;ssh dartegnian@192.168.100.90
+: 1637303562:0;ssh 192.168.100.90
+: 1637303568:0;ssh dartegnian@192.168.100.90
+: 1637303575:0;ssh root@192.168.100.90
+: 1637303582:0;ssh root@192.168.100.91
+: 1637305729:0;exit
+: 1639113937:0;ge
+: 1639113941:0;cd storage
+: 1639113942:0;ls
+: 1639113948:0;cd dcim
+: 1639113949:0;ls
+: 1639113953:0;cd Camera
+: 1639113954:0;ls
+: 1639114009:0;ffmpeg -i VID_20211210_131538.mp4  -vcodec libx265 -crf 28 VID_20211210_131538x265.mp4
+: 1640410645:0;exit
+: 1641830798:0;e
+: 1642460316:0;exit
+: 1646657032:0;xit
+: 1646657033:0;edit
+: 1646657037:0;exi
+: 1646657039:0;exit
+: 1647165868:0;ssh dartegnian@192.168.100.90
+: 1647169607:0;exit
+: 1647170627:0;ssh dartegnian@192.168.100.90
+: 1650348847:0;ssh 172.31.16.26
+: 1650348872:0;ssh ec2-usrr@172.31.16.26
+: 1650349193:0;ssh ec2-user@172.31.16.26
+: 1650350044:0;ping 1.1.1.1
+: 1650350055:0;ping 127.0.0.1
+: 1650469029:0;clear
+: 1650469034:0;ssh dartegnian@192.168.100.90
+: 1650875111:0;cd storage
+: 1650875112:0;ls
+: 1650875115:0;cd downloads
+: 1650875123:0;curl -OJ 
+: 1650875137:0;curl -OJ http://classics.mit.edu/Antoninus/meditations.mb.txt
+: 1651056394:0;ssh dartegnian@192.168.100.90
+: 1651257917:0;vi mortality.sh
+: 1651257951:0;chmod +x mortality.sh 
+: 1651257979:0;vi ~/.config/zsh/.zshrc
+: 1651258032:0;mv mortality.sh ~/.config/zsh
+: 1651258055:0;vi ~/.config/zsh/.zshrc
+: 1651258114:0;exit
+: 1651258138:0;sh ~/.config/zsh/mortality.sh
+: 1651258358:0;vi ~/.config/zsh/mortality.sh 
+: 1651258375:0;sh ~/.config/zsh/mortality.sh
+: 1651258377:0;vi ~/.config/zsh/mortality.sh 
+: 1651258454:0;sh ~/.config/zsh/mortality.sh
+: 1651258573:0;vi ~/.config/zsh/mortality.sh 
+: 1651258596:0;sh ~/.config/zsh/mortality.sh
+: 1651258711:0;vi ~/.config/zsh/mortality.sh 
+: 1651258913:0;which printf
+: 1651258988:0;vi ~/.config/zsh/mortality.sh 
+: 1651259057:0;vi ~/.config/zsh/.zshrc
+: 1651259090:0;exit
+: 1651259103:0;sh ~/.config/zsh/mortality.sh
+: 1651259113:0;vi ~/.config/zsh/.zshrc
+: 1651259185:0;vi ~/.config/zsh/mortality.sh 
+: 1651259231:0;sh ~/.config/zsh/mortality.sh
+: 1651259246:0;pkg install printf
+: 1651259375:0;vi ~/.config/zsh/mortality.sh 
+: 1651259539:0;sh ~/.config/zsh/mortality.sh
+: 1651259550:0;vi ~/.config/zsh/mortality.sh 
+: 1651259655:0;sh ~/.config/zsh/mortality.sh
+: 1651259677:0;vi ~/.config/zsh/mortality.sh 
+: 1651259824:0;sh ~/.config/zsh/mortality.sh
+: 1651259895:0;vi ~/.config/zsh/mortality.sh 
+: 1651259918:0;sh ~/.config/zsh/mortality.sh
+: 1651259943:0;/usr/bin/printf "%'d" 4282
+: 1651259979:0;export LC_NUMERIC="en_US"
+: 1651259981:0;/usr/bin/printf "%'d" 4282
+: 1651259985:0;sh ~/.config/zsh/mortality.sh
+: 1651260028:0;LC_NUMERIC=en_US printf "%'.f\n" 4282
+: 1651260043:0;LC_NUMERIC=en_US printf "%'.f\n" 123456789
+: 1651260338:0;echo "123456789" | sed ':a;s/\B[0-9]\{3\}\>/,&/;ta'
+: 1651260346:0;sh ~/.config/zsh/mortality.sh
+: 1651260493:0;vi ~/.config/zsh/mortality.sh 
+: 1651260553:0;sh ~/.config/zsh/mortality.sh
+: 1651260559:0;exit
+: 1651260568:0;sh ~/.config/zsh/mortality.sh
+: 1651260629:0;vi ~/.config/zsh/.zshrc
+: 1651260801:0;exit
+: 1651260823:0;vi ~/.config/zsh/sources/functions
+: 1651260879:0;chmod 777 ~/.config/zsh/mortality.sh
+: 1651260882:0;exit
+: 1651260889:0;vi ~/.config/zsh/.zshrc
+: 1651260903:0;exit
+: 1651260936:0;vi ~/.config/zsh/.zshrc
+: 1651260944:0;vi ~/.config/zsh/sources/functions
+: 1651260968:0;exit
+: 1651260994:0;vi ~/.config/zsh/mortality.sh 
+: 1651261011:0;vi ~/.config/zsh/sources/functions
+: 1651261072:0;swatches
+: 1651261076:0;vi ~/.config/zsh/sources/functions
+: 1651261683:0;exit
+: 1651261779:0;vi ~/.config/zsh/sources/functions
+: 1651261791:0;vi ~/.config/zsh/mortality.sh 
+: 1651262499:0;exit
+: 1651461167:0;history | grep ssh
+: 1651461170:0;ssh dartegnian@192.168.100.90
+: 1651501696:0;exi
+: 1651501698:0;exit
+: 1651503896:0;ssh dartegnian@192.168.100.90
+: 1651503924:0;exit
+: 1651548120:0;c
+: 1651548134:0;sudo chmod 777 /etc/motd
+: 1651548142:0;chmod 777 /etc/motd
+: 1651548147:0;exit
+: 1651548159:0;ssh dartegnian@192.168.100.90
+: 1651677016:0;exit
+: 1651680920:0;ssh dartegnian@192.168.100.90
+: 1651680949:0;exit
+: 1651800263:0;ssh dartegnian@192.168.100.90
+: 1651839921:0;exit
+: 1651881872:0;ssh dartegnian@192.168.100.90
+: 1651891476:0;exit
+: 1652025443:0;ssh dartegnian@192.168.100.90
+: 1652283022:0;exit
+: 1652283810:0;ssh dartegnian@192.168.100.90
+: 1652342501:0;exit
+: 1652433571:0;ssh dartegnian@192.168.100.90
+: 1652443812:0;exit
+: 1652509286:0;ssh dartegnian@192.168.100.90
+: 1652790566:0;exit
+: 1652900750:0;ssh dartegnian@192.168.100.90
+: 1653831774:0;exit
+: 1653853387:0;ssh dartegnian@192.168.100.90
+: 1654327776:0;docker
+: 1654327783:0;pkg install docker
+: 1654327815:0;pkg
+: 1654327824:0;pkg search docker
+: 1654327833:0;pkg search neovim
+: 1654327837:0;pkg search docker
+: 1654327847:0;pkg search z11
+: 1654327851:0;pkg search x11
+: 1654327915:0;exit
+: 1654539349:0;pkg upgrade
+: 1654649381:0;ssh dartegnian@192.168.100.90
+: 1654705838:0;exit
+: 1654828275:0;ssh dartegnian@192.168.100.90
+: 1654876764:0;exit
+: 1654891013:0;ssh dartegnian@192.168.100.90
+: 1654894083:0;exit
+: 1655374800:0;ssh dartegnian@192.168.100.90
+: 1655374821:0;exit
+: 1655683366:0;ssh dartegnian@192.168.100.90
+: 1655832406:0;exit
+: 1655918660:0;ssh dartegnian@192.168.100.90
+: 1655983878:0;exit
+: 1655985418:0;ssh dartegnian@192.168.100.90
+: 1656993609:0;restic
+: 1656993614:0;pkg install restic
+: 1656993659:0;restic
+: 1656993663:0;ls
+: 1656993680:0;nano oct18.tzt
+: 1656993687:0;e
+: 1656993726:0;zip -r config ~/.config

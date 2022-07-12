@@ -1,0 +1,43 @@
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+alias backup="~/SYGtech/goteki-git/-nix-shell-scripts/backup.sh"
+alias bruh="figlet 'BRUH MOMENT' -f ANSI\ Shadow.flf"
+alias dir="ls -la"
+alias mmmcow="fortune | cowsay"
+alias motd="~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd"
+alias ncmp="alacritty --class ncmpcpp -e zsh -ic ncmpcpp &"
+alias outatime="watch -t -n1 'date +%T|figlet -f ANSI\ Shadow.flf'"
+alias pacreview="pacman -Qqe | nvim"
+alias pywal="(cat ~/.cache/wal/sequences &)"
+alias scim="(cat ~/.cache/wal/sequences &) && sc-im && (cat ~/.cache/wal/sequences &)"
+alias update="~/SYGtech/goteki-git/-nix-shell-scripts/update.sh"
+alias ver="{ uname -n; uname -o; uname -r; printf '\n\n' } | tr '\n' ' ' && echo ''"
+alias vi="nvim"
+alias windows="doas virsh start Windows"
+alias windows8="doas virsh start Windows8"
+alias wget="wget --hsts-file='$XDG_CACHE_HOME/wget-hsts'"
+alias yay="doas powerpill"
+
+# Commands
+alias download-server="wget -r -nH -nc --cut-dirs=1 --no-parent --reject='index.html*,robots.txt*' -e robots=off"
+alias install-grub="doas grub-mkconfig -o /boot/grub/grub.cfg && doas grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB"
+alias mount-mtp="doas simple-mtpfs -o allow_other,auto_unmount,big_writes,default_permissions,direct_io --device 1 /mnt/point1"
+alias rec-audio="ffmpeg -f pulse -i default ~/Desktop/$(date +%Y-%m-%d--%H-%M-%S)-arch-linux-recording.wav"
+alias restart-pulseaudio="pulseaudio -k && pulseaudio --start"
+alias start-lemp="systemctl start nginx php-fpm mariadb"
+alias stop-lemp="systemctl stop nginx php-fpm mariadb"
+alias start-polybar="$HOME/.config/polybar/polybar.sh &"
+alias unmount-mtp="doas umount -R /mnt/point1"
+
+# Shorthands
+alias c="clear && ~/SYGtech/goteki-git/-nix-shell-scripts/update_motd.sh > /etc/motd && cat /etc/motd && swatches"
+alias e="(cat ~/.cache/wal/sequences &) && ranger && (cat ~/.cache/wal/sequences &)"
+alias n="nano"
+alias v="nvim"
+alias k-p="killall -q picom"
+alias r-d="systemctl --user restart discordrp-mpris.service"
+alias r-p="killall -q picom && picom --experimental-backends &"
+alias s-d="systemctl --user start discordrp-mpris.service"
+alias s-p="picom --experimental-backends &"
