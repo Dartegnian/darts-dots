@@ -1,14 +1,14 @@
 #! /bin/sh
 
 # Wallpaper and Pywal
-set_wallpaper_and_colors() {
+function set_wallpaper_and_colors() {
 	nitrogen --restore &
 	zsh -ic gen-wal &
 	source "${HOME}/.cache/wal/colors.sh"
 }
 
 # ==> START bspwm rules
-configure_bspwm() {
+function configure_bspwm() {
 	bspc monitor -d I II III IV V VI VII VIII IX X
 
 	bspc config border_width				0
@@ -18,7 +18,7 @@ configure_bspwm() {
 	bspc config gapless_monocle				true
 	bspc config top_padding					46
 	bspc config presel_feedback_color			"$color6"
-	bspc config border_radius 				12
+#	bspc config border_radius 				12
 
 	# music apps on desktop 6
 	bspc rule -a Lollypop desktop='^6'
@@ -50,7 +50,7 @@ configure_bspwm() {
 	bspc rule -a Zathura state=tiled
 }
 
-init_tiling_tools() {
+function init_tiling_tools() {
 	# DWM swallow
 	pgrep -x bspswallow > /dev/null || $HOME/SYGtech/goteki-git/bspswallow/bspswallow &
 
@@ -71,13 +71,13 @@ init_tiling_tools() {
 }
 
 # Nvidia
-configure_nvidia_gpu() {
+function configure_nvidia_gpu() {
 	nvidia-settings --config="~/.config/nvidia/settings" --load-config-only
 	nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
 }
 
 # Set RGB lights
-init_rgb_trash() {
+function init_rgb_trash() {
 	ckb-next --background &
 	pgrep -x openrgb > /dev/null || openrgb --startminimized -p Blue.orp &
 
@@ -86,7 +86,7 @@ init_rgb_trash() {
 }
 
 # Run tmux restore script on first login
-restore_terminals() {
+function restore_terminals() {
 	if [[ -z $(pgrep tmux) ]]; then
 		sh ~/.config/bspwm/tmux-startup.sh &
 		sleep 1
@@ -97,25 +97,25 @@ restore_terminals() {
 }
 
 # MPD
-init_mpd_utils() {
+function init_mpd_utils() {
 	pgrep -x mpd > /dev/null || systemctl start --user mpd
 	pgrep -x playerctld > /dev/null || playerctld daemon
 	pgrep -af mpDris2 > /dev/null || systemctl start --user mpDris2
 }
 
 # Polkit
-init_gnome_polkit() {
+function init_gnome_polkit() {
 	pgrep -x polkit-gnome > /dev/null || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 	gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
 }
 
 # Show Windows 8 start screen on login
-show_start_screen() {
+function show_start_screen() {
 	sleep 2
 	rofi -show drun
 }
 
-main() {
+function main() {
 	set_wallpaper_and_colors
 	configure_nvidia_gpu
 	configure_bspwm
