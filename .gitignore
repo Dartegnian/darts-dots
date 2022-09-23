@@ -16,3 +16,5 @@ pc/arch-main-pc/config/rofi/rofi-metro
 pc/arch-main-pc/config/zsh/.config/zsh/.zcompdump*
 
 pc/arch-main-pc/config/mpv/watch_later/
+
+pc/arch-main-pc/config/polybar/polybar-cava/

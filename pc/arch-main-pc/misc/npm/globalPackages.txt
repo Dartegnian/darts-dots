@@ -4,8 +4,10 @@
 create-react-app
 eslint
 fast-cli
+http-server
 lint-staged
 neovim
+nodemon
 sass
 serve
 wipeclean
