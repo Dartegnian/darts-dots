@@ -123,15 +123,22 @@ function show_start_screen() {
 	rofi -show drun
 }
 
+function run_misc_programs() {
+	protonmail-bridge --no-window &
+	sleep 5
+	birdtray
+}
+
 function main() {
 	set_wallpaper_and_colors
 	configure_nvidia_gpu
 	configure_bspwm
 	init_tiling_tools
+	restore_terminals
 	init_mpd_utils
 	init_gnome_polkit
-	restore_terminals
 	init_rgb_trash
+	run_misc_programs
 	#show_start_screen
 }
 
