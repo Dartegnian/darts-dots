@@ -1,6 +1,6 @@
 conv-flacmp3() {
 	for i in *.flac; do
-		ffmpeg -i "$i" -ab 128k -map_metadata 0 -id3v2_version 3 "${i/.flac/}.mp3"
+		ffmpeg -i "$i" -ab 128k -map_metadata 0 -id3v2_version 3 -write_id3v1 true "${i/.flac/}.mp3"
 	done
 }
 
