@@ -82,6 +82,8 @@ function init_tiling_tools() {
 function configure_nvidia_gpu() {
 	nvidia-settings --config="~/.config/nvidia/settings" --load-config-only
 	nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1
+	nvidia-settings -a 'AllowFlipping=0'
+	sh ~/SYGtech/goteki-git/shell-scripts/force_full_composition_pipeline.sh
 }
 
 # Set RGB lights
@@ -130,6 +132,8 @@ function run_misc_programs() {
 }
 
 function main() {
+	xrandr -s 1920x1080
+	sleep 1
 	set_wallpaper_and_colors
 	configure_nvidia_gpu
 	configure_bspwm
