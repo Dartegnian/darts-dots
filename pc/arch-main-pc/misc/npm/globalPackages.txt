@@ -4,6 +4,9 @@
 create-react-app
 eslint
 fast-cli
+ghost-cli
+gscan
+gulp-cli
 http-server
 lint-staged
 neovim
