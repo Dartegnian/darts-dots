@@ -16,7 +16,7 @@ function configure_bspwm() {
 	bspc config split_ratio					0.5
 	bspc config borderless_monocle				true
 	bspc config gapless_monocle				true
-	bspc config top_padding					46
+	bspc config top_padding					30
 	bspc config presel_feedback_color			"$color6"
 #	bspc config border_radius				12
 
@@ -28,7 +28,7 @@ function configure_bspwm() {
 	bspc rule -a plasmawindowed desktop='^6'
 	bspc rule -a "Alacritty":ncmpcpp desktop='^6'
 	bspc rule -a "Alacritty":miniplayer desktop='^6'
-	bspc rule -a Pavucontrol desktop='^6' state=floating
+	bspc rule -a Pavucontrol desktop='^6' sticky=on state=floating
 
 	# other apps on defined desktops
 	bspc rule -a Opera desktop='^5' follow=off focus=off
