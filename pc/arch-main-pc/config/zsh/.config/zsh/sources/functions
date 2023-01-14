@@ -35,6 +35,7 @@ gen-wal() {
 
 	source "${HOME}/.cache/wal/colors.sh"
 	local transparency="90"
+	local transparency_alt="00"
 	local primary=$color0
 	local secondary=$color6
 	local tertiary=$color1
@@ -48,6 +49,7 @@ gen-wal() {
 
 	echo "#$transparency${primary/\#/}" >~/.cache/wal/colors-polybar-bg-1
 	echo "#$transparency${secondary/\#/}" >~/.cache/wal/colors-polybar-bg-2
+	echo "#$transparency_alt${secondary/\#/}" >~/.cache/wal/colors-polybar-bg-2t
 	echo "#$transparency${tertiary/\#/}" >~/.cache/wal/colors-polybar-bg-3
 	echo "#$transparency${quaternary/\#/}" >~/.cache/wal/colors-polybar-bg-4
 	echo "#$transparency${quinary/\#/}" >~/.cache/wal/colors-polybar-bg-5
