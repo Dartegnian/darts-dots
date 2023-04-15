@@ -13,4 +13,6 @@ neovim
 nodemon
 sass
 serve
+tsx
+typescript
 wipeclean

@@ -60,8 +60,9 @@ gen-wal() {
 	pywal-discord
 	pywalfox update
 	oomox-cli -o oomox-xresources -m all /opt/oomox/scripted_colors/xresources/xresources > /dev/null
+	gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
-	# notify wallpaper imaget set
+	# notify wallpaper image set
 	notify-send "Your wallpaper has been set!" $wallpaper -i $wallpaper
 }
 
