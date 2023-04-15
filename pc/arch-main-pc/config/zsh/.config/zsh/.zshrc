@@ -7,7 +7,7 @@ export LC_MESSAGES="C"
 export LC_CTYPE="en_US.UTF-8"
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.local/bin:$HOME/.local/share/gem/ruby/3.0.0/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/.local/share/gem/ruby/3.0.0/bin:/usr/local/bin:/opt/flutter/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$XDG_DATA_HOME"/oh-my-zsh
@@ -96,8 +96,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Lines configured by zsh-newuser-install
 HISTFILE="$XDG_DATA_HOME"/zsh/history
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 setopt autocd extendedglob
 bindkey -v
 # End of lines configured by zsh-newuser-install
