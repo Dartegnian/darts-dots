@@ -45,12 +45,16 @@ function configure_bspwm() {
 	bspc rule -a Google-chrome-beta desktop='^2' follow=off focus=off
 
 	# floating apps
+	bspc rule -a "An Anime Game Launcher" state=floating
 	bspc rule -a genshinimpact.exe state=floating
 	bspc rule -a jetbrains-studio state=floating
 	bspc rule -a '*:*:Picture in picture' state=floating sticky=on
 	bspc rule -a "firefox":Toolkit state=floating sticky=on
 	bspc rule -a Origin.exe floating=on
 	bspc rule -a zoom state=floating center=on
+	
+	# full screen apps
+	bspc rule -a steamwebhelper state=fullscreen center=on
 
 	# tiled apps
 	bspc rule -a Zathura state=tiled
@@ -133,8 +137,8 @@ function run_misc_programs() {
 }
 
 function main() {
-	xrandr -s 1920x1080
-	sleep 1
+	#xrandr -s 1920x1080
+	#sleep 1
 	set_wallpaper_and_colors
 	configure_nvidia_gpu
 	configure_bspwm
