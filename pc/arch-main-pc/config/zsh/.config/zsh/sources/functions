@@ -3,7 +3,11 @@ conv-heicjpg() {
 		heif-convert -q 100 "$i" "${i/.*/}.jpg"
 	done
 }
-
+conv-webpjpg() {
+	for i in *.webp; do
+		dwebp "$i" -o "${i/.*/}.jpg"
+	done
+}
 conv-allmp3() {
 	for i in *; do
 		ffmpeg -i "$i" -ab 128k -map_metadata 0 -id3v2_version 3 -write_id3v1 true "${i/.*/}.mp3"
