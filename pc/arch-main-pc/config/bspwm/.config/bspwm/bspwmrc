@@ -51,7 +51,9 @@ function configure_bspwm() {
 	bspc rule -a '*:*:Picture in picture' state=floating sticky=on
 	bspc rule -a "firefox":Toolkit state=floating sticky=on
 	bspc rule -a Origin.exe floating=on
+	bspc rule -a lofi state=floating center=on
 	bspc rule -a zoom state=floating center=on
+	bspc rule -a steamwebhelper state=floating
 	
 	# full screen apps
 	bspc rule -a steamwebhelper state=fullscreen center=on
