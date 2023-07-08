@@ -9,7 +9,9 @@ function set_wallpaper_and_colors() {
 
 # ==> START bspwm rules
 function configure_bspwm() {
-	bspc monitor -d I II III IV V VI VII VIII IX X
+	bspc monitor HDMI-2 -d 1 2 3
+	bspc monitor HDMI-1 -d 4 5 6 7 8 9 0
+#	bspc monitor -d I II III IV V VI VII VIII IX X
 
 	bspc config border_width				0
 	bspc config window_gap					20
@@ -20,21 +22,21 @@ function configure_bspwm() {
 	bspc config presel_feedback_color			"$color6"
 #	bspc config border_radius				12
 
-	# music apps on desktop 6
-	bspc rule -a Lollypop desktop='^6'
-	bspc rule -a QuodLibet desktop='^6'
-	bspc rule -a deezer-enhanced desktop='^6'
-	bspc rule -a Spotify desktop='^6'
-	bspc rule -a plasmawindowed desktop='^6'
-	bspc rule -a "Alacritty":ncmpcpp desktop='^6'
-	bspc rule -a "Alacritty":miniplayer desktop='^6'
-	bspc rule -a Pavucontrol desktop='^6' sticky=on state=floating
+	# music apps on desktop 3
+	bspc rule -a Lollypop desktop='^3'
+	bspc rule -a QuodLibet desktop='^3'
+	bspc rule -a deezer-enhanced desktop='^3'
+	bspc rule -a Spotify desktop='^3' state=fullscreen
+	bspc rule -a plasmawindowed desktop='^3'
+	bspc rule -a "Alacritty":ncmpcpp desktop='^3'
+	bspc rule -a "Alacritty":miniplayer desktop='^3'
+	bspc rule -a Pavucontrol desktop='^3' sticky=on state=floating
 
 	# other apps on defined desktops
-	bspc rule -a Opera desktop='^5' follow=off focus=off
-	bspc rule -a Nitrogen desktop='^5' follow=off focus=off
-	bspc rule -a protonmail-bridge desktop='^5' follow=off focus=off
-	bspc rule -a thunderbird desktop='^5' follow=off focus=off
+	bspc rule -a Opera desktop='^4' follow=off focus=off
+	bspc rule -a Nitrogen desktop='^4' follow=off focus=off
+	bspc rule -a protonmail-bridge desktop='^4' follow=off focus=off
+	bspc rule -a thunderbird desktop='^7' follow=off focus=off
 	bspc rule -a Gwe desktop='^7' follow=off focus=off
 	bspc rule -a GitKraken desktop='^7' follow=off focus=off
 	bspc rule -a WindowsVM desktop='^7' follow=off focus=off
@@ -52,11 +54,13 @@ function configure_bspwm() {
 	bspc rule -a "firefox":Toolkit state=floating sticky=on
 	bspc rule -a Origin.exe floating=on
 	bspc rule -a lofi state=floating center=on
+	bspc rule -a mpv state=floating center=on sticky=on
 	bspc rule -a zoom state=floating center=on
+	bspc rule -a steam state=floating
 	bspc rule -a steamwebhelper state=floating
 	
 	# full screen apps
-	bspc rule -a steamwebhelper state=fullscreen center=on
+	#bspc rule -a steamwebhelper state=fullscreen center=on
 
 	# tiled apps
 	bspc rule -a Zathura state=tiled
@@ -71,9 +75,6 @@ function init_tiling_tools() {
 
 	# Compositor
 	pgrep -x picom > /dev/null || picom --experimental-backends &
-
-	# Polybar
-	pgrep -x polybar > /dev/null || $HOME/.config/polybar/polybar.sh &
 
 	# Hotkeys + keyboard shortcuts
 	pgrep -x sxhkd > /dev/null || sxhkd &
@@ -104,6 +105,7 @@ function init_rgb_trash() {
 
 # Run tmux restore script on first login
 function restore_terminals() {
+
 	if [[ -z $(pgrep tmux) ]]; then
 		sh ~/.config/bspwm/tmux-startup.sh &
 		sleep 1
@@ -149,6 +151,8 @@ function main() {
 	init_mpd_utils
 	init_gnome_polkit
 	init_rgb_trash
+	# Polybar
+	pgrep -x polybar > /dev/null || $HOME/.config/polybar/polybar.sh &
 	run_misc_programs
 	#show_start_screen
 }

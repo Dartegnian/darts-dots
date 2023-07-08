@@ -3,3 +3,4 @@ sleep 1
 bspc node -d ^10
 sleep 1
 alacritty -e zsh -ic "tmux attach-session -t Singular-1" &
+bspc node -d ^1
