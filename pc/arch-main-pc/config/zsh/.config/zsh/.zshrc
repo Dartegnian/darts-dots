@@ -96,8 +96,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Lines configured by zsh-newuser-install
 HISTFILE="$XDG_DATA_HOME"/zsh/history
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=100000
+SAVEHIST=100000
 setopt autocd extendedglob
 bindkey -v
 # End of lines configured by zsh-newuser-install

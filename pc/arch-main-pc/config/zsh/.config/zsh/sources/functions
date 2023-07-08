@@ -21,18 +21,31 @@ conv-flacmp3() {
 
 gen-wal() {
 	local wallpaper=""
+	local darkman_setting=$(darkman get)
 
 	if [[ $1 ]]; then
 		wallpaper=$1
-		nitrogen --set-zoom-fill --save $wallpaper
+		nitrogen --set-zoom-fill --save $wallpaper &> /dev/null
 	else
-		wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg)
+		wallpaper=$(grep -P "file=*" ~/.config/nitrogen/bg-saved.cfg -m 1)
 	fi
 
 	if [[ $2 ]]; then
-		wal -tnq -i "${wallpaper/file=/}"
+		if [[ $darkman_setting == "light" ]]; then
+			wal -tnql -i "${wallpaper/file=/}"
+			gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
+		else
+			gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+			wal -tnq -i "${wallpaper/file=/}"
+		fi
 	else
-		wal -tn -i "${wallpaper/file=/}"
+		if [[ $darkman_setting == "light" ]]; then
+			wal -tnl -i "${wallpaper/file=/}"
+			gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
+		else
+			gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+			wal -tn -i "${wallpaper/file=/}"
+		fi
 	fi
 
 	killall -q dunst && (dunst -conf ~/.config/dunst/dunstrc > /dev/null 2>&1 &)
@@ -48,8 +61,13 @@ gen-wal() {
 	local senary=$color5
 	local septenary=$color2
 
-	local rofi_config=$(sed "s/active-background\: #....../active-background\: ${primary}${transparency}/; s/selected-active-background\: #....../selected-active-background\: ${secondary}/" ~/.cache/wal/colors-rofi-dark.rasi)
-	echo $rofi_config > ~/.cache/wal/colors-rofi-dark.rasi
+	if [[ $darkman_setting == "light" ]]; then
+		rofi_config=$(sed "s/active-background\: #....../active-background\: ${primary}${transparency}/; s/selected-active-background\: #....../selected-active-background\: ${secondary}/" ~/.cache/wal/colors-rofi-light.rasi)
+		echo $rofi_config >~/.cache/wal/colors-rofi-light.rasi
+	else
+		rofi_config=$(sed "s/active-background\: #....../active-background\: ${primary}${transparency}/; s/selected-active-background\: #....../selected-active-background\: ${secondary}/" ~/.cache/wal/colors-rofi-dark.rasi)
+		echo $rofi_config >~/.cache/wal/colors-rofi-dark.rasi
+	fi
 
 	echo "#$transparency${primary/\#/}" >~/.cache/wal/colors-polybar-bg-1
 	echo "#$transparency${secondary/\#/}" >~/.cache/wal/colors-polybar-bg-2
@@ -71,7 +89,7 @@ gen-wal() {
 }
 
 re-wal() {
-	nitrogen --restore
+	nitrogen --restore &> /dev/null
 	zsh -ic gen-wal
 	source "${HOME}/.cache/wal/colors.sh"
 }
