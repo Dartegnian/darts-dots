@@ -24,6 +24,7 @@ alias yay="doas powerpill"
 
 # Commands VERB-PRODUCT
 alias backup-restic="doas sh ~/SYGtech/goteki-git/shell-scripts/backup_restic.sh"
+alias detect-monitors="xrandr --output HDMI-1 --primary --mode 1920x1080 --rate 60 --rotate normal --output HDMI-2 --mode 1920x1080 --rate 60 --rotate normal --above HDMI-1"
 alias download-four="sh ~/SYGtech/goteki-git/shell-scripts/downloader_four.sh"
 alias download-server="wget -r -nH -nc --cut-dirs=1 --no-parent --reject='index.html*,robots.txt*' -e robots=off"
 alias install-grub="doas grub-mkconfig -o /boot/grub/grub.cfg && doas grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB"
@@ -31,6 +32,7 @@ alias mount-mtp="doas simple-mtpfs -o allow_other,auto_unmount,big_writes,defaul
 alias on-bluetooth="doas systemctl start bluetooth && (blueman-applet &)"
 alias rec-audio="ffmpeg -f pulse -i default ~/Desktop/$(date +%Y-%m-%d--%H-%M-%S)-recording.wav"
 alias restart-pulseaudio="pulseaudio -k && pulseaudio --start"
+alias restart-uefi="systemctl reboot --firmware-setup"
 alias start-ghost="ghost start --no-setup-linux-user"
 alias start-lemp="systemctl start nginx php-fpm mariadb"
 alias stop-lemp="systemctl stop nginx php-fpm mariadb"
