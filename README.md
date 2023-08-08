@@ -1,3 +1,4 @@
+![Screenshot of my current desktop setup with pywal](screenshot5.png?raw=true "My entire 2-monitor setup")
 ![Screenshot of my current desktop setup with pywal](screenshot1.png?raw=true "Music players")
 ![Screenshot of my current desktop setup with pywal](screenshot2.png?raw=true "Rofi/programs")
 ![Screenshot of my current desktop setup with pywal](screenshot3.png?raw=true "Arch Linux desktop")
