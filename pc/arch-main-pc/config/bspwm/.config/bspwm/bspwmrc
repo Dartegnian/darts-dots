@@ -9,8 +9,8 @@ function set_wallpaper_and_colors() {
 
 # ==> START bspwm rules
 function configure_bspwm() {
-	bspc monitor HDMI-2 -d 1 2 3
-	bspc monitor HDMI-1 -d 4 5 6 7 8 9 0
+	bspc monitor HDMI-2 -d 1 2 3 4
+	bspc monitor HDMI-1 -d 5 6 7 8 9 0
 #	bspc monitor -d I II III IV V VI VII VIII IX X
 
 	bspc config border_width				0
@@ -22,23 +22,23 @@ function configure_bspwm() {
 	bspc config presel_feedback_color			"$color6"
 #	bspc config border_radius				12
 
-	# music apps on desktop 3
-	bspc rule -a Lollypop desktop='^3'
-	bspc rule -a QuodLibet desktop='^3'
-	bspc rule -a deezer-enhanced desktop='^3'
-	bspc rule -a Spotify desktop='^3' state=fullscreen
-	bspc rule -a plasmawindowed desktop='^3'
-	bspc rule -a "Alacritty":ncmpcpp desktop='^3'
-	bspc rule -a "Alacritty":miniplayer desktop='^3'
-	bspc rule -a Pavucontrol desktop='^3' sticky=on state=floating
+	# music apps on desktop 4
+	bspc rule -a Lollypop desktop='^4'
+	bspc rule -a QuodLibet desktop='^4'
+	bspc rule -a deezer-enhanced desktop='^4'
+	bspc rule -a Spotify desktop='^4'
+	bspc rule -a plasmawindowed desktop='^4'
+	bspc rule -a "Alacritty":ncmpcpp desktop='^4'
+	bspc rule -a "Alacritty":miniplayer desktop='^4'
+	bspc rule -a Pavucontrol desktop='^6' sticky=on state=floating
 
 	# other apps on defined desktops
-	bspc rule -a Opera desktop='^4' follow=off focus=off
-	bspc rule -a Nitrogen desktop='^4' follow=off focus=off
-	bspc rule -a protonmail-bridge desktop='^4' follow=off focus=off
+	bspc rule -a Opera desktop='^3' follow=off focus=off
+	bspc rule -a Nitrogen desktop='^3' follow=off focus=off
+	bspc rule -a protonmail-bridge desktop='^3' follow=off focus=off
 	bspc rule -a thunderbird desktop='^7' follow=off focus=off
 	bspc rule -a Gwe desktop='^7' follow=off focus=off
-	bspc rule -a GitKraken desktop='^7' follow=off focus=off
+	bspc rule -a GitKraken desktop='^3' follow=off focus=off
 	bspc rule -a WindowsVM desktop='^7' follow=off focus=off
 	bspc rule -a discord desktop='^8' follow=off focus=off
 	bspc rule -a Signal desktop='^8' follow=off focus=off
@@ -136,13 +136,11 @@ function show_start_screen() {
 
 function run_misc_programs() {
 	protonmail-bridge --no-window &
-	sleep 5
+	sleep 10
 	birdtray
 }
 
 function main() {
-	#xrandr -s 1920x1080
-	#sleep 1
 	set_wallpaper_and_colors
 	configure_nvidia_gpu
 	configure_bspwm
@@ -150,9 +148,11 @@ function main() {
 	restore_terminals
 	init_mpd_utils
 	init_gnome_polkit
-	init_rgb_trash
+
 	# Polybar
 	pgrep -x polybar > /dev/null || $HOME/.config/polybar/polybar.sh &
+
+	init_rgb_trash
 	run_misc_programs
 	#show_start_screen
 }
