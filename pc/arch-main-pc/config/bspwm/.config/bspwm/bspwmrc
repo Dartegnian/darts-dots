@@ -82,6 +82,9 @@ function init_tiling_tools() {
 	# Notifications
 	pgrep -x dunst > /dev/null || dunst -conf ~/.config/dunst/dunstrc &
 
+	# Polybar
+	pgrep -x polybar > /dev/null || $HOME/.config/polybar/polybar.sh &
+
 	# Fix for some Java programs
 	wmname LG3D
 }
@@ -148,9 +151,6 @@ function main() {
 	restore_terminals
 	init_mpd_utils
 	init_gnome_polkit
-
-	# Polybar
-	pgrep -x polybar > /dev/null || $HOME/.config/polybar/polybar.sh &
 
 	init_rgb_trash
 	run_misc_programs
