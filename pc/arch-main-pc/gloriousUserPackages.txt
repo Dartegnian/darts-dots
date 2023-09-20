@@ -26,7 +26,7 @@ bluez
 bluez-alsa-git
 bluez-utils
 breeze-icons
-bspwm
+bspwm-git
 calcurse
 catfish
 cava
@@ -39,6 +39,7 @@ cpupower
 cronie
 cups-pdf
 darkman
+dbeaver
 dbus-broker
 dhcpcd
 discord
@@ -66,6 +67,7 @@ gettext
 git
 git-filter-repo
 gitkraken
+gnome-clocks
 gnome-keyring
 google-chrome-beta
 google-chrome-dev
@@ -85,6 +87,7 @@ heroku-cli
 hspell
 htop
 inetutils
+input-remapper-git
 iptables-nft
 irqbalance
 java-environment-common
@@ -106,9 +109,9 @@ libvdpau-va-gl
 libvips
 libvirt
 libvoikko
-linux
 linux-firmware
-linux-headers
+linux-zen
+linux-zen-headers
 lutris
 lvm2
 m4
@@ -127,7 +130,9 @@ ncmpcpp
 neofetch
 neovim
 net-tools
+nfs-utils
 nginx-mainline
+nikto
 nitrogen
 nomacs
 noto-fonts
@@ -135,7 +140,7 @@ noto-fonts-cjk
 noto-fonts-emoji
 ntp
 nuspell
-nvidia
+nvidia-dkms
 nvidia-settings
 nvidia-utils
 nvm
@@ -160,14 +165,20 @@ perl-image-exiftool
 php
 php-fpm
 php-gd
+php74-curl
+php74-fpm
+php74-gd
+php74-json
+php74-mysql
+php74-zip
 phpmyadmin
-phpunit-bin
 picom-git
 pkgconf
 playerctl-git
 polkit-gnome
 polybar
 postman-bin
+ppsspp
 proton-ge-custom-bin
 protonmail-bridge-bin
 pulseaudio
@@ -192,11 +203,14 @@ rofimoji
 rpcs3-bin
 rpmextract
 rsync
+rustdesk-bin
+s3fs-fuse
 samba
 scrcpy
 sddm
 seahorse
 sed
+smartmontools
 spice-gtk
 spotify-edge
 sptlrx-bin
@@ -220,6 +234,8 @@ thunar-media-tags-plugin
 thunderbird
 tigervnc
 tmux
+tor
+tor-browser
 ttf-dejavu
 ttf-droid
 ttf-fira-code
@@ -229,7 +245,7 @@ ttf-inconsolata-g
 ttf-iosevka-nerd
 ttf-liberation
 ttf-material-design-icons-extended
-ttf-ms-fonts
+ttf-ms-win11-auto
 ttf-poppins
 tumbler
 ueberzug
@@ -240,6 +256,7 @@ uml_utilities
 unrar
 viber
 virt-manager
+vita3k-bin
 vscodium-bin
 wal-telegram-git
 wget
