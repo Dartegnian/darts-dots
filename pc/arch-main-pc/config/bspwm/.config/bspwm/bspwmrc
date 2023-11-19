@@ -74,7 +74,7 @@ function init_tiling_tools() {
 	pgrep -x bspswallow > /dev/null || $HOME/SYGtech/goteki-git/bspswallow/bspswallow &
 
 	# Compositor
-	pgrep -x picom > /dev/null || picom --experimental-backends &
+	pgrep -x picom > /dev/null || picom &
 
 	# Hotkeys + keyboard shortcuts
 	pgrep -x sxhkd > /dev/null || sxhkd &
@@ -100,7 +100,7 @@ function configure_nvidia_gpu() {
 # Set RGB lights
 function init_rgb_trash() {
 	ckb-next --background &
-	pgrep -x openrgb > /dev/null || openrgb --startminimized -p Blue.orp &
+	pgrep -x openrgb > /dev/null || openrgb --startminimized -p TVA.orp &
 
 	sleep 4
 	killall -q openrgb
