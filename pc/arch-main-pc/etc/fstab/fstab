@@ -18,7 +18,7 @@ UUID=2678-FE21      				/boot/efi 	vfat      	rw,relatime,fmask=0022,dmask=0022,
 UUID=9004804f-18bd-46be-8211-1da59127f882	none      	swap      	defaults  	0 0
 
 # /dev/ssd1
-UUID=eef55e34-4292-4a04-a5e4-263f43f9717d	/mnt/ssd1     	ext4      	rw,nofail,noatime,user,exec,noatime	0 2
+UUID="08da928f-cd5b-4422-810b-22f32eb0076f"	/mnt/ssd1     	ext4      	rw,nofail,noatime,user,exec,noatime	0 2
 
 # /mnt/hdd1
 /dev/mapper/triangulum 				/mnt/hdd1 	btrfs		rw,nofail,noatime,user,exec,autodefrag,inode_cache,nossd 		0 0
