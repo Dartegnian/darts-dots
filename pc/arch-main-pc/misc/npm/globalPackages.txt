@@ -1,11 +1,8 @@
 @angular/cli
-@vue/cli-service-global
-@vue/cli
 album-art
 cliui
 create-react-app
 eslint
-fast-cli
 ghost-cli
 gscan
 gulp-cli
