@@ -86,14 +86,12 @@ cifs-utils
 ckb-next-git
 clang
 clucene
-cmake
 compiler-rt
 composer
 containerd
 cool-retro-term
 coreutils
 cpio
-cppdap
 cpupower
 cracklib
 cronie
@@ -1190,7 +1188,6 @@ retroarch
 retroarch-assets-glui
 retroarch-assets-ozone
 retroarch-assets-xmb
-rhash
 rnnoise
 rofi
 rofi-emoji

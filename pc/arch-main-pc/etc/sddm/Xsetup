@@ -4,4 +4,10 @@
 #xrandr --output HDMI-1 --primary --mode 1920x1080 --rotate normal --output HDMI-2 --mode 1366x768 --rotate normal --above HDMI-1
 xrandr --output HDMI-1 --primary --mode 1920x1080 --rate 60 --rotate normal --output HDMI-2 --mode 1920x1080 --rate 60 --rotate normal --above HDMI-1
 
-xrdb -load /home/dartegnian/.Xresources
+export XDG_CURRENT_DESKTOP=sway
+#xrdb -load /home/dartegnian/.Xresources
+
+#export XDG_CURRENT_DESKTOP=bspwm
+
+#GBM_BACKEND=nvidia-drm
+#__GLX_VENDOR_LIBRARY_NAME=nvidia
