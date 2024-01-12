@@ -73,9 +73,6 @@ function init_tiling_tools() {
 	# DWM swallow
 	pgrep -x bspswallow > /dev/null || $HOME/SYGtech/goteki-git/bspswallow/bspswallow &
 
-	# Compositor
-	pgrep -x picom > /dev/null || picom &
-
 	# Hotkeys + keyboard shortcuts
 	pgrep -x sxhkd > /dev/null || sxhkd &
 
@@ -128,19 +125,22 @@ function init_mpd_utils() {
 # Polkit
 function init_gnome_polkit() {
 	pgrep -x polkit-gnome > /dev/null || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-	gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
+	gnome-keyring-daemon --start --components=pkcs11,secrets,ssh &
+}
+
+function run_misc_programs() {
+	# Compositor
+	pgrep -x picom > /dev/null || picom &
+
+	protonmail-bridge --no-window &
+	sleep 10
+	birdtray &
 }
 
 # Show Windows 8 start screen on login
 function show_start_screen() {
 	sleep 2
 	rofi -show drun
-}
-
-function run_misc_programs() {
-	protonmail-bridge --no-window &
-	sleep 10
-	birdtray
 }
 
 function main() {
