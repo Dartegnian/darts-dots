@@ -39,6 +39,7 @@ dmidecode
 dnsmasq
 doas-sudo-shim
 docker
+docker-buildx
 docker-compose
 downgrade
 dualsensectl-git
@@ -79,7 +80,9 @@ gzip
 heroku-cli
 hspell
 htop
+hyprland
 inetutils
+insomnia-bin
 iptables-nft
 irqbalance
 java-environment-common
@@ -190,7 +193,7 @@ pamixer
 paru
 patch
 pavucontrol
-pcsx2-latest-bin
+pcsx2
 perl-image-exiftool
 php
 php-fpm
@@ -210,7 +213,7 @@ polybar
 postman-bin
 ppsspp
 proton-ge-custom-bin
-protonmail-bridge-bin
+protonmail-bridge
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
@@ -327,6 +330,7 @@ xterm
 yad
 yarn
 yt-dlp
+yuzu
 zathura
 zathura-pdf-mupdf
 zip

@@ -106,6 +106,7 @@ db
 db5.3
 dbus
 dbus-broker
+dbus-broker-units
 dbus-glib
 dbus-python
 dconf
@@ -123,6 +124,7 @@ dnsmasq
 dnssec-anchors
 doas-sudo-shim
 docker
+docker-buildx
 docker-compose
 dosfstools
 double-conversion
@@ -226,6 +228,7 @@ graphicsmagick
 graphite
 grep
 groff
+grpc
 grub-silent
 gsettings-desktop-schemas
 gsfonts
@@ -277,6 +280,7 @@ hunspell
 hwdata
 hwloc
 hyphen
+hyprland
 iana-etc
 icu
 id3lib
@@ -287,6 +291,7 @@ imlib2
 inetutils
 iniparser
 inkscape
+insomnia-bin
 iproute2
 iptables-nft
 iputils
@@ -354,6 +359,7 @@ lib32-gtk3
 lib32-harfbuzz
 lib32-icu
 lib32-jack2
+lib32-json-c
 lib32-keyutils
 lib32-krb5
 lib32-lcms2
@@ -506,6 +512,7 @@ libdca
 libde265
 libdeflate
 libdispatch
+libdisplay-info
 libdovi
 libdrm
 libdv
@@ -543,7 +550,6 @@ libgudev
 libguestfs
 libhandy
 libheif
-libical
 libice
 libid3tag
 libidn
@@ -568,6 +574,7 @@ liblangtag
 libldac
 libldap
 libldm
+libliftoff
 liblouis
 liblqr
 liblrdf
@@ -683,6 +690,7 @@ libsidplayfp
 libsigc++
 libsigc++-3.0
 libsigsegv
+libsixel
 libslirp
 libsm
 libsndfile
@@ -733,6 +741,7 @@ libvisio
 libvitamtp
 libvoikko
 libvorbis
+libvpl
 libvpx
 libvterm
 libwacom
@@ -754,6 +763,7 @@ libxcvt
 libxdamage
 libxdg-basedir
 libxdmcp
+libxdp
 libxext
 libxfce4ui
 libxfce4util
@@ -792,6 +802,7 @@ linux-firmware
 linux-firmware-whence
 linux-zen
 linux-zen-headers
+llvm
 llvm-libs
 lm_sensors
 lmdb
@@ -881,7 +892,6 @@ nvtop
 obs-studio
 ocl-icd
 onetbb
-onevpl
 oniguruma
 open-iscsi
 open-isns
@@ -929,7 +939,7 @@ pciutils
 pcre
 pcre2
 pcsclite
-pcsx2-latest-bin
+pcsx2
 perl
 perl-error
 perl-image-exiftool
@@ -974,7 +984,8 @@ procps-ng
 proj
 protobuf
 proton-ge-custom-bin
-protonmail-bridge-bin
+protonmail-bridge
+protonmail-bridge-core
 psmisc
 pugixml
 pulseaudio
@@ -1157,12 +1168,15 @@ qt5-base
 qt5-declarative
 qt5-graphicaleffects
 qt5-imageformats
+qt5-location
 qt5-multimedia
 qt5-quickcontrols
 qt5-quickcontrols2
 qt5-svg
 qt5-tools
 qt5-translations
+qt5-webchannel
+qt5-webengine
 qt5-x11extras
 qt6-base
 qt6-declarative
@@ -1179,6 +1193,7 @@ rapidjson
 raptor
 rasqal
 rav1e
+re2
 readline
 redland
 reflector
@@ -1217,8 +1232,10 @@ sdl2_ttf
 sdl_image
 seabios
 seahorse
+seatd
 sed
 semver
+sentry-native
 serd
 serf
 sfml
@@ -1299,6 +1316,7 @@ thunar-extended
 thunar-media-tags-plugin
 thunderbird
 tmux
+tomlplusplus
 tor
 torbrowser-launcher
 tpm2-tss
@@ -1337,6 +1355,7 @@ usbutils
 util-linux
 util-linux-libs
 v4l-utils
+vapoursynth
 vde2
 verdict
 viber
@@ -1355,12 +1374,15 @@ vte-common
 vte3
 vulkan-headers
 vulkan-icd-loader
+vulkan-validation-layers
 wal-telegram-git
 wavpack
 wayland
+wayland-protocols
 webkit2gtk
 webkit2gtk-4.1
 webrtc-audio-processing
+webrtc-audio-processing-1
 wget
 which
 whois
@@ -1381,6 +1403,7 @@ xbitmaps
 xcb-proto
 xcb-util
 xcb-util-cursor
+xcb-util-errors
 xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
@@ -1418,6 +1441,7 @@ xorg-xrandr
 xorg-xrdb
 xorg-xset
 xorg-xsetroot
+xorg-xwayland
 xorg-xwininfo
 xorgproto
 xterm
@@ -1429,6 +1453,7 @@ yajl
 yara
 yarn
 yt-dlp
+yuzu
 zathura
 zathura-pdf-mupdf
 zbar
