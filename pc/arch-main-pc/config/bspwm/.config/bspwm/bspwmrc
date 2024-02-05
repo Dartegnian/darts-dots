@@ -132,9 +132,9 @@ function run_misc_programs() {
 	# Compositor
 	pgrep -x picom > /dev/null || picom &
 
-	protonmail-bridge --no-window &
-	sleep 10
-	birdtray &
+	#protonmail-bridge --no-window &
+	#sleep 10
+	#birdtray &
 }
 
 # Show Windows 8 start screen on login

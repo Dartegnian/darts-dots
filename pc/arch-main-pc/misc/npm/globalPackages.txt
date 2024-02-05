@@ -6,6 +6,7 @@ eslint
 ghost-cli
 gscan
 gulp-cli
+gulp
 http-server
 lint-staged
 neovim
