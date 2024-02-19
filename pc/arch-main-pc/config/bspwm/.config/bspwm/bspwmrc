@@ -97,7 +97,7 @@ function configure_nvidia_gpu() {
 # Set RGB lights
 function init_rgb_trash() {
 	ckb-next --background &
-	pgrep -x openrgb > /dev/null || openrgb --startminimized -p TVA.orp &
+	pgrep -x openrgb > /dev/null || openrgb --startminimized -p Green.orp &
 
 	sleep 4
 	killall -q openrgb
