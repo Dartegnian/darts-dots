@@ -99,7 +99,7 @@ Those are the bare minimum requirements/the hard dependencies to start an X11 se
 Working on it.
 
 ## Deprecated software
-I don't use these anymore. Don't use the configs for them.
+I don't use these anymore. Don't use the configs for them. These are probably outdated, anyway.
 
 ### Devilspie
 The pie of the [devil](https://en.wikipedia.org/wiki/Daemon_(computing)). Used this quite a bit when I was using KDE (the K Desktop Environment) but since then I've made the switch to `bspwm` and I've been living a much simpler life away from the [devil's pie](https://en.wikipedia.org/wiki/Hedonism).
