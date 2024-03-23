@@ -62,7 +62,7 @@ Ditch Microsoft Cortuna and Apple's iSeeri in favor of a manually-controlled pro
 Sx... hotkey [daemon](https://en.wikipedia.org/wiki/Demon)? I dunno, too lazy to look it up. Custom keybindings for use with the magical `bspwm` **tiling** window manager.
 
 ### Tmux
-Tmux is a, erm, [terminal multiplexor](https://en.wikipedia.org/wiki/Multiplexing) thing. It [plexes your terminal emulator](https://en.m.wikipedia.org/wiki/Plex_(software)) multiple times? I don't know. Point is: it's **AWESOME** and I feel bad if I were to use a terminal without it.
+Tmux is a, erm, [terminal multiplexor](https://en.wikipedia.org/wiki/Multiplexing) thing. It [plexes your terminal emulator](https://en.m.wikipedia.org/wiki/Plex_(software)) multiple times? I don't know. Point is: it's **AWESOME** and I feel bad if I were to use a terminal without it. Thankfully AWS preinstalls this, I think all distros should have this.
 
 ### Zsh
 [Z shell](https://en.wikipedia.org/wiki/Z_shell) is best shell. And the config file makes it even better. So it's like best shell<sup>2</sup>. I reckon that if I add another config here, my Zsh terminal will be the (best shell<sup>2</sup>)<sup>2</sup>
