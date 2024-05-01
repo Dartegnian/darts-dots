@@ -97,7 +97,7 @@ function configure_nvidia_gpu() {
 # Set RGB lights
 function init_rgb_trash() {
 	ckb-next --background &
-	pgrep -x openrgb > /dev/null || openrgb --startminimized -p Green.orp &
+	pgrep -x openrgb > /dev/null || openrgb --startminimized -p TVA.orp &
 
 	sleep 4
 	killall -q openrgb
@@ -123,9 +123,15 @@ function init_mpd_utils() {
 }
 
 # Polkit
-function init_gnome_polkit() {
-	pgrep -x polkit-gnome > /dev/null || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+function init_gnome_polkit_and_ssh() {
+	if [ -z "$SSH_AUTH_SOCK" ]; then
+		eval $(ssh-agent)
+	ssh-add /home/${USER}/.ssh/id_rsa
+
+	/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 	gnome-keyring-daemon --start --components=pkcs11,secrets,ssh &
+fi
+
 }
 
 function run_misc_programs() {
