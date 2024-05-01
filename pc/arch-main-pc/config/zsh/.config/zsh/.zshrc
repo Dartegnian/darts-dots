@@ -1,4 +1,5 @@
 SHOW_COLOR_SWATCHES=1
+zstyle ':omz:alpha:lib:git' async-prompt no 
 # source /etc/profile.d/plan9.sh
 
 # You may need to manually set your language environment
@@ -76,7 +77,7 @@ ZSH_THEME="bullet-train"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git fast-syntax-highlighting)
+plugins=(git git-auto-fetch git-commit git-extras fast-syntax-highlighting archlinux tmux)
 
 source $ZSH/oh-my-zsh.sh
 

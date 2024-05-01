@@ -7,7 +7,7 @@ export ANDROID_SDK_ROOT="/opt/android-sdk"
 export PUB_CACHE=$XDG_DATA_HOME/flutter/pub-cache
 
 # SSH
-export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.socket
 
 # XDG stuff for other programs
 export ANDROID_EMULATOR_HOME="$XDG_DATA_HOME/android/emulator"
