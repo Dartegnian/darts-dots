@@ -18,3 +18,10 @@ pc/arch-main-pc/config/zsh/.config/zsh/.zcompdump*
 pc/arch-main-pc/config/mpv/watch_later/
 
 pc/arch-main-pc/config/polybar/polybar-cava/
+
+pc/arch-main-pc/config/rofi/file_browser.sh
+pc/arch-main-pc/config/rofi/metro.sh
+pc/arch-main-pc/config/rofi/r.sh
+pc/arch-main-pc/config/rofi/rofi
+pc/arch-main-pc/config/rofi/style.sh
+pc/arch-main-pc/config/rofi/x.sh
